@@ -1,0 +1,12 @@
+[General]
+SplitterSizes=482,787
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: XPosition=320
+1920x1080 screen: YPosition=298
+HDMI-1=HDMI-1
+State=AAAA/wAAAAD9AAAAAAAABQAAAAGIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled

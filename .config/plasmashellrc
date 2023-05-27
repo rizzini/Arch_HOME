@@ -1,0 +1,102 @@
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoYAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAABjAAAAAEAAAAAAAAD6AAAAABk
+
+[ConfigDialog]
+1920x1080 screen: Height=550
+1920x1080 screen: Width=824
+
+[General]
+Number of Actions=0
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Imagens/Wallpaper/8dX20lE.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-ym66q7.png,file:$HOME/Imagens/Wallpaper/wallhaven-pko39m.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-o3ey37.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-m93xqy.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-m9rk19.png,file:$HOME/Imagens/Wallpaper/wallhaven-g88owd.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-4lopll.jpg,file:$HOME/Imagens/Wallpaper/sombrero-galaxy.jpg,file:$HOME/Imagens/Wallpaper/nebula.jpg,file:$HOME/Imagens/Wallpaper/nebula_invertido.png,file:$HOME/Imagens/Wallpaper/ddj64ow-7b05f44f-adde-46aa-b82b-6be9fd14bc65.jpg,file:$HOME/Imagens/Wallpaper/bg_7.jpg,file:$HOME/Imagens/Wallpaper/4096x2160-72822-rio-de-janeiro-brazil-4k-ultra-hd-wallpaper__cityscapes.jpg,file:$HOME/Imagens/Wallpaper/0058.jpg,file:$HOME/Imagens/Wallpaper/8dX20lE.jpg
+Recent URLs[$e]=file:$HOME/Imagens/Wallpaper/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+1920x1080 screen: Height=490
+1920x1080 screen: Width=488
+
+[PlasmaViews][Panel 1]
+alignment=1
+
+[PlasmaViews][Panel 1][Defaults]
+maxLength=1366
+minLength=1366
+offset=0
+thickness=32
+
+[PlasmaViews][Panel 1][Horizontal1920]
+alignment=1
+panelVisibility=0
+
+[PlasmaViews][Panel 122][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 147][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 171][Defaults]
+thickness=34
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 205][Defaults]
+thickness=38
+
+[PlasmaViews][Panel 26][Defaults]
+maxLength=1920
+minLength=1920
+offset=0
+thickness=32
+
+[PlasmaViews][Panel 26][Horizontal1920]
+maxLength=1920
+minLength=1920
+
+[PlasmaViews][Panel 51][Defaults]
+maxLength=1366
+minLength=1366
+offset=0
+thickness=32
+
+[PlasmaViews][Panel 51][Horizontal1920]
+maxLength=1366
+minLength=1366
+
+[PlasmaViews][Panel 53][Defaults]
+maxLength=1366
+minLength=1366
+offset=0
+thickness=32
+
+[PlasmaViews][Panel 53][Horizontal1920]
+maxLength=1366
+minLength=1366
+
+[PlasmaViews][Panel 74][Defaults]
+maxLength=2160
+minLength=2160
+offset=0
+thickness=45
+
+[PlasmaViews][Panel 74][Horizontal1920]
+maxLength=2160
+minLength=2160
+
+[PlasmaViews][Panel 76][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 99][Defaults]
+maxLength=1920
+minLength=1920
+offset=0
+thickness=44
+
+[PlasmaViews][Panel 99][Horizontal1920]
+maxLength=1920
+minLength=1920
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js

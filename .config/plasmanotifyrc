@@ -1,0 +1,14 @@
+[Applications][boostchanger]
+Seen=true
+
+[Applications][discord]
+Seen=true
+
+[Applications][fr.handbrake.ghb]
+Seen=true
+
+[Applications][google-chrome]
+Seen=true
+
+[Notifications]
+PopupPosition=BottomCenter

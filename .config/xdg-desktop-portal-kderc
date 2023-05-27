@@ -1,0 +1,12 @@
+[FileDialogSize]
+1360x768 screen: Height=480
+1360x768 screen: Width=649
+1536x864 screen: Height=480
+1536x864 screen: Width=649
+1920x1080 screen: Height=598
+1920x1080 screen: Width=978
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Imagens/eu.jpeg,file:$HOME/Documentos/Win10_22H2_BrazilianPortuguese_x64.iso,file:$HOME/Área de trabalho/images.jpeg
+Recent URLs[$e]=file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Documentos/,file:$HOME/Imagens/
+detailViewIconSize=16

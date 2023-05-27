@@ -1,0 +1,4 @@
+[DownloadedThemes]
+/tmp/ChromeOS.tar.xz=/usr/share/sddm/themes/ChromeOS
+/tmp/Layan.tar.xz=/usr/share/sddm/themes/Layan
+/tmp/flutter.tar.gz=/usr/share/sddm/themes/flutter

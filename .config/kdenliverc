@@ -1,0 +1,96 @@
+[MainWindow]
+1920x1080 screen: Height=841
+1920x1080 screen: Width=1178
+1920x1080 screen: XPosition=2
+1920x1080 screen: YPosition=201
+HDMI-1=HDMI-1
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAGUAAABcfwCAAAAAfwAAAG4AAABcQAAAXEBAAAg+gAAAAACAAAABPsAAAAKAG0AaQB4AGUAcgEAAAHwAAACCwAAANQA///++wAAABgAZQBmAGYAZQBjAHQAXwBzAHQAYQBjAGsBAAAAAP////8AAACHAP///vsAAAASAHQAaQBtAGUAcgBlAG0AYQBwAQAAAAD/////AAAAUwD///77AAAAEgBTAHUAYgB0AGkAdABsAGUAcwEAAAAA/////wAAAU8A///+AAAAAgAABJoAAAGR/AEAAAAM+wAAABQAcwBjAHIAZQBlAG4AZwByAGEAYgAAAAAA/////wAAAFAA////+wAAABoAYQB1AGQAaQBvAHMAcABlAGMAdAByAHUAbQAAAAAA/////wAAAGgA/////AAAAAAAAAFfAAAAjwD////6AAAAAAEAAAAF+wAAABYAcAByAG8AagBlAGMAdABfAGIAaQBuAQAAAAD/////AAAAVAD////7AAAAHgB0AHIAYQBuAHMAaQB0AGkAbwBuAF8AbABpAHMAdAEAAAAA/////wAAAAAA////+wAAABYAZQBmAGYAZQBjAHQAXwBsAGkAcwB0AQAAAAD/////AAAAAAD////7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAFIA////+wAAABgAdQBuAGQAbwBfAGgAaQBzAHQAbwByAHkBAAAAAP////8AAABUAP////wAAAFgAAABgQAAAUAA////+gAAAAACAAAAAvsAAAAYAGMAbABpAHAAXwBtAG8AbgBpAHQAbwByAQAAAEQAAAHNAAAAxwD///77AAAADgBsAGkAYgByAGEAcgB5AQAAAAD/////AAAAlwD///78AAAC4gAAAbgAAAG4AP////oAAAAAAgAAAAP7AAAAHgBwAHIAbwBqAGUAYwB0AF8AbQBvAG4AaQB0AG8AcgEAAAC/AAABLAAAAMcA///++wAAABAAdABlAHgAdABlAGQAaQB0AQAAAAD/////AAABbwD///77AAAAGABuAG8AdABlAHMAXwB3AGkAZABnAGUAdAEAAAAA/////wAAAJEA///++wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABWgD////7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAAAP////8AAADYAP////sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAADPAP////sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABXAD////7AAAAEABiAGkAbgBfAGMAbABpAHAAAAAE/wAAAoEAAAJ3AP////sAAAAeAG8AbgBsAGkAbgBlAHIAZQBzAG8AdQByAGMAZQBzAAAAAAD/////AAABZAD////7AAAADABnAHUAaQBkAGUAcwAAAAAA/////wAAAPoA////AAADBQAAAXEAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAYAGUAeAB0AHIAYQBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[OnlineResources]
+provider=Freesound
+zoom=7
+
+[Recent Dirs]
+KdenliveClipFolder[$e]=$HOME,$HOME/Documentos
+
+[RenderWidget]
+showoptions=false
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+logScale=false
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[UiSettings]
+ColorSchemePath=BreezeDark.colors
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAJ/gEAAAAIAAAACAAAAGQAAAAHAAAANAAAAAYAAAArAAAABQAAAFMAAAAEAAAAUwAAAAMAAAA4AAAAAgAAAFsAAAABAAAAOwAAAFIAAAAJAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAJAAAAUgAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAABE
+
+[capture]
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultimageapp=/usr/bin/krita
+defaultprojectfolder[$e]=$HOME
+ffmpegpath[$e]=/usr/bin/ffmpeg
+ffplaypath[$e]=/usr/bin/ffplay
+ffprobepath[$e]=/usr/bin/ffprobe
+lastCacheCheck=2023,4,25,20,49,55.795
+mediainfopath[$e]=/usr/bin/mediainfo
+mltpath[$e]=/usr/share/mlt-7/profiles
+rendererpath[$e]=/usr/bin/melt-7
+
+[sdl]
+preferredcomposite=qtblend
+
+[timeline]
+trackheight=67
+
+[unmanaged]
+consumerslist=avformat,multi,null,decklink,jack,blipflash,cbrts,qglsl,sdl,sdl_audio,sdl_preview,sdl_still,sdl2,sdl2_audio,xml
+default_profile=atsc_1080p_25
+defaultrescaleheight=540
+defaultrescalewidth=960
+guidesCategories=Categoria 1:0:#9b59b6,Categoria 2:1:#3daee9,Categoria 3:2:#1abc9c,Categoria 4:3:#1cdc9a,Categoria 5:4:#c9ce3b,Categoria 6:5:#fdbc4b,Categoria 7:6:#f39c1f,Categoria 8:7:#f47750,Categoria 9:8:#da4453
+producerslist=avformat,avformat-novalidate,abnormal,color,colour,consumer,hold,loader,loader-nogl,melt,melt_file,noise,timewarp,tone,decklink,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,pango,pixbuf,glaxnimate,framebuffer,blipflash,count,pgm,qimage,qtext,kdenlivetitle,vorbis,xml,xml-string,xml-nogl
+widgetstyle=Default
+
+[version]
+version=23.04.0

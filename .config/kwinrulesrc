@@ -1,0 +1,84 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Configurações para explorer.exe explorer.exe
+blockcompositing=true
+blockcompositingrule=2
+wmclass=explorer.exe explorer.exe
+wmclasscomplete=true
+wmclassmatch=1
+
+[149c0874-055e-4ba5-aca0-c998f2b85cf0]
+Description=Configurações de janela para UNO
+ignoregeometry=true
+ignoregeometryrule=2
+size=900,600
+sizerule=2
+title=UNO
+wmclass=steam_app_470220 steam_app_470220
+wmclasscomplete=true
+wmclassmatch=1
+
+[2]
+Description=Configurações de janela para UNO
+blockcompositing=true
+blockcompositingrule=2
+ignoregeometry=true
+ignoregeometryrule=2
+size=700,400
+sizerule=2
+title=UNO
+titlematch=2
+types=1
+wmclass=steam_app_470220
+wmclasscomplete=true
+wmclassmatch=2
+
+[3]
+Description=Configurações de janela para AnyDesk
+ignoregeometry=true
+ignoregeometryrule=2
+title=AnyDesk
+wmclass=anydesk anydesk
+wmclasscomplete=true
+wmclassmatch=1
+
+[4]
+Description=Configurações de janela para Lords Mobile
+title=Lords Mobile
+titlematch=1
+wmclass=steam_app_1041320 steam_app_1041320
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=4
+rules=1,2,3,4
+
+[c79e9771-6d6a-47ca-829d-781f5320673a]
+Description=Configurações para explorer.exe explorer.exe
+blockcompositing=true
+blockcompositingrule=2
+wmclass=explorer.exe explorer.exe
+wmclasscomplete=true
+wmclassmatch=1
+
+[cfc9124f-222b-4349-90a0-f8ee3f96d73a]
+Description=Configurações de janela para Lords Mobile
+size=900,633
+sizerule=2
+title=Lords Mobile
+titlematch=1
+wmclass=steam_app_1041320 steam_app_1041320
+wmclasscomplete=true
+wmclassmatch=1
+
+[d51929b6-4634-4775-95b0-cb85dafd2e4f]
+Description=Configurações de janela para AnyDesk
+ignoregeometry=true
+ignoregeometryrule=2
+title=AnyDesk
+wmclass=anydesk anydesk
+wmclasscomplete=true
+wmclassmatch=1

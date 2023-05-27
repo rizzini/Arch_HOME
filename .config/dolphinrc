@@ -1,0 +1,37 @@
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+
+[DetailsMode]
+PreviewSize=80
+
+[ExtractDialog]
+1536x864 screen: Height=558
+1536x864 screen: Width=1024
+
+[General]
+GlobalViewProps=false
+Version=202
+ViewPropsTimestamp=2023,3,13,17,30,36.817
+
+[IconsMode]
+PreviewSize=96
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+1536x864 screen: Height=504
+1536x864 screen: Width=458
+1920x1080 screen: Height=656
+1920x1080 screen: Width=611
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,svgthumbnail,windowsexethumbnail,windowsimagethumbnail,fontthumbnail,ffmpegthumbs,directorythumbnail
+
+[Search]
+What=Content

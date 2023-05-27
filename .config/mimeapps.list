@@ -1,0 +1,27 @@
+[Added Associations]
+application/pdf=google-chrome.desktop;krita_pdf.desktop;firefox.desktop;
+application/x-compressed-tar=org.kde.ark.desktop;wine-extension-tgz.desktop;wine-extension-gz.desktop;
+application/x-zstd-compressed-tar=org.kde.ark.desktop;wine-extension-tzst.desktop;wine-extension-zst.desktop;
+image/jpeg=qimgv.desktop;wine-extension-jfif.desktop;wine-extension-jpe.desktop;krita_jpeg.desktop;
+text/csv=gnumeric.desktop;google-chrome.desktop;krita_csv.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;wine-extension-txt.desktop;vim.desktop;
+video/mp4=mpv.desktop;fr.handbrake.ghb.desktop;
+video/webm=mpv.desktop;fr.handbrake.ghb.desktop;qimgv.desktop;
+video/x-matroska=mpv.desktop;vlc.desktop;fr.handbrake.ghb.desktop;
+
+[Default Applications]
+application/pdf=google-chrome.desktop;
+application/x-compressed-tar=org.kde.ark.desktop;
+application/x-zstd-compressed-tar=org.kde.ark.desktop;
+image/jpeg=qimgv.desktop;
+text/csv=gnumeric.desktop;
+text/html=google-chrome.desktop
+video/mp4=mpv.desktop;
+video/webm=mpv.desktop;
+video/x-matroska=mpv.desktop;
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/mailto=google-chrome.desktop
+x-scheme-handler/msteams=teams.desktop
+
+[Removed Associations]
+application/pdf=wine-extension-pdf.desktop;

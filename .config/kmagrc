@@ -1,0 +1,23 @@
+[General Options]
+ColorIndex=0
+FPSIndex=2
+Geometry=435,308
+Mode=followmouse
+RotationIndex=0
+SelRect=519,194,218,114
+ShowMouse=2
+StaysOnTop=false
+ZoomIndex=4
+
+[MainWindow]
+1536x864 screen: Height=308
+1536x864 screen: Width=435
+1536x864 screen: XPosition=202
+1536x864 screen: YPosition=264
+1920x1080 screen: Height=546
+1920x1080 screen: Width=602
+1920x1080 screen: XPosition=335
+1920x1080 screen: YPosition=389
+HDMI-1=HDMI-1
+State=AAAA/wAAAAD9AAAAAAAAAbMAAADkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgB2AGkAZQB3AFQAbwBvAGwAQgBhAHIBAAAADP////8AAAAAAAAAAAAAAB4AcwBlAHQAdABpAG4AZwBzAFQAbwBvAGwAQgBhAHIBAAABN/////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled

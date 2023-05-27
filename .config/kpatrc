@@ -1,0 +1,42 @@
+[KgTheme]
+Theme=themes/greenblaze.desktop
+
+[MainWindow]
+1280x720 screen: XPosition=192
+1280x720 screen: YPosition=117
+1360x768 screen: XPosition=204
+1360x768 screen: YPosition=122
+1536x864 screen: XPosition=230
+1536x864 screen: YPosition=138
+1920x1080 screen: Height=619
+1920x1080 screen: Width=1156
+1920x1080 screen: XPosition=694
+1920x1080 screen: YPosition=281
+HDMI-1=HDMI-1
+HDMI-1 Height 1920x1080=488
+HDMI-1 Width 1920x1080=871
+HDMI-1 XPosition 1280x720=393
+HDMI-1 XPosition 1920x1080=87
+HDMI-1 YPosition 1280x720=124
+HDMI-1 YPosition 1920x1080=490
+State=AAAA/wAAAAD9AAAAAAAABDMAAAIUAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Notification Messages]
+MenubarWarning=false
+
+[Scores]
+loosestreak0=5
+loosestreak2=1
+maxloosestreak0=6
+maxloosestreak2=1
+maxwinstreak0=2
+maxwinstreak2=0
+minmoves0=115
+minmoves2=-1
+total0=29
+total2=1
+winstreak0=0
+winstreak2=0
+won0=8
+won2=0
