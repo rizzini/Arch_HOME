@@ -1,0 +1,67 @@
+#!/bin/bash
+set -x
+if [ "$EUID" -ne 0 ]; then
+    /bin/echo "Please run as root";
+    exit;
+fi
+if test -e "/tmp/btrbk_.sh.lock"; then
+    exit;
+fi
+/usr/bin/touch /tmp/btrbk_.sh.lock
+# if [[ ! "$(/bin/mount | /bin/grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]]; then
+#     /bin/machinectl shell --uid=lucas .host /usr/bin/notify-send -u critical "Você não está no subvolume ROOT. Snapshot não foi criado.";
+#     /bin/echo 'Você não está no subvolume ROOT. Snapshot não foi criado.';
+#     /bin/rm /tmp/btrbk_.sh.lock;
+#     exit 1
+# fi
+threshold=30
+cpu_usage=$(awk '{u=$2+$4; t=$2+$4+$5; if (NR==1){u1=u; t1=t;} else print ($2+$4-u1) * 100 / (t-t1); }' <(grep 'cpu ' /proc/stat) <(sleep 1;grep 'cpu ' /proc/stat))
+while [ "${cpu_usage%.*}" -ge $threshold ]; do
+    /usr/bin/sleep 60;
+    cpu_usage=$(awk '{u=$2+$4; t=$2+$4+$5; if (NR==1){u1=u; t1=t;} else print ($2+$4-u1) * 100 / (t-t1); }' <(grep 'cpu ' /proc/stat) <(sleep 1;grep 'cpu ' /proc/stat))
+done
+counter=0
+wait=0
+while :; do
+    counter=$((counter + 1))
+    if /usr/bin/pgrep steam; then
+        wait=1
+    elif /usr/bin/pgrep wine; then
+        wait=1
+#    elif /usr/bin/pgrep -f qemu; then
+#        wait=1
+    fi
+    if [ $wait == 1 ]; then
+        sleep 60
+    else
+        break;
+    fi
+    if [ $counter -ge 118 ]; then
+        /bin/rm /tmp/btrbk_.sh.lock;
+        exit;
+    fi
+done
+/usr/bin/tree -d -L 2  -I 'CACHE|bin|boot|ccache|dev|etc|home|lib|lib64|lost+found|media|mnt|opt|proc|root|run|sbin|srv|sys|tmp|usr|var|rwsnap*|lucas' /mnt/archlinux/ | /usr/bin/tee /mnt/backup/btrfs_scheme.txt
+if ! /usr/bin/btrbk -c /etc/btrbk/btrbk_home.conf -q run; then
+    if ! btrbk  -c /etc/btrbk/btrbk_home.conf -v clean /mnt/backup/HOME; then
+        /bin/machinectl shell --uid=lucas .host /usr/bin/notify-send -u critical "Erro no BTRBK. Subvolume: HOME";
+    fi
+fi
+if ! /usr/bin/btrbk -c /etc/btrbk/btrbk_root.conf -q run; then
+    if ! btrbk  -c /etc/btrbk/btrbk_root.conf -v clean /mnt/backup/ROOT; then
+        /bin/machinectl shell --uid=lucas .host /usr/bin/notify-send -u critical "Erro no BTRBK. Subvolume: ROOT.";
+    fi
+fi
+if /usr/bin/rsync -aAXvz /boot/efi/* /mnt/archlinux/BOOT_ESP/; then
+    if ! /usr/bin/btrbk -c /etc/btrbk/btrbk_boot_esp.conf -q run; then
+        if ! btrbk  -c /etc/btrbk/btrbk_boot_esp.conf -v clean /mnt/backup/BOOT_ESP; then
+            /bin/machinectl shell --uid=lucas .host /usr/bin/notify-send -u critical "Erro no BTRBK. Subvolume: BOOT_ESP.";
+        fi
+    fi
+else
+    /bin/machinectl shell --uid=lucas .host /usr/bin/notify-send -u critical "Erro ao copiar dados da partição EFI para o subvolume BOOT_ESP.";
+fi
+# if ! /usr/bin/refind-btrfs --run-mode one-time; then
+#     /bin/machinectl shell --uid=lucas .host /usr/bin/notify-send -u critical "Erro ao executar refind-btrfs.";
+# fi
+/bin/rm /tmp/btrbk_.sh.lock;

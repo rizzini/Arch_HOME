@@ -1,0 +1,7 @@
+[Unit]
+Description=Update LoudnessEqualizer for EasyEffects
+After=network.target
+
+[Service]
+ExecStart=/bin/bash -c "wget https://raw.githubusercontent.com/Digitalone1/EasyEffects-Presets/master/LoudnessEqualizer.json -P /tmp/; if colordiff /tmp/LoudnessEqualizer.json /home/lucas/.config/easyeffects/output/LoudnessEqualizer.json; then mv -f /tmp/LoudnessEqualizer.json /home/lucas/.config/easyeffects/output/LoudnessEqualizer.json;else /usr/bin/notify-send -u critical 'Erro ao atualizar o preset LoudnessEqualizer.';fi"
+Type=oneshot

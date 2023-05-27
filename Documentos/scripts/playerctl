@@ -1,0 +1,96 @@
+#!/bin/bash
+export LANG=C LC_ALL=C;
+mpv_players="$(/usr/bin/playerctl -l | /bin/grep 'mpv.')";
+active_window_pid="$(/usr/bin/xdotool getactivewindow getwindowpid)";
+case $1 in
+    'play_pause')
+        if [ "$(/usr/bin/pgrep -x spotify)" ];
+        then
+            /usr/bin/playerctl --no-messages --player=spotify play-pause &
+            exit
+        elif [ "$(/usr/bin/pgrep -x mpv)" ];then
+            if [[ "$mpv_players" == *"$active_window_pid"* ]]; then
+                /usr/bin/playerctl --no-messages --player="mpv.instance$active_window_pid" play-pause &
+                exit
+            else
+                /usr/bin/playerctl --no-messages --player=mpv play-pause &
+                exit
+            fi
+        else
+            /usr/bin/playerctl --no-messages play-pause &
+            exit
+        fi
+    ;;
+    'previous')
+        if [ "$(/usr/bin/pgrep -x spotify)" ];
+        then
+            /usr/bin/playerctl --no-messages --player=spotify previous &
+            exit
+        elif [ "$(/usr/bin/pgrep -x mpv)" ];then
+            if [[ "$mpv_players" == *"$active_window_pid"* ]]; then
+                /usr/bin/playerctl --no-messages --player="mpv.instance$active_window_pid" previous &
+                exit
+            else
+                /usr/bin/playerctl --no-messages --player=mpv previous &
+                exit
+            fi
+        else
+            /usr/bin/playerctl --no-messages previous &
+            exit
+        fi
+    ;;
+    'next')
+        if [ "$(/usr/bin/pgrep -x spotify)" ];
+        then
+            /usr/bin/playerctl --no-messages --player=spotify next &
+            exit
+        elif [ "$(/usr/bin/pgrep -x mpv)" ];then
+            if [[ "$mpv_players" == *"$active_window_pid"* ]]; then
+                /usr/bin/playerctl --no-messages --player="mpv.instance$active_window_pid" next &
+                exit
+            else
+                /usr/bin/playerctl --no-messages --player=mpv next &
+                exit
+            fi
+        else
+            /usr/bin/playerctl --no-messages next &
+            exit
+        fi
+    ;;
+    'avancar_posicao')
+        if [ "$(/usr/bin/pgrep -x spotify)" ];
+        then
+            /usr/bin/playerctl --no-messages --player=spotify position 10+ &
+            exit
+        elif [ "$(/usr/bin/pgrep -x mpv)" ];then
+            if [[ "$mpv_players" == *"$active_window_pid"* ]]; then
+                /usr/bin/playerctl --no-messages --player="mpv.instance$active_window_pid" position 10+ &
+                exit
+            else
+                /usr/bin/playerctl --no-messages --player=mpv position 10+ &
+                exit
+            fi
+        else
+            /usr/bin/playerctl --no-messages position 10+ &
+            exit
+        fi
+    ;;
+    'voltar_posicao')
+        if [ "$(/usr/bin/pgrep -x spotify)" ];
+        then
+            /usr/bin/playerctl --no-messages --player=spotify position 10- &
+            exit
+        elif [ "$(/usr/bin/pgrep -x mpv)" ];then
+            if [[ "$mpv_players" == *"$active_window_pid"* ]]; then
+                /usr/bin/playerctl --no-messages --player="mpv.instance$active_window_pid" position 10- &
+                exit
+            else
+                /usr/bin/playerctl --no-messages --player=mpv position 10- &
+                exit
+            fi
+        else
+            /usr/bin/playerctl --no-messages position 10- &
+            exit
+        fi
+    ;;
+esac

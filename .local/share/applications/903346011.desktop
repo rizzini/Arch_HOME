@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=Network;GTK;
+Comment[pt_BR]=
+Comment=
+Exec=anydesk 904122522
+GenericName[pt_BR]=AnyDesk
+GenericName=AnyDesk
+Icon=anydesk
+MimeType=
+Name[pt_BR]=Meu celular
+Name=Meu celular
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+TryExec=anydesk
+Type=Application
+X-GNOME-FullName=AnyDesk
+X-KDE-SubstituteUID=false
+X-KDE-Username=

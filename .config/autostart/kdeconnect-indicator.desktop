@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/usr/bin/kdeconnect-indicator
+Icon=dialog-scripts
+Name=kdeconnect-indicator
+Path=
+Type=Application
+X-KDE-AutostartScript=true

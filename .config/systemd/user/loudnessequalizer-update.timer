@@ -1,0 +1,10 @@
+[Unit]
+Description=loudness
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+
+
+[Install]
+WantedBy=timers.target
