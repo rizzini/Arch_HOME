@@ -130,6 +130,18 @@ Mode Set By User=false
 Time=2023,5,27,13,11,37.487
 URL=file:///home/lucas/.config/easyeffects/output/LoudnessEqualizer.json
 
+[file:///home/lucas/.config/fish/config.fish]
+Bookmarks=
+Checksum=5b638e75c9f3f750b9ed18b764ce83610fc0ef15
+Encoding=UTF-8
+Highlighting=Fish
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Fish
+Mode Set By User=false
+Time=2023,5,27,14,0,17.44
+URL=file:///home/lucas/.config/fish/config.fish
+
 [file:///home/lucas/.config/frogminer/advanced-customization.cfg]
 Bookmarks=
 Checksum=e8e45c15a2923dac666e1319431f137b2eec8742
@@ -357,6 +369,18 @@ Mode=Bash
 Mode Set By User=false
 Time=2023,5,3,17,58,12.81
 URL=file:///home/lucas/Documentos/scripts/download_videos_terminal.sh
+
+[file:///home/lucas/Documentos/scripts/playerctl]
+Bookmarks=
+Checksum=4c22899859a1f8d54e3fbb86d8f7d6117c4b4bc8
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,27,13,29,50.901
+URL=file:///home/lucas/Documentos/scripts/playerctl
 
 [file:///home/lucas/Documentos/scripts/taskbar_cpu_usage_temp.sh]
 Bookmarks=
