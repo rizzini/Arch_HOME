@@ -1,0 +1,8 @@
+.local/share/icons/*/*
+.local/share/applications/wine/
+.local/share/applications/wine*
+.local/share/applications/anbox/
+.local/share/applications/waydroid*
+.local/share/applications/Death*
+.local/share/applications/Trocar para*
+.config/mpv/watch_later/*
