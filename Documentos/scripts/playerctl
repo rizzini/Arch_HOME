@@ -1,6 +1,6 @@
 #!/bin/bash
 export LANG=C LC_ALL=C;
-mpv_players="$(/usr/bin/playerctl -l | /bin/grep 'mpv.')";
+mpv_players="$(/usr/bin/playerctl -l | /usr/bin/grep 'mpv.')";
 active_window_pid="$(/usr/bin/xdotool getactivewindow getwindowpid)";
 case $1 in
     'play_pause')
