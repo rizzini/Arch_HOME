@@ -1,0 +1,819 @@
+[file:///boot/efi/EFI/refind/refind.conf]
+Bookmarks=
+Checksum=bf93d21ed38cf3a06df9436945b636f6dc3287e8
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,27,12,46,46.467
+URL=file:///boot/efi/EFI/refind/refind.conf
+
+[file:///etc/fstab]
+Bookmarks=
+Checksum=1f509f32e679c2d2ad37a5f8ff6017d6cc49a6c1
+Encoding=UTF-8
+Highlighting=fstab
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=fstab
+Mode Set By User=false
+Time=2023,5,23,23,48,23.38
+URL=file:///etc/fstab
+
+[file:///etc/makepkg.conf]
+Bookmarks=
+Checksum=2e4a422bca16c0181a7b1530f084896fb0928a69
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,15,16,0,36.831
+URL=file:///etc/makepkg.conf
+
+[file:///etc/mkinitcpio.conf]
+Bookmarks=
+Checksum=4fc6780773623577431a86d44af081d507b30f9e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,27,12,18,52.289
+URL=file:///etc/mkinitcpio.conf
+
+[file:///etc/ssh/sshd_config]
+Bookmarks=
+Checksum=5a563b9b10ad8f64320499cc4bd43b6c551a8ca8
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,3,10,35.961
+URL=file:///etc/ssh/sshd_config
+
+[file:///etc/subgid]
+Bookmarks=
+Checksum=0873f5aa53615e87cca361f8d734f2d491fda449
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,1,1,21,48.349
+URL=file:///etc/subgid
+
+[file:///etc/subuid]
+Bookmarks=
+Checksum=cb26cbd76334e9066c17afee4858ba9b5e258c13
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,1,1,21,58.366
+URL=file:///etc/subuid
+
+[file:///etc/systemd/system/governor_performance.service]
+Bookmarks=
+Checksum=a0a4108ffae07ea9a4f6fa3b5f69fc75fd00025f
+Encoding=UTF-8
+Highlighting=systemd unit
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=systemd unit
+Mode Set By User=false
+Time=2023,5,21,23,34,39.733
+URL=file:///etc/systemd/system/governor_performance.service
+
+[file:///etc/yadm/hooks/pre_push]
+Bookmarks=
+Checksum=a9b1e66584b7c73eb8b1bec8580160aad561e269
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,27,12,33,29.992
+URL=file:///etc/yadm/hooks/pre_push
+
+[file:///home/lucas/.cache/yay/webos-tv-cli/PKGBUILD]
+Bookmarks=
+Checksum=16ccac865e362d077610dbf1bad345fc9f2f35ce
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,26,3,59,12.627
+URL=file:///home/lucas/.cache/yay/webos-tv-cli/PKGBUILD
+
+[file:///home/lucas/.config/easyeffects/output/LoudnessEqualizer.json]
+Bookmarks=
+Checksum=c487a3f7e67c175fe2be0b8965254ec3c043676f
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2023,5,27,13,11,37.487
+URL=file:///home/lucas/.config/easyeffects/output/LoudnessEqualizer.json
+
+[file:///home/lucas/.config/frogminer/advanced-customization.cfg]
+Bookmarks=
+Checksum=e8e45c15a2923dac666e1319431f137b2eec8742
+Encoding=UTF-8
+Highlighting=Nagios
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Nagios
+Mode Set By User=false
+Time=2023,5,1,2,38,57.676
+URL=file:///home/lucas/.config/frogminer/advanced-customization.cfg
+
+[file:///home/lucas/.config/frogminer/linux-tkg.cfg]
+Bookmarks=
+Checksum=a996b85febc0871a0042f2222897c6862a19b533
+Encoding=UTF-8
+Highlighting=Nagios
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Nagios
+Mode Set By User=false
+Time=2023,5,22,0,12,58.965
+URL=file:///home/lucas/.config/frogminer/linux-tkg.cfg
+
+[file:///home/lucas/.config/frogminer/wine-tkg.cfg]
+Bookmarks=
+Checksum=521dd8039d8627f1a7f63a0638596eae04a06259
+Encoding=UTF-8
+Highlighting=Nagios
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Nagios
+Mode Set By User=false
+Time=2023,5,12,15,15,14
+URL=file:///home/lucas/.config/frogminer/wine-tkg.cfg
+
+[file:///home/lucas/.config/kwinrc]
+Bookmarks=
+Checksum=3f8bec6fd16dc8b0c98b8750dc3a6b524edb166c
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,27,13,19,51.765
+URL=file:///home/lucas/.config/kwinrc
+
+[file:///home/lucas/.config/mpv/mpv.conf]
+Bookmarks=
+Checksum=ef39879da25961e79ff4f984626ba8ba2b91b010
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,23,14,53,1.825
+URL=file:///home/lucas/.config/mpv/mpv.conf
+
+[file:///home/lucas/.config/systemd/user/loudnessequalizer-update.service]
+Bookmarks=
+Checksum=90fb4d85d43b5671073e9fedf654c523fcb38f05
+Encoding=UTF-8
+Highlighting=systemd unit
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=systemd unit
+Mode Set By User=false
+Time=2023,5,27,13,11,47.808
+URL=file:///home/lucas/.config/systemd/user/loudnessequalizer-update.service
+
+[file:///home/lucas/.config/systemd/user/loudnessequalizer-update.timer]
+Bookmarks=
+Checksum=2d339e4d7a5d1ba9e89e147886905152a387c771
+Encoding=UTF-8
+Highlighting=systemd unit
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=systemd unit
+Mode Set By User=false
+Time=2023,5,27,13,4,17.964
+URL=file:///home/lucas/.config/systemd/user/loudnessequalizer-update.timer
+
+[file:///home/lucas/.config/yadm/config]
+Bookmarks=
+Checksum=a485a8efe58c1eabcdfd9cf8479aa9f0fd6b5c4b
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,27,12,37,8.329
+URL=file:///home/lucas/.config/yadm/config
+
+[file:///home/lucas/.config/yadm/hooks/pre_push]
+Bookmarks=
+Checksum=f04b7ca283f39481d982eea45b6f34bd8852e033
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,27,12,30,53.721
+URL=file:///home/lucas/.config/yadm/hooks/pre_push
+
+[file:///home/lucas/.local/share/Steam/compatibilitytools.d/GE-Proton8-3/user_settings.py]
+Bookmarks=
+Checksum=07b82ed7c3da001bcb5879f074265c5adb86ccca
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2023,5,21,20,4,14.631
+URL=file:///home/lucas/.local/share/Steam/compatibilitytools.d/GE-Proton8-3/user_settings.py
+
+[file:///home/lucas/.ssh/authorized_keys]
+Bookmarks=
+Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,27,12,23,34.09
+URL=file:///home/lucas/.ssh/authorized_keys
+
+[file:///home/lucas/.ssh/id_rsa.pub]
+Bookmarks=
+Checksum=aa38d5241e7977227beb95d460da7f933396caf3
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,27,12,23,41.733
+URL=file:///home/lucas/.ssh/id_rsa.pub
+
+[file:///home/lucas/1]
+Bookmarks=
+Checksum=e4bb37810f22c95a1a2b2803d73452954c33c257
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,5,26,57.664
+URL=file:///home/lucas/1
+
+[file:///home/lucas/1.sh]
+Bookmarks=
+Checksum=2f50d801b6aa363fb6684e4b2683a161ffbd8d68
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,17,18,16,28.408
+URL=file:///home/lucas/1.sh
+
+[file:///home/lucas/1.txt]
+Bookmarks=
+Checksum=cbcc52d328283571fb932603066fa003ae693835
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,8,24,4.814
+URL=file:///home/lucas/1.txt
+
+[file:///home/lucas/2.opva]
+Bookmarks=
+Checksum=174c573c2a00d5c5e3178bb679087d82b93e1948
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,5,48,59.968
+URL=file:///home/lucas/2.opva
+
+[file:///home/lucas/Documentos/scripts/btrbk_]
+Bookmarks=
+Checksum=a00d309a27cd272e5519b0add207b38887817ec3
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,21,20,33,41.123
+URL=file:///home/lucas/Documentos/scripts/btrbk_
+
+[file:///home/lucas/Documentos/scripts/clean_space_emergency.sh]
+Bookmarks=
+Checksum=d2f9a4f72d4e707a4bac4b611b0aa3294dcbf0d7
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,21,20,33,7.625
+URL=file:///home/lucas/Documentos/scripts/clean_space_emergency.sh
+
+[file:///home/lucas/Documentos/scripts/download_videos_terminal.sh]
+Bookmarks=
+Checksum=427c102d43d4e2bdf9b2a3c57ba8695e9a6565f0
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,3,17,58,12.81
+URL=file:///home/lucas/Documentos/scripts/download_videos_terminal.sh
+
+[file:///home/lucas/Documentos/scripts/taskbar_cpu_usage_temp.sh]
+Bookmarks=
+Checksum=9464410512ede37129297f9e637fe93a0b18ed05
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,18,23,10,37.979
+URL=file:///home/lucas/Documentos/scripts/taskbar_cpu_usage_temp.sh
+
+[file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh]
+Bookmarks=
+Checksum=9b48b993f3c9fbab7f7fd686c5d2c823928be5b3
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,5,20,46,13.811
+URL=file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh
+
+[file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh]
+Bookmarks=
+Checksum=9ef4ff151fc9e465f36ab4a540d9c6cafdcf0f0a
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,1,3,5,10.924
+URL=file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh
+
+[file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh]
+Bookmarks=
+Checksum=20a2c6cf3906afd11727bf63d9426a69cce20809
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,4,28,20,33,52.004
+URL=file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh
+
+[file:///home/lucas/Documentos/scripts/update_loudness_preset.sh]
+Bookmarks=
+Checksum=6fe317d2238850df378b371a3346bdaf215296ad
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=true
+Time=2023,5,27,13,11,47.808
+URL=file:///home/lucas/Documentos/scripts/update_loudness_preset.sh
+
+[file:///home/lucas/Rook/1]
+Bookmarks=
+Checksum=6d7d5bceb28a5e3d6a25f48a64964052edcd7be9
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,8,29,39.209
+URL=file:///home/lucas/Rook/1
+
+[file:///home/lucas/Rook/22]
+Bookmarks=
+Checksum=c2a9539307b674d0307719c175250437641374d6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,8,35,26.869
+URL=file:///home/lucas/Rook/22
+
+[file:///home/lucas/Rook/README.md]
+Bookmarks=
+Checksum=eb6b0db649561bb04e2346ca0aea7056afdbb8c3
+Encoding=UTF-8
+Highlighting=Markdown
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Markdown
+Mode Set By User=false
+Time=2023,5,14,8,55,13.459
+URL=file:///home/lucas/Rook/README.md
+
+[file:///home/lucas/Rook/dic]
+Bookmarks=
+Checksum=d1c77782f34ca9625021a5af125091bffefbc8fe
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,8,55,30.821
+URL=file:///home/lucas/Rook/dic
+
+[file:///home/lucas/Rook/hash1]
+Bookmarks=
+Checksum=3535c381bd5d9312ffaa3270cdb3cedbf139e219
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,8,55,7.525
+URL=file:///home/lucas/Rook/hash1
+
+[file:///home/lucas/Rook/stats.md]
+Bookmarks=
+Checksum=c591a45db092a131e9c985ad617e234c1cba52ff
+Encoding=UTF-8
+Highlighting=Markdown
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Markdown
+Mode Set By User=false
+Time=2023,5,14,8,55,26.304
+URL=file:///home/lucas/Rook/stats.md
+
+[file:///home/lucas/Rook/variables.tf]
+Bookmarks=
+Checksum=9917f38a0f2108fa74508c2d20efe22c74c57e29
+Encoding=UTF-8
+Highlighting=Terraform
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Terraform
+Mode Set By User=false
+Time=2023,5,14,8,55,37.845
+URL=file:///home/lucas/Rook/variables.tf
+
+[file:///home/lucas/Zydra/1.txt]
+Bookmarks=
+Checksum=cf476b3404986ec61542145808a5c404d2a42789
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,7,14,55.002
+URL=file:///home/lucas/Zydra/1.txt
+
+[file:///home/lucas/directory.zip.xml]
+Bookmarks=
+Checksum=e08403e2f362049a9799ba2b69f0f8d068568e7b
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Mode Set By User=false
+Time=2023,5,14,7,47,39.451
+URL=file:///home/lucas/directory.zip.xml
+
+[file:///home/lucas/nmap_scanned_ips]
+Bookmarks=
+Checksum=25536d5bc432a250509dbd598209c5c44914ff7d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,9,22,5,48.753
+URL=file:///home/lucas/nmap_scanned_ips
+
+[file:///home/lucas/Área de trabalho/hashcat.1]
+Bookmarks=
+Checksum=d927be5b9357866156cde2638319f8f5f82cfe58
+Encoding=UTF-8
+Highlighting=Troff Mandoc
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Troff Mandoc
+Mode Set By User=false
+Time=2023,5,14,10,18,1.24
+URL=file:///home/lucas/Área de trabalho/hashcat.1
+
+[file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/user_settings.py]
+Bookmarks=
+Checksum=07b82ed7c3da001bcb5879f074265c5adb86ccca
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2023,5,26,2,58,46.942
+URL=file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/user_settings.py
+
+[file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/prepare.log]
+Bookmarks=
+Checksum=68c6239ac871cb44c162fd42fea1ac40f31a18e2
+Encoding=UTF-8
+Highlighting=Log File (simplified)
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Log File (simplified)
+Mode Set By User=false
+Time=2023,5,27,13,13,31.067
+URL=file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/prepare.log
+
+[file:///mnt/dados/Downloads/1]
+Bookmarks=
+Checksum=ea8634414dd74e887d8842ddeaf9242dfba5bc0a
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,5,22,31,23.882
+URL=file:///mnt/dados/Downloads/1
+
+[file:///mnt/dados/Downloads/Ant-Man.and.the.Wasp.Quantumania.2023.1080p.BluRay.x264-PiGNUS\x5bTGx\x5d/\x5bTGx\x5dDownloaded from torrentgalaxy.to .txt]
+Bookmarks=
+Checksum=cba64abbfa6ce945d02b73f43d4ed93abd41fc69
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,24,20,57,22.947
+URL=file:///mnt/dados/Downloads/Ant-Man.and.the.Wasp.Quantumania.2023.1080p.BluRay.x264-PiGNUS[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt
+
+[file:///mnt/dados/Downloads/Need For Speed Underground 2 UK Europe 2005 \x5bPC-Game Ver1.2\x5d/INFO.nfo]
+Bookmarks=
+Checksum=dc6486a516ec98c623a73f5986062c4622957d46
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,12,16,20,29.379
+URL=file:///mnt/dados/Downloads/Need For Speed Underground 2 UK Europe 2005 [PC-Game Ver1.2]/INFO.nfo
+
+[file:///mnt/dados/Downloads/Nova pasta/1]
+Bookmarks=
+Checksum=f547ca042a5ef5354e3a1b3687466f355c025d68
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,5,21,49,42.477
+URL=file:///mnt/dados/Downloads/Nova pasta/1
+
+[file:///mnt/dados/Downloads/ftb.rar.xml]
+Bookmarks=
+Checksum=e08403e2f362049a9799ba2b69f0f8d068568e7b
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Mode Set By User=false
+Time=2023,5,14,8,1,31.675
+URL=file:///mnt/dados/Downloads/ftb.rar.xml
+
+[file:///mnt/dados/g-desktop-suite-git/PKGBUILD]
+Bookmarks=
+Checksum=949032ab9521a70d3503a290ed6a961cf292b7b7
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,4,28,20,43,20.058
+URL=file:///mnt/dados/g-desktop-suite-git/PKGBUILD
+
+[file:///mnt/dados/linux-tkg/customization.cfg]
+Bookmarks=
+Checksum=b2f27d222ad86f0ada6794228070c80e88fef74d
+Encoding=UTF-8
+Highlighting=Nagios
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Nagios
+Mode Set By User=false
+Time=2023,4,28,19,53,35.902
+URL=file:///mnt/dados/linux-tkg/customization.cfg
+
+[file:///mnt/dados/temp/1]
+Bookmarks=
+Checksum=c2a9539307b674d0307719c175250437641374d6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,10,16,48.869
+URL=file:///mnt/dados/temp/1
+
+[file:///mnt/dados/temp/hash]
+Bookmarks=
+Checksum=3cf388fe727801dbb711e908d70bc8f14b05d665
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,9,54,49.388
+URL=file:///mnt/dados/temp/hash
+
+[file:///mnt/dados/temp/hashcat-legacy/1]
+Bookmarks=
+Checksum=d1fcd599bc5882e82323dd0145077f5e3a7e054d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,5,14,10,26,8.491
+URL=file:///mnt/dados/temp/hashcat-legacy/1
+
+[file:///mnt/dados/temp/hashcat-legacy/tools/deps.sh]
+Bookmarks=
+Checksum=e83f76700ff8b482245a87c27a62a2cb72a748c2
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,5,14,10,26,9.187
+URL=file:///mnt/dados/temp/hashcat-legacy/tools/deps.sh
+
+[file:///mnt/dados/wine-tkg-git/wine-tkg-git/1.mypatch]
+Bookmarks=
+Checksum=191537df6d4005a4ab3e89eb0fa88587c4b02a65
+Encoding=UTF-8
+Highlighting=Diff
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Diff
+Mode Set By User=false
+Time=2023,5,5,21,33,27.958
+URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/1.mypatch
+
+[file:///mnt/dados/wine-tkg-git/wine-tkg-git/customization.cfg]
+Bookmarks=
+Checksum=afde9427c6265c08553737ab1caa96e1e6707b31
+Encoding=UTF-8
+Highlighting=Nagios
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Nagios
+Mode Set By User=false
+Time=2023,5,5,21,33,52.613
+URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/customization.cfg
+
+[file:///mnt/dados/wine-tkg-git/wine-tkg-git/last_build_config.log]
+Bookmarks=
+Checksum=a6ac6972b7408086bc034f97ca8ebee3d49fbb02
+Encoding=UTF-8
+Highlighting=Log File (simplified)
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Log File (simplified)
+Mode Set By User=false
+Time=2023,4,29,12,54,56.828
+URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/last_build_config.log
+
+[file:///mnt/dados/wine-tkg-git/wine-tkg-git/prepare.log]
+Bookmarks=
+Checksum=8e4c6825e17173d5a209328372e3c6b5ccd1c34f
+Encoding=UTF-8
+Highlighting=Log File (simplified)
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Log File (simplified)
+Mode Set By User=false
+Time=2023,5,5,21,32,31.607
+URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/prepare.log
+
+[file:///mnt/dados/wine-tkg-git/wine-tkg-git/src/wine-tkg-staging-fsync-git-opt-64-build/config.log]
+Bookmarks=
+Checksum=26f7f8d387e028871928e85951f6ed5458871101
+Encoding=UTF-8
+Highlighting=Log File (simplified)
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Log File (simplified)
+Mode Set By User=false
+Time=2023,4,29,12,55,13.891
+URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/src/wine-tkg-staging-fsync-git-opt-64-build/config.log
+
+[file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-profiles/advanced-customization.cfg]
+Bookmarks=
+Checksum=e8e45c15a2923dac666e1319431f137b2eec8742
+Encoding=UTF-8
+Highlighting=Nagios
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Nagios
+Mode Set By User=false
+Time=2023,5,2,19,13,35.38
+URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-profiles/advanced-customization.cfg
+
+[file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-userpatches/1.mypatch]
+Bookmarks=
+Checksum=191537df6d4005a4ab3e89eb0fa88587c4b02a65
+Encoding=UTF-8
+Highlighting=Diff
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Diff
+Mode Set By User=false
+Time=2023,5,9,21,12,38.503
+URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-userpatches/1.mypatch
+
+[file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-userpatches/README.md]
+Bookmarks=
+Checksum=ec3002ecf0e2380a6172471025fcbef54349d348
+Encoding=UTF-8
+Highlighting=Markdown
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Markdown
+Mode Set By User=false
+Time=2023,5,5,21,35,43.776
+URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-userpatches/README.md
+
+[file:///mnt/midia/Videos/Series/Superman and Lois/Superman.And.Lois.S03E07.1080p.WEB.h264-ELEANOR\x5bTGx\x5d/Superman.And.Lois.S03E07.1080p.WEB.h264-ELEANOR.srt]
+Bookmarks=
+Checksum=6a46dfac7313ea46c19811c47eef907950d3a3ab
+Encoding=ISO-8859-15
+Highlighting=SubRip Subtitles
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=SubRip Subtitles
+Mode Set By User=false
+Time=2023,5,10,22,53,15.725
+URL=file:///mnt/midia/Videos/Series/Superman and Lois/Superman.And.Lois.S03E07.1080p.WEB.h264-ELEANOR[TGx]/Superman.And.Lois.S03E07.1080p.WEB.h264-ELEANOR.srt
+
+[file:///tmp/huIrjD.diff]
+Checksum=d698d1d57bc827ac8b7f8bead9c9e6e223234e75
+Time=2023,5,14,7,44,27.211
