@@ -5,10 +5,10 @@ ordering=applications:org.kde.dolphin.desktop,preferred://browser
 ordering=applications:org.kde.dolphin.desktop,preferred://browser
 
 [Favorites-org.kde.plasma.kicker.favorites.instance-194-e5989023-c658-49e5-9853-684881d4d784]
-ordering=applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,preferred://browser,applications:uget-gtk.desktop,applications:deluge.desktop,applications:guvcview.desktop,applications:Android.desktop
+ordering=applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,applications:uget-gtk.desktop,applications:guvcview.desktop,applications:deluge.desktop,applications:Android.desktop
 
 [Favorites-org.kde.plasma.kicker.favorites.instance-194-global]
-ordering=applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,preferred://browser,applications:uget-gtk.desktop,applications:deluge.desktop,applications:guvcview.desktop,applications:Android.desktop
+ordering=applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,applications:uget-gtk.desktop,applications:guvcview.desktop,applications:deluge.desktop,applications:Android.desktop
 
 [Favorites-org.kde.plasma.kickoff.favorites.instance-3-e5989023-c658-49e5-9853-684881d4d784]
 ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,ktp-contactlist.desktop,org.kde.discover.desktop

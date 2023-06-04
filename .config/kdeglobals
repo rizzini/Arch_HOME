@@ -137,7 +137,7 @@ ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
 DirSelectDialog Size=848,596
-History Items[$e]=file:///mnt/dados/Videos/xxx,file:///mnt/dados/Videos,file:///mnt/midia/Videos,file:///mnt/dados/Downloads,file:$HOME/Downloads,file:///mnt/archlinux/temp_stuff/vm,file:$HOME/Videos/xxx/licking_ass,file:///mnt/archlinux/temp_stuff/Videos/xxx,file:///mnt/archlinux/temp_stuff/Videos/xxx/licking ass,file:///mnt/archlinux/temp_stuff/Downloads,file:///xxx,file:$HOME/Vídeos,file:$HOME/Vídeos/xxx,file:$HOME/Vídeos/xxx,file:$HOME/Área de trabalho,file:$HOME/.themes/MoeDark,file:$HOME/.themes/
+History Items[$e]=file:$HOME/Videos/xxx,file:///mnt/dados/Videos/xxx,file:///mnt/dados/Videos,file:///mnt/midia/Videos,file:///mnt/dados/Downloads,file:$HOME/Downloads,file:///mnt/archlinux/temp_stuff/vm,file:$HOME/Videos/xxx/licking_ass,file:///mnt/archlinux/temp_stuff/Videos/xxx,file:///mnt/archlinux/temp_stuff/Videos/xxx/licking ass,file:///mnt/archlinux/temp_stuff/Downloads,file:///xxx,file:$HOME/Vídeos,file:$HOME/Vídeos/xxx,file:$HOME/Vídeos/xxx,file:$HOME/Área de trabalho,file:$HOME/.themes/MoeDark,file:$HOME/.themes/
 
 [General]
 BrowserApplication=google-chrome.desktop

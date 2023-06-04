@@ -7,7 +7,7 @@ fi
 killall -9 weston &> /dev/null;
 sudo systemctl restart waydroid-container.service;
 if ! pgrep weston; then
-    weston &> /dev/null &
+    weston --xwayland &> /dev/null &
 fi
 sleep 2;
 export DISPLAY=':1'
