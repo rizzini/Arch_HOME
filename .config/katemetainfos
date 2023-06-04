@@ -48,14 +48,14 @@ URL=file:///etc/mkinitcpio.conf
 
 [file:///etc/ssh/ssh_config]
 Bookmarks=
-Checksum=db21ef0c7efa26fd11ddfe418761a94db9ba4c07
+Checksum=1bb88347decd8e8b94e24e2bc15f41940cb71b56
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,2,15,50,7.773
+Time=2023,6,4,0,5,35.446
 URL=file:///etc/ssh/ssh_config
 
 [file:///etc/ssh/sshd_config]
