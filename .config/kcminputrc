@@ -8,7 +8,6 @@ RepeatRate=60.88
 
 [Mouse]
 X11LibInputXAccelProfileFlat=true
-cursorTheme=tetris
 
 [Tmp]
 update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

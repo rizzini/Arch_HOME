@@ -3,7 +3,7 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 Enabled=false
-LatencyPolicy=Low
+LatencyPolicy=ExtremelyLow
 
 [Desktops]
 Id_1=7cfe80dd-f92c-472f-ba6c-8ce7f128137d

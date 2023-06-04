@@ -1,26 +1,38 @@
 [file:///boot/efi/EFI/refind/refind.conf]
 Bookmarks=
-Checksum=b25815a1cd75d6a1659d1049db46b4cd6a5d8e9c
+Checksum=18755f66441a5ecb454eb1dbbd0939a97ea2f7d8
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,5,30,21,55,11.954
+Time=2023,6,4,15,20,27.875
 URL=file:///boot/efi/EFI/refind/refind.conf
 
-[file:///etc/fstab]
+[file:///etc/X11/xorg.conf.d/20-nvidia.conf]
 Bookmarks=
-Checksum=2c9622a9636e83a7f09ee30024209e828e958f8d
+Checksum=408728619aa22428aad9a99dee2c39d483218d00
 Encoding=UTF-8
-Highlighting=fstab
+Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=fstab
+Mode=Normal
 Mode Set By User=false
-Time=2023,6,1,9,20,28.42
-URL=file:///etc/fstab
+Time=2023,6,4,3,1,49.043
+URL=file:///etc/X11/xorg.conf.d/20-nvidia.conf
+
+[file:///etc/john/john.conf]
+Bookmarks=
+Checksum=6d9ad9688550bf57bfcd439059a5b0d8186f37c1
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,4,4,43,35.892
+URL=file:///etc/john/john.conf
 
 [file:///etc/makepkg.conf]
 Bookmarks=
@@ -175,7 +187,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,5,23,14,53,1.825
+Time=2023,6,4,3,31,38.461
 URL=file:///home/lucas/.config/mpv/mpv.conf
 
 [file:///home/lucas/.config/mpv/scripts/osdb.lua]
@@ -274,16 +286,28 @@ Mode Set By User=false
 Time=2023,5,27,12,23,41.733
 URL=file:///home/lucas/.ssh/id_rsa.pub
 
-[file:///home/lucas/1]
+[file:///home/lucas/.vmware/preferences]
 Bookmarks=
-Checksum=e4bb37810f22c95a1a2b2803d73452954c33c257
+Checksum=70faf736dd75460c92e377e767f890dfe56b87ad
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,5,14,5,26,57.664
+Time=2023,6,4,2,56,43.158
+URL=file:///home/lucas/.vmware/preferences
+
+[file:///home/lucas/1]
+Bookmarks=
+Checksum=b84a5ae1e2acc16884d822a468e073286309eba9
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,4,15,9,35.239
 URL=file:///home/lucas/1
 
 [file:///home/lucas/1.sh]
@@ -358,6 +382,18 @@ Mode Set By User=false
 Time=2023,5,27,15,4,13.628
 URL=file:///home/lucas/Documentos/scripts/download_videos_terminal.sh
 
+[file:///home/lucas/Documentos/scripts/not being used/waydroid_under_xorg.sh]
+Bookmarks=
+Checksum=65125fe687d319ddfb914055037eee0fbce6115d
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,6,4,0,40,47.696
+URL=file:///home/lucas/Documentos/scripts/not being used/waydroid_under_xorg.sh
+
 [file:///home/lucas/Documentos/scripts/playerctl]
 Bookmarks=
 Checksum=4c22899859a1f8d54e3fbb86d8f7d6117c4b4bc8
@@ -396,14 +432,14 @@ URL=file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh]
 Bookmarks=
-Checksum=20a2c6cf3906afd11727bf63d9426a69cce20809
+Checksum=f39a5a1767c14674ca85495e52c952fd2b121ddf
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,5,31,15,55,18.173
+Time=2023,6,4,0,15,17.524
 URL=file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh
 
 [file:///home/lucas/Documentos/scripts/update_loudness_preset.sh]
@@ -417,6 +453,30 @@ Mode=Bash
 Mode Set By User=true
 Time=2023,5,27,13,11,47.808
 URL=file:///home/lucas/Documentos/scripts/update_loudness_preset.sh
+
+[file:///home/lucas/Músicas/1]
+Bookmarks=
+Checksum=9f358a4addefcab294b83e4282bfef1f9625a249
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,4,4,35,37.769
+URL=file:///home/lucas/Músicas/1
+
+[file:///home/lucas/Músicas/hash]
+Bookmarks=
+Checksum=49ef7fc1ae31ec27571edf3ed2a3b28ef6cbc63c
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,4,4,31,54.593
+URL=file:///home/lucas/Músicas/hash
 
 [file:///home/lucas/Rook/1]
 Bookmarks=
@@ -514,6 +574,18 @@ Mode Set By User=false
 Time=2023,5,14,7,14,55.002
 URL=file:///home/lucas/Zydra/1.txt
 
+[file:///home/lucas/dic]
+Bookmarks=
+Checksum=d335e49fa83dacc0bb242c3e689755d59c2babb3
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,4,4,41,35.076
+URL=file:///home/lucas/dic
+
 [file:///home/lucas/directory.zip.xml]
 Bookmarks=
 Checksum=e08403e2f362049a9799ba2b69f0f8d068568e7b
@@ -550,16 +622,28 @@ Mode Set By User=false
 Time=2023,5,14,10,18,1.24
 URL=file:///home/lucas/Área de trabalho/hashcat.1
 
-[file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/user_settings.py]
+[file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/steampipe_fixups.py]
 Bookmarks=
-Checksum=07b82ed7c3da001bcb5879f074265c5adb86ccca
+Checksum=e5646ebe6aee07f9fc7007cdf1fbcc25a69012c8
 Encoding=UTF-8
 Highlighting=Python
 Highlighting Set By User=false
 Indentation Mode=python
 Mode=Python
 Mode Set By User=false
-Time=2023,5,26,2,58,46.942
+Time=2023,6,4,3,37,0.784
+URL=file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/steampipe_fixups.py
+
+[file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/user_settings.py]
+Bookmarks=
+Checksum=f7ed19add63ebd8e5bd3a57fdf3c8f9bfe231100
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2023,6,4,3,43,30.687
 URL=file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/user_settings.py
 
 [file:///mnt/archlinux/YAY/completion.cache]
@@ -841,3 +925,63 @@ URL=file:///mnt/midia/Videos/Series/Superman and Lois/Superman.And.Lois.S03E07.1
 [file:///tmp/huIrjD.diff]
 Checksum=d698d1d57bc827ac8b7f8bead9c9e6e223234e75
 Time=2023,5,14,7,44,27.211
+
+[file:///usr/share/john/password.lst]
+Bookmarks=
+Checksum=588c64e74bc163ef77842340483daf4758f4d046
+Encoding=UTF-8
+Highlighting=COBOL
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=COBOL
+Mode Set By User=false
+Time=2023,6,4,15,12,18.869
+URL=file:///usr/share/john/password.lst
+
+[file:///usr/share/john/rules/rockyou-30000.rule]
+Bookmarks=
+Checksum=8481c1c4d23ac8765ab3de0bdd40b49a52ef87b5
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,4,15,3,27.237
+URL=file:///usr/share/john/rules/rockyou-30000.rule
+
+[file:///usr/share/wordlists/seclists/Fuzzing/6-digits-000000-999999.txt]
+Bookmarks=
+Checksum=68b412a6a6eb3570326fe0afdc2b0b8caf04c4a2
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,4,4,29,0.735
+URL=file:///usr/share/wordlists/seclists/Fuzzing/6-digits-000000-999999.txt
+
+[file:///usr/share/wordlists/seclists/Passwords/Leaked-Databases/rockyou-05.txt]
+Bookmarks=
+Checksum=0ddd467c756e535e54b5f08521d887da6f6faeb1
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,4,15,3,32.474
+URL=file:///usr/share/wordlists/seclists/Passwords/Leaked-Databases/rockyou-05.txt
+
+[file:///usr/share/wordlists/seclists/Passwords/Leaked-Databases/rockyou-70.txt]
+Bookmarks=
+Checksum=b9d2633000d2bd5fc0cb8156c60a1b88d226fafc
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,4,15,3,36.36
+URL=file:///usr/share/wordlists/seclists/Passwords/Leaked-Databases/rockyou-70.txt

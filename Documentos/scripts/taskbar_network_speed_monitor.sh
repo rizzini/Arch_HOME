@@ -30,7 +30,7 @@ size () {
     fi
     echo "${whole}${decimal}${units[$unit]}"
 }
-comando='/usr/bin/alacritty -o window.dimensions.lines=30 window.dimensions.columns=120 -e /usr/bin/sudo /usr/sbin/nethogs'
+comando='if [ "$(pgrep "nethogs")" ];then sudo /usr/bin/killall nethogs &> /dev/null;else /usr/bin/alacritty -o window.dimensions.lines=30 window.dimensions.columns=120 -e /usr/bin/sudo /usr/sbin/nethogs & disown;fi'
 while :;do
     dl=$(/usr/bin/awk '/\<enp2s0\>/{print $2}' /proc/net/dev)
     up=$(/usr/bin/awk '/\<enp2s0\>/{print $10}' /proc/net/dev)

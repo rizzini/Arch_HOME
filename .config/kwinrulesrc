@@ -2,12 +2,17 @@
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
 [1]
-Description=Configurações para explorer.exe explorer.exe
+Description=Configurações de aplicativo para vmware
 blockcompositing=true
-blockcompositingrule=2
-wmclass=explorer.exe explorer.exe
+clientmachine=localhost
+decocolor=BreezeDark
+decocolorrule=2
+noborder=true
+noborderrule=2
+types=1
+wmclass=vmware
 wmclasscomplete=true
-wmclassmatch=1
+wmclassmatch=2
 
 [149c0874-055e-4ba5-aca0-c998f2b85cf0]
 Description=Configurações de janela para UNO
@@ -20,7 +25,30 @@ wmclass=steam_app_470220 steam_app_470220
 wmclasscomplete=true
 wmclassmatch=1
 
+[1fba7f35-602d-48b9-80ad-8be4330ebf8b]
+Description=Configurações de aplicativo para vmware
+clientmachine=localhost
+decocolor=BreezeDark
+decocolorrule=2
+noborder=true
+noborderrule=2
+types=1
+wmclass=vmware
+wmclasscomplete=true
+wmclassmatch=2
+
 [2]
+Description=Configurações para explorer.exe explorer.exe
+blockcompositing=true
+blockcompositingrule=2
+ignoregeometry=true
+size=700,400
+title=UNO
+wmclass=explorer.exe explorer.exe
+wmclasscomplete=true
+wmclassmatch=1
+
+[3]
 Description=Configurações de janela para UNO
 blockcompositing=true
 blockcompositingrule=2
@@ -35,7 +63,7 @@ wmclass=steam_app_470220
 wmclasscomplete=true
 wmclassmatch=2
 
-[3]
+[4]
 Description=Configurações de janela para AnyDesk
 ignoregeometry=true
 ignoregeometryrule=2
@@ -44,7 +72,7 @@ wmclass=anydesk anydesk
 wmclasscomplete=true
 wmclassmatch=1
 
-[4]
+[5]
 Description=Configurações de janela para Lords Mobile
 title=Lords Mobile
 titlematch=1
@@ -53,8 +81,8 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=4
-rules=1,2,3,4
+count=5
+rules=1,2,3,4,5
 
 [c79e9771-6d6a-47ca-829d-781f5320673a]
 Description=Configurações para explorer.exe explorer.exe

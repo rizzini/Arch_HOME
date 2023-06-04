@@ -1,4 +1,5 @@
 [DownloadedThemes]
 /tmp/ChromeOS.tar.xz=/usr/share/sddm/themes/ChromeOS
+/tmp/KDE-Story.tar.gz=/usr/share/sddm/themes/KDE-Story
 /tmp/Layan.tar.xz=/usr/share/sddm/themes/Layan
 /tmp/flutter.tar.gz=/usr/share/sddm/themes/flutter
