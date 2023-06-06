@@ -15,9 +15,21 @@ Switch keyboard layout to Português (Brasil)=none,none,Mudar para o layout de t
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Mudar para o próximo layout de teclado
 _k_friendly_name=Seletor de layouts de teclado
 
+[Moonscars.desktop]
+_k_friendly_name=Moonscars
+_launch=,none,Iniciar Moonscars
+
+[NFS.desktop]
+_k_friendly_name=Need for Speed: Most Wanted\n
+_launch=,none,Iniciar Need for Speed: Most Wanted\n
+
 [VNC - Android.desktop]
 _k_friendly_name=VNC - Android
 _launch=none,none,Iniciar VNC - Android
+
+[Valfaris.desktop]
+_k_friendly_name=Valfaris
+_launch=,none,Iniciar Valfaris
 
 [bssh.desktop]
 _k_friendly_name=Navegador de servidores SSH do Avahi

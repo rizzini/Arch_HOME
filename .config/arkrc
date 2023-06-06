@@ -1,3 +1,11 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Downloads/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME,file:$HOME
+Recent URLs[$e]=file:$HOME/Downloads/
+detailViewIconSize=16
+
 [KTextEditor Document]
 Allow End of Line Detection=true
 Auto Detect Indent=true
@@ -115,13 +123,14 @@ Word Completion Remove Tail=true
 [MainWindow]
 1536x864 screen: XPosition=293
 1536x864 screen: YPosition=142
-1920x1080 screen: XPosition=812
-1920x1080 screen: YPosition=430
+1920x1080 screen: XPosition=566
+1920x1080 screen: YPosition=234
 HDMI-0=HDMI-0
 HDMI-1=HDMI-1
 HDMI-1 XPosition 1920x1080 HDMI-1=828
 HDMI-1 YPosition 1920x1080 HDMI-1=306
-State=AAAA/wAAAAD9AAAAAAAAA7YAAAIIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+HDMI-A-0=HDMI-A-0
+State=AAAA/wAAAAD9AAAAAAAAA7YAAAIJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 splitterSizes=633,316
 

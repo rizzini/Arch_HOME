@@ -27,11 +27,11 @@ DialogWidth=866
 PreloadWeight=34
 
 [Containments][170][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/EA.desktop"\\,"0"\\,"0"\\,"desktop:/Steam Linux Runtime - Sniper.desktop"\\,"0"\\,"2"]\\,"1360x768":[]\\,"1280x1024":[""]\\,"640x480":[""]\\,"1680x1050":[""]\\,"800x600":[""]\\,"1280x960":[""]\\,"1280x800":["1"\\,"11"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"0x0":[]\\,"1024x768":[""]\\,"1280x720":[""]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/EA.desktop"\\,"0"\\,"0"\\,"desktop:/Heaven Benchmark 4.0.desktop"\\,"0"\\,"7"\\,"desktop:/Rockstar Games Launcher.lnk"\\,"0"\\,"6"\\,"desktop:/Rockstar Games Launcher.desktop"\\,"0"\\,"5"\\,"desktop:/2023-06-06_10-36.png"\\,"0"\\,"4"\\,"desktop:/Origin.desktop"\\,"0"\\,"8"\\,"desktop:/steam.desktop"\\,"0"\\,"3"\\,"desktop:/Steam Linux Runtime - Sniper.desktop"\\,"0"\\,"2"\\,"desktop:/UNO.desktop"\\,"0"\\,"1"]\\,"1360x768":[]\\,"1280x1024":[""]\\,"640x480":[""]\\,"1680x1050":[""]\\,"800x600":[""]\\,"1280x960":[""]\\,"1280x800":["1"\\,"11"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"0x0":[]\\,"1024x768":[""]\\,"1280x720":[""]}
 sortMode=-1
 
 [Containments][170][Wallpaper][org.kde.image][General]
-Image=/home/lucas/Imagens/Wallpaper/wallhaven-4lopll.jpg
+Image=/home/lucas/Imagens/Wallpaper/wallhaven-g88owd.jpg
 SlidePaths=/home/lucas/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][171]
@@ -100,8 +100,18 @@ PreloadWeight=100
 popupHeight=514
 popupWidth=633
 
+[Containments][171][Applets][194][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][171][Applets][194][Configuration][General]
+alignResultsToBottom=false
+alphaSort=true
 favoritesPortedToKAstats=true
+limitDepth=true
+showRecentApps=false
+showRecentDocs=false
+useExtraRunners=false
 
 [Containments][171][Applets][194][Configuration][Shortcuts]
 global=Alt+F1
@@ -178,15 +188,22 @@ BlockLabelsCustomFontSize=11
 DBusInstanceId=954
 DBusSuccess=true
 
+[Containments][171][Applets][208]
+immutability=1
+plugin=org.kde.paneltransparencybutton
+
+[Containments][171][Applets][208][Configuration][Appearance]
+transparencyEnabled=true
+
 [Containments][171][ConfigDialog]
-DialogHeight=84
+DialogHeight=90
 DialogWidth=1920
 
 [Containments][171][Configuration]
 PreloadWeight=34
 
 [Containments][171][General]
-AppletOrder=194;173;174;204;206;205;207;175;176;188;189
+AppletOrder=194;173;174;208;204;206;205;207;175;176;188;189
 
 [Containments][177]
 activityId=
@@ -314,4 +331,4 @@ shownItems=Crow Translate,AnyDesk,NoMachineMonitor,org.kde.kdeconnect,org.kde.pl
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Steam Linux Runtime - Sniper.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/MobilePartner.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/data.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/7zr,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/EA.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/install,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/SysConfig.dat,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/readme.txt,0,e5989023-c658-49e5-9853-684881d4d784
+screenMapping=desktop:/2023-06-06_10-36.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Origin.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/data.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Rockstar Games Launcher.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/readme.txt,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Rockstar Games Launcher.lnk,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/MobilePartner.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/SysConfig.dat,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/steam.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Steam Linux Runtime - Sniper.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/install,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/UNO.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Heaven Benchmark 4.0.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/EA.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/7zr,0,e5989023-c658-49e5-9853-684881d4d784

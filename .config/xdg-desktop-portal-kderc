@@ -7,6 +7,6 @@
 1920x1080 screen: Width=978
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Imagens/eu.jpeg,file:///mnt/dados/Videos/xxx/normal/0003593151.480,file:$HOME/Downloads/sw_firmware_current.bin.sig
-Recent URLs[$e]=file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Documentos/,file:$HOME/Imagens/,file:$HOME/Downloads/,file:///mnt/dados/Videos/xxx/normal/
+Recent Files[$e]=file:$HOME/Imagens/eu.jpeg,file:$HOME/Imagens/eu.jpeg
+Recent URLs[$e]=file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Documentos/,file:$HOME/Imagens/,file:$HOME/Downloads/
 detailViewIconSize=256

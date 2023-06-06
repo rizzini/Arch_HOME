@@ -17,3 +17,4 @@ alias syadm="/usr/bin/sudo /usr/bin/yadm -Y /etc/yadm";
 # alias cat="highlight -O ansi --force"
 alias bv='/home/lucas/Documentos/scripts/download_videos_terminal.sh'
 alias packagelist='expac --timefmt="%Y-%m-%d %T" "%l\t%n" | sort'
+alias radeontop='radeontop -Tc'

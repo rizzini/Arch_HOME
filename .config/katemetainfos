@@ -48,14 +48,14 @@ URL=file:///etc/makepkg.conf
 
 [file:///etc/mkinitcpio.conf]
 Bookmarks=
-Checksum=4fc6780773623577431a86d44af081d507b30f9e
+Checksum=6d8dd0043bb7f971780759f564f780a23bdba29e
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,5,27,12,18,52.289
+Time=2023,6,6,15,49,41.881
 URL=file:///etc/mkinitcpio.conf
 
 [file:///etc/ssh/ssh_config]
@@ -67,7 +67,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,4,0,5,35.446
+Time=2023,6,5,15,13,45.218
 URL=file:///etc/ssh/ssh_config
 
 [file:///etc/ssh/sshd_config]
@@ -132,14 +132,14 @@ URL=file:///home/lucas/.config/easyeffects/output/LoudnessEqualizer.json
 
 [file:///home/lucas/.config/fish/config.fish]
 Bookmarks=
-Checksum=5b638e75c9f3f750b9ed18b764ce83610fc0ef15
+Checksum=48e553c8239e13dff9fb992d888c610fa4a20bad
 Encoding=UTF-8
 Highlighting=Fish
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Fish
 Mode Set By User=false
-Time=2023,5,27,14,0,17.44
+Time=2023,6,6,16,36,43.453
 URL=file:///home/lucas/.config/fish/config.fish
 
 [file:///home/lucas/.config/frogminer/linux-tkg.cfg]
@@ -151,19 +151,19 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Nagios
 Mode Set By User=false
-Time=2023,5,22,0,12,58.965
+Time=2023,6,6,16,12,9.411
 URL=file:///home/lucas/.config/frogminer/linux-tkg.cfg
 
 [file:///home/lucas/.config/frogminer/wine-tkg.cfg]
 Bookmarks=
-Checksum=33eca94d98a2543a510043c6d5aef0e127e4be92
+Checksum=dad35404b31672ecc3d7194b67efdc3ed825b1d4
 Encoding=UTF-8
 Highlighting=Nagios
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Nagios
 Mode Set By User=false
-Time=2023,5,31,14,1,24.393
+Time=2023,6,6,16,12,51.667
 URL=file:///home/lucas/.config/frogminer/wine-tkg.cfg
 
 [file:///home/lucas/.config/kwinrc]
@@ -201,6 +201,18 @@ Mode=Lua
 Mode Set By User=false
 Time=2023,5,31,15,23,23.279
 URL=file:///home/lucas/.config/mpv/scripts/osdb.lua
+
+[file:///home/lucas/.config/starship.toml]
+Bookmarks=
+Checksum=ab3411e8b2a569c73bc34e725702a75266db87c3
+Encoding=UTF-8
+Highlighting=TOML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=TOML
+Mode Set By User=false
+Time=2023,6,5,14,29,6.823
+URL=file:///home/lucas/.config/starship.toml
 
 [file:///home/lucas/.config/systemd/user/loudnessequalizer-update.service]
 Bookmarks=
@@ -418,18 +430,6 @@ Mode Set By User=false
 Time=2023,5,18,23,10,37.979
 URL=file:///home/lucas/Documentos/scripts/taskbar_cpu_usage_temp.sh
 
-[file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh]
-Bookmarks=
-Checksum=9b48b993f3c9fbab7f7fd686c5d2c823928be5b3
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,5,5,20,46,13.811
-URL=file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh
-
 [file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh]
 Bookmarks=
 Checksum=f39a5a1767c14674ca85495e52c952fd2b121ddf
@@ -622,6 +622,18 @@ Mode Set By User=false
 Time=2023,5,14,10,18,1.24
 URL=file:///home/lucas/Área de trabalho/hashcat.1
 
+[file:///mnt/archlinux/Steam/compatibilitytools.d/GE-Proton8-3/user_settings.py]
+Bookmarks=
+Checksum=07b82ed7c3da001bcb5879f074265c5adb86ccca
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2023,6,5,15,33,33.052
+URL=file:///mnt/archlinux/Steam/compatibilitytools.d/GE-Proton8-3/user_settings.py
+
 [file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/steampipe_fixups.py]
 Bookmarks=
 Checksum=e5646ebe6aee07f9fc7007cdf1fbcc25a69012c8
@@ -636,14 +648,14 @@ URL=file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/steampipe
 
 [file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/user_settings.py]
 Bookmarks=
-Checksum=f7ed19add63ebd8e5bd3a57fdf3c8f9bfe231100
+Checksum=fa3440c76552a499520bb74bd5807449fbf18a0d
 Encoding=UTF-8
 Highlighting=Python
 Highlighting Set By User=false
 Indentation Mode=python
 Mode=Python
 Mode Set By User=false
-Time=2023,6,4,3,43,30.687
+Time=2023,6,6,16,58,34.174
 URL=file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/user_settings.py
 
 [file:///mnt/archlinux/YAY/completion.cache]
@@ -657,6 +669,18 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,5,31,10,28,58.379
 URL=file:///mnt/archlinux/YAY/completion.cache
+
+[file:///mnt/archlinux/temp_stuff/photoshopCClinux/README.md]
+Bookmarks=
+Checksum=1127ca9b60dd7869acad400a3775f02c7b56e479
+Encoding=UTF-8
+Highlighting=Markdown
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Markdown
+Mode Set By User=false
+Time=2023,6,4,15,49,58.851
+URL=file:///mnt/archlinux/temp_stuff/photoshopCClinux/README.md
 
 [file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/prepare.log]
 Bookmarks=
@@ -742,17 +766,17 @@ Mode Set By User=false
 Time=2023,5,29,23,54,52.661
 URL=file:///mnt/cdrom/etc/fstab
 
-[file:///mnt/dados/Downloads/1]
+[file:///mnt/dados/Downloads/Adobe Photoshop CS6 13.0.1 Final  Multilanguage (cracked dll) \x5bChingLiu\x5d/ChingLiu.Notes.nfo]
 Bookmarks=
-Checksum=ea8634414dd74e887d8842ddeaf9242dfba5bc0a
-Encoding=UTF-8
+Checksum=b08864ff413c8c8c5ad7fefe1e1d945e11737b1c
+Encoding=ISO-8859-15
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,5,5,22,31,23.882
-URL=file:///mnt/dados/Downloads/1
+Time=2023,6,4,16,10,24.759
+URL=file:///mnt/dados/Downloads/Adobe Photoshop CS6 13.0.1 Final  Multilanguage (cracked dll) [ChingLiu]/ChingLiu.Notes.nfo
 
 [file:///mnt/dados/Downloads/Ant-Man.and.the.Wasp.Quantumania.2023.1080p.BluRay.x264-PiGNUS\x5bTGx\x5d/\x5bTGx\x5dDownloaded from torrentgalaxy.to .txt]
 Bookmarks=
@@ -777,18 +801,6 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,5,12,16,20,29.379
 URL=file:///mnt/dados/Downloads/Need For Speed Underground 2 UK Europe 2005 [PC-Game Ver1.2]/INFO.nfo
-
-[file:///mnt/dados/Downloads/Nova pasta/1]
-Bookmarks=
-Checksum=f547ca042a5ef5354e3a1b3687466f355c025d68
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,5,21,49,42.477
-URL=file:///mnt/dados/Downloads/Nova pasta/1
 
 [file:///mnt/dados/Downloads/ftb.rar.xml]
 Bookmarks=
@@ -850,42 +862,6 @@ Mode Set By User=false
 Time=2023,5,14,10,26,9.187
 URL=file:///mnt/dados/temp/hashcat-legacy/tools/deps.sh
 
-[file:///mnt/dados/wine-tkg-git/wine-tkg-git/1.mypatch]
-Bookmarks=
-Checksum=191537df6d4005a4ab3e89eb0fa88587c4b02a65
-Encoding=UTF-8
-Highlighting=Diff
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Diff
-Mode Set By User=false
-Time=2023,5,5,21,33,27.958
-URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/1.mypatch
-
-[file:///mnt/dados/wine-tkg-git/wine-tkg-git/customization.cfg]
-Bookmarks=
-Checksum=afde9427c6265c08553737ab1caa96e1e6707b31
-Encoding=UTF-8
-Highlighting=Nagios
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Nagios
-Mode Set By User=false
-Time=2023,5,5,21,33,52.613
-URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/customization.cfg
-
-[file:///mnt/dados/wine-tkg-git/wine-tkg-git/prepare.log]
-Bookmarks=
-Checksum=8e4c6825e17173d5a209328372e3c6b5ccd1c34f
-Encoding=UTF-8
-Highlighting=Log File (simplified)
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Log File (simplified)
-Mode Set By User=false
-Time=2023,5,5,21,32,31.607
-URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/prepare.log
-
 [file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-userpatches/1.mypatch]
 Bookmarks=
 Checksum=191537df6d4005a4ab3e89eb0fa88587c4b02a65
@@ -897,18 +873,6 @@ Mode=Diff
 Mode Set By User=false
 Time=2023,5,9,21,12,38.503
 URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-userpatches/1.mypatch
-
-[file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-userpatches/README.md]
-Bookmarks=
-Checksum=ec3002ecf0e2380a6172471025fcbef54349d348
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2023,5,5,21,35,43.776
-URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-userpatches/README.md
 
 [file:///mnt/midia/Videos/Series/Superman and Lois/Superman.And.Lois.S03E07.1080p.WEB.h264-ELEANOR\x5bTGx\x5d/Superman.And.Lois.S03E07.1080p.WEB.h264-ELEANOR.srt]
 Bookmarks=
@@ -925,6 +889,18 @@ URL=file:///mnt/midia/Videos/Series/Superman and Lois/Superman.And.Lois.S03E07.1
 [file:///tmp/huIrjD.diff]
 Checksum=d698d1d57bc827ac8b7f8bead9c9e6e223234e75
 Time=2023,5,14,7,44,27.211
+
+[file:///usr/share/applications/google-chrome.desktop]
+Bookmarks=
+Checksum=e43177d90a6cd9f7fc369f5188e37d6601a132cc
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2023,6,6,16,37,50.419
+URL=file:///usr/share/applications/google-chrome.desktop
 
 [file:///usr/share/john/password.lst]
 Bookmarks=
