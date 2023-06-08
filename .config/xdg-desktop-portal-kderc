@@ -7,6 +7,6 @@
 1920x1080 screen: Width=978
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Imagens/eu.jpeg,file:$HOME/Imagens/eu.jpeg
-Recent URLs[$e]=file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Documentos/,file:$HOME/Imagens/,file:$HOME/Downloads/
+Recent Files[$e]=file:$HOME/Imagens/eu.jpeg,file:$HOME/Documentos/ftb.rar
+Recent URLs[$e]=file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Documentos/,file:$HOME/Imagens/
 detailViewIconSize=256

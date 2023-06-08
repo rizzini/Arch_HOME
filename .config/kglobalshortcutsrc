@@ -17,11 +17,11 @@ _k_friendly_name=Seletor de layouts de teclado
 
 [Moonscars.desktop]
 _k_friendly_name=Moonscars
-_launch=,none,Iniciar Moonscars
+_launch=none,none,Iniciar Moonscars
 
 [NFS.desktop]
 _k_friendly_name=Need for Speed: Most Wanted\n
-_launch=,none,Iniciar Need for Speed: Most Wanted\n
+_launch=none,none,Iniciar Need for Speed: Most Wanted\n
 
 [VNC - Android.desktop]
 _k_friendly_name=VNC - Android
@@ -29,7 +29,7 @@ _launch=none,none,Iniciar VNC - Android
 
 [Valfaris.desktop]
 _k_friendly_name=Valfaris
-_launch=,none,Iniciar Valfaris
+_launch=none,none,Iniciar Valfaris
 
 [bssh.desktop]
 _k_friendly_name=Navegador de servidores SSH do Avahi

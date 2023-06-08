@@ -634,6 +634,18 @@ Mode Set By User=false
 Time=2023,6,5,15,33,33.052
 URL=file:///mnt/archlinux/Steam/compatibilitytools.d/GE-Proton8-3/user_settings.py
 
+[file:///mnt/archlinux/Steam/compatibilitytools.d/GE-Proton8-4/user_settings.py]
+Bookmarks=
+Checksum=fa3440c76552a499520bb74bd5807449fbf18a0d
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2023,6,6,17,9,29.576999999999998
+URL=file:///mnt/archlinux/Steam/compatibilitytools.d/GE-Proton8-4/user_settings.py
+
 [file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/steampipe_fixups.py]
 Bookmarks=
 Checksum=e5646ebe6aee07f9fc7007cdf1fbcc25a69012c8
@@ -684,14 +696,14 @@ URL=file:///mnt/archlinux/temp_stuff/photoshopCClinux/README.md
 
 [file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/prepare.log]
 Bookmarks=
-Checksum=68c6239ac871cb44c162fd42fea1ac40f31a18e2
+Checksum=43f72cb065c722282ef2fe328ad1f198492c0d4a
 Encoding=UTF-8
 Highlighting=Log File (simplified)
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Log File (simplified)
 Mode Set By User=false
-Time=2023,5,27,13,13,31.067
+Time=2023,6,8,20,39,27.939
 URL=file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/prepare.log
 
 [file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/wine-tkg-profiles/advanced-customization.cfg]
@@ -789,6 +801,18 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,5,24,20,57,22.947
 URL=file:///mnt/dados/Downloads/Ant-Man.and.the.Wasp.Quantumania.2023.1080p.BluRay.x264-PiGNUS[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt
+
+[file:///mnt/dados/Downloads/GE-Proton8-4/proton]
+Bookmarks=
+Checksum=34b1eaa6034eafebd78e26c5ae2cb9c250a3d6e5
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2023,6,7,16,2,41.899
+URL=file:///mnt/dados/Downloads/GE-Proton8-4/proton
 
 [file:///mnt/dados/Downloads/Need For Speed Underground 2 UK Europe 2005 \x5bPC-Game Ver1.2\x5d/INFO.nfo]
 Bookmarks=

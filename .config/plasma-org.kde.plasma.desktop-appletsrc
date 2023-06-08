@@ -27,7 +27,7 @@ DialogWidth=866
 PreloadWeight=34
 
 [Containments][170][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/EA.desktop"\\,"0"\\,"0"\\,"desktop:/Heaven Benchmark 4.0.desktop"\\,"0"\\,"7"\\,"desktop:/Rockstar Games Launcher.lnk"\\,"0"\\,"6"\\,"desktop:/Rockstar Games Launcher.desktop"\\,"0"\\,"5"\\,"desktop:/2023-06-06_10-36.png"\\,"0"\\,"4"\\,"desktop:/Origin.desktop"\\,"0"\\,"8"\\,"desktop:/steam.desktop"\\,"0"\\,"3"\\,"desktop:/Steam Linux Runtime - Sniper.desktop"\\,"0"\\,"2"\\,"desktop:/UNO.desktop"\\,"0"\\,"1"]\\,"1360x768":[]\\,"1280x1024":[""]\\,"640x480":[""]\\,"1680x1050":[""]\\,"800x600":[""]\\,"1280x960":[""]\\,"1280x800":["1"\\,"11"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"0x0":[]\\,"1024x768":[""]\\,"1280x720":[""]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/Rockstar Games Launcher.desktop"\\,"0"\\,"1"\\,"desktop:/Need for Speed Heat.desktop"\\,"0"\\,"0"\\,"desktop:/Tomb.Raider.2018.1080p.BluRay.x264.DTS-HDC.srt"\\,"0"\\,"3"\\,"desktop:/Rockstar Games Launcher.lnk"\\,"0"\\,"2"]\\,"1360x768":[]\\,"1280x1024":[""]\\,"640x480":[""]\\,"1680x1050":[""]\\,"800x600":[""]\\,"1280x960":[""]\\,"1280x800":["1"\\,"11"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"0x0":[]\\,"1024x768":[""]\\,"1280x720":[""]}
 sortMode=-1
 
 [Containments][170][Wallpaper][org.kde.image][General]
@@ -265,6 +265,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][177][Applets][185][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][177][Applets][186]
@@ -331,4 +332,4 @@ shownItems=Crow Translate,AnyDesk,NoMachineMonitor,org.kde.kdeconnect,org.kde.pl
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/2023-06-06_10-36.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Origin.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/data.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Rockstar Games Launcher.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/readme.txt,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Rockstar Games Launcher.lnk,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/MobilePartner.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/SysConfig.dat,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/steam.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Steam Linux Runtime - Sniper.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/install,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/UNO.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Heaven Benchmark 4.0.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/EA.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/7zr,0,e5989023-c658-49e5-9853-684881d4d784
+screenMapping=desktop:/Tomb.Raider.2018.1080p.BluRay.x264.DTS-HDC.srt,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/SysConfig.dat,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Rockstar Games Launcher.lnk,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/data.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Rockstar Games Launcher.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Need for Speed Heat.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/MobilePartner.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/install,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/7zr,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/readme.txt,0,e5989023-c658-49e5-9853-684881d4d784
