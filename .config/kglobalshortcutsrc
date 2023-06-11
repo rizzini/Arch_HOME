@@ -6,14 +6,58 @@ _launch=none,none,Iniciar 269 753 187-2
 _k_friendly_name=Meu celular
 _launch=none,none,Iniciar Meu celular
 
+[== ElAmigos Releases and Updates @ pastebin ==.desktop]
+_k_friendly_name=== ElAmigos Releases and Updates @ pastebin ==
+_launch=none,none,Iniciar == ElAmigos Releases and Updates @ pastebin ==
+
 [ActivityManager]
 _k_friendly_name=Gerenciador de atividades
 switch-to-activity-e5989023-c658-49e5-9853-684881d4d784=none,none,Alternar para a atividade "Padrão"
+
+[App Recovery.desktop]
+_k_friendly_name=App Recovery
+_launch=none,none,Iniciar App Recovery
+
+[Atualizador do EA app.desktop]
+_k_friendly_name=Atualizador do EA app
+_launch=none,none,Iniciar Atualizador do EA app
+
+[Battle.net.desktop]
+_k_friendly_name=Battle.net
+_launch=none,none,Iniciar Battle.net
+
+[Desinstalar Need for Speed Heat.desktop]
+_k_friendly_name=Desinstalar Need for Speed Heat
+_launch=none,none,Iniciar Desinstalar Need for Speed Heat
+
+[Desinstalar o Origin.desktop]
+_k_friendly_name=Desinstalar o Origin
+_launch=none,none,Iniciar Desinstalar o Origin
+
+[EA Error Reporter.desktop]
+_k_friendly_name=EA Error Reporter
+_launch=none,none,Iniciar EA Error Reporter
+
+[EA.desktop]
+_k_friendly_name=EA
+_launch=none,none,Iniciar EA
+
+[Heaven Benchmark 4.0.desktop]
+_k_friendly_name=Heaven Benchmark 4.0
+_launch=none,none,Iniciar Heaven Benchmark 4.0
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Português (Brasil)=none,none,Mudar para o layout de teclado para Português (Brasil)
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Mudar para o próximo layout de teclado
 _k_friendly_name=Seletor de layouts de teclado
+
+[Lords Mobile.desktop]
+_k_friendly_name=Lords Mobile
+_launch=none,none,Iniciar Lords Mobile
+
+[Metro 2033.desktop]
+_k_friendly_name=Metro 2033
+_launch=none,none,Iniciar Metro 2033
 
 [Moonscars.desktop]
 _k_friendly_name=Moonscars
@@ -22,6 +66,42 @@ _launch=none,none,Iniciar Moonscars
 [NFS.desktop]
 _k_friendly_name=Need for Speed: Most Wanted\n
 _launch=none,none,Iniciar Need for Speed: Most Wanted\n
+
+[Need for Speed Heat.desktop]
+_k_friendly_name=Need for Speed Heat
+_launch=none,none,Iniciar Need for Speed Heat
+
+[Origin.desktop]
+_k_friendly_name=Origin
+_launch=none,none,Iniciar Origin
+
+[Proton Experimental.desktop]
+_k_friendly_name=Proton Experimental
+_launch=none,none,Iniciar Proton Experimental
+
+[Relatório de erros do Origin.desktop]
+_k_friendly_name=Relatório de erros do Origin
+_launch=none,none,Iniciar Relatório de erros do Origin
+
+[Rockstar Games Launcher.desktop]
+_k_friendly_name=Rockstar Games Launcher
+_launch=none,none,Iniciar Rockstar Games Launcher
+
+[Steam Linux Runtime - Sniper.desktop]
+_k_friendly_name=Steam Linux Runtime - Sniper
+_launch=none,none,Iniciar Steam Linux Runtime - Sniper
+
+[Steam Linux Runtime - Soldier.desktop]
+_k_friendly_name=Steam Linux Runtime - Soldier
+_launch=none,none,Iniciar Steam Linux Runtime - Soldier
+
+[Uninstall.desktop]
+_k_friendly_name=Uninstall
+_launch=none,none,Iniciar Uninstall
+
+[User manual.desktop]
+_k_friendly_name=User manual
+_launch=none,none,Iniciar User manual
 
 [VNC - Android.desktop]
 _k_friendly_name=VNC - Android

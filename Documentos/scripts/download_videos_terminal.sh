@@ -3,7 +3,7 @@
 url=$(/usr/bin/xclip -o -selection clipboard)
 # echo "$(tput setaf 82)URL: "$url"$(tput sgr0)"
 # regex='^https?://[^/]+'
-/usr/bin/yt-dlp "$url" -o "/mnt/dados/Videos/temp_yt/%(title).200B.%(ext)s" & disown
+/usr/bin/yt-dlp "$url" -o "/mnt/dados/Videos/%(title).200B.%(ext)s" & disown
 # if [[ $url =~ $regex ]];then
 #     if ! /usr/bin/yt-dlp "$url"; then
 #         if [[ "$url" == *"reddit.com/r/"* ]];then

@@ -2,6 +2,8 @@
 SplitterSizes=482,787
 
 [KFileDialog Settings]
+Recent Files[$e]=gta 5.ico,file:///mnt/archlinux/Games/GTAV/gta 5.ico
+Recent URLs[$e]=file:///mnt/archlinux/Games/GTAV/
 detailViewIconSize=16
 
 [MainWindow]

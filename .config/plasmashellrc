@@ -15,10 +15,10 @@ detailViewIconSize=16
 
 [KPropertiesDialog]
 1920x1080 screen: Height=560
-1920x1080 screen: Width=520
+1920x1080 screen: Width=456
 
 [PlasmaTransientsConfig]
-PreloadWeight=34
+PreloadWeight=26
 
 [PlasmaViews][Panel 1]
 alignment=1

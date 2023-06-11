@@ -23,8 +23,8 @@ Places Icons Static Size=22
 [KPropertiesDialog]
 1536x864 screen: Height=504
 1536x864 screen: Width=458
-1920x1080 screen: Height=486
-1920x1080 screen: Width=579
+1920x1080 screen: Height=628
+1920x1080 screen: Width=611
 
 [MainWindow]
 MenuBar=Disabled

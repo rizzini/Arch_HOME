@@ -1,13 +1,13 @@
 [file:///boot/efi/EFI/refind/refind.conf]
 Bookmarks=
-Checksum=18755f66441a5ecb454eb1dbbd0939a97ea2f7d8
+Checksum=0a0005124754916c9ce4085206a0258bfb837dba
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,4,15,20,27.875
+Time=2023,6,10,22,23,25.601
 URL=file:///boot/efi/EFI/refind/refind.conf
 
 [file:///etc/X11/xorg.conf.d/20-nvidia.conf]
@@ -21,6 +21,18 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,6,4,3,1,49.043
 URL=file:///etc/X11/xorg.conf.d/20-nvidia.conf
+
+[file:///etc/fstab]
+Bookmarks=
+Checksum=c738ad0d24ada94aea8b501e21aabcfb24de0f77
+Encoding=UTF-8
+Highlighting=fstab
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=fstab
+Mode Set By User=false
+Time=2023,6,8,22,17,36.074
+URL=file:///etc/fstab
 
 [file:///etc/john/john.conf]
 Bookmarks=
@@ -57,6 +69,18 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,6,6,15,49,41.881
 URL=file:///etc/mkinitcpio.conf
+
+[file:///etc/qemu/bridge.conf]
+Bookmarks=
+Checksum=a573665d37fbc5246f9200e3a2de8be729d3e177
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,10,22,44,45.766
+URL=file:///etc/qemu/bridge.conf
 
 [file:///etc/ssh/ssh_config]
 Bookmarks=
@@ -151,19 +175,19 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Nagios
 Mode Set By User=false
-Time=2023,6,6,16,12,9.411
+Time=2023,6,10,23,25,13.587
 URL=file:///home/lucas/.config/frogminer/linux-tkg.cfg
 
 [file:///home/lucas/.config/frogminer/wine-tkg.cfg]
 Bookmarks=
-Checksum=dad35404b31672ecc3d7194b67efdc3ed825b1d4
+Checksum=1542a7cf80530a8a9b890b1319967e38592d74fd
 Encoding=UTF-8
 Highlighting=Nagios
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Nagios
 Mode Set By User=false
-Time=2023,6,6,16,12,51.667
+Time=2023,6,11,0,12,35.66
 URL=file:///home/lucas/.config/frogminer/wine-tkg.cfg
 
 [file:///home/lucas/.config/kwinrc]
@@ -180,14 +204,14 @@ URL=file:///home/lucas/.config/kwinrc
 
 [file:///home/lucas/.config/mpv/mpv.conf]
 Bookmarks=
-Checksum=ef39879da25961e79ff4f984626ba8ba2b91b010
+Checksum=2fdbd844f593ae2ffb21498db877ab2ac38aee4f
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,4,3,31,38.461
+Time=2023,6,11,0,42,48.345
 URL=file:///home/lucas/.config/mpv/mpv.conf
 
 [file:///home/lucas/.config/mpv/scripts/osdb.lua]
@@ -312,14 +336,14 @@ URL=file:///home/lucas/.vmware/preferences
 
 [file:///home/lucas/1]
 Bookmarks=
-Checksum=b84a5ae1e2acc16884d822a468e073286309eba9
+Checksum=3150867f1ccd216826db9f8e5f96067e60eaed9d
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,4,15,9,35.239
+Time=2023,6,10,22,34,13.669
 URL=file:///home/lucas/1
 
 [file:///home/lucas/1.sh]
@@ -331,7 +355,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,5,17,18,16,28.408
+Time=2023,6,10,22,33,56.793
 URL=file:///home/lucas/1.sh
 
 [file:///home/lucas/1.txt]
@@ -384,14 +408,14 @@ URL=file:///home/lucas/Documentos/scripts/clean_space_emergency.sh
 
 [file:///home/lucas/Documentos/scripts/download_videos_terminal.sh]
 Bookmarks=
-Checksum=2b232ccd508f2a6dc3a60ca9b632a0819d161cdd
+Checksum=c417de3ab9d7a31479254bb71fb9f51806968896
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,5,27,15,4,13.628
+Time=2023,6,10,22,51,6.374
 URL=file:///home/lucas/Documentos/scripts/download_videos_terminal.sh
 
 [file:///home/lucas/Documentos/scripts/not being used/waydroid_under_xorg.sh]
@@ -597,18 +621,6 @@ Mode=XML
 Mode Set By User=false
 Time=2023,5,14,7,47,39.451
 URL=file:///home/lucas/directory.zip.xml
-
-[file:///home/lucas/nmap_scanned_ips]
-Bookmarks=
-Checksum=25536d5bc432a250509dbd598209c5c44914ff7d
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,9,22,5,48.753
-URL=file:///home/lucas/nmap_scanned_ips
 
 [file:///home/lucas/Área de trabalho/hashcat.1]
 Bookmarks=
@@ -885,30 +897,6 @@ Mode=Bash
 Mode Set By User=false
 Time=2023,5,14,10,26,9.187
 URL=file:///mnt/dados/temp/hashcat-legacy/tools/deps.sh
-
-[file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-userpatches/1.mypatch]
-Bookmarks=
-Checksum=191537df6d4005a4ab3e89eb0fa88587c4b02a65
-Encoding=UTF-8
-Highlighting=Diff
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Diff
-Mode Set By User=false
-Time=2023,5,9,21,12,38.503
-URL=file:///mnt/dados/wine-tkg-git/wine-tkg-git/wine-tkg-userpatches/1.mypatch
-
-[file:///mnt/midia/Videos/Series/Superman and Lois/Superman.And.Lois.S03E07.1080p.WEB.h264-ELEANOR\x5bTGx\x5d/Superman.And.Lois.S03E07.1080p.WEB.h264-ELEANOR.srt]
-Bookmarks=
-Checksum=6a46dfac7313ea46c19811c47eef907950d3a3ab
-Encoding=ISO-8859-15
-Highlighting=SubRip Subtitles
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=SubRip Subtitles
-Mode Set By User=false
-Time=2023,5,10,22,53,15.725
-URL=file:///mnt/midia/Videos/Series/Superman and Lois/Superman.And.Lois.S03E07.1080p.WEB.h264-ELEANOR[TGx]/Superman.And.Lois.S03E07.1080p.WEB.h264-ELEANOR.srt
 
 [file:///tmp/huIrjD.diff]
 Checksum=d698d1d57bc827ac8b7f8bead9c9e6e223234e75
