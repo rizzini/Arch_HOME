@@ -2,8 +2,8 @@
 SplitterSizes=482,787
 
 [KFileDialog Settings]
-Recent Files[$e]=gta 5.ico,file:///mnt/archlinux/Games/GTAV/gta 5.ico
-Recent URLs[$e]=file:///mnt/archlinux/Games/GTAV/
+Recent Files[$e]=gta 5.ico,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/1.png,file:///mnt/archlinux/Games/Cyberpunk 2077/cy2077.png,file:///mnt/ssd_128GB/Ori.and.the.Will.of.the.Wisps.v26.05.2022/cropped-favicon-Ori-v1.png
+Recent URLs[$e]=file:///mnt/ssd_128GB/Ori.and.the.Will.of.the.Wisps.v26.05.2022/,file:///mnt/archlinux/Games/Cyberpunk 2077/,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/
 detailViewIconSize=16
 
 [MainWindow]

@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[pt_BR]=
+Comment=
+Exec=env MANGOHUD_CONFIG=full WINEPREFIX=/home/lucas/.wine_ea_app/ gamemoderun /mnt/archlinux/temp_stuff/lutris-GE-Proton8-8-x86_64/bin/wine '/mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/u4.exe'
+GenericName[pt_BR]=
+GenericName=
+Icon=/mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/1.png
+MimeType=
+Name[pt_BR]=Uncharted: Coleção Legado dos Ladrões
+Name=Uncharted: Coleção Legado dos Ladrões
+NoDisplay=false
+Path=/mnt/jogos_hdd/Uncharted Legacy of Thieves Collection
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

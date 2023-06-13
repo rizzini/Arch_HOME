@@ -123,8 +123,8 @@ Word Completion Remove Tail=true
 [MainWindow]
 1536x864 screen: XPosition=293
 1536x864 screen: YPosition=142
-1920x1080 screen: XPosition=485
-1920x1080 screen: YPosition=235
+1920x1080 screen: XPosition=705
+1920x1080 screen: YPosition=298
 HDMI-0=HDMI-0
 HDMI-1=HDMI-1
 HDMI-1 XPosition 1920x1080 HDMI-1=828

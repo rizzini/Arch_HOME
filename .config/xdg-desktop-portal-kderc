@@ -7,6 +7,6 @@
 1920x1080 screen: Width=978
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Imagens/eu.jpeg,file:$HOME/Área de trabalho/7-1607541762-1961921767-lg_modland.webp,file:$HOME/Documentos/ftb.rar
-Recent URLs[$e]=file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Documentos/,file:$HOME/Imagens/
-detailViewIconSize=256
+Recent Files[$e]=file:$HOME/Imagens/eu.jpeg,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/PV9y7Xq2mcDcx2PtpM8GYYO0.jpeg,file:$HOME/Área de trabalho/uncharted-hub-legacy-thieves-keyart-16x9-en-17sept21-1.webp,file:$HOME/Documentos/ftb.rar
+Recent URLs[$e]=file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Documentos/,file:$HOME/Imagens/,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/
+detailViewIconSize=78

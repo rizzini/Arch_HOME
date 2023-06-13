@@ -27,7 +27,7 @@ DialogWidth=866
 PreloadWeight=34
 
 [Containments][170][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/Cyberpunk 2077.desktop"\\,"0"\\,"1"\\,"desktop:/Rockstar Games Launcher.lnk"\\,"0"\\,"0"\\,"desktop:/vkd3d-proton-2.9"\\,"0"\\,"2"]\\,"1360x768":[]\\,"1280x1024":[""]\\,"640x480":[""]\\,"1680x1050":[""]\\,"800x600":[""]\\,"1280x960":[""]\\,"1280x800":["1"\\,"11"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"0x0":[]\\,"1024x768":[""]\\,"1280x720":[""]}
+positions={"1920x1080":[]\\,"1360x768":[]\\,"1280x1024":[""]\\,"640x480":[""]\\,"1680x1050":[""]\\,"800x600":[""]\\,"1280x960":[""]\\,"1280x800":["1"\\,"11"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"0x0":[]\\,"1024x768":[""]\\,"1280x720":[""]}
 sortMode=-1
 
 [Containments][170][Wallpaper][org.kde.image][General]
@@ -58,7 +58,7 @@ plugin=org.kde.plasma.icontasks
 PreloadWeight=34
 
 [Containments][171][Applets][174][Configuration][General]
-launchers=applications:com.github.wwmm.easyeffects.desktop?iconData=iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAI2ElEQVRogdWafWwT9xnHv3f2-f01CTQJeYMQQ5wAgQFh5aVdQ4FOCFaKgMHGKKvWofWPSXTqtlZru6kwbe1alXVSaUXXoqFRWOnooBsvhdJS0ZCGQhJekxAS8trEcRK_23fP_nDsJL6zfTYBqSdZ9u_06H6f7_N7Xu7uZ-BbfjDjdB3WWlxqt86Yv9hUbCs35E0p4QwZE5QGs5UEIDDk7A86-3pc7S03hpqvN_Rerf7M1XSlAQDd6cR3JCBr2uy5-SvXbs6rWr1Rbc7IJAKICCQARBj-lhgT4Hc4ejvOHNrXeeLg3oHm-pp7KiCncsmy0p9ufz5r5rz7R8DkwyN6Ljx21J0_2_yv1190fP3p8bsqwHxf4eRZv3npjZz7H3pkLFj68KNtes4fP3LjvT885etqaZHLpJBrWFC1cu3iXf88Zp5is98NeCKCLmeKLefBHz7p-6a9xd12tW68BLBznt7xesUvf_cyyylVdws-8ptRKLmsucvXsHpzpvPSp_9DkkRPJkC5cOfu_VNWrd8iBht_-NE2xsmzK7U5tvK-miMfhK-QugBmwQu79haueHT9vYaPjLW5U-2abJvd8dXRgykLmPGL3_7Rtu7xbenCGzkWqwsNKLOq0ToYhC8kLTAefGSszS2xg1GpB699cVK2gOy5ix6c9-yfdgNg0vX8dJMKk00c1CwDT5DQ6QqlDB85Zyz5zkJXU-1Zf29rcywrK6LPyjIu2PHWhwCTNjwEgGWYcPpReJJ04cNzMEzR1l0HABiSCqh4_Fcvqy1mcyJ4o4LFYwUGPFZghFHJSsY8BAIiIJCGN3EMNpWZ8aMyM0wqNg58eKzUmi2T1r7w54QCtLm5-SVrNj2RzPOFeiWMShZGjkWRnpNO2GGvA5HzYk9PsahgUrEwqVgUW7i48JHviQs3_kybmTkproDSzc_sZBiWTRY2bDgywuHBQAxPgM2sQmW2BvOzNbBZOckwUYCJrhLLMAnhIRDAKNjMpU_vjCdAU7Ri1Tq5MQ8CCNKlcmmeHlvsZuQbORQYOWwtt-DhAr10zEdWKQl8xNY65wcbAGhEAgpXbNikUKs52QmLSHCLk3FDiT42VLGp1CABH6aPhk4S-HCn5jhLxaPrRQLylm_4uVz4iMek4IkAq1pc3KxqNm61gUz4iI1l3rptIgHW6WXlKZXK4QWARIetbuoRCfiysVsEH3UCYkHjwxMBmlz7zDECNNlFRWqjXpMy_JgSOWLz2ukm3Ojsj8Lf6OjHqyebxHWeYkJRBjwJAKvWaZGRmw8ASgCw2GY_kOq9Teyko20GDNnY8UE15mRrAQA1HV7064rASIDFOiEZfGRsyq5YPOjo2KcEAEORfa5ceAXDYHm-DvMnakEAsjQKXOj2I0jCSKJxGmRMmwW9PgAiIMPAgenwi8FiVlIuPBHA5ZTNx-Wj-1gAUJsyc-R6_sc2I5bk6qBRMtAqGTyQp8MWu0mUoGBY6MwW6M0WgGElwSKriBQ8H7FR6DNzoznAaAwGOfAkEKpytaIEXVagjZ-goz9SFS3WVgY8CQRWZTBGcwA8MfLv53kA3BgBPM9LllOiYQMJECXDYLXdiEWFOgCEiQYFqlt9CJCQFH44V5joCgTdriF58MB_69pEK3D0YmvKTerJ-VY8PFUPLcdAy7FYZjNg23etsuBJAHi_azAqwNvX3S4Hngh456tO_KemEUMeP4Y8fnx0vhF7zneJciC6AhLwRMBKmzgUV9l1suCJgOBg1-1oCLmb6i_IgScBQFY-Dje0o7ahEQSgTTCCMvJSb1KCIBLA87wseBKAYM_l2qiAvmvnToYCIbBKRfJnWFYBc6ENJRNUAAGD3QFQu1fkeRqGj9ekPjp_C1urpo0RcPhcK4gUSeGJ5-FurT01ksReR5ury-kz5WZqEsKPqhwsy44kaCy8jCb111MdsGpYVFXkAwBOXmjDrk_aQaaCxPBECHkGvPD2tY8IANDXcKnOmPO9ebLeHgxXF9FEsfYRgYCozgvmPByo7kRNXSNAQJNHj5AhLyk8CYC__dKFCHf0Zq795P43iZcBL5WgsfBymhRYGCeVoLiiEsUVlTDmTgVFGl4CeCJgsP79N0UChuqP_MPZ1heUAz9uTYoAlmHBsKM7dWJ43t0f8F0_sV8kAICv9diHB5J6XkaTImFs-IzkgUSzlMqjBL3Affnf-wH4pQSg85O_bR9sd_LJ4EO8EM2BEE8SYMNhk0ggEUJ8JEEi10kML3gH-f4v3_r1aOaxj07ub7qaD-15mw8J8T0vEBodQTh9PJw-Htf7_JLwI30AYyrRaLBr3QH0e3g43CFc6Yq9Tkwv4HkM1e7dDU9vx2hkqf0BQ-kzJ9omziqxyHvpJOF5AhYUaLGgQAcQ4YubXpy96ZHdpKRsQn3Njs6_f78AgDv-CoQP1813t69xdQ1QuvDh0ArHGBEQEuiO4AW_ixzHnl0fCw_EeTcacnW3uHs9Ssu0yiUKNZcyPAmAyy9gspWDN0Q40-iFNyikBx_0Y-Czv_zee-PYHinWuG-n_Z0XTwf8phJjcfkMVqlMCZ6I4A0Qam_7UNvqSx8-FID30vsHBs698VQ8zoQbHJ6bnx_2B6xl-vxpdoWKkw2fDEwOPAV88NYfOOg49dJGpLnBAQCCt_nMQd8gZWiySys5nfaewAveAQxV737NefbVJxLByxEAAOS7XfOx62ZDHZsxc6XaZFKBZe8KPEJB8M42b_-x5za7Lx96RQab_F3K0EDbFWfd0XcDQ8jhzEUzOJ0GBGZc4EE8BHc_3FePfNxz5LlHQr0NZ-VypbXRrblv5kPGuZtfNJUuXKS1GMGoNOnBh_wIeYbgb_78jOvi3ud9XfWnU2W5o78acJaps7UlVT8xTl-6UZWZM0Gp1UKpUgNKFQRixsCDCBQIIhjwQfB7wQ90dLsbT-zzXj_-XtDZ8nW6DOP1Zw-oMgrsygnlS1TmfLvSnD2V1U_MYdU6EwAIPs-g4OnpDA10NQb6bzWEOq-cCbhuXRmvub_Vx_8BuGYFNBVDGdwAAAAASUVORK5CYII%3D,applications:org.kde.dolphin.desktop,applications:EA APP.desktop,applications:spotify.desktop,applications:google-chrome.desktop,file:///home/lucas/Área de trabalho/Cyberpunk 2077.desktop
+launchers=applications:com.github.wwmm.easyeffects.desktop?iconData=iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAI2ElEQVRogdWafWwT9xnHv3f2-f01CTQJeYMQQ5wAgQFh5aVdQ4FOCFaKgMHGKKvWofWPSXTqtlZru6kwbe1alXVSaUXXoqFRWOnooBsvhdJS0ZCGQhJekxAS8trEcRK_23fP_nDsJL6zfTYBqSdZ9u_06H6f7_N7Xu7uZ-BbfjDjdB3WWlxqt86Yv9hUbCs35E0p4QwZE5QGs5UEIDDk7A86-3pc7S03hpqvN_Rerf7M1XSlAQDd6cR3JCBr2uy5-SvXbs6rWr1Rbc7IJAKICCQARBj-lhgT4Hc4ejvOHNrXeeLg3oHm-pp7KiCncsmy0p9ufz5r5rz7R8DkwyN6Ljx21J0_2_yv1190fP3p8bsqwHxf4eRZv3npjZz7H3pkLFj68KNtes4fP3LjvT885etqaZHLpJBrWFC1cu3iXf88Zp5is98NeCKCLmeKLefBHz7p-6a9xd12tW68BLBznt7xesUvf_cyyylVdws-8ptRKLmsucvXsHpzpvPSp_9DkkRPJkC5cOfu_VNWrd8iBht_-NE2xsmzK7U5tvK-miMfhK-QugBmwQu79haueHT9vYaPjLW5U-2abJvd8dXRgykLmPGL3_7Rtu7xbenCGzkWqwsNKLOq0ToYhC8kLTAefGSszS2xg1GpB699cVK2gOy5ix6c9-yfdgNg0vX8dJMKk00c1CwDT5DQ6QqlDB85Zyz5zkJXU-1Zf29rcywrK6LPyjIu2PHWhwCTNjwEgGWYcPpReJJ04cNzMEzR1l0HABiSCqh4_Fcvqy1mcyJ4o4LFYwUGPFZghFHJSsY8BAIiIJCGN3EMNpWZ8aMyM0wqNg58eKzUmi2T1r7w54QCtLm5-SVrNj2RzPOFeiWMShZGjkWRnpNO2GGvA5HzYk9PsahgUrEwqVgUW7i48JHviQs3_kybmTkproDSzc_sZBiWTRY2bDgywuHBQAxPgM2sQmW2BvOzNbBZOckwUYCJrhLLMAnhIRDAKNjMpU_vjCdAU7Ri1Tq5MQ8CCNKlcmmeHlvsZuQbORQYOWwtt-DhAr10zEdWKQl8xNY65wcbAGhEAgpXbNikUKs52QmLSHCLk3FDiT42VLGp1CABH6aPhk4S-HCn5jhLxaPrRQLylm_4uVz4iMek4IkAq1pc3KxqNm61gUz4iI1l3rptIgHW6WXlKZXK4QWARIetbuoRCfiysVsEH3UCYkHjwxMBmlz7zDECNNlFRWqjXpMy_JgSOWLz2ukm3Ojsj8Lf6OjHqyebxHWeYkJRBjwJAKvWaZGRmw8ASgCw2GY_kOq9Teyko20GDNnY8UE15mRrAQA1HV7064rASIDFOiEZfGRsyq5YPOjo2KcEAEORfa5ceAXDYHm-DvMnakEAsjQKXOj2I0jCSKJxGmRMmwW9PgAiIMPAgenwi8FiVlIuPBHA5ZTNx-Wj-1gAUJsyc-R6_sc2I5bk6qBRMtAqGTyQp8MWu0mUoGBY6MwW6M0WgGElwSKriBQ8H7FR6DNzoznAaAwGOfAkEKpytaIEXVagjZ-goz9SFS3WVgY8CQRWZTBGcwA8MfLv53kA3BgBPM9LllOiYQMJECXDYLXdiEWFOgCEiQYFqlt9CJCQFH44V5joCgTdriF58MB_69pEK3D0YmvKTerJ-VY8PFUPLcdAy7FYZjNg23etsuBJAHi_azAqwNvX3S4Hngh456tO_KemEUMeP4Y8fnx0vhF7zneJciC6AhLwRMBKmzgUV9l1suCJgOBg1-1oCLmb6i_IgScBQFY-Dje0o7ahEQSgTTCCMvJSb1KCIBLA87wseBKAYM_l2qiAvmvnToYCIbBKRfJnWFYBc6ENJRNUAAGD3QFQu1fkeRqGj9ekPjp_C1urpo0RcPhcK4gUSeGJ5-FurT01ksReR5ury-kz5WZqEsKPqhwsy44kaCy8jCb111MdsGpYVFXkAwBOXmjDrk_aQaaCxPBECHkGvPD2tY8IANDXcKnOmPO9ebLeHgxXF9FEsfYRgYCozgvmPByo7kRNXSNAQJNHj5AhLyk8CYC__dKFCHf0Zq795P43iZcBL5WgsfBymhRYGCeVoLiiEsUVlTDmTgVFGl4CeCJgsP79N0UChuqP_MPZ1heUAz9uTYoAlmHBsKM7dWJ43t0f8F0_sV8kAICv9diHB5J6XkaTImFs-IzkgUSzlMqjBL3Affnf-wH4pQSg85O_bR9sd_LJ4EO8EM2BEE8SYMNhk0ggEUJ8JEEi10kML3gH-f4v3_r1aOaxj07ub7qaD-15mw8J8T0vEBodQTh9PJw-Htf7_JLwI30AYyrRaLBr3QH0e3g43CFc6Yq9Tkwv4HkM1e7dDU9vx2hkqf0BQ-kzJ9omziqxyHvpJOF5AhYUaLGgQAcQ4YubXpy96ZHdpKRsQn3Njs6_f78AgDv-CoQP1813t69xdQ1QuvDh0ArHGBEQEuiO4AW_ixzHnl0fCw_EeTcacnW3uHs9Ssu0yiUKNZcyPAmAyy9gspWDN0Q40-iFNyikBx_0Y-Czv_zee-PYHinWuG-n_Z0XTwf8phJjcfkMVqlMCZ6I4A0Qam_7UNvqSx8-FID30vsHBs698VQ8zoQbHJ6bnx_2B6xl-vxpdoWKkw2fDEwOPAV88NYfOOg49dJGpLnBAQCCt_nMQd8gZWiySys5nfaewAveAQxV737NefbVJxLByxEAAOS7XfOx62ZDHZsxc6XaZFKBZe8KPEJB8M42b_-x5za7Lx96RQab_F3K0EDbFWfd0XcDQ8jhzEUzOJ0GBGZc4EE8BHc_3FePfNxz5LlHQr0NZ-VypbXRrblv5kPGuZtfNJUuXKS1GMGoNOnBh_wIeYbgb_78jOvi3ud9XfWnU2W5o78acJaps7UlVT8xTl-6UZWZM0Gp1UKpUgNKFQRixsCDCBQIIhjwQfB7wQ90dLsbT-zzXj_-XtDZ8nW6DOP1Zw-oMgrsygnlS1TmfLvSnD2V1U_MYdU6EwAIPs-g4OnpDA10NQb6bzWEOq-cCbhuXRmvub_Vx_8BuGYFNBVDGdwAAAAASUVORK5CYII%3D,applications:org.kde.dolphin.desktop,applications:EA APP.desktop,applications:Ori and the Will of the Wisps.desktop,applications:Uncharted: Coleção Legado dos Ladrões.desktop,applications:Cyberpunk 2077.desktop,applications:spotify.desktop,applications:steam.desktop,applications:google-chrome.desktop,applications:virt-manager.desktop
 
 [Containments][171][Applets][175]
 immutability=1
@@ -178,8 +178,8 @@ plugin=org.kde.plasma.doityourselfbar
 PreloadWeight=34
 
 [Containments][171][Applets][207][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=896
+DialogWidth=923
 
 [Containments][171][Applets][207][Configuration][Preferences]
 BlockIndicatorsCustomColorForStyleA=#1a2432
@@ -195,6 +195,22 @@ plugin=org.kde.paneltransparencybutton
 [Containments][171][Applets][208][Configuration][Appearance]
 transparencyEnabled=true
 
+[Containments][171][Applets][209]
+immutability=1
+plugin=org.kde.plasma.doityourselfbar
+
+[Containments][171][Applets][209][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][171][Applets][209][Configuration][Preferences]
+BlockIndicatorsCustomColorForStyleC=#580f10
+BlockIndicatorsStyle=3
+BlockLabelsCustomColorForStyleC=#ededed
+BlockLabelsCustomFontSize=11
+DBusInstanceId=955
+DBusSuccess=true
+
 [Containments][171][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
@@ -203,7 +219,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][171][General]
-AppletOrder=194;173;174;208;204;206;205;207;175;176;188;189
+AppletOrder=194;173;174;208;204;206;205;207;209;175;176;188;189
 
 [Containments][177]
 activityId=
@@ -308,7 +324,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][177][Applets][202][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][177][Applets][203]
 immutability=1
@@ -331,4 +347,4 @@ shownItems=Crow Translate,AnyDesk,NoMachineMonitor,org.kde.kdeconnect,org.kde.pl
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Rockstar Games Launcher.lnk,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/MobilePartner.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/SysConfig.dat,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/data.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/7zr,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/vkd3d-proton-2.9,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Cyberpunk 2077.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/install,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/readme.txt,0,e5989023-c658-49e5-9853-684881d4d784
+screenMapping=desktop:/Linux/readme.txt,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/7zr,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/install,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/MobilePartner.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/SysConfig.dat,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/data.bin,0,e5989023-c658-49e5-9853-684881d4d784

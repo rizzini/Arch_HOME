@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Life is Strange 2
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/532210
+Icon=steam_icon_532210
+Terminal=false
+Type=Application
+Categories=Game;

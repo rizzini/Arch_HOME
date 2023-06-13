@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/9891322455954292736
+GenericName=Cyberpunk 2077
+Icon=/mnt/archlinux/Games/Cyberpunk 2077/cy2077.png
+Name=Cyberpunk 2077
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
