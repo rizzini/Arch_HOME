@@ -27,7 +27,7 @@ DialogWidth=866
 PreloadWeight=34
 
 [Containments][170][General]
-positions={"1920x1080":[]\\,"1360x768":[]\\,"1280x1024":[""]\\,"640x480":[""]\\,"1680x1050":[""]\\,"800x600":[""]\\,"1280x960":[""]\\,"1280x800":["1"\\,"11"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"0x0":[]\\,"1024x768":[""]\\,"1280x720":[""]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/Google Chrome.desktop"\\,"0"\\,"0"]\\,"1360x768":[]\\,"1280x1024":[""]\\,"640x480":[""]\\,"1680x1050":[""]\\,"800x600":[""]\\,"1280x960":[""]\\,"1280x800":["1"\\,"11"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"0x0":[]\\,"1024x768":[""]\\,"1280x720":[""]\\,"1440x900":[""]}
 sortMode=-1
 
 [Containments][170][Wallpaper][org.kde.image][General]
@@ -347,4 +347,4 @@ shownItems=Crow Translate,AnyDesk,NoMachineMonitor,org.kde.kdeconnect,org.kde.pl
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Linux/readme.txt,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/7zr,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/install,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/MobilePartner.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/SysConfig.dat,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/data.bin,0,e5989023-c658-49e5-9853-684881d4d784
+screenMapping=desktop:/Linux/MobilePartner.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/install,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/data.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/SysConfig.dat,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/7zr,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/readme.txt,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Google Chrome.desktop,0,e5989023-c658-49e5-9853-684881d4d784

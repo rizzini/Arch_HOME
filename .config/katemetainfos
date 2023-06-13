@@ -420,14 +420,14 @@ URL=file:///home/lucas/.vmware/preferences
 
 [file:///home/lucas/1]
 Bookmarks=
-Checksum=53886ae239ab42940f9af4eaa6a3ccbbe79209fd
+Checksum=4410274ff009456508fd65b30a204d7047c6cef7
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,13,22,48,35.962
+Time=2023,6,13,23,31,13.876
 URL=file:///home/lucas/1
 
 [file:///home/lucas/1.sh]
@@ -564,14 +564,14 @@ URL=file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh]
 Bookmarks=
-Checksum=b723516de8050791bf01f11cac9b3dd8763359e9
+Checksum=cc199331dbc8f21f917cab9ba6ed9678a7f34bf6
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,13,23,1,39.976
+Time=2023,6,13,23,48,0.091
 URL=file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh]
@@ -1041,6 +1041,10 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,6,12,2,36,58.575
 URL=file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/Prerequisites/installScript.vdf
+
+[file:///tmp/1]
+Checksum=9ce75345e47df78f847380f68b22cfaf2000739b
+Time=2023,6,13,23,46,47.141
 
 [file:///tmp/huIrjD.diff]
 Checksum=d698d1d57bc827ac8b7f8bead9c9e6e223234e75

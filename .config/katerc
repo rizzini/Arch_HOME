@@ -129,7 +129,7 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=zstd,,nethogs,048b1713-05,yt-dlp 'https:,disown,yt-dlp 'https,/mnt/midia,noatime,yt-dlp https,/mnt/dados/Videos,/mnt/archlinux/@.snapshots/@esp/,/mnt/archlinux/@.snapshots/@home/,/mnt/archlinux/@.snapshots/@/
-Search History=cpu,chard,vbio,servi,stop,.fd,bios,users,group,zlib,vkd3,user,amd,gcc,subvolid,err,exec,fsync,[,MaxLen,length,special,symb,systemmonitor,/opt,opt,initrd=boot\\\\amd-ucode.img,XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX,./,erro,HOME,hz,1000,pds,bmq,anbox,extra,softwa,cuda,openc,-D,Device,gpu,rar,keys,https:,/disown,https,-,192.168.0.201,0.201,/media/data1,relatime,nvid,/mnt/media_files,refind,vivo,www,serv,Eng,eng,emby,pornhu,ponhu,150,host,lucas,delete,4.8.0,/mnt/archlinux/btrbk_snapshots/BOOT_ESP/,/mnt/archlinux/btrbk_snapshots/HOME/,/mnt/archlinux/btrbk_snapshots/ROOT/
+Search History=13,cpu,chard,vbio,servi,stop,.fd,bios,users,group,zlib,vkd3,user,amd,gcc,subvolid,err,exec,fsync,[,MaxLen,length,special,symb,systemmonitor,/opt,opt,initrd=boot\\\\amd-ucode.img,XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX,./,erro,HOME,hz,1000,pds,bmq,anbox,extra,softwa,cuda,openc,-D,Device,gpu,rar,keys,https:,/disown,https,-,192.168.0.201,0.201,/media/data1,relatime,nvid,/mnt/media_files,refind,vivo,www,serv,Eng,eng,emby,pornhu,ponhu,150,host,lucas,delete,4.8.0,/mnt/archlinux/btrbk_snapshots/BOOT_ESP/,/mnt/archlinux/btrbk_snapshots/HOME/,/mnt/archlinux/btrbk_snapshots/ROOT/
 
 [MainWindow]
 1280x720 screen: Height=645
