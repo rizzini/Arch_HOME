@@ -562,6 +562,18 @@ Mode Set By User=false
 Time=2023,6,13,22,34,23.505
 URL=file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh
 
+[file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh]
+Bookmarks=
+Checksum=b723516de8050791bf01f11cac9b3dd8763359e9
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,6,13,23,1,39.976
+URL=file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh
+
 [file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh]
 Bookmarks=
 Checksum=f39a5a1767c14674ca85495e52c952fd2b121ddf

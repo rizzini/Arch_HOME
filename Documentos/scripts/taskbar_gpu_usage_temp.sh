@@ -1,5 +1,5 @@
 #!/bin/bash
-renice -n 19 -p $(pgrep  'taskbar_cpu')
+renice -n 19 -p $(pgrep  'taskbar_gpu')
 # command='if [ "$(pgrep "htop")" ];then /usr/bin/killall htop;else /usr/bin/alacritty -o window.dimensions.lines=33 window.dimensions.columns=120 -e /usr/bin/htop;fi'
 command='if [ "$(pgrep "radeontop")" ];then killall radeontop &> /dev/null;else /usr/bin/alacritty -o window.dimensions.lines=30 window.dimensions.columns=120 -e /usr/bin/radeontop -Tc & disown $!;fi';
 threshold=70
@@ -16,5 +16,5 @@ while :; do
         /usr/bin/qdbus org.kde.plasma.doityourselfbar /id_955 org.kde.plasma.doityourselfbar.pass "$DATA"
         DATA_last="$DATA"
     fi
-    /usr/bin/sleep 0.5
+    /usr/bin/sleep 1
 done
