@@ -22,6 +22,18 @@ Mode Set By User=false
 Time=2023,6,4,3,1,49.043
 URL=file:///etc/X11/xorg.conf.d/20-nvidia.conf
 
+[file:///etc/amdgpu-fan.yml]
+Bookmarks=
+Checksum=90553ba57ac4aca3f07beb5ae00e78212a56b86f
+Encoding=UTF-8
+Highlighting=YAML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=YAML
+Mode Set By User=false
+Time=2023,6,14,20,45,49.966
+URL=file:///etc/amdgpu-fan.yml
+
 [file:///etc/fstab]
 Bookmarks=
 Checksum=4bd26574ebcc6c8b190e31d84029b98e18b880fa
@@ -552,14 +564,14 @@ URL=file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh]
 Bookmarks=
-Checksum=0c6e2e5d999c998498f0b4939add9f3a08204f9a
+Checksum=5025340cd5366f312f50e07eb5ddf15272f9ae38
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,14,13,37,31.314
+Time=2023,6,14,20,45,59.086
 URL=file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh]
@@ -862,9 +874,105 @@ Mode Set By User=false
 Time=2023,6,12,2,36,58.575
 URL=file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/Prerequisites/installScript.vdf
 
+[file:///sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3442:00/XXXX0000:00/hid]
+Bookmarks=
+Checksum=ea567ce8c6f3b20c55ec59a3fe7ae02c7d1b8359
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,14,20,24,47.166
+URL=file:///sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3442:00/XXXX0000:00/hid
+
+[file:///sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3442:00/XXXX0000:00/power/control]
+Bookmarks=
+Checksum=a7ab97cb61a17a551a49db277e53e3d9769c6103
+Encoding=UTF-8
+Highlighting=Debian Control
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Debian Control
+Mode Set By User=false
+Time=2023,6,14,20,24,53.624
+URL=file:///sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3442:00/XXXX0000:00/power/control
+
+[file:///sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3442:00/XXXX0000:00/status]
+Bookmarks=
+Checksum=f1f86e40a3ee49a626226563bbc18de0b70e260a
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,14,20,24,50.084
+URL=file:///sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3442:00/XXXX0000:00/status
+
+[file:///sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon0/fan1_enable]
+Bookmarks=
+Checksum=f1f86e40a3ee49a626226563bbc18de0b70e260a
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,14,20,26,26.451
+URL=file:///sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon0/fan1_enable
+
+[file:///sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon0/fan1_input]
+Bookmarks=
+Checksum=d091333adbf6ec428214afd1f815cf505422b3f9
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,14,20,27,8.718
+URL=file:///sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon0/fan1_input
+
+[file:///sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon0/fan1_max]
+Bookmarks=
+Checksum=9d0f3e27c706e6c567f5d3802ce0fa11bc3246c0
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,14,20,27,31.196
+URL=file:///sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon0/fan1_max
+
+[file:///sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon0/fan1_target]
+Bookmarks=
+Checksum=e5427f6e1c2a208087a164195f572b6cc8176055
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,14,20,27,48.921
+URL=file:///sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon0/fan1_target
+
 [file:///tmp/1]
 Checksum=1a35e1e65fc7227e9dbc4fe56c7324c6795b4180
 Time=2023,6,14,13,55,54.53
+
+[file:///usr/lib/systemd/system/amdgpu-fan.service]
+Bookmarks=
+Checksum=1be8cfae09a628c8819933e6211253c620d1c49f
+Encoding=UTF-8
+Highlighting=systemd unit
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=systemd unit
+Mode Set By User=false
+Time=2023,6,14,20,30,39.521
+URL=file:///usr/lib/systemd/system/amdgpu-fan.service
 
 [file:///usr/share/applications/google-chrome.desktop]
 Bookmarks=
