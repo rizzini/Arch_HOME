@@ -178,18 +178,6 @@ Mode Set By User=false
 Time=2023,6,5,15,13,45.218
 URL=file:///etc/ssh/ssh_config
 
-[file:///etc/ssh/sshd_config]
-Bookmarks=
-Checksum=5a563b9b10ad8f64320499cc4bd43b6c551a8ca8
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,3,10,35.961
-URL=file:///etc/ssh/sshd_config
-
 [file:///etc/systemd/system/governor_performance.service]
 Bookmarks=
 Checksum=a0a4108ffae07ea9a4f6fa3b5f69fc75fd00025f
@@ -285,6 +273,30 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,5,27,13,19,51.765
 URL=file:///home/lucas/.config/kwinrc
+
+[file:///home/lucas/.config/legendary/config.ini]
+Bookmarks=
+Checksum=0fd59a906847a2229eb0c5cf9e498457ff0d4258
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2023,6,14,0,20,13.502
+URL=file:///home/lucas/.config/legendary/config.ini
+
+[file:///home/lucas/.config/legendary/metadata/9d2d0eb64d5c44529cece33fe2a46482.json]
+Bookmarks=
+Checksum=44a4907f0fdac5c2820b6d8f334c2dba990d1a64
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2023,6,14,0,19,25.848
+URL=file:///home/lucas/.config/legendary/metadata/9d2d0eb64d5c44529cece33fe2a46482.json
 
 [file:///home/lucas/.config/mpv/mpv.conf]
 Bookmarks=
@@ -442,30 +454,6 @@ Mode Set By User=false
 Time=2023,6,13,11,24,45.901
 URL=file:///home/lucas/1.sh
 
-[file:///home/lucas/1.txt]
-Bookmarks=
-Checksum=cbcc52d328283571fb932603066fa003ae693835
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,8,24,4.814
-URL=file:///home/lucas/1.txt
-
-[file:///home/lucas/2.opva]
-Bookmarks=
-Checksum=174c573c2a00d5c5e3178bb679087d82b93e1948
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,5,48,59.968
-URL=file:///home/lucas/2.opva
-
 [file:///home/lucas/Documentos/scripts/btrbk_]
 Bookmarks=
 Checksum=a00d309a27cd272e5519b0add207b38887817ec3
@@ -574,6 +562,18 @@ Mode Set By User=false
 Time=2023,6,13,23,48,0.091
 URL=file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh
 
+[file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh]
+Bookmarks=
+Checksum=6b35db3857042d703220bf53203e119cfc10dbf2
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,6,14,0,46,45.911
+URL=file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh
+
 [file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh]
 Bookmarks=
 Checksum=f39a5a1767c14674ca85495e52c952fd2b121ddf
@@ -622,102 +622,6 @@ Mode Set By User=false
 Time=2023,6,4,4,31,54.593
 URL=file:///home/lucas/Músicas/hash
 
-[file:///home/lucas/Rook/1]
-Bookmarks=
-Checksum=6d7d5bceb28a5e3d6a25f48a64964052edcd7be9
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,8,29,39.209
-URL=file:///home/lucas/Rook/1
-
-[file:///home/lucas/Rook/22]
-Bookmarks=
-Checksum=c2a9539307b674d0307719c175250437641374d6
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,8,35,26.869
-URL=file:///home/lucas/Rook/22
-
-[file:///home/lucas/Rook/README.md]
-Bookmarks=
-Checksum=eb6b0db649561bb04e2346ca0aea7056afdbb8c3
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2023,5,14,8,55,13.459
-URL=file:///home/lucas/Rook/README.md
-
-[file:///home/lucas/Rook/dic]
-Bookmarks=
-Checksum=d1c77782f34ca9625021a5af125091bffefbc8fe
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,8,55,30.821
-URL=file:///home/lucas/Rook/dic
-
-[file:///home/lucas/Rook/hash1]
-Bookmarks=
-Checksum=3535c381bd5d9312ffaa3270cdb3cedbf139e219
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,8,55,7.525
-URL=file:///home/lucas/Rook/hash1
-
-[file:///home/lucas/Rook/stats.md]
-Bookmarks=
-Checksum=c591a45db092a131e9c985ad617e234c1cba52ff
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2023,5,14,8,55,26.304
-URL=file:///home/lucas/Rook/stats.md
-
-[file:///home/lucas/Rook/variables.tf]
-Bookmarks=
-Checksum=9917f38a0f2108fa74508c2d20efe22c74c57e29
-Encoding=UTF-8
-Highlighting=Terraform
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Terraform
-Mode Set By User=false
-Time=2023,5,14,8,55,37.845
-URL=file:///home/lucas/Rook/variables.tf
-
-[file:///home/lucas/Zydra/1.txt]
-Bookmarks=
-Checksum=cf476b3404986ec61542145808a5c404d2a42789
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,7,14,55.002
-URL=file:///home/lucas/Zydra/1.txt
-
 [file:///home/lucas/dic]
 Bookmarks=
 Checksum=d335e49fa83dacc0bb242c3e689755d59c2babb3
@@ -730,18 +634,6 @@ Mode Set By User=false
 Time=2023,6,4,4,41,35.076
 URL=file:///home/lucas/dic
 
-[file:///home/lucas/directory.zip.xml]
-Bookmarks=
-Checksum=e08403e2f362049a9799ba2b69f0f8d068568e7b
-Encoding=UTF-8
-Highlighting=XML
-Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
-Mode Set By User=false
-Time=2023,5,14,7,47,39.451
-URL=file:///home/lucas/directory.zip.xml
-
 [file:///home/lucas/win10.log]
 Bookmarks=
 Checksum=d0bab74feee14aa63b8898a16927a823cb5e07a7
@@ -753,18 +645,6 @@ Mode=Log File (simplified)
 Mode Set By User=false
 Time=2023,6,13,12,50,4.248
 URL=file:///home/lucas/win10.log
-
-[file:///home/lucas/Área de trabalho/hashcat.1]
-Bookmarks=
-Checksum=d927be5b9357866156cde2638319f8f5f82cfe58
-Encoding=UTF-8
-Highlighting=Troff Mandoc
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Troff Mandoc
-Mode Set By User=false
-Time=2023,5,14,10,18,1.24
-URL=file:///home/lucas/Área de trabalho/hashcat.1
 
 [file:///mnt/archlinux/Games/Cyberpunk 2077/steam_appid.txt]
 Bookmarks=
@@ -970,66 +850,6 @@ Mode Set By User=false
 Time=2023,6,7,16,2,41.899
 URL=file:///mnt/dados/Downloads/GE-Proton8-4/proton
 
-[file:///mnt/dados/Downloads/ftb.rar.xml]
-Bookmarks=
-Checksum=e08403e2f362049a9799ba2b69f0f8d068568e7b
-Encoding=UTF-8
-Highlighting=XML
-Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
-Mode Set By User=false
-Time=2023,5,14,8,1,31.675
-URL=file:///mnt/dados/Downloads/ftb.rar.xml
-
-[file:///mnt/dados/temp/1]
-Bookmarks=
-Checksum=c2a9539307b674d0307719c175250437641374d6
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,10,16,48.869
-URL=file:///mnt/dados/temp/1
-
-[file:///mnt/dados/temp/hash]
-Bookmarks=
-Checksum=3cf388fe727801dbb711e908d70bc8f14b05d665
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,9,54,49.388
-URL=file:///mnt/dados/temp/hash
-
-[file:///mnt/dados/temp/hashcat-legacy/1]
-Bookmarks=
-Checksum=d1fcd599bc5882e82323dd0145077f5e3a7e054d
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,14,10,26,8.491
-URL=file:///mnt/dados/temp/hashcat-legacy/1
-
-[file:///mnt/dados/temp/hashcat-legacy/tools/deps.sh]
-Bookmarks=
-Checksum=e83f76700ff8b482245a87c27a62a2cb72a748c2
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,5,14,10,26,9.187
-URL=file:///mnt/dados/temp/hashcat-legacy/tools/deps.sh
-
 [file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/Prerequisites/installScript.vdf]
 Bookmarks=
 Checksum=e6b4ca41c471a1868d85769e113b1b71a2a3b4ea
@@ -1045,10 +865,6 @@ URL=file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/Prerequisites/i
 [file:///tmp/1]
 Checksum=9ce75345e47df78f847380f68b22cfaf2000739b
 Time=2023,6,13,23,46,47.141
-
-[file:///tmp/huIrjD.diff]
-Checksum=d698d1d57bc827ac8b7f8bead9c9e6e223234e75
-Time=2023,5,14,7,44,27.211
 
 [file:///usr/share/applications/google-chrome.desktop]
 Bookmarks=

@@ -237,7 +237,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][177][Applets][178][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][177][Applets][179]
 immutability=1
@@ -281,6 +281,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][177][Applets][185][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][177][Applets][186]
@@ -319,12 +320,8 @@ PreloadWeight=42
 [Containments][177][Applets][200][Configuration]
 PreloadWeight=42
 
-[Containments][177][Applets][202]
-immutability=1
-plugin=org.kde.kdeconnect
-
 [Containments][177][Applets][202][Configuration]
-PreloadWeight=100
+PreloadWeight=42
 
 [Containments][177][Applets][203]
 immutability=1
@@ -341,10 +338,11 @@ DialogWidth=720
 PreloadWeight=34
 
 [Containments][177][General]
-extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.volume
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.volume
+hiddenItems=org.kde.plasma.clipboard
 knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.bluetooth
-shownItems=Crow Translate,AnyDesk,NoMachineMonitor,org.kde.kdeconnect,org.kde.plasma.notifications,blueman,org.kde.plasma.bluetooth,org.kde.plasma.volume
+shownItems=Crow Translate,AnyDesk,NoMachineMonitor,org.kde.plasma.notifications,blueman,org.kde.plasma.bluetooth,org.kde.plasma.volume
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Linux/MobilePartner.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/install,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/data.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/SysConfig.dat,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/7zr,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/readme.txt,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Google Chrome.desktop,0,e5989023-c658-49e5-9853-684881d4d784
+screenMapping=desktop:/Linux/install,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/SysConfig.dat,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/readme.txt,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/7zr,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/data.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Linux/MobilePartner.bin,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Google Chrome.desktop,0,e5989023-c658-49e5-9853-684881d4d784

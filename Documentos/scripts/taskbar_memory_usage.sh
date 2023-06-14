@@ -41,15 +41,15 @@ while :;do
 #         DATA='| C | Firewall <b>desativado</b> \| RAM: <b>'$(size $mem_used)'</b> \| Swap: <b>'$(size $swap_used)'</b> | | '$command' |';
     if [ "$(/usr/bin/pgrep easyeffects)" ]; then
         if [ $mem_used -ge 7000000 ];then
-            DATA='| B | EasyEffects <b>ligado</b> \| RAM: <b>'$(size $mem_used)'</b> \| Swap: <b>'$(size $swap_used)'</b> | | '$command' |'
+            DATA='| B | EF <b>On</b> \| RAM: <b>'$(size $mem_used)'</b> \| Swap: <b>'$(size $swap_used)'</b> | | '$command' |'
         else
-            DATA='| A | EasyEffects <b>ligado</b> \| RAM: <b>'$(size $mem_used)'</b> \| Swap: <b>'$(size $swap_used)'</b> | | '$command' |'
+            DATA='| A | EF <b>On</b> \| RAM: <b>'$(size $mem_used)'</b> \| Swap: <b>'$(size $swap_used)'</b> | | '$command' |'
         fi
     else
         if [ $mem_used -ge 7000000 ];then
-            DATA='| B | Consumo RAM: <b>'$(size $mem_used)'</b> \| Swap: <b>'$(size $swap_used)'</b> | | '$command' |'
+            DATA='| B | EF <b>Off</b> \| RAM: <b>'$(size $mem_used)'</b> \| Swap: <b>'$(size $swap_used)'</b> | | '$command' |'
         else
-            DATA='| A | Consumo RAM: <b>'$(size $mem_used)'</b> \| Swap: <b>'$(size $swap_used)'</b> | | '$command' |'
+            DATA='| A | EF <b>Off</b> \| RAM: <b>'$(size $mem_used)'</b> \| Swap: <b>'$(size $swap_used)'</b> | | '$command' |'
         fi
     fi
     if [ "$DATA" != "$DATA_last" ];then
