@@ -13,11 +13,11 @@ while :; do
     cpu_temp=$(/usr/bin/sensors | grep 'edge:' | awk '{print $2}' | awk -F'[^0-9]*' '$0=$2')
     cpu_usage=$(cat /tmp/1 | tail -1 | awk '{print $5}\')
     rpm_gpu=$(sensors | grep 'fan1' | tail -1 | awk '{print $2}')
-#     if [ $cpu_temp -ge $threshold ]; then
-        DATA='| C | GPU: <b>'$(echo ${cpu_usage%,*})'</b> Temp: <b>'$cpu_temp'ºc / </b> FAN: <b>'$rpm_gpu' RPM</b> | Temp: <b>'$cpu_temp'ºc</b> | '$command' |'
-#     else
-#         DATA='| A | GPU: <b>'$cpu_usage'%</b> / Temp: <b>'$cpu_temp'ºc</b> / g_FAN:<b>'$rpm_gpu' RPM</b> | Temp: <b>'$cpu_temp'ºc</b> | '$command' |'
-#     fi
+     if [ $rpm_gpu -eq 1444 ]; then
+        DATA='| C | GPU: <b>'$(echo ${cpu_usage%,*})'</b> Temp: <b>'$cpu_temp'ºc / </b> FAN: <b>Off</b> | Temp: <b>'$cpu_temp'ºc</b> | '$command' |'
+     else
+         DATA='| C | GPU: <b>'$(echo ${cpu_usage%,*})'</b> Temp: <b>'$cpu_temp'ºc / </b> FAN: <b>'$rpm_gpu' RPM</b> | Temp: <b>'$cpu_temp'ºc</b> | '$command' |'
+     fi
     if [ "$DATA" != "$DATA_last" ];then
         /usr/bin/qdbus org.kde.plasma.doityourselfbar /id_955 org.kde.plasma.doityourselfbar.pass "$DATA"
         DATA_last="$DATA"

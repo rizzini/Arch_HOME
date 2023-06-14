@@ -1,13 +1,13 @@
 [file:///boot/efi/EFI/refind/refind.conf]
 Bookmarks=
-Checksum=0a0005124754916c9ce4085206a0258bfb837dba
+Checksum=06d64ecca669464992681da840bab642ee0fe08e
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,10,22,23,25.601
+Time=2023,6,14,19,32,48.122
 URL=file:///boot/efi/EFI/refind/refind.conf
 
 [file:///etc/X11/xorg.conf.d/20-nvidia.conf]
@@ -55,7 +55,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,13,12,15,9.753
+Time=2023,6,14,1,26,9.606
 URL=file:///etc/libvirt/hooks/qemu.d/win10/cores.conf
 
 [file:///etc/libvirt/hooks/qemu.d/win10/kvm.conf]
@@ -67,31 +67,31 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,13,12,44,11.207
+Time=2023,6,14,19,57,51.326
 URL=file:///etc/libvirt/hooks/qemu.d/win10/kvm.conf
 
 [file:///etc/libvirt/hooks/qemu.d/win10/prepare/begin/prepare.sh]
 Bookmarks=
-Checksum=3c370371ec216b467e5062669e8cce60f2deb530
+Checksum=aeafaeada3c06c0f5baa90f9648c1cf0d131aeee
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,13,22,3,5.867
+Time=2023,6,14,19,58,40.856
 URL=file:///etc/libvirt/hooks/qemu.d/win10/prepare/begin/prepare.sh
 
 [file:///etc/libvirt/hooks/qemu.d/win10/release/end/release.sh]
 Bookmarks=
-Checksum=27390567fe66855bb59508ea8b7bd49f5c270778
+Checksum=c4821667406543342484d1c8139f12195e78d705
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,13,22,3,21.428
+Time=2023,6,14,19,41,16.558
 URL=file:///etc/libvirt/hooks/qemu.d/win10/release/end/release.sh
 
 [file:///etc/libvirt/libvirtd.conf]
@@ -432,14 +432,14 @@ URL=file:///home/lucas/.vmware/preferences
 
 [file:///home/lucas/1]
 Bookmarks=
-Checksum=4410274ff009456508fd65b30a204d7047c6cef7
+Checksum=65760445cc6244aad9736716d79f8a01cb8b4b1d
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,13,23,31,13.876
+Time=2023,6,14,19,40,24.859
 URL=file:///home/lucas/1
 
 [file:///home/lucas/1.sh]
@@ -552,14 +552,14 @@ URL=file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh]
 Bookmarks=
-Checksum=cc199331dbc8f21f917cab9ba6ed9678a7f34bf6
+Checksum=0c6e2e5d999c998498f0b4939add9f3a08204f9a
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,13,23,48,0.091
+Time=2023,6,14,13,37,31.314
 URL=file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh]
@@ -571,7 +571,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,14,0,46,45.911
+Time=2023,6,14,13,36,0.139
 URL=file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh]
@@ -863,8 +863,8 @@ Time=2023,6,12,2,36,58.575
 URL=file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/Prerequisites/installScript.vdf
 
 [file:///tmp/1]
-Checksum=9ce75345e47df78f847380f68b22cfaf2000739b
-Time=2023,6,13,23,46,47.141
+Checksum=1a35e1e65fc7227e9dbc4fe56c7324c6795b4180
+Time=2023,6,14,13,55,54.53
 
 [file:///usr/share/applications/google-chrome.desktop]
 Bookmarks=

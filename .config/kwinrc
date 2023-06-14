@@ -6,6 +6,10 @@ Id_1=7cfe80dd-f92c-472f-ba6c-8ce7f128137d
 Number=1
 Rows=1
 
+[Effect-blur]
+BlurStrength=1
+NoiseStrength=0
+
 [Effect-windowview]
 BorderActivateAll=9
 
@@ -14,6 +18,10 @@ CommandAllKey=Alt
 
 [NightColor]
 Mode=Times
+
+[Plugins]
+blurEnabled=false
+kwin4_effect_translucencyEnabled=true
 
 [Tiling]
 padding=4
