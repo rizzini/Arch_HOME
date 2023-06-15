@@ -1,15 +1,3 @@
-[file:///boot/efi/EFI/refind/refind.conf]
-Bookmarks=
-Checksum=06d64ecca669464992681da840bab642ee0fe08e
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,6,14,19,32,48.122
-URL=file:///boot/efi/EFI/refind/refind.conf
-
 [file:///etc/X11/xorg.conf.d/20-nvidia.conf]
 Bookmarks=
 Checksum=408728619aa22428aad9a99dee2c39d483218d00
@@ -24,14 +12,14 @@ URL=file:///etc/X11/xorg.conf.d/20-nvidia.conf
 
 [file:///etc/amdgpu-fan.yml]
 Bookmarks=
-Checksum=90553ba57ac4aca3f07beb5ae00e78212a56b86f
+Checksum=b25d1a13237ba5a6f9baecc711e7ee40f341bb83
 Encoding=UTF-8
 Highlighting=YAML
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=YAML
 Mode Set By User=false
-Time=2023,6,14,20,45,49.966
+Time=2023,6,15,1,55,24.809
 URL=file:///etc/amdgpu-fan.yml
 
 [file:///etc/fstab]
@@ -130,18 +118,6 @@ Mode Set By User=false
 Time=2023,6,13,11,48,8.106
 URL=file:///etc/libvirt/qemu.conf
 
-[file:///etc/makepkg.conf]
-Bookmarks=
-Checksum=2e4a422bca16c0181a7b1530f084896fb0928a69
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,15,16,0,36.831
-URL=file:///etc/makepkg.conf
-
 [file:///etc/mkinitcpio.conf]
 Bookmarks=
 Checksum=6d8dd0043bb7f971780759f564f780a23bdba29e
@@ -168,14 +144,14 @@ URL=file:///etc/qemu/bridge.conf
 
 [file:///etc/samba/smb.conf]
 Bookmarks=
-Checksum=5815510b497d61dec9f5720a997f1079f0070b97
+Checksum=90e21002c6065e2d29272fb5c48030acb0695ae5
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,13,22,2,42.749
+Time=2023,6,14,21,30,33.906
 URL=file:///etc/samba/smb.conf
 
 [file:///etc/ssh/ssh_config]
@@ -564,14 +540,14 @@ URL=file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh]
 Bookmarks=
-Checksum=5025340cd5366f312f50e07eb5ddf15272f9ae38
+Checksum=84126569e1bee5bf0cf0f77a73d31fa6f137cede
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,14,20,45,59.086
+Time=2023,6,14,20,46,57.086
 URL=file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh]
