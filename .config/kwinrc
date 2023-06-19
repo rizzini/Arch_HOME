@@ -25,6 +25,7 @@ Mode=Times
 [Plugins]
 blurEnabled=false
 kwin4_effect_translucencyEnabled=true
+snaphelperEnabled=true
 
 [Tiling]
 padding=4
@@ -54,7 +55,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Xwayland]
-Scale=3
+Scale=1
 
 [org.kde.kdecoration2]
 BorderSize=Tiny

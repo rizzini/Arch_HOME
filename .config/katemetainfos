@@ -178,6 +178,30 @@ Mode Set By User=false
 Time=2023,6,14,21,30,33.906
 URL=file:///etc/samba/smb.conf
 
+[file:///etc/sddm.conf]
+Bookmarks=
+Checksum=9eefed9f3ab066e20d830bf0eda5207b70e22982
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,19,23,12,42.028
+URL=file:///etc/sddm.conf
+
+[file:///etc/sddm.conf.d/autologin.conf]
+Bookmarks=
+Checksum=cbc681c11acc6b974bbccbe711522533ae0d62bb
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,19,23,12,53.314
+URL=file:///etc/sddm.conf.d/autologin.conf
+
 [file:///etc/ssh/ssh_config]
 Bookmarks=
 Checksum=1bb88347decd8e8b94e24e2bc15f41940cb71b56
@@ -189,6 +213,18 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,6,5,15,13,45.218
 URL=file:///etc/ssh/ssh_config
+
+[file:///etc/systemd/network/50-wired.link]
+Bookmarks=
+Checksum=546a9abe212e9d43f7d9bfe5b7e0702822df09d7
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,19,14,59,4.991
+URL=file:///etc/systemd/network/50-wired.link
 
 [file:///etc/systemd/system/governor_performance.service]
 Bookmarks=
