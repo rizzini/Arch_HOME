@@ -1,5 +1,5 @@
 [KFileDialog Settings]
-Recent Files[$e]=file:///usr/lib/kdeconnectd,file:$HOME/Documentos/scripts/taskbar_gpu_usage_temp.sh,file:$HOME/Documentos/scripts/taskbar_cpu_usage_temp.sh,file:$HOME/Documentos/scripts/taskbar_disk_monitor.sh,file:$HOME/Documentos/scripts/taskbar_memory_usage.sh,file:$HOME/Documentos/scripts/taskbar_network_speed_monitor.sh,file:///usr/bin/kdeconnect-indicator
+Recent Files[$e]=file:///usr/lib/kdeconnectd,file:///usr/lib/kdeconnectd,file:$HOME/Documentos/scripts/taskbar_gpu_usage_temp.sh,file:$HOME/Documentos/scripts/taskbar_cpu_usage_temp.sh,file:$HOME/Documentos/scripts/taskbar_disk_monitor.sh,file:$HOME/Documentos/scripts/taskbar_memory_usage.sh,file:$HOME/Documentos/scripts/taskbar_network_speed_monitor.sh,file:///usr/bin/kdeconnect-indicator
 Recent URLs[$e]=file:///usr/lib/,file:///usr/bin/,file:$HOME/Documentos/scripts/,file:$HOME/,file:$HOME/Documentos/
 detailViewIconSize=16
 
@@ -27,10 +27,10 @@ detailViewIconSize=16
 1536x864 screen: Width=1130
 1536x864 screen: XPosition=342
 1536x864 screen: YPosition=64
-1920x1080 screen: Height=750
+1920x1080 screen: Height=1017
 1920x1080 screen: Width=1020
-1920x1080 screen: XPosition=450
-1920x1080 screen: YPosition=160
+1920x1080 screen: XPosition=899
+1920x1080 screen: YPosition=28
 640x480 screen: Height=432
 640x480 screen: Width=636
 800x600 screen: Height=537
@@ -53,5 +53,6 @@ HDMI-1 XPosition 1920x1080 HDMI-1=226
 HDMI-1 YPosition 1920x1080 HDMI-1=280
 HDMI-A-0=HDMI-A-0
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAA/wAAALuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAA/wAAAP5AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled

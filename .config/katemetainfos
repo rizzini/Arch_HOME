@@ -1,3 +1,15 @@
+[file:///boot/efi/EFI/refind/refind.conf]
+Bookmarks=
+Checksum=51bb4fe7fef9f0f95210acf8e30fc1b6e227d2d9
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,19,14,43,28.629
+URL=file:///boot/efi/EFI/refind/refind.conf
+
 [file:///etc/X11/xorg.conf.d/20-nvidia.conf]
 Bookmarks=
 Checksum=408728619aa22428aad9a99dee2c39d483218d00
@@ -120,15 +132,27 @@ URL=file:///etc/libvirt/qemu.conf
 
 [file:///etc/mkinitcpio.conf]
 Bookmarks=
-Checksum=6d8dd0043bb7f971780759f564f780a23bdba29e
+Checksum=68998a31248cee1e359886ad3e1e98d8bfdbf2b6
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,13,11,19,44.695
+Time=2023,6,19,14,42,2.446
 URL=file:///etc/mkinitcpio.conf
+
+[file:///etc/plymouth/plymouthd.conf]
+Bookmarks=
+Checksum=bce7a93aec408e0ac96ce7ffcfe9cbb12253a613
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,19,14,48,28.764
+URL=file:///etc/plymouth/plymouthd.conf
 
 [file:///etc/qemu/bridge.conf]
 Bookmarks=
@@ -420,14 +444,14 @@ URL=file:///home/lucas/.vmware/preferences
 
 [file:///home/lucas/1]
 Bookmarks=
-Checksum=65760445cc6244aad9736716d79f8a01cb8b4b1d
+Checksum=93cce88bb9452e1d716128ec73b99b29d01c4897
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,14,19,40,24.859
+Time=2023,6,16,15,33,41.683
 URL=file:///home/lucas/1
 
 [file:///home/lucas/1.sh]
@@ -523,7 +547,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,13,22,39,16.936
+Time=2023,6,15,20,48,38.051
 URL=file:///home/lucas/Documentos/scripts/taskbar_cpu_usage_temp.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh]
@@ -547,7 +571,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,14,20,46,57.086
+Time=2023,6,15,20,48,36.158
 URL=file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh]
@@ -634,6 +658,90 @@ Mode Set By User=false
 Time=2023,6,13,12,50,4.248
 URL=file:///home/lucas/win10.log
 
+[file:///mnt/archlinux/Games/Cyberpunk 2077/Cyberpunk2077.exe-20230615-005722-348-352.txt]
+Bookmarks=
+Checksum=6b045bd183a79022c5500bc8705ff680ece9739e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,5,12,39.573
+URL=file:///mnt/archlinux/Games/Cyberpunk 2077/Cyberpunk2077.exe-20230615-005722-348-352.txt
+
+[file:///mnt/archlinux/Games/Cyberpunk 2077/Cyberpunk2077.exe-20230615-005722-356-360.txt]
+Bookmarks=
+Checksum=6b045bd183a79022c5500bc8705ff680ece9739e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,5,12,36.739
+URL=file:///mnt/archlinux/Games/Cyberpunk 2077/Cyberpunk2077.exe-20230615-005722-356-360.txt
+
+[file:///mnt/archlinux/Games/Cyberpunk 2077/REDEngineErrorReporter.exe-20230611-133027-328-332.txt]
+Bookmarks=
+Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,5,13,25.463
+URL=file:///mnt/archlinux/Games/Cyberpunk 2077/REDEngineErrorReporter.exe-20230611-133027-328-332.txt
+
+[file:///mnt/archlinux/Games/Cyberpunk 2077/REDEngineErrorReporter.exe-20230615-005722-380-388.txt]
+Bookmarks=
+Checksum=6b045bd183a79022c5500bc8705ff680ece9739e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,5,13,27.087
+URL=file:///mnt/archlinux/Games/Cyberpunk 2077/REDEngineErrorReporter.exe-20230615-005722-380-388.txt
+
+[file:///mnt/archlinux/Games/Cyberpunk 2077/REDEngineErrorReporter.exe-20230615-005722-392-396.txt]
+Bookmarks=
+Checksum=6b045bd183a79022c5500bc8705ff680ece9739e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,5,13,21.672
+URL=file:///mnt/archlinux/Games/Cyberpunk 2077/REDEngineErrorReporter.exe-20230615-005722-392-396.txt
+
+[file:///mnt/archlinux/Games/Cyberpunk 2077/goggame-1597316373.info]
+Bookmarks=
+Checksum=69ce1a20cada921bca1ceed3e1291b207397c33d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,8,45,52.481
+URL=file:///mnt/archlinux/Games/Cyberpunk 2077/goggame-1597316373.info
+
+[file:///mnt/archlinux/Games/Cyberpunk 2077/goggame-1597316373.script]
+Bookmarks=
+Checksum=2b6670780e50ad244b09ee70d11228d926648911
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,8,45,48.079
+URL=file:///mnt/archlinux/Games/Cyberpunk 2077/goggame-1597316373.script
+
 [file:///mnt/archlinux/Games/Cyberpunk 2077/steam_appid.txt]
 Bookmarks=
 Checksum=f5367a23e75660e1400904e9f19bd53429b2294a
@@ -645,6 +753,18 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,6,11,5,44,27.993
 URL=file:///mnt/archlinux/Games/Cyberpunk 2077/steam_appid.txt
+
+[file:///mnt/archlinux/Games/Cyberpunk 2077/v1.62.blake3]
+Bookmarks=
+Checksum=eeb4f1b59a9697a853b25bbf6ac03b5d84e73dce
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,5,13,18.091
+URL=file:///mnt/archlinux/Games/Cyberpunk 2077/v1.62.blake3
 
 [file:///mnt/archlinux/Steam/compatibilitytools.d/GE-Proton8-3/user_settings.py]
 Bookmarks=
@@ -694,6 +814,18 @@ Mode Set By User=false
 Time=2023,6,6,16,58,34.174
 URL=file:///mnt/archlinux/Steam/steamapps/common/Proton - Experimental/user_settings.py
 
+[file:///mnt/archlinux/Steam/steamapps/compatdata/3085398320/tracked_files]
+Bookmarks=
+Checksum=e2a82c74cbc3115cb2f5b21a515983118c237c84
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,3,35,11.533
+URL=file:///mnt/archlinux/Steam/steamapps/compatdata/3085398320/tracked_files
+
 [file:///mnt/archlinux/YAY/completion.cache]
 Bookmarks=
 Checksum=79a4d19a80e50d5926ccd3d67f9ffc88c23db364
@@ -717,6 +849,18 @@ Mode=Markdown
 Mode Set By User=false
 Time=2023,6,4,15,49,58.851
 URL=file:///mnt/archlinux/temp_stuff/photoshopCClinux/README.md
+
+[file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/customization.cfg]
+Bookmarks=
+Checksum=7b52868158528442b46433b3d57dd2cabde949e4
+Encoding=UTF-8
+Highlighting=Nagios
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Nagios
+Mode Set By User=false
+Time=2023,6,18,7,50,35.508
+URL=file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/customization.cfg
 
 [file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/prepare.log]
 Bookmarks=
@@ -826,6 +970,90 @@ Mode Set By User=false
 Time=2023,5,24,20,57,22.947
 URL=file:///mnt/dados/Downloads/Ant-Man.and.the.Wasp.Quantumania.2023.1080p.BluRay.x264-PiGNUS[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt
 
+[file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61-DINOByTES/README.txt]
+Bookmarks=
+Checksum=44b0368a8569ae09fda60713bfa31768fdf65d62
+Encoding=ISO-8859-15
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,3,47,35.993
+URL=file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61-DINOByTES/README.txt
+
+[file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61-DINOByTES/_INSTALL TUTORIAL.txt]
+Bookmarks=
+Checksum=5b68ddc082a6a4a3737618b4518e238266d3a1a6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,8,32,47.255
+URL=file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61-DINOByTES/_INSTALL TUTORIAL.txt
+
+[file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61-DINOByTES/din-cyberpunk2077v161.nfo]
+Bookmarks=
+Checksum=780fad31e1fb01e15e8381e6618e9c977352aaf2
+Encoding=ISO-8859-15
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,3,54,6.6
+URL=file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61-DINOByTES/din-cyberpunk2077v161.nfo
+
+[file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61.DLSS3-DINOByTES/_INSTALL TUTORIAL.txt]
+Bookmarks=
+Checksum=5b68ddc082a6a4a3737618b4518e238266d3a1a6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,8,27,23.419
+URL=file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61.DLSS3-DINOByTES/_INSTALL TUTORIAL.txt
+
+[file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61.DLSS3-DINOByTES/din-cyberpunk2077v161dlss3.nfo]
+Bookmarks=
+Checksum=93ac523c625aff2dacde7749df1ed50d9b8ba62d
+Encoding=ISO-8859-15
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,8,28,12.02
+URL=file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61.DLSS3-DINOByTES/din-cyberpunk2077v161dlss3.nfo
+
+[file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.62_PathTracing_CN_FIX-DINOByTES/_INSTALL TUTORIAL.txt]
+Bookmarks=
+Checksum=5b68ddc082a6a4a3737618b4518e238266d3a1a6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,3,36,35.245
+URL=file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.62_PathTracing_CN_FIX-DINOByTES/_INSTALL TUTORIAL.txt
+
+[file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.62_PathTracing_CN_FIX-DINOByTES/din-cyberpunk2077v162ptcnfix.nfo]
+Bookmarks=
+Checksum=5cd1a6a112c971c85fd50fec9d3145830749d769
+Encoding=ISO-8859-15
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,15,3,36,44.405
+URL=file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.62_PathTracing_CN_FIX-DINOByTES/din-cyberpunk2077v162ptcnfix.nfo
+
 [file:///mnt/dados/Downloads/GE-Proton8-4/proton]
 Bookmarks=
 Checksum=34b1eaa6034eafebd78e26c5ae2cb9c250a3d6e5
@@ -837,6 +1065,30 @@ Mode=Python
 Mode Set By User=false
 Time=2023,6,7,16,2,41.899
 URL=file:///mnt/dados/Downloads/GE-Proton8-4/proton
+
+[file:///mnt/jogos_hdd/Diablo IV/FenrisDebug.txt]
+Bookmarks=
+Checksum=f4774c634a19c4246e2b87f2cd83d8c1e72e925d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,17,6,32,28.773
+URL=file:///mnt/jogos_hdd/Diablo IV/FenrisDebug.txt
+
+[file:///mnt/jogos_hdd/Diablo IV/_FenrisDebug-0.txt]
+Bookmarks=
+Checksum=745f8c873a039e136c62585559117bb176723773
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,17,6,32,8.357
+URL=file:///mnt/jogos_hdd/Diablo IV/_FenrisDebug-0.txt
 
 [file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/Prerequisites/installScript.vdf]
 Bookmarks=

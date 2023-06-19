@@ -36,9 +36,9 @@ done=rename-leading-padding
 mtime=1686070245
 
 [filepicker.upd]
-ctime=1686654671
+ctime=1686851086
 done=filepicker-remove-old-previews-entry
-mtime=1685830106
+mtime=1686821303
 
 [fonts_akregator.upd]
 ctime=1683666160
@@ -129,14 +129,14 @@ done=ksmserver_update_loginMode_value_default_enum
 mtime=1683646941
 
 [kwin.upd]
-ctime=1683904100
+ctime=1686851086
 done=replace-scalein-with-scale,port-minimizeanimation-effect-to-js,port-scale-effect-to-js,port-dimscreen-effect-to-js,auto-bordersize,animation-speed,desktop-grid-click-behavior,no-swap-encourage,make-translucency-effect-disabled-by-default,remove-flip-switch-effect,remove-cover-switch-effect,remove-cubeslide-effect,remove-xrender-backend,enable-scale-effect-by-default,overview-group-plugin-id,animation-speed-cleanup,replace-cascaded-zerocornered
-mtime=1683720625
+mtime=1686647070
 
 [kwinrules.upd]
-ctime=1683904100
+ctime=1686851086
 done=replace-placement-string-to-enum,use-virtual-desktop-ids
-mtime=1683720625
+mtime=1686647070
 
 [kxkb.upd]
 ctime=1683666167

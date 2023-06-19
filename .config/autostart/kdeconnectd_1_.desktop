@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/usr/lib/kdeconnectd
+Icon=
+Name=kdeconnectd
+Path=
+Terminal=False
+Type=Application
