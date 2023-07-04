@@ -1,4 +1,4 @@
 [KFileDialog Settings]
-Recent Files[$e]=A10_SWA_OPEN(2).pit,file:///mnt/jogos_hdd/stockrom.net_SM-A205G_A205GUBUBCWA1_ZTA/1/recovery.img,file:///mnt/jogos_hdd/stockrom.net_SM-A205G_A205GUBUBCWA1_ZTA/1/recovery.img.lz4,file:$HOME/Área de trabalho/A205G_A20_SWA_OPEN.pit,file:$HOME/Downloads/twrp-3.7.0_9-0-a20.img,file:$HOME/Downloads/vbmeta.img,file:///mnt/jogos_hdd/stockrom.net_SM-A205G_A205GUBUBCWA1_ZTA/1/boot.img,file:$HOME/Downloads/vbmeta_disabled.tar,file:$HOME/Downloads/twrp-3.7.0_9-0-a20.img.tar
-Recent URLs[$e]=file:///,file:///mnt/archlinux/,file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Downloads/,file:///usr/bin/,file:///mnt/jogos_hdd/stockrom.net_SM-A205G_A205GUBUBCWA1_ZTA/1/,file:$HOME/Documentos/,file:///mnt/cdrom/Users/lucas/,file:///mnt/jogos_hdd/stockrom.net_SM-A205G_A205GUBUBCWA1_ZTA/
+Recent Files[$e]=A10_SWA_OPEN(2).pit,file:$HOME/Downloads/twrp-3.7.0_9-0-a20.img,file:$HOME/Área de trabalho/A205G_A20_SWA_OPEN.pit
+Recent URLs[$e]=file:///,file:///mnt/archlinux/,file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Downloads/,file:///usr/bin/,file:$HOME/Documentos/
 detailViewIconSize=16

@@ -1,107 +1,107 @@
 updateInfoAdded=true
 
 [ark.upd]
-ctime=1686256797
+ctime=1688254080
 done=add-hamburgermenu-to-toolbar
 mtime=1686081756
 
 [breezehighcontrasttobreezedark.upd]
-ctime=1683666157
+ctime=1688254080
 done=BreezeHighContrastToBreezeDark
-mtime=1683644707
+mtime=1687282801
 
 [breezetobreezeclassic.upd]
-ctime=1683666157
+ctime=1688254080
 done=BreezeToBreezeClassic
-mtime=1683644707
+mtime=1687282801
 
 [breezetobreezelight.upd]
-ctime=1683666157
+ctime=1688254080
 done=BreezeToBreezeLight
-mtime=1683644707
+mtime=1687282801
 
 [delete_cursor_old_default_size.upd]
-ctime=1683666161
+ctime=1688381256
 done=DeleteCursorOldDefaultSize
-mtime=1683645394
+mtime=1687285199
 
 [disable_kmix.upd]
-ctime=1683666171
+ctime=1688254080
 done=PlasmaVolume_DisableKMixAutostart
-mtime=1683647360
+mtime=1687280445
 
 [dolphin_detailsmodesettings.upd]
-ctime=1686256799
+ctime=1688254080
 done=rename-leading-padding
 mtime=1686070245
 
 [filepicker.upd]
-ctime=1686851086
+ctime=1688254080
 done=filepicker-remove-old-previews-entry
 mtime=1686821303
 
 [fonts_akregator.upd]
-ctime=1683666160
+ctime=1688254080
 done=Plasma_Fonts_Akregator
-mtime=1683645307
+mtime=1687281784
 
 [fonts_global.upd]
-ctime=1683666160
+ctime=1688254080
 done=Fonts_Global
-mtime=1683645307
+mtime=1687281784
 
 [fonts_global_toolbar.upd]
-ctime=1683666160
+ctime=1688254080
 done=Fonts_Global_Toolbar
-mtime=1683645307
+mtime=1687281784
 
 [fonts_kate.upd]
-ctime=1683666160
+ctime=1688254080
 done=Plasma_Fonts_Kate
-mtime=1683645307
+mtime=1687281784
 
 [gtkconfig.upd]
-ctime=1683666162
+ctime=1688254080
 done=gtk_theme,dont_use_gtk_css_for_window_decorations,remove_deprecated_gtk4_option
-mtime=1683646568
+mtime=1687279371
 
 [icons_remove_effects.upd]
-ctime=1683666161
+ctime=1688381256
 done=IconsRemoveEffects
-mtime=1683645394
+mtime=1687285199
 
 [katesession_migration.upd]
-ctime=1686256800
+ctime=1688254080
 done=migrate_kate_sessions_applet_to_kdeplasma-addons
 mtime=1686081884
 
 [kcalcrc.upd]
-ctime=1686256800
+ctime=1688254080
 mtime=1686082070
 
 [kcm_rename_plasma_desktop.upd]
-ctime=1683666167
+ctime=1688254080
 done=5.24PlasmaDesktopKCMRename
-mtime=1683646941
+mtime=1687279882
 
 [kcminputrc_fix_botched_5_21_0.upd]
-ctime=1683666167
+ctime=1688254080
 done=kcminputrc_fix_botched_5_21_0_pre,kcminputrc_fix_botched_5_21_0
-mtime=1683646941
+mtime=1687279882
 
 [kcminputrc_repeat.upd]
-ctime=1683666167
+ctime=1688254080
 done=kcminputrc_migrate_key_repeat
-mtime=1683646941
+mtime=1687279882
 
 [kgthemeprovider-migration.upd]
 ctime=1683904100
 mtime=1683701999
 
 [konsole.upd]
-ctime=1686256800
+ctime=1688381258
 done=konsole_globalaccel,add-hamburgermenu-to-toolbar
-mtime=1686082513
+mtime=1687077021
 
 [konsole_globalaccel.upd]
 ctime=1678663035
@@ -109,51 +109,51 @@ done=konsole_globalaccel
 mtime=1677587889
 
 [krunnerglobalshortcuts2.upd]
-ctime=1683666161
+ctime=1688381256
 done=5.22KRunnerGlobalShortcuts
-mtime=1683645394
+mtime=1687285199
 
 [krunnerhistory.upd]
-ctime=1683666161
+ctime=1688381256
 done=5.21KRunnerHistory
-mtime=1683645394
+mtime=1687285199
 
 [kscreenlocker.upd]
-ctime=1683666159
+ctime=1688254080
 done=0.1-autolock
-mtime=1683644520
+mtime=1687276462
 
 [ksmserver_update_loginMode_value.upd]
-ctime=1683666167
+ctime=1688254080
 done=ksmserver_update_loginMode_value_default_enum
-mtime=1683646941
+mtime=1687279882
 
 [kwin.upd]
-ctime=1686851086
+ctime=1688254080
 done=replace-scalein-with-scale,port-minimizeanimation-effect-to-js,port-scale-effect-to-js,port-dimscreen-effect-to-js,auto-bordersize,animation-speed,desktop-grid-click-behavior,no-swap-encourage,make-translucency-effect-disabled-by-default,remove-flip-switch-effect,remove-cover-switch-effect,remove-cubeslide-effect,remove-xrender-backend,enable-scale-effect-by-default,overview-group-plugin-id,animation-speed-cleanup,replace-cascaded-zerocornered
-mtime=1686647070
+mtime=1687276684
 
 [kwinrules.upd]
-ctime=1686851086
+ctime=1688254080
 done=replace-placement-string-to-enum,use-virtual-desktop-ids
-mtime=1686647070
+mtime=1687276684
 
 [kxkb.upd]
-ctime=1683666167
+ctime=1688254080
 done=remove-empty-lists,add-back-resetoptions
-mtime=1683646941
+mtime=1687279882
 
 [kxkb_variants.upd]
-ctime=1683666167
+ctime=1688254080
 done=split-variants
-mtime=1683646941
+mtime=1687279882
 
 [plasmashell-5.27-use-panel-thickness-in-default-group.upd]
-ctime=1683666161
+ctime=1688381256
 done=plasmashell-5.27-use-panel-thickness-in-default-group
-mtime=1683645394
+mtime=1687285199
 
 [style_widgetstyle_default_breeze.upd]
-ctime=1683666161
+ctime=1688381256
 done=StyleWidgetStyleDefaultBreeze
-mtime=1683645394
+mtime=1687285199

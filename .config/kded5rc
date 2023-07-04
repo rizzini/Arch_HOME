@@ -11,7 +11,7 @@ autoload=true
 autoload=false
 
 [Module-colorcorrectlocationupdater]
-autoload=true
+autoload=false
 
 [Module-device_automounter]
 autoload=false
@@ -41,7 +41,7 @@ autoload=true
 autoload=true
 
 [Module-ksysguard]
-autoload=true
+autoload=false
 
 [Module-ktimezoned]
 autoload=true

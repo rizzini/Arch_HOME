@@ -1,9 +1,9 @@
 [General]
-SplitterSizes=482,787
+SplitterSizes=481,785
 
 [KFileDialog Settings]
-Recent Files[$e]=gta 5.ico,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/1.png,file:///mnt/archlinux/Games/Cyberpunk 2077/cy2077.png,file:///mnt/ssd_128GB/Ori.and.the.Will.of.the.Wisps.v26.05.2022/cropped-favicon-Ori-v1.png
-Recent URLs[$e]=file:///mnt/ssd_128GB/Ori.and.the.Will.of.the.Wisps.v26.05.2022/,file:///mnt/archlinux/Games/Cyberpunk 2077/,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/
+Recent Files[$e]=gta 5.ico,file:///mnt/ssd_128GB/Diablo IV/ico.png,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/1.png
+Recent URLs[$e]=file:///mnt/archlinux/Games/Cyberpunk 2077/,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/,file:///mnt/ssd_128GB/Diablo IV/
 detailViewIconSize=16
 
 [MainWindow]
@@ -11,5 +11,5 @@ detailViewIconSize=16
 1920x1080 screen: YPosition=317
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
-State=AAAA/wAAAAD9AAAAAAAABQAAAAGIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABQAAAAGCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled

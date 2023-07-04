@@ -36,14 +36,14 @@ URL=file:///etc/amdgpu-fan.yml
 
 [file:///etc/fstab]
 Bookmarks=
-Checksum=4bd26574ebcc6c8b190e31d84029b98e18b880fa
+Checksum=6c3c0ce676396ab95a419aa42d2280844a2ba96a
 Encoding=UTF-8
 Highlighting=fstab
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=fstab
 Mode Set By User=false
-Time=2023,6,13,13,24,37.538
+Time=2023,7,1,23,30,8.465
 URL=file:///etc/fstab
 
 [file:///etc/john/john.conf]
@@ -204,14 +204,14 @@ URL=file:///etc/sddm.conf.d/autologin.conf
 
 [file:///etc/ssh/ssh_config]
 Bookmarks=
-Checksum=1bb88347decd8e8b94e24e2bc15f41940cb71b56
+Checksum=e3cdb000efcc269badc526c1316f591594251383
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,5,15,13,45.218
+Time=2023,7,3,10,14,44.174
 URL=file:///etc/ssh/ssh_config
 
 [file:///etc/systemd/network/50-wired.link]
@@ -226,53 +226,29 @@ Mode Set By User=false
 Time=2023,6,19,14,59,4.991
 URL=file:///etc/systemd/network/50-wired.link
 
-[file:///etc/systemd/system/governor_performance.service]
+[file:///etc/systemd/system/kill_wine_before_shutdown_reboot.service]
 Bookmarks=
-Checksum=a0a4108ffae07ea9a4f6fa3b5f69fc75fd00025f
+Checksum=b07ecc82d5ee1590320825387717b18ccd8ab851
 Encoding=UTF-8
 Highlighting=systemd unit
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=systemd unit
 Mode Set By User=false
-Time=2023,5,21,23,34,39.733
-URL=file:///etc/systemd/system/governor_performance.service
+Time=2023,7,1,10,5,10.375
+URL=file:///etc/systemd/system/kill_wine_before_shutdown_reboot.service
 
-[file:///etc/yadm/hooks/pre_push]
+[file:///etc/xdg/reflector/reflector.conf]
 Bookmarks=
-Checksum=a9b1e66584b7c73eb8b1bec8580160aad561e269
+Checksum=3607bb8958f9f61200c3253ac077a8318872d947
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Bash
+Mode=Normal
 Mode Set By User=false
-Time=2023,5,27,12,33,29.992
-URL=file:///etc/yadm/hooks/pre_push
-
-[file:///home/lucas/.cache/yay/webos-tv-cli/PKGBUILD]
-Bookmarks=
-Checksum=16ccac865e362d077610dbf1bad345fc9f2f35ce
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,5,26,3,59,12.627
-URL=file:///home/lucas/.cache/yay/webos-tv-cli/PKGBUILD
-
-[file:///home/lucas/.config/easyeffects/output/LoudnessEqualizer.json]
-Bookmarks=
-Checksum=70790598ad3a651bd653f9288b736f3d55f16abc
-Encoding=UTF-8
-Highlighting=JSON
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=JSON
-Mode Set By User=false
-Time=2023,5,30,0,10,13.127
-URL=file:///home/lucas/.config/easyeffects/output/LoudnessEqualizer.json
+Time=2023,6,21,0,23,29.853
+URL=file:///etc/xdg/reflector/reflector.conf
 
 [file:///home/lucas/.config/fish/config.fish]
 Bookmarks=
@@ -310,18 +286,6 @@ Mode Set By User=false
 Time=2023,6,13,11,14,58.777
 URL=file:///home/lucas/.config/frogminer/wine-tkg.cfg
 
-[file:///home/lucas/.config/kwinrc]
-Bookmarks=
-Checksum=3f8bec6fd16dc8b0c98b8750dc3a6b524edb166c
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,27,13,19,51.765
-URL=file:///home/lucas/.config/kwinrc
-
 [file:///home/lucas/.config/legendary/config.ini]
 Bookmarks=
 Checksum=0fd59a906847a2229eb0c5cf9e498457ff0d4258
@@ -358,17 +322,29 @@ Mode Set By User=false
 Time=2023,6,13,22,21,56.686
 URL=file:///home/lucas/.config/mpv/mpv.conf
 
-[file:///home/lucas/.config/mpv/scripts/osdb.lua]
+[file:///home/lucas/.config/spicetify/Themes/DribbblishDynamic/config-xpui.ini]
 Bookmarks=
-Checksum=c3404100cad5f89b27400136c36fae4ef8548c48
+Checksum=70de6c435561e82bcb73475d0b6ad06ec92fcf57
 Encoding=UTF-8
-Highlighting=Lua
+Highlighting=INI Files
 Highlighting Set By User=false
-Indentation Mode=lua
-Mode=Lua
+Indentation Mode=normal
+Mode=INI Files
 Mode Set By User=false
-Time=2023,5,31,15,23,23.279
-URL=file:///home/lucas/.config/mpv/scripts/osdb.lua
+Time=2023,7,3,13,39,48.487
+URL=file:///home/lucas/.config/spicetify/Themes/DribbblishDynamic/config-xpui.ini
+
+[file:///home/lucas/.config/spicetify/Themes/Nord/color.ini]
+Bookmarks=
+Checksum=ee7cc653185a39e129c977e1c55cde8c99241593
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2023,7,3,13,34,53.781
+URL=file:///home/lucas/.config/spicetify/Themes/Nord/color.ini
 
 [file:///home/lucas/.config/starship.toml]
 Bookmarks=
@@ -382,77 +358,29 @@ Mode Set By User=false
 Time=2023,6,5,14,29,6.823
 URL=file:///home/lucas/.config/starship.toml
 
-[file:///home/lucas/.config/systemd/user/loudnessequalizer-update.service]
-Bookmarks=
-Checksum=90fb4d85d43b5671073e9fedf654c523fcb38f05
-Encoding=UTF-8
-Highlighting=systemd unit
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=systemd unit
-Mode Set By User=false
-Time=2023,5,27,13,11,47.808
-URL=file:///home/lucas/.config/systemd/user/loudnessequalizer-update.service
-
-[file:///home/lucas/.config/systemd/user/loudnessequalizer-update.timer]
-Bookmarks=
-Checksum=2d339e4d7a5d1ba9e89e147886905152a387c771
-Encoding=UTF-8
-Highlighting=systemd unit
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=systemd unit
-Mode Set By User=false
-Time=2023,5,27,13,4,17.964
-URL=file:///home/lucas/.config/systemd/user/loudnessequalizer-update.timer
-
-[file:///home/lucas/.config/yadm/config]
-Bookmarks=
-Checksum=a485a8efe58c1eabcdfd9cf8479aa9f0fd6b5c4b
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,27,12,37,8.329
-URL=file:///home/lucas/.config/yadm/config
-
-[file:///home/lucas/.config/yadm/hooks/pre_push]
-Bookmarks=
-Checksum=f04b7ca283f39481d982eea45b6f34bd8852e033
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,5,27,12,30,53.721
-URL=file:///home/lucas/.config/yadm/hooks/pre_push
-
-[file:///home/lucas/.local/share/Steam/compatibilitytools.d/GE-Proton8-3/user_settings.py]
-Bookmarks=
-Checksum=07b82ed7c3da001bcb5879f074265c5adb86ccca
-Encoding=UTF-8
-Highlighting=Python
-Highlighting Set By User=false
-Indentation Mode=python
-Mode=Python
-Mode Set By User=false
-Time=2023,5,21,20,4,14.631
-URL=file:///home/lucas/.local/share/Steam/compatibilitytools.d/GE-Proton8-3/user_settings.py
-
 [file:///home/lucas/.ssh/authorized_keys]
 Bookmarks=
-Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+Checksum=3d51f2fc6853619cb24aab22687b7c174c37d12b
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,5,27,12,23,34.09
+Time=2023,7,1,15,36,36.119
 URL=file:///home/lucas/.ssh/authorized_keys
+
+[file:///home/lucas/.ssh/authorized_keys.save]
+Bookmarks=
+Checksum=e7eca6c056b3845c118df645912372e53d00790f
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,6,22,13,0,52.592
+URL=file:///home/lucas/.ssh/authorized_keys.save
 
 [file:///home/lucas/.ssh/id_rsa.pub]
 Bookmarks=
@@ -463,8 +391,20 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,5,27,12,23,41.733
+Time=2023,7,1,15,31,16.006
 URL=file:///home/lucas/.ssh/id_rsa.pub
+
+[file:///home/lucas/.ssh/known_hosts]
+Bookmarks=
+Checksum=3d51f2fc6853619cb24aab22687b7c174c37d12b
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,7,1,15,36,38.966
+URL=file:///home/lucas/.ssh/known_hosts
 
 [file:///home/lucas/.vmware/preferences]
 Bookmarks=
@@ -502,30 +442,6 @@ Mode Set By User=false
 Time=2023,6,13,11,24,45.901
 URL=file:///home/lucas/1.sh
 
-[file:///home/lucas/Documentos/scripts/btrbk_]
-Bookmarks=
-Checksum=a00d309a27cd272e5519b0add207b38887817ec3
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,5,21,20,33,41.123
-URL=file:///home/lucas/Documentos/scripts/btrbk_
-
-[file:///home/lucas/Documentos/scripts/clean_space_emergency.sh]
-Bookmarks=
-Checksum=d2f9a4f72d4e707a4bac4b611b0aa3294dcbf0d7
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,5,21,20,33,7.625
-URL=file:///home/lucas/Documentos/scripts/clean_space_emergency.sh
-
 [file:///home/lucas/Documentos/scripts/download_videos_terminal.sh]
 Bookmarks=
 Checksum=c417de3ab9d7a31479254bb71fb9f51806968896
@@ -562,17 +478,17 @@ Mode Set By User=false
 Time=2023,6,4,0,40,47.696
 URL=file:///home/lucas/Documentos/scripts/not being used/waydroid_under_xorg.sh
 
-[file:///home/lucas/Documentos/scripts/playerctl]
+[file:///home/lucas/Documentos/scripts/set_up_simultaneous_audio_output_pipewire.sh]
 Bookmarks=
-Checksum=4c22899859a1f8d54e3fbb86d8f7d6117c4b4bc8
+Checksum=7f20e591506d4e47c3b465be4a9400ae97bf475b
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,5,27,13,29,50.901
-URL=file:///home/lucas/Documentos/scripts/playerctl
+Time=2023,7,3,10,32,30.243
+URL=file:///home/lucas/Documentos/scripts/set_up_simultaneous_audio_output_pipewire.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_cpu_usage_temp.sh]
 Bookmarks=
@@ -595,7 +511,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,13,22,34,23.505
+Time=2023,7,3,16,1,47.841
 URL=file:///home/lucas/Documentos/scripts/taskbar_disk_monitor.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh]
@@ -607,7 +523,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,6,15,20,48,36.158
+Time=2023,7,3,16,1,59.455
 URL=file:///home/lucas/Documentos/scripts/taskbar_gpu_usage_temp.sh
 
 [file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh]
@@ -633,18 +549,6 @@ Mode=Bash
 Mode Set By User=false
 Time=2023,6,13,22,57,44.21
 URL=file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh
-
-[file:///home/lucas/Documentos/scripts/update_loudness_preset.sh]
-Bookmarks=
-Checksum=6fe317d2238850df378b371a3346bdaf215296ad
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=true
-Time=2023,5,27,13,11,47.808
-URL=file:///home/lucas/Documentos/scripts/update_loudness_preset.sh
 
 [file:///home/lucas/Músicas/1]
 Bookmarks=
@@ -862,18 +766,6 @@ Mode Set By User=false
 Time=2023,6,15,3,35,11.533
 URL=file:///mnt/archlinux/Steam/steamapps/compatdata/3085398320/tracked_files
 
-[file:///mnt/archlinux/YAY/completion.cache]
-Bookmarks=
-Checksum=79a4d19a80e50d5926ccd3d67f9ffc88c23db364
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,31,10,28,58.379
-URL=file:///mnt/archlinux/YAY/completion.cache
-
 [file:///mnt/archlinux/temp_stuff/photoshopCClinux/README.md]
 Bookmarks=
 Checksum=1127ca9b60dd7869acad400a3775f02c7b56e479
@@ -888,14 +780,14 @@ URL=file:///mnt/archlinux/temp_stuff/photoshopCClinux/README.md
 
 [file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/customization.cfg]
 Bookmarks=
-Checksum=7b52868158528442b46433b3d57dd2cabde949e4
+Checksum=b852d2a402f89f8edaf970ee6618e93a154fab59
 Encoding=UTF-8
 Highlighting=Nagios
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Nagios
 Mode Set By User=false
-Time=2023,6,18,7,50,35.508
+Time=2023,6,22,13,18,13.962
 URL=file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/customization.cfg
 
 [file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/prepare.log]
@@ -910,78 +802,6 @@ Mode Set By User=false
 Time=2023,6,8,20,39,27.939
 URL=file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/prepare.log
 
-[file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/wine-tkg-profiles/advanced-customization.cfg]
-Bookmarks=
-Checksum=4860d876f72cd66a4f6672b4f1332ae155dc6306
-Encoding=UTF-8
-Highlighting=Nagios
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Nagios
-Mode Set By User=false
-Time=2023,5,31,14,0,51.218
-URL=file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/wine-tkg-profiles/advanced-customization.cfg
-
-[file:///mnt/backup/btrfs_scheme.txt]
-Bookmarks=
-Checksum=99597045ed55659e1184a9e80eb9599f17129a17
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,30,21,55,2.295
-URL=file:///mnt/backup/btrfs_scheme.txt
-
-[file:///mnt/cdrom/EFI/refind/refind.conf]
-Bookmarks=
-Checksum=e98721a45856646795061aac8adae76f11f747c1
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,30,0,23,41.475
-URL=file:///mnt/cdrom/EFI/refind/refind.conf
-
-[file:///mnt/cdrom/boot/efi/EFI/refind/refind.conf]
-Bookmarks=
-Checksum=42f33a302ee944953700645637df50f474b541df
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,30,0,16,29.719
-URL=file:///mnt/cdrom/boot/efi/EFI/refind/refind.conf
-
-[file:///mnt/cdrom/boot/refind_linux.conf]
-Bookmarks=
-Checksum=419d2478527637ffb3ec2166619527fcb2a0582d
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,30,0,21,55.952
-URL=file:///mnt/cdrom/boot/refind_linux.conf
-
-[file:///mnt/cdrom/etc/fstab]
-Bookmarks=
-Checksum=efcd971e2c3b6d5319a05ec7a769002e088006a5
-Encoding=UTF-8
-Highlighting=fstab
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=fstab
-Mode Set By User=false
-Time=2023,5,29,23,54,52.661
-URL=file:///mnt/cdrom/etc/fstab
-
 [file:///mnt/dados/Downloads/Adobe Photoshop CS6 13.0.1 Final  Multilanguage (cracked dll) \x5bChingLiu\x5d/ChingLiu.Notes.nfo]
 Bookmarks=
 Checksum=b08864ff413c8c8c5ad7fefe1e1d945e11737b1c
@@ -993,18 +813,6 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,6,4,16,10,24.759
 URL=file:///mnt/dados/Downloads/Adobe Photoshop CS6 13.0.1 Final  Multilanguage (cracked dll) [ChingLiu]/ChingLiu.Notes.nfo
-
-[file:///mnt/dados/Downloads/Ant-Man.and.the.Wasp.Quantumania.2023.1080p.BluRay.x264-PiGNUS\x5bTGx\x5d/\x5bTGx\x5dDownloaded from torrentgalaxy.to .txt]
-Bookmarks=
-Checksum=cba64abbfa6ce945d02b73f43d4ed93abd41fc69
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,5,24,20,57,22.947
-URL=file:///mnt/dados/Downloads/Ant-Man.and.the.Wasp.Quantumania.2023.1080p.BluRay.x264-PiGNUS[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt
 
 [file:///mnt/dados/Downloads/Cyberpunk_2077_Edgerunners_Update_v1.61-DINOByTES/README.txt]
 Bookmarks=

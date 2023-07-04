@@ -7,6 +7,6 @@
 1920x1080 screen: Width=978
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Imagens/eu.jpeg,file:$HOME/Downloads/Battle.net-Setup.exe,file:$HOME/Downloads/genymotion-3.4.0-linux_x64.bin,file:///mnt/jogos_hdd/Frp+Hijacke+rV1.0+setup.rar,file:$HOME/Downloads/7-1607541762-1961921767-lg_modland.webp,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/PV9y7Xq2mcDcx2PtpM8GYYO0.jpeg,file:$HOME/Documentos/ftb.rar
-Recent URLs[$e]=file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Documentos/,file:$HOME/Imagens/,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/,file:$HOME/Downloads/,file:///mnt/jogos_hdd/
-detailViewIconSize=128
+Recent Files[$e]=file:$HOME/Imagens/eu.jpeg,file:///mnt/archlinux/Steam/steamapps/compatdata/2304351720/pfx/drive_c/Program Files/Google/Chrome/Application/chrome.exe,file:$HOME/Documentos/ChromeSetup.exe,file:///mnt/ssd_128GB/Diablo IV/ico.png,file:///mnt/ssd_128GB/Diablo IV/Diablo IV.exe,file:$HOME/Downloads/Battle.net-Setup.exe,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/PV9y7Xq2mcDcx2PtpM8GYYO0.jpeg,file:$HOME/Documentos/ftb.rar
+Recent URLs[$e]=file:$HOME/,file:$HOME/Área de trabalho/,file:$HOME/Documentos/,file:$HOME/Imagens/,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/,file:$HOME/Downloads/,file:///mnt/jogos_hdd/,file:///mnt/ssd_128GB/Diablo IV/,file:///mnt/archlinux/Steam/steamapps/compatdata/2304351720/pfx/drive_c/Program Files/Google/Chrome/Application/
+detailViewIconSize=64

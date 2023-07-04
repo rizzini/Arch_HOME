@@ -17,9 +17,6 @@ detailViewIconSize=16
 1920x1080 screen: Height=560
 1920x1080 screen: Width=456
 
-[PlasmaTransientsConfig]
-PreloadWeight=26
-
 [PlasmaViews][Panel 1]
 alignment=1
 
