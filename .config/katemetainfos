@@ -204,14 +204,14 @@ URL=file:///etc/sddm.conf.d/autologin.conf
 
 [file:///etc/ssh/ssh_config]
 Bookmarks=
-Checksum=e3cdb000efcc269badc526c1316f591594251383
+Checksum=8a5f4e13f934c8d10b6ca2aee4a4f5be34b70e32
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,7,3,10,14,44.174
+Time=2023,7,4,1,23,54.545
 URL=file:///etc/ssh/ssh_config
 
 [file:///etc/systemd/network/50-wired.link]
