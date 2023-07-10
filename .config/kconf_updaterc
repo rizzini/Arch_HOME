@@ -1,9 +1,9 @@
 updateInfoAdded=true
 
 [ark.upd]
-ctime=1688254080
+ctime=1688743157
 done=add-hamburgermenu-to-toolbar
-mtime=1686081756
+mtime=1688487148
 
 [breezehighcontrasttobreezedark.upd]
 ctime=1688254080
@@ -31,14 +31,14 @@ done=PlasmaVolume_DisableKMixAutostart
 mtime=1687280445
 
 [dolphin_detailsmodesettings.upd]
-ctime=1688254080
+ctime=1688743159
 done=rename-leading-padding
-mtime=1686070245
+mtime=1688475368
 
 [filepicker.upd]
-ctime=1688254080
+ctime=1688923812
 done=filepicker-remove-old-previews-entry
-mtime=1686821303
+mtime=1688851665
 
 [fonts_akregator.upd]
 ctime=1688254080
@@ -71,13 +71,13 @@ done=IconsRemoveEffects
 mtime=1687285199
 
 [katesession_migration.upd]
-ctime=1688254080
+ctime=1688743160
 done=migrate_kate_sessions_applet_to_kdeplasma-addons
-mtime=1686081884
+mtime=1688487281
 
 [kcalcrc.upd]
-ctime=1688254080
-mtime=1686082070
+ctime=1688743160
+mtime=1688487464
 
 [kcm_rename_plasma_desktop.upd]
 ctime=1688254080
@@ -99,9 +99,9 @@ ctime=1683904100
 mtime=1683701999
 
 [konsole.upd]
-ctime=1688381258
+ctime=1688743161
 done=konsole_globalaccel,add-hamburgermenu-to-toolbar
-mtime=1687077021
+mtime=1688487922
 
 [konsole_globalaccel.upd]
 ctime=1678663035
