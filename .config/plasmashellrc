@@ -9,13 +9,13 @@ ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoYAAAACAQAAAQAA
 Number of Actions=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Imagens/Wallpaper/8dX20lE.jpg,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/1.png,file:$HOME/Imagens/Wallpaper/wallhaven-ym66q7.png,file:$HOME/Imagens/Wallpaper/wallhaven-pko39m.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-o3ey37.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-m93xqy.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-m9rk19.png,file:$HOME/Imagens/Wallpaper/wallhaven-g88owd.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-4lopll.jpg,file:$HOME/Imagens/Wallpaper/sombrero-galaxy.jpg,file:$HOME/Imagens/Wallpaper/nebula.jpg,file:$HOME/Imagens/Wallpaper/nebula_invertido.png,file:$HOME/Imagens/Wallpaper/ddj64ow-7b05f44f-adde-46aa-b82b-6be9fd14bc65.jpg,file:$HOME/Imagens/Wallpaper/bg_7.jpg,file:$HOME/Imagens/Wallpaper/4096x2160-72822-rio-de-janeiro-brazil-4k-ultra-hd-wallpaper__cityscapes.jpg,file:$HOME/Imagens/Wallpaper/0058.jpg
-Recent URLs[$e]=file:$HOME/Imagens/Wallpaper/,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/
+Recent Files[$e]=file:$HOME/Imagens/Wallpaper/8dX20lE.jpg,file:///windows-10-icon.svg,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/1.png,file:$HOME/Imagens/Wallpaper/wallhaven-ym66q7.png,file:$HOME/Imagens/Wallpaper/wallhaven-pko39m.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-o3ey37.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-m93xqy.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-m9rk19.png,file:$HOME/Imagens/Wallpaper/wallhaven-g88owd.jpg,file:$HOME/Imagens/Wallpaper/wallhaven-4lopll.jpg,file:$HOME/Imagens/Wallpaper/sombrero-galaxy.jpg,file:$HOME/Imagens/Wallpaper/nebula.jpg,file:$HOME/Imagens/Wallpaper/nebula_invertido.png,file:$HOME/Imagens/Wallpaper/ddj64ow-7b05f44f-adde-46aa-b82b-6be9fd14bc65.jpg,file:$HOME/Imagens/Wallpaper/bg_7.jpg,file:$HOME/Imagens/Wallpaper/4096x2160-72822-rio-de-janeiro-brazil-4k-ultra-hd-wallpaper__cityscapes.jpg
+Recent URLs[$e]=file:///,file:$HOME/Imagens/Wallpaper/,file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/,file:$HOME/
 detailViewIconSize=16
 
 [KPropertiesDialog]
 1920x1080 screen: Height=534
-1920x1080 screen: Width=457
+1920x1080 screen: Width=462
 
 [PlasmaViews][Panel 1]
 alignment=1

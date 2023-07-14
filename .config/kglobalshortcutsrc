@@ -165,7 +165,7 @@ _k_friendly_name=Serviço de atalhos personalizados
 {df95a5f2-5bdd-4ac2-84ac-ff554f80a727}=Ctrl+Y,none,mpv youtube
 {e71f4f76-6417-4b4a-a545-e28f04c50b38}=Ctrl+Launch (1),none,kcalc
 {f13f543e-e529-4f34-a748-1bb2ebef19a8}=Media Play,none,playerctl play-pause
-{f4804dd4-b377-452a-a4cb-f8024dbf9fee}=Ctrl+R,none,tradutor crow
+{f4804dd4-b377-452a-a4cb-f8024dbf9fee}=none,none,tradutor crow
 {fad4f2bb-5d65-4bf3-b4ff-7f4c5b19dd53}=Ctrl+K,none,kate
 {fce3e738-1ca6-44b3-b2f0-c52c2da04b3c}=Ctrl+Shift+Volume Down,none,playerctl voltar posicao
 

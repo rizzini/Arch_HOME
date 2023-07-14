@@ -13,5 +13,9 @@ Seen=true
 [Applications][google-chrome]
 Seen=true
 
+[DoNotDisturb]
+NotificationSoundsMuted=true
+Until=2024,7,14,7,43,8.269
+
 [Notifications]
 PopupPosition=BottomCenter

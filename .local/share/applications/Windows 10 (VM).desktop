@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[pt_BR]=
+Comment=
+Exec=sudo virsh start win10
+GenericName[pt_BR]=
+GenericName=
+Icon=/windows-10-icon.svg
+MimeType=
+Name[pt_BR]=Windows 10 (VM)
+Name=Windows 10 (VM)
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

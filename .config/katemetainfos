@@ -1,13 +1,13 @@
 [file:///boot/efi/EFI/refind/refind.conf]
 Bookmarks=
-Checksum=3792096b60d04d34e2ca8514a74dfbf78a2b9d59
+Checksum=250f8f08c959609d373964ac77de30fb782c0aa0
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,7,10,1,44,6.379
+Time=2023,7,13,15,19,9.408
 URL=file:///boot/efi/EFI/refind/refind.conf
 
 [file:///etc/amdgpu-fan.yml]
@@ -70,6 +70,18 @@ Mode Set By User=false
 Time=2023,7,1,23,30,8.465
 URL=file:///etc/fstab
 
+[file:///etc/gamemode.ini]
+Bookmarks=
+Checksum=f76c538d87833d634f89ba8348cbe927f0878ea7
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2023,7,13,10,5,9.911
+URL=file:///etc/gamemode.ini
+
 [file:///etc/libvirt/hooks/kvm.conf]
 Bookmarks=
 Checksum=ac1c4e27acfe9fe05f331961e427437f855064b7
@@ -84,14 +96,14 @@ URL=file:///etc/libvirt/hooks/kvm.conf
 
 [file:///etc/libvirt/hooks/qemu]
 Bookmarks=
-Checksum=77d58c883ee29a7a40c2cbea00d1e06d4e53c666
+Checksum=4092adfd76f65163a753c3d2683302e96a05fef6
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Bash
+Mode=Normal
 Mode Set By User=false
-Time=2023,7,10,0,49,48.37
+Time=2023,7,12,3,33,16.207
 URL=file:///etc/libvirt/hooks/qemu
 
 [file:///etc/libvirt/hooks/qemu.d/win10/cores.conf]
@@ -118,29 +130,53 @@ Mode Set By User=false
 Time=2023,7,10,0,53,27.855
 URL=file:///etc/libvirt/hooks/qemu.d/win10/kvm.conf
 
-[file:///etc/libvirt/hooks/qemu.d/win10/prepare/begin/prepare.sh]
+[file:///etc/libvirt/hooks/qemu.d/win10/prepare/begin/bind_vfio.sh]
 Bookmarks=
-Checksum=b3affaa700f0c74e3c71352f4a2261a32065237f
+Checksum=613edf28781f02ab3648d4119b22763dc21867c3
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,7,10,0,58,3.417
+Time=2023,7,14,14,51,10.82
+URL=file:///etc/libvirt/hooks/qemu.d/win10/prepare/begin/bind_vfio.sh
+
+[file:///etc/libvirt/hooks/qemu.d/win10/prepare/begin/prepare.sh]
+Bookmarks=
+Checksum=4cc72186b0e37ea9d1486b1f730cbde2685d22a2
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,7,12,3,35,16.601
 URL=file:///etc/libvirt/hooks/qemu.d/win10/prepare/begin/prepare.sh
 
 [file:///etc/libvirt/hooks/qemu.d/win10/release/end/release.sh]
 Bookmarks=
-Checksum=101d8d4f8c82c5582ef5eba042e7b9f5b0173d98
+Checksum=cc7f6d209da9051eda8fe84945f7b4365bfdf427
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,7,10,0,58,25.829
+Time=2023,7,12,3,31,26.614
 URL=file:///etc/libvirt/hooks/qemu.d/win10/release/end/release.sh
+
+[file:///etc/libvirt/hooks/qemu.d/win10/release/end/unbind_vfio.sh]
+Bookmarks=
+Checksum=0fd2743347e12c9ab8a7d26fb887d2dfbd5a49d5
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,7,12,13,10,51.388
+URL=file:///etc/libvirt/hooks/qemu.d/win10/release/end/unbind_vfio.sh
 
 [file:///etc/libvirt/libvirt-admin.conf]
 Bookmarks=
@@ -192,15 +228,27 @@ URL=file:///etc/libvirt/qemu.conf
 
 [file:///etc/mkinitcpio.conf]
 Bookmarks=
-Checksum=68998a31248cee1e359886ad3e1e98d8bfdbf2b6
+Checksum=674d3d4da69d4f53a5ddda9faca3eb63157283a0
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,6,19,14,42,2.446
+Time=2023,7,12,1,46,36.952
 URL=file:///etc/mkinitcpio.conf
+
+[file:///etc/pacman.conf]
+Bookmarks=
+Checksum=7028e38355eb54ee4517c94763562da43ad5967b
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,7,10,16,49,41.356
+URL=file:///etc/pacman.conf
 
 [file:///etc/plymouth/plymouthd.conf]
 Bookmarks=
@@ -213,18 +261,6 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,6,19,14,48,28.764
 URL=file:///etc/plymouth/plymouthd.conf
-
-[file:///etc/qemu/bridge.conf]
-Bookmarks=
-Checksum=a573665d37fbc5246f9200e3a2de8be729d3e177
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,6,10,22,44,45.766
-URL=file:///etc/qemu/bridge.conf
 
 [file:///etc/samba/smb.conf]
 Bookmarks=
@@ -322,42 +358,6 @@ Mode Set By User=false
 Time=2023,6,21,0,23,29.853
 URL=file:///etc/xdg/reflector/reflector.conf
 
-[file:///home/lucas/.config/fish/config.fish]
-Bookmarks=
-Checksum=48e553c8239e13dff9fb992d888c610fa4a20bad
-Encoding=UTF-8
-Highlighting=Fish
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Fish
-Mode Set By User=false
-Time=2023,6,13,22,58,16.323
-URL=file:///home/lucas/.config/fish/config.fish
-
-[file:///home/lucas/.config/frogminer/linux-tkg.cfg]
-Bookmarks=
-Checksum=a996b85febc0871a0042f2222897c6862a19b533
-Encoding=UTF-8
-Highlighting=Nagios
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Nagios
-Mode Set By User=false
-Time=2023,6,10,23,25,13.587
-URL=file:///home/lucas/.config/frogminer/linux-tkg.cfg
-
-[file:///home/lucas/.config/frogminer/wine-tkg.cfg]
-Bookmarks=
-Checksum=0e625d00a72f8615f58a516d6ca00d5a70abbc9a
-Encoding=UTF-8
-Highlighting=Nagios
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Nagios
-Mode Set By User=false
-Time=2023,6,13,11,14,58.777
-URL=file:///home/lucas/.config/frogminer/wine-tkg.cfg
-
 [file:///home/lucas/.config/legendary/config.ini]
 Bookmarks=
 Checksum=0fd59a906847a2229eb0c5cf9e498457ff0d4258
@@ -381,18 +381,6 @@ Mode=JSON
 Mode Set By User=false
 Time=2023,6,14,0,19,25.848
 URL=file:///home/lucas/.config/legendary/metadata/9d2d0eb64d5c44529cece33fe2a46482.json
-
-[file:///home/lucas/.config/mpv/mpv.conf]
-Bookmarks=
-Checksum=8e5ef739dbcf49f4463a1675b0a2cba6c48e615a
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,6,13,22,21,56.686
-URL=file:///home/lucas/.config/mpv/mpv.conf
 
 [file:///home/lucas/.config/spicetify/Themes/DribbblishDynamic/config-xpui.ini]
 Bookmarks=
@@ -468,14 +456,14 @@ URL=file:///home/lucas/.ssh/known_hosts
 
 [file:///home/lucas/1]
 Bookmarks=
-Checksum=9cc559923d6b2a92b641339c0d48c5286904f732
+Checksum=ce035c2b286f317ffb4f2d8747332e743d5b6d10
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,7,9,17,34,20.161
+Time=2023,7,13,15,46,10.523
 URL=file:///home/lucas/1
 
 [file:///home/lucas/1.sh]
@@ -501,18 +489,6 @@ Mode=Bash
 Mode Set By User=false
 Time=2023,7,4,13,35,46.882
 URL=file:///home/lucas/Documentos/scripts/download_videos_terminal.sh
-
-[file:///home/lucas/Documentos/scripts/easy.effects_in_background.sh]
-Bookmarks=
-Checksum=57885bac4128d6462f05ff26f27b8d8c788d10dc
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,6,13,16,8,33.768
-URL=file:///home/lucas/Documentos/scripts/easy.effects_in_background.sh
 
 [file:///home/lucas/Documentos/scripts/nightstand_mouse_volume_mod.sh]
 Bookmarks=
@@ -586,18 +562,6 @@ Mode Set By User=false
 Time=2023,6,14,13,36,0.139
 URL=file:///home/lucas/Documentos/scripts/taskbar_memory_usage.sh
 
-[file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh]
-Bookmarks=
-Checksum=f39a5a1767c14674ca85495e52c952fd2b121ddf
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,6,13,22,57,44.21
-URL=file:///home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh
-
 [file:///home/lucas/scan-2023-07-05.gnmap]
 Bookmarks=
 Checksum=43a614744d563a8e5bd333fe8bb7ccfcd672c8cc
@@ -622,18 +586,6 @@ Mode Set By User=false
 Time=2023,7,5,19,15,52.911
 URL=file:///home/lucas/scan-2023-07-05.nmap
 
-[file:///home/lucas/win10.log]
-Bookmarks=
-Checksum=d0bab74feee14aa63b8898a16927a823cb5e07a7
-Encoding=UTF-8
-Highlighting=Log File (simplified)
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Log File (simplified)
-Mode Set By User=false
-Time=2023,6,13,12,50,4.248
-URL=file:///home/lucas/win10.log
-
 [file:///home/lucas/xaa]
 Bookmarks=
 Checksum=63faedf5a1481272bcd16262023c34b61a50b875
@@ -646,6 +598,18 @@ Mode Set By User=false
 Time=2023,7,9,17,35,35.748
 URL=file:///home/lucas/xaa
 
+[file:///home/lucas/Área de trabalho/1]
+Bookmarks=
+Checksum=1175d7fb8fbe2b0904c77ed573516bcb19f37902
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,7,12,2,7,14.688
+URL=file:///home/lucas/Área de trabalho/1
+
 [file:///home/lucas/Área de trabalho/vm]
 Bookmarks=
 Checksum=da0a0b7d27322249b0ccafa74c57577a382c5454
@@ -655,7 +619,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,7,10,1,12,41.47
+Time=2023,7,12,2,25,11.28
 URL=file:///home/lucas/Área de trabalho/vm
 
 [file:///mnt/archlinux/@.snapshots/@/@.20230709T1000/etc/libvirt/hooks/qemu.d/win10/kvm.conf]
@@ -754,18 +718,6 @@ Mode Set By User=false
 Time=2023,6,15,8,45,48.079
 URL=file:///mnt/archlinux/Games/Cyberpunk 2077/goggame-1597316373.script
 
-[file:///mnt/archlinux/Games/Cyberpunk 2077/steam_appid.txt]
-Bookmarks=
-Checksum=f5367a23e75660e1400904e9f19bd53429b2294a
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,6,11,5,44,27.993
-URL=file:///mnt/archlinux/Games/Cyberpunk 2077/steam_appid.txt
-
 [file:///mnt/archlinux/Games/Cyberpunk 2077/v1.62.blake3]
 Bookmarks=
 Checksum=eeb4f1b59a9697a853b25bbf6ac03b5d84e73dce
@@ -825,6 +777,30 @@ Mode=Nagios
 Mode Set By User=false
 Time=2023,6,22,13,18,13.962
 URL=file:///mnt/archlinux/temp_stuff/wine-tkg-git/wine-tkg-git/customization.cfg
+
+[file:///mnt/backup/btrfs_scheme.txt]
+Bookmarks=
+Checksum=9d33d71937e37907f02d1d4cd5a99aeb032bfc1c
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,7,14,10,9,47.722
+URL=file:///mnt/backup/btrfs_scheme.txt
+
+[file:///mnt/cdrom/1]
+Bookmarks=
+Checksum=d9a582eb189af22e22fcc8c4a03c16ec1e9ca464
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,7,11,7,24,35.513
+URL=file:///mnt/cdrom/1
 
 [file:///mnt/dados/Downloads/1]
 Bookmarks=
@@ -993,18 +969,6 @@ Mode=MS-DOS Batch
 Mode Set By User=false
 Time=2023,7,9,1,55,41.374
 URL=file:///mnt/jogos_hdd/The Last of Us Part I/prelaunch.cmd
-
-[file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/Prerequisites/installScript.vdf]
-Bookmarks=
-Checksum=e6b4ca41c471a1868d85769e113b1b71a2a3b4ea
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,6,12,2,36,58.575
-URL=file:///mnt/jogos_hdd/Uncharted Legacy of Thieves Collection/Prerequisites/installScript.vdf
 
 [file:///sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3442:00/XXXX0000:00/hid]
 Bookmarks=
