@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=kate
+MimeType=application/x-wine-extension-ini;
+Name=kate
+NoDisplay=true
+Type=Application

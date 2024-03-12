@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[pt_BR]=
+Comment=
+Exec=/usr/bin/sudo /home/lucas/Documentos/scripts/cities_skylines.sh
+GenericName[pt_BR]=
+GenericName=
+Icon=/mnt/archlinux/Games/Cities.Skylines-jc141/cities_skylines_macos_bigsur_icon_190294.png
+MimeType=
+Name[pt_BR]=Cities Skylines
+Name=Cities Skylines
+NoDisplay=false
+Path=/mnt/archlinux/Games/Cities.Skylines-jc141/files/groot/
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

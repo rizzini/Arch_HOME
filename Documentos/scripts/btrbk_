@@ -1,0 +1,66 @@
+#!/bin/bash
+if [ "$EUID" -ne 0 ]; then
+    echo "No root no deal";
+    exit;
+fi
+if test -e "/tmp/btrbk_.sh.lock"; then
+    exit;
+fi
+touch /tmp/btrbk_.sh.lock
+if [[ ! "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/@)"* ]]; then
+    machinectl shell --uid=lucas .host notify-send -u critical "Você não está no subvolume @. Snapshot não foi criado.";
+    echo 'Você não está no subvolume @. Snapshot não foi criado.';
+    rm /tmp/btrbk_.sh.lock;
+    exit 1
+fi
+threshold=30
+cpu_usage=$(awk '{u=$2+$4; t=$2+$4+$5; if (NR==1){u1=u; t1=t;} else print ($2+$4-u1) * 100 / (t-t1); }' <(grep 'cpu ' /proc/stat) <(sleep 1;grep 'cpu ' /proc/stat))
+while [ "${cpu_usage%.*}" -ge $threshold ]; do
+    sleep 60;
+    cpu_usage=$(awk '{u=$2+$4; t=$2+$4+$5; if (NR==1){u1=u; t1=t;} else print ($2+$4-u1) * 100 / (t-t1); }' <(grep 'cpu ' /proc/stat) <(sleep 1;grep 'cpu ' /proc/stat))
+done
+counter=0
+wait=0
+while :; do
+    counter=$((counter + 1))
+    if pgrep steam; then
+        wait=1
+    elif pgrep wine; then
+        wait=1
+   elif pgrep -f qemu; then
+       wait=1
+    fi
+    if [ $wait == 1 ]; then
+        sleep 60
+    else
+        break;
+    fi
+    if [ $counter -ge 118 ]; then
+        rm /tmp/btrbk_.sh.lock;
+        exit;
+    fi
+done
+tree -d -L 2  -I 'CACHE|bin|boot|ccache|dev|etc|home|lib|lib64|lost+found|media|mnt|opt|proc|root|run|sbin|srv|sys|tmp|usr|var|rwsnap*|lucas' /mnt/archlinux/ | tee /mnt/backup/btrfs_scheme.txt
+if ! btrbk -c /etc/btrbk/btrbk_home.conf -q run; then
+    if ! btrbk  -c /etc/btrbk/btrbk_home.conf -v clean /mnt/backup/@home; then
+        machinectl shell --uid=lucas .host notify-send -u critical "Erro no BTRBK. Subvolume: @home";
+    fi
+fi
+if ! btrbk -c /etc/btrbk/btrbk_root.conf -q run; then
+    if ! btrbk  -c /etc/btrbk/btrbk_root.conf -v clean /mnt/backup/@; then
+        machinectl shell --uid=lucas .host notify-send -u critical "Erro no BTRBK. Subvolume: @.";
+    fi
+fi
+if rsync -aAXz /boot/efi/* /mnt/archlinux/ESP/; then
+    if ! btrbk -c /etc/btrbk/btrbk_boot_esp.conf -q run; then
+        if ! btrbk  -c /etc/btrbk/btrbk_boot_esp.conf -v clean /mnt/backup/EPS; then
+            machinectl shell --uid=lucas .host notify-send -u critical "Erro no BTRBK. Subvolume: EPS.";
+        fi
+    fi
+else
+    machinectl shell --uid=lucas .host notify-send -u critical "Erro ao copiar dados da partição EFI para o subvolume EPS.";
+fi
+# if ! refind-btrfs --run-mode one-time; then
+#     machinectl shell --uid=lucas .host notify-send -u critical "Erro ao executar refind-btrfs.";
+# fi
+rm /tmp/btrbk_.sh.lock;

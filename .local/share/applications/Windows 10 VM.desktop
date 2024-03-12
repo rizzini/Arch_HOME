@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=/usr/bin/sudo /home/lucas/Documentos/scripts/qemu_vm_primevideo.sh
+Icon=/mnt/archlinux/@qemu_disks/windows-10-icon.svg
+Name=Windows 10 VM
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

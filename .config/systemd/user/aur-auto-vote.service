@@ -1,0 +1,6 @@
+[Unit]
+Description=Automates voting on installed and uninstalled AUR packages
+
+[Service]
+Type=oneshot
+ExecStart=/home/lucas/Documentos/scripts/aur_vote.sh

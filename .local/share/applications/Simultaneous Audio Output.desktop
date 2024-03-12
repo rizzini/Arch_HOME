@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[pt_BR]=
+Comment=
+Exec=/home/lucas/Documentos/scripts/set_up_simultaneous_audio_output_pipewire.sh
+GenericName[pt_BR]=
+GenericName=
+Icon=/home/lucas/Documentos/scripts/set_up_simultaneous_audio_output_pipewire.png
+MimeType=
+Name[pt_BR]=Simultaneous Audio Output
+Name=Simultaneous Audio Output
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/lucas/Documentos/scripts/taskbar_volume.sh
+Icon=dialog-scripts
+Name=taskbar_volume.sh
+Type=Application
+X-KDE-AutostartScript=true

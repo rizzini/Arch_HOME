@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[pt_BR]=
+Comment=
+Exec=env MANGOHUD_CONFIG=fps_only WINEFSYNC=1 WINEPREFIX=/mnt/gentoo/Games/Valfaris/prefixo gamemoderun wine Valfaris.exe
+GenericName[pt_BR]=
+GenericName=
+Icon=/mnt/gentoo/Games/Valfaris/valfaris.png
+MimeType=
+Name[pt_BR]=Valfaris
+Name=Valfaris
+NoDisplay=false
+Path=/mnt/gentoo/Games/Valfaris
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

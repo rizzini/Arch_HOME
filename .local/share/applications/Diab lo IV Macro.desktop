@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=python /home/lucas/PycharmProjects/diablo4_macro/main.py
+Icon=cs-mouse
+Name=Diablo IV Macro
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
