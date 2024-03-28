@@ -38,6 +38,7 @@ elif [ "$1" == '-android' ]; then
             -enable-kvm \
             -machine q35 \
             -m 2048 \
+            -device usb-host,vendorid=1908,productid=2310 \
             -smp 4 \
             -cpu host \
             -usbdevice tablet \

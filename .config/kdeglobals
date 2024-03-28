@@ -144,6 +144,7 @@ MaximumRemoteSize=0
 
 [Shortcuts]
 AddBookmark=
+OpenContextMenu=Shift+F10
 
 [WM]
 activeBackground=47,52,63

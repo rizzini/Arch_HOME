@@ -297,23 +297,11 @@ _launch=Ctrl+Alt+Esc
 [services][{74f6823a-28f0-4525-a917-c84e7ad418b1}.desktop]
 _launch=Print
 
-[services][{9181bc2a-202d-4b4b-85e8-94f138327fe8}.desktop]
-_launch=Shift+Pause
-
 [services][{ae667fb9-8874-4a0f-9766-56518ed3e678}.desktop]
 _launch=Meta+S
 
-[services][{b159a210-81f8-4a1b-971f-541c058670fd}.desktop]
-_launch=Alt+Pause
-
-[services][{b3c83dec-945a-497f-a08d-ebfbeefc4ccf}.desktop]
-_launch=Ctrl+Shift+Esc
-
 [services][{bdd817c1-8b94-4c4d-8abf-bd744ebbe289}.desktop]
 _launch=Ctrl+Volume Up
-
-[services][{c6eb7b06-8616-43ca-8102-a410e7f93491}.desktop]
-_launch=Meta+W
 
 [services][{d3f9fc7f-622a-49a4-a52b-c5f2446a13a7}.desktop]
 _launch=Ctrl+Alt+E
