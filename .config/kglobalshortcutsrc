@@ -4,7 +4,7 @@ switch-to-activity-e5989023-c658-49e5-9853-684881d4d784=none,none,Alternar para 
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Português (Brasil)=none,none,Mudar para o layout de teclado para Português (Brasil)
-Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
+Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Mudar para o último layout de teclado utilizado
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Mudar para o próximo layout de teclado
 _k_friendly_name=Seletor de layouts de teclado
 
@@ -39,14 +39,14 @@ mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Sil
 mute=Volume Mute,Volume Mute,Sem áudio
 
 [ksmserver]
-Halt Without Confirmation=none,,Shut Down Without Confirmation
+Halt Without Confirmation=none,,Encerramento sem confirmação
 Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Bloquear sessão
-Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
-Log Out Without Confirmation=none,,Log Out Without Confirmation
-Reboot=none,,Reboot
-Reboot Without Confirmation=none,,Reboot Without Confirmation
-Shut Down=none,,Shut Down
-_k_friendly_name=Session Management
+Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Terminar sessão
+Log Out Without Confirmation=none,,Terminar sessão sem confirmação
+Reboot=none,,Reiniciar
+Reboot Without Confirmation=none,,Reiniciar sem confirmação
+Shut Down=none,,Encerrar
+_k_friendly_name=Gestão de sessões
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Ativar janela que demanda atenção
@@ -206,15 +206,15 @@ view_zoom_in=Meta++\tMeta+=,Meta++\tMeta+=,Ampliar
 view_zoom_out=Meta+-,Meta+-,Reduzir
 
 [mediacontrol]
-_k_friendly_name=Media Controller
-mediavolumedown=none,,Media volume down
-mediavolumeup=none,,Media volume up
-nextmedia=Media Next,Media Next,Media playback next
-pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,,Play media playback
-playpausemedia=none,Media Play,Play/Pause media playback
-previousmedia=Media Previous,Media Previous,Media playback previous
-stopmedia=Media Stop,Media Stop,Stop media playback
+_k_friendly_name=Controlador de multimédia
+mediavolumedown=none,,Diminuição do volume da mídia
+mediavolumeup=none,,Aumentar o volume da mídia
+nextmedia=Media Next,Media Next,Reprodução multimédia seguinte
+pausemedia=Media Pause,Media Pause,Pausar a reprodução de multimédia
+playmedia=none,,Reproduzir reprodução multimédia
+playpausemedia=none,Media Play,Reproduzir/Pausa na reprodução de multimédia
+previousmedia=Media Previous,Media Previous,Reprodução multimédia anterior
+stopmedia=Media Stop,Media Stop,Parar a reprodução multimédia
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Reduzir a iluminação do teclado
@@ -258,23 +258,26 @@ activate widget 52=none,none,Ativar o widget Lançador de aplicativos
 activate widget 54=none,none,Ativar o widget Lançador de aplicativos
 activate widget 75=none,none,Ativar o widget Lançador de aplicativos
 activate widget 77=none,none,Ativar o widget Lançador de aplicativos
-clear-history=none,,Limpar o Histórico da Área de Transferência
-clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Menu de Contexto das Acções Automáticas
+clear-history=none,,Limpar histórico da área de transferência
+clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Menu pop-up de ação automática
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Mover o foco do teclado entre os painéis
-cycleNextAction=none,,Item do Histórico Seguinte
-cyclePrevAction=none,,Item do Histórico Anterior
+cycleNextAction=none,,Próximo item do histórico
+cyclePrevAction=none,,Item anterior do histórico
 edit_clipboard=none,none,Editar o Conteúdo…
 manage activities=Meta+Q,Meta+Q,Mostrar seletor de atividade
 next activity=Meta+A,none,Percorrer as atividades
 previous activity=Meta+Shift+A,none,Percorrer as atividades (inverso)
-repeat_action=none,Meta+Ctrl+R,Invocar Manualmente a Acção na Área de Transferência Actual
+repeat_action=none,Meta+Ctrl+R,Invocar ação manualmente sobre a área de transferência atual
 show dashboard=Ctrl+F12,Ctrl+F12,Mostrar a Área de Trabalho
-show-barcode=none,,Mostrar o Código de Barras…
-show-on-mouse-pos=Alt+S,Meta+V,Show Clipboard Items at Mouse Position
+show-barcode=none,,Mostrar código de barras...
+show-on-mouse-pos=Alt+S,Meta+V,Abrir o Klipper na posição do mouse
 stop current activity=none,Meta+S,Parar a atividade atual
 switch to next activity=none,,Trocar para a próxima atividade
 switch to previous activity=none,,Trocar para a atividade anterior
 toggle do not disturb=Launch (1),,Alternar o "Não perturbe"
+
+[services][io.crow_translate.CrowTranslate.desktop]
+TranslateSelectedText=none
 
 [services][org.kde.kcalc.desktop]
 _launch=none
@@ -302,6 +305,9 @@ _launch=Meta+S
 
 [services][{bdd817c1-8b94-4c4d-8abf-bd744ebbe289}.desktop]
 _launch=Ctrl+Volume Up
+
+[services][{c6eb7b06-8616-43ca-8102-a410e7f93491}.desktop]
+_launch=Meta+W
 
 [services][{d3f9fc7f-622a-49a4-a52b-c5f2446a13a7}.desktop]
 _launch=Ctrl+Alt+E

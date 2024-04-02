@@ -1,0 +1,188 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[0db692cb-05cd-42de-a92f-05274877e098]
+Description=Configurações de aplicativo para simcity.exe
+clientmachine=localhost
+noborder=true
+noborderrule=2
+wmclass=simcity.exe
+wmclassmatch=1
+
+[1]
+Description=Configurações de aplicativo para cities.exe
+blockcompositing=true
+blockcompositingrule=2
+clientmachine=localhost
+noborder=true
+noborderrule=2
+position=342,0
+positionrule=2
+size=1024,737
+sizerule=2
+title=Cities: Skylines
+titlematch=1
+types=1
+wmclass=Cities.x64 Cities.x64
+wmclasscomplete=true
+wmclassmatch=2
+
+[149c0874-055e-4ba5-aca0-c998f2b85cf0]
+Description=Configurações de janela para UNO
+ignoregeometry=true
+ignoregeometryrule=2
+size=900,600
+sizerule=2
+title=UNO
+wmclass=steam_app_470220 steam_app_470220
+wmclasscomplete=true
+wmclassmatch=1
+
+[1fba7f35-602d-48b9-80ad-8be4330ebf8b]
+Description=Configurações de aplicativo para vmware
+clientmachine=localhost
+decocolor=BreezeDark
+decocolorrule=2
+noborder=true
+noborderrule=2
+types=1
+wmclass=vmware
+wmclasscomplete=true
+wmclassmatch=2
+
+[2]
+Description=Configurações de aplicativo para diablo iv.exe
+blockcompositing=true
+blockcompositingrule=2
+clientmachine=localhost
+noborder=true
+noborderrule=2
+title=Diablo IV
+types=1
+wmclass=steam_proton steam_proton
+wmclasscomplete=true
+wmclassmatch=1
+
+[2e4b2a94-621c-4158-b1ec-b928f2ecc57c]
+Description=Configurações de aplicativo para cities.exe
+clientmachine=localhost
+noborder=true
+noborderrule=2
+position=342,-26
+positionrule=3
+title=Cities: Skylines
+titlematch=1
+wmclass=cities.exe
+wmclasscomplete=true
+wmclassmatch=2
+
+[2fbc103b-71e0-4a36-9543-94521c999df6]
+Description=Configurações para steam_app_470220 steam_app_470220
+size=1000,700
+sizerule=2
+types=1
+wmclass=steam_app_470220 steam_app_470220
+wmclasscomplete=true
+wmclassmatch=1
+
+[3]
+Description=Configurações de janela para UNO
+blockcompositing=true
+blockcompositingrule=2
+noborderrule=2
+size=830,520
+sizerule=2
+title=UNO
+wmclass=steam_app_470220 steam_app_470220
+wmclasscomplete=true
+wmclassmatch=1
+
+[4]
+Description=Configurações de aplicativo para diablo iv.exe
+blockcompositing=true
+blockcompositingrule=2
+clientmachine=localhost
+noborder=true
+noborderrule=2
+size=730,400
+title=Diablo IV
+types=1
+wmclass=steam_proton steam_proton
+wmclasscomplete=true
+wmclassmatch=1
+
+[4a77b287-81e2-4c12-95ef-b925b6ccbccb]
+Description=Configurações de janela para UNO
+noborderrule=2
+size=640,480
+sizerule=2
+title=UNO
+wmclass=steam_app_470220 steam_app_470220
+wmclasscomplete=true
+wmclassmatch=1
+
+[577b8a4d-598e-4c2d-90dd-0152e0fcc48d]
+Description=Configurações de aplicativo para explorer.exe
+clientmachine=localhost
+noborder=true
+noborderrule=2
+wmclass=explorer.exe
+wmclassmatch=1
+
+[5c39a053-39db-473f-a26b-c22b31174ea8]
+Description=Configurações de aplicativo para diablo iv.exe
+blockcompositing=true
+blockcompositingrule=2
+clientmachine=localhost
+wmclass=diablo iv.exe
+wmclassmatch=1
+
+[General]
+count=3
+rules=1,2,3
+
+[a5cb6d5e-e69d-45cb-879e-91a4f2f4cf04]
+Description=Configurações de aplicativo para cities.exe
+clientmachine=localhost
+skiptaskbar=true
+skiptaskbarrule=2
+title=Cities: Skylines
+wmclass=cities.exe
+wmclasscomplete=true
+wmclassmatch=1
+
+[c79e9771-6d6a-47ca-829d-781f5320673a]
+Description=Configurações para explorer.exe explorer.exe
+blockcompositing=true
+blockcompositingrule=2
+wmclass=explorer.exe explorer.exe
+wmclasscomplete=true
+wmclassmatch=1
+
+[cfc9124f-222b-4349-90a0-f8ee3f96d73a]
+Description=Configurações de janela para Lords Mobile
+size=900,633
+sizerule=2
+title=Lords Mobile
+titlematch=1
+wmclass=steam_app_1041320 steam_app_1041320
+wmclasscomplete=true
+wmclassmatch=1
+
+[d51929b6-4634-4775-95b0-cb85dafd2e4f]
+Description=Configurações de janela para AnyDesk
+ignoregeometry=true
+ignoregeometryrule=2
+title=AnyDesk
+wmclass=anydesk anydesk
+wmclasscomplete=true
+wmclassmatch=1
+
+[eb2d3784-27b8-4552-a3e6-68819e02754c]
+Description=Configurações para steam_app_470220 steam_app_470220
+size=960,540
+sizerule=2
+types=1
+wmclass=steam_app_470220 steam_app_470220
+wmclasscomplete=true
+wmclassmatch=1
