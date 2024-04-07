@@ -144,6 +144,7 @@ MaximumRemoteSize=0
 
 [Shortcuts]
 AddBookmark=
+DeleteWordBack=Ctrl+Backspace; Alt+Backspace
 OpenContextMenu=Shift+F10
 
 [WM]

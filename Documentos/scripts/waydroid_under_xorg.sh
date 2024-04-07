@@ -6,7 +6,7 @@ if [ "$(systemctl is-active waydroid-container.service)" == 'active' ] || lsns |
     exit;
 fi
 if pgrep weston; then
-    killall -9 weston;
+    killall -9 weston &> /dev/null;
 fi
 sudo systemctl restart waydroid-container.service;
 sleep 1;

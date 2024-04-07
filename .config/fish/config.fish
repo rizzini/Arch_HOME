@@ -19,3 +19,4 @@ alias taskbar='/home/lucas/Documentos/scripts/taskbar_cpu_usage_temp.sh & disown
 /home/lucas/Documentos/scripts/taskbar_network_speed_monitor.sh & disown; /
 /home/lucas/Documentos/scripts/taskbar_volume.sh & disown'
 alias sonic="sudo tail -f /var/log/messages | /usr/bin/highlight -O ansi --syntax=Verilog |  perl -p -e 's/^.*?pri/pri/'"
+bind \b backward-kill-path-component
