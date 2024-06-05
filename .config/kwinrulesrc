@@ -23,7 +23,7 @@ sizerule=2
 title=Cities: Skylines
 titlematch=1
 types=1
-wmclass=Cities.x64 Cities.x64
+wmclass=Cities.x64
 wmclasscomplete=true
 wmclassmatch=2
 
@@ -57,6 +57,8 @@ blockcompositingrule=2
 clientmachine=localhost
 noborder=true
 noborderrule=2
+position=342,0
+size=1024,737
 title=Diablo IV
 types=1
 wmclass=steam_proton steam_proton
@@ -89,6 +91,7 @@ wmclassmatch=1
 Description=Configurações de janela para UNO
 blockcompositing=true
 blockcompositingrule=2
+clientmachine=localhost
 noborderrule=2
 size=830,520
 sizerule=2
@@ -98,16 +101,15 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [4]
-Description=Configurações de aplicativo para diablo iv.exe
+Description=Configurações de janela para UNO
 blockcompositing=true
 blockcompositingrule=2
 clientmachine=localhost
-noborder=true
 noborderrule=2
-size=730,400
-title=Diablo IV
-types=1
-wmclass=steam_proton steam_proton
+size=830,520
+sizerule=2
+title=UNO
+wmclass=steam_app_470220 steam_app_470220
 wmclasscomplete=true
 wmclassmatch=1
 
@@ -135,6 +137,15 @@ blockcompositing=true
 blockcompositingrule=2
 clientmachine=localhost
 wmclass=diablo iv.exe
+wmclassmatch=1
+
+[5d22db27-bd4b-441b-91bf-a0612fe351d1]
+Description=Configurações de janela para Alacritty
+clientmachine=localhost
+title=~
+titlematch=1
+types=1
+wmclass=Alacritty
 wmclassmatch=1
 
 [General]
