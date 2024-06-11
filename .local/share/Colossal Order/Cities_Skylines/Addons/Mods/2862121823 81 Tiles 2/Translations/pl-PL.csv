@@ -1,0 +1,28 @@
+﻿"LANGUAGE","Polski","Language name (in native language)."
+"MOD_DESCRIPTION","Odblokowuj wszystkie 81 kafelki mapy.","Mod description displayed in content manager."
+"UNLOCK","Obszar odblokowany"
+"IGNORE_UNLOCK","Ignoruj postęp odblokowywania obszaru","Option in options panel - activates option to ignore city milestone progress restrictions on the number of game area tiles."
+"IGNORE_UNLOCK_TIP","Gdy ta opcja jest włączona, zawsze będziesz mógł kupować nowe płytki obszaru gry, ignorując wszelkie ograniczenia dotyczące postępu miast.","Tooltip in options panel."
+"CROSS_THE_LINE","Pozwól na budowę poza własnymi kafelkami","Option in options panel - permits building outside of owned area tiles."
+"CROSS_THE_LINE_TIP","Gdy ta opcja jest włączona, możesz budować poza posiadanymi obszarami mapy.","Tooltip in options panel."
+"UNLOCK_25","Odblokuj 25 środkowych kafelków mapy","Button in options panel - unlocks 25-tile area"
+"UNLOCK_ALL","Odblokuj całą mapę","Button in options panel - unlocks all game areas"
+"NET_OPTIONS","Sieci przesyłowe","Option header in options panel."
+"NO_POWERLINES","Włącz przesył energii elektrycznej bez słupów energetycznych","Option in options panel - activates 'no powerlines' functionality."
+"NO_POWERLINES_TIP","Gdy ta opcja jest włączona, budynki nie muszą być już podłączone do linii energetycznych (nadal będziesz musiał produkować energię elektryczną).","Tooltip in options panel."
+"ELECTRIC_ROADS","Włącz przesył energii elektrycznej wzdłuż dróg","Option in options panel - activates 'electric roads' functionality."
+"ELECTRIC_ROADS_TIP","Kiedy ta opcja jest włączona, drogi będą przewodzić prąd tak, jakby były to linie energetyczne.","Tooltip in options panel."
+"NO_PIPES","Włącz przesył wody, ścieków i rur grzewczych bez rurociągów","Option in options panel - activates 'no no pipes' functionality."
+"NO_PIPES_TIP","Gdy ta opcja jest włączona, budynki nie muszą być przyłączone do rur przesyłających wodę, ścieki i ogrzewanie (nadal będziesz musiał produkować energię elektryczną i ogrzewanie jeśli jest potrzebne).","Tooltip in options panel."
+"EXCEPT_ORIGINAL","Ignore original water buildings","Option in options panel - enables/disables water buildings placed by the map creator."
+"EXCEPT_ORIGINAL_TIP","When this is selected, water buildings on the original map (placed in the map editor) will be ignored by the 'no pipes' functionality.
+
+This option should be enabled when the map contains water buildings used only for decorative purposes (e.g. Bringer of Fire's Yangtze and Revelstoke maps) to prevent gigantic water surges and/or water pollution.","Tooltip in options panel."
+"RESCUE_OPTIONS","Awaryjne opcje – UŻYWAJ UWAŻNIE","Option header in options panel."
+"IGNORE_EXPANDED","Ignoruj rozszerzenie o 81 kafelków podczas następnego wczytywania zapisu."
+"IGNORE_EXPANDED_TIP","Użyj tej opcji jako opcji awaryjnej, jeśli masz problemy podczas ładowania gier zapisanych za pomocą wcześniejszych 81 modów kafelek (przedewszystkim problemy z zniknięciem terenu lub obszarów).
+UWAGA: użycie tej opcji spowoduje zniekształcenie wszystkich terenów poza centralnym obszarem podstawowych 25 kafelków.
+Ta opcja zostanie automatycznie wyczyszczona po zakończeniu następnego ładowania miasta.","Tooltip in options panel."
+"LOAD_DISABLED","Przycisk wczytywania gry został wyłączony przez mod 81 kafelków, by uniknąć utraty zapisu. Użyj przycisku ""Zakończ grę"" i uruchom ponownie grę przed wczytaniem zapisu lub stworzeniem nowego miasta.","Tooltip on 'load game' button when in-game."
+"MAIN_MENU_DISABLED","Przycisk ""Wyjdź do menu głównego"" został wyłączony przez mod 81 kafelków, aby uniknąć utraty zapisu gry. Użyj przycisku ""Zakończ grę"" i uruchom ponownie grę przed załadowaniem zapisu lub stworzeniem nowego miasta.","Tooltip on 'exit to main menu' button when in-game."
+"EDITOR_DISABLED","Przycisk edycji został wyłączony, ponieważ mod 81 kafelek jest aktywny. Aby korzystać z edytora, musisz wyłączyć mod 81 kafelków i ponownie uruchomić grę.","Tooltip on disabled editor button in main menu."

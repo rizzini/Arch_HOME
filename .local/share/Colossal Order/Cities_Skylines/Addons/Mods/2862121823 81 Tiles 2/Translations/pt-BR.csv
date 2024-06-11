@@ -1,0 +1,28 @@
+﻿"LANGUAGE","Português Brasileiro","Language name (in native language)."
+"MOD_DESCRIPTION","Desbloqueia todos os 81 blocos do jogo.","Mod description displayed in content manager."
+"UNLOCK","Desbloquear área"
+"IGNORE_UNLOCK","Ignore a progressão de desbloqueio de área","Option in options panel - activates option to ignore city milestone progress restrictions on the number of game area tiles."
+"IGNORE_UNLOCK_TIP","Quando isso estiver ativado, você sempre poderá comprar novos blocos de área de jogo, ignorando quaisquer restrições de progresso dos marcos da cidade.","Tooltip in options panel."
+"CROSS_THE_LINE","Permite construir fora dos blocos de propriedade","Option in options panel - permits building outside of owned area tiles."
+"CROSS_THE_LINE_TIP","Quando ativado, você pode construir fora dos blocos de propriedade.","Tooltip in options panel."
+"UNLOCK_25","Desbloquear a área central de 25 blocos","Button in options panel - unlocks 25-tile area"
+"UNLOCK_ALL","Desbloquear todas as áreas","Button in options panel - unlocks all game areas"
+"NET_OPTIONS","Redes de transmissão","Option header in options panel."
+"NO_POWERLINES","Permitir a transmissão de eletricidade sem linhas elétricas","Option in options panel - activates 'no powerlines' functionality."
+"NO_POWERLINES_TIP","Quando isto estiver ativado, os edifícios não precisam mais ser conectados a linhas de energia (você ainda precisará produzir eletricidade).","Tooltip in options panel."
+"ELECTRIC_ROADS","Ativar transmissão de energia ao longo das estradas","Option in options panel - activates 'electric roads' functionality."
+"ELECTRIC_ROADS_TIP","Quando esta opção estiver habilitada, as estradas conduzirão a electricidade como se fossem linhas de força.","Tooltip in options panel."
+"NO_PIPES","Habilita água, esgotos e transmissão de aquecimento sem tubulações","Option in options panel - activates 'no no pipes' functionality."
+"NO_PIPES_TIP","Quando isto está ativado, os edifícios não precisam mais ser conectados com água ou tubos de aquecimento (você ainda precisará fornecer tratamento de água e esgoto e plantas de aquecimento, se desejado).","Tooltip in options panel."
+"EXCEPT_ORIGINAL","Ignorar edifícios originais de água","Option in options panel - enables/disables water buildings placed by the map creator."
+"EXCEPT_ORIGINAL_TIP","Quando isso é selecionado, as construções de água no mapa original (colocadas no editor de mapa) serão ignoradas pela funcionalidade 'sem canos'.
+
+Esta opção deve ser habilitada quando o mapa contiver edifícios aquáticos usados ​​apenas para fins decorativos (por exemplo, os mapas Yangtze e Revelstoke do Portador do Fogo) para evitar surtos gigantescos de água e/ou poluição da água.","Tooltip in options panel."
+"RESCUE_OPTIONS","Opções de resgate de emergência - USE COM CUIDADO","Option header in options panel."
+"IGNORE_EXPANDED","Ignore os dados expandidos de 81 blocos na próxima vez que carregar um salvamento."
+"IGNORE_EXPANDED_TIP","Use isso como uma opção de reserva de emergência se estiver tendo problemas ao carregar jogos anteriores salvos por mods de 81 blocos (especialmente quaisquer problemas com desaparecimentos de distritos ou áreas).
+AVISO: usar esta opção fará com que quaisquer distritos fora da área central de 25 blocos estejam malformados.
+Esta opção irá limpar automaticamente após a conclusão do próximo carregamento da cidade.","Tooltip in options panel."
+"LOAD_DISABLED","O botão de carregamento do jogo foi desativado pelo mod 81 blocos para proteger seu arquivo salvo contra corrupção. Use o botão sair e reinicie completamente o jogo antes de carregar qualquer arquivo salvo ou iniciar uma nova cidade.","Tooltip on 'load game' button when in-game."
+"MAIN_MENU_DISABLED","O botão Sair para o Menu Principal foi desativado pelo mod 81 Tiles para proteger seu arquivo salvo contra corrupção. Use o botão Sair e reinicie completamente o jogo antes de carregar qualquer arquivo salvo ou iniciar uma nova cidade.","Tooltip on 'exit to main menu' button when in-game."
+"EDITOR_DISABLED","O botão editor foi desativado porque o mod de 81 blocos está ativo. Para usar os editores, você deve desativar o mod de 81 blocos e reiniciar o jogo.","Tooltip on disabled editor button in main menu."
