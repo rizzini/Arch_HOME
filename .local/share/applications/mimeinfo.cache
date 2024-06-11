@@ -7,3 +7,4 @@ audio/mpeg=userapp-kdenllive-NU2GU1.desktop;
 inode/directory=org.kde.kate.desktop;
 text/plain=org.kde.kate.desktop;
 text/vbscript=wine-extension-vbs.desktop;
+x-scheme-handler/discord-455712169795780630=discord-455712169795780630.desktop;
