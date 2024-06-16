@@ -1,6 +1,6 @@
 #!/bin/bash
 # xdotool key ctrl+c
-url=$(/usr/bin/xclip -o -selection clipboard)
+url=$(wl-paste)
 # echo "$(tput setaf 82)URL: "$url"$(tput sgr0)"
 # regex='^https?://[^/]+'
  yt-dlp -f "bestvsideo[height<=?720]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/%(title).200B.%(ext)s"  &> /dev/null & disown

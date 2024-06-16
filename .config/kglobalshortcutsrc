@@ -101,7 +101,7 @@ Switch to Desktop 6=none,,Mudar para a área de trabalho 6
 Switch to Desktop 7=none,,Mudar para a área de trabalho 7
 Switch to Desktop 8=none,,Mudar para a área de trabalho 8
 Switch to Desktop 9=none,,Mudar para a área de trabalho 9
-Switch to Next Desktop=none,,Mudar para a área de trabalho seguinte
+Switch to Next Desktop=Meta+',,Mudar para a área de trabalho seguinte
 Switch to Next Screen=none,,Mudar para a próxima tela
 Switch to Previous Desktop=none,,Mudar para a área de trabalho anterior
 Switch to Previous Screen=none,,Mudar para a tela anterior
@@ -255,6 +255,7 @@ activate widget 23=Alt+F1,none,Ativar o widget Menu de aplicativos
 activate widget 230=none,none,Ativar o widget Relógio digital
 activate widget 231=none,none,Ativar o widget Menu de aplicativos
 activate widget 27=none,none,Ativar o widget Lançador de aplicativos
+activate widget 3=none,none,Ativar o widget Lançador de aplicativos
 activate widget 52=none,none,Ativar o widget Lançador de aplicativos
 activate widget 54=none,none,Ativar o widget Lançador de aplicativos
 activate widget 75=none,none,Ativar o widget Lançador de aplicativos
@@ -278,13 +279,17 @@ switch to previous activity=none,,Trocar para a atividade anterior
 toggle do not disturb=Launch (1),,Alternar o "Não perturbe"
 
 [services][io.crow_translate.CrowTranslate.desktop]
-TranslateSelectedText=
+TranslateSelectedText=none
 
 [services][org.kde.kcalc.desktop]
 _launch=none
 
 [services][org.kde.konsole.desktop]
 _launch=none
+
+[services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=Print
+_launch=Meta+Shift+S
 
 [services][{22af2176-f96b-48b3-81e2-53c5986f4746}.desktop]
 _launch=Ctrl+Alt+T
@@ -297,9 +302,6 @@ _launch=Ctrl+Shift+Volume Up
 
 [services][{71df043f-2578-4c5d-af79-97878ebfeb7c}.desktop]
 _launch=Ctrl+Alt+Esc
-
-[services][{74f6823a-28f0-4525-a917-c84e7ad418b1}.desktop]
-_launch=Print
 
 [services][{ae667fb9-8874-4a0f-9766-56518ed3e678}.desktop]
 _launch=Meta+S
