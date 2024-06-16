@@ -250,6 +250,7 @@ activate widget 148=none,none,Ativar o widget Lançador de aplicativos
 activate widget 174=none,none,Ativar o widget Gerenciador de tarefas apenas com ícones
 activate widget 194=none,none,Ativar o widget Menu de aplicativos
 activate widget 2=none,none,Ativar o widget Lançador de aplicativos
+activate widget 222=none,none,Ativar o widget Relógio digital
 activate widget 23=Alt+F1,none,Ativar o widget Menu de aplicativos
 activate widget 230=none,none,Ativar o widget Relógio digital
 activate widget 231=none,none,Ativar o widget Menu de aplicativos
@@ -329,3 +330,14 @@ _launch=Ctrl+K
 
 [services][{fce3e738-1ca6-44b3-b2f0-c52c2da04b3c}.desktop]
 _launch=Ctrl+Shift+Volume Down
+
+[wacomtablet]
+Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Mapear para tela inteira
+Map to screen 1=Meta+Ctrl+1,Meta+Ctrl+1,Mapear para tela 1
+Map to screen 2=Meta+Ctrl+2,Meta+Ctrl+2,Mapear para tela 2
+Next Profile=Meta+Ctrl+N,Meta+Ctrl+N,Próximo perfil
+Previous Profile=Meta+Ctrl+P,Meta+Ctrl+P,Perfil anterior
+Toggle screen map selection=Meta+Ctrl+M,Meta+Ctrl+M,Alternar entre todas as telas
+Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Comutar a ferramenta da caneta para relativa/absoluta
+Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Ativar/Desativar a ferramenta de Toque
+_k_friendly_name=Mesa digitalizadora Wacom
