@@ -278,7 +278,7 @@ switch to previous activity=none,,Trocar para a atividade anterior
 toggle do not disturb=Launch (1),,Alternar o "Não perturbe"
 
 [services][io.crow_translate.CrowTranslate.desktop]
-TranslateSelectedText=none
+TranslateSelectedText=
 
 [services][org.kde.kcalc.desktop]
 _launch=none
