@@ -110,7 +110,7 @@ XftSubPixel=rgb
 Theme=Tela
 
 [KDE]
-AnimationDurationFactor=0.5
+AnimationDurationFactor=0
 LookAndFeelPackage=Ant-Dark
 ShowDeleteCommand=false
 SingleClick=true

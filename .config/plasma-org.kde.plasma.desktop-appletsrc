@@ -35,7 +35,7 @@ PreloadWeight=0
 [Containments][170][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=289
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/Lucas Rizzini - CV.pdf"\\,"0"\\,"1"\\,"desktop:/Release"\\,"0"\\,"0"\\,"desktop:/steam.desktop"\\,"0"\\,"3"\\,"desktop:/Silo.S01E10.720p.WEB.x265-MiNX.Portuguese Brazilian.POR.srt"\\,"0"\\,"2"]\\,"1360x768":["1"\\,"12"\\,"desktop:/2024-01-02_18-55.png"\\,"0"\\,"1"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"1280x1024":[""]\\,"640x480":[""]\\,"1680x1050":[]\\,"800x600":[""]\\,"1280x960":[""]\\,"1280x800":["1"\\,"11"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"0x0":[]\\,"1024x768":[]\\,"1280x720":["1"\\,"11"\\,"desktop:/vkd3d-proton-2.10"\\,"0"\\,"1"\\,"desktop:/SimCity.desktop"\\,"0"\\,"0"]\\,"1440x900":[""]\\,"3840x2160":[""]\\,"2259x1271":[]\\,"1368x768":[]\\,"1366x768":["2"\\,"12"\\,"desktop:/UNO.desktop"\\,"1"\\,"1"\\,"desktop:/steam.desktop"\\,"0"\\,"1"\\,"desktop:/btrbk"\\,"0"\\,"0"\\,"desktop:/2024-06-16_17-04.png"\\,"0"\\,"2"]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/Lucas Rizzini - CV.pdf"\\,"0"\\,"1"\\,"desktop:/Release"\\,"0"\\,"0"\\,"desktop:/steam.desktop"\\,"0"\\,"3"\\,"desktop:/Silo.S01E10.720p.WEB.x265-MiNX.Portuguese Brazilian.POR.srt"\\,"0"\\,"2"]\\,"1360x768":["1"\\,"12"\\,"desktop:/2024-01-02_18-55.png"\\,"0"\\,"1"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"1280x1024":[""]\\,"640x480":[""]\\,"1680x1050":[]\\,"800x600":[""]\\,"1280x960":[""]\\,"1280x800":["1"\\,"11"\\,"desktop:/steam.desktop"\\,"0"\\,"0"]\\,"0x0":[]\\,"1024x768":[]\\,"1280x720":["1"\\,"11"\\,"desktop:/vkd3d-proton-2.10"\\,"0"\\,"1"\\,"desktop:/SimCity.desktop"\\,"0"\\,"0"]\\,"1440x900":[""]\\,"3840x2160":[""]\\,"2259x1271":[]\\,"1368x768":[]\\,"1366x768":["2"\\,"12"\\,"desktop:/steam.desktop"\\,"0"\\,"1"\\,"desktop:/UNO.desktop"\\,"1"\\,"1"\\,"desktop:/2024-06-16_17-04.png"\\,"0"\\,"2"\\,"desktop:/Captura de imagem_20240617_064952.png"\\,"0"\\,"3"\\,"desktop:/btrbk"\\,"0"\\,"0"]}
 sortMode=-1
 
 [Containments][170][Wallpaper][com.github.zzag.dynamic][General]
@@ -130,6 +130,11 @@ global=Alt+F1
 [Containments][171][Applets][219]
 immutability=1
 plugin=org.kde.plasma.digitalclock
+
+[Containments][171][Applets][219][Configuration]
+PreloadWeight=70
+popupHeight=450
+popupWidth=560
 
 [Containments][171][Applets][223]
 immutability=1
@@ -305,7 +310,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][177][Applets][203][Configuration]
-PreloadWeight=38
+PreloadWeight=14
 
 [Containments][177][Applets][210]
 immutability=1
@@ -343,10 +348,10 @@ DialogWidth=720
 PreloadWeight=0
 
 [Containments][177][General]
-extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kdeconnect
 hiddenItems=Indicador do KDE Connect,AnyDesk,org.kde.plasma.bluetooth
 iconSpacing=1
-knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.printmanager
+knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.kdeconnect
 shownItems=Crow Translate,NoMachineMonitor,org.kde.plasma.notifications,blueman,org.kde.plasma.volume,org.kde.plasma.clipboard,corectrl,skypeforlinux,crow-translate,chrome_status_icon_1
 
 [Containments][213]
@@ -369,4 +374,4 @@ scrollY=16
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/2023-11-01_16-07.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/mgid:arc:imageassetref:shared.southpark.us.en:871078f4-35f8-4ffd-9b26-156124e12e7d,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-06.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_07-57.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-08.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/4096x2160-72822-rio-de-janeiro-brazil-4k-ultra-hd-wallpaper__cityscapes.jpg,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2024-06-16_17-04.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-09-02_18-40.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/btrbk,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/aneis.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/steam.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/amuleto.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_08-26.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_08-27.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/111.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/UNO.desktop,0,e5989023-c658-49e5-9853-684881d4d784
+screenMapping=desktop:/2023-11-23_08-27.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/btrbk,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/Captura de imagem_20240617_064952.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/amuleto.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/UNO.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/steam.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_07-57.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-08.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-07.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/aneis.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/4096x2160-72822-rio-de-janeiro-brazil-4k-ultra-hd-wallpaper__cityscapes.jpg,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_08-26.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-06.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/mgid:arc:imageassetref:shared.southpark.us.en:871078f4-35f8-4ffd-9b26-156124e12e7d,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-09-02_18-40.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/111.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2024-06-16_17-04.png,0,e5989023-c658-49e5-9853-684881d4d784
