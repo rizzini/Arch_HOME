@@ -30,10 +30,10 @@ _k_friendly_name=Serviço de atalhos personalizados
 [kmix]
 _k_friendly_name=Volume do áudio
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Diminuir volume do microfone
-decrease_volume=Volume Down,Volume Down,Diminuir volume
+decrease_volume=Volume Down\tAlt+-,Volume Down,Diminuir volume
 decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminuir volume em 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Aumentar volume do microfone
-increase_volume=Volume Up,Volume Up,Aumentar volume
+increase_volume=Alt+=\tVolume Up,Volume Up,Aumentar volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Aumentar volume em 1%
 mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Silenciar microfone
 mute=Volume Mute,Volume Mute,Sem áudio
@@ -291,6 +291,9 @@ _launch=none
 CurrentMonitorScreenShot=Print
 _launch=Meta+Shift+S
 
+[services][waydroid.sh.desktop]
+_launch=Meta+W
+
 [services][{22af2176-f96b-48b3-81e2-53c5986f4746}.desktop]
 _launch=Ctrl+Alt+T
 
@@ -308,9 +311,6 @@ _launch=Meta+S
 
 [services][{bdd817c1-8b94-4c4d-8abf-bd744ebbe289}.desktop]
 _launch=Ctrl+Volume Up
-
-[services][{c6eb7b06-8616-43ca-8102-a410e7f93491}.desktop]
-_launch=Meta+W
 
 [services][{d3f9fc7f-622a-49a4-a52b-c5f2446a13a7}.desktop]
 _launch=Ctrl+Alt+E

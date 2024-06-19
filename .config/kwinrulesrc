@@ -148,9 +148,21 @@ types=1
 wmclass=Alacritty
 wmclassmatch=1
 
+[8fdcb6fc-b06a-4636-9c15-632627e6c085]
+Description=Configurações de aplicativo para scrcpy
+clientmachine=localhost
+noborder=true
+noborderrule=2
+size=452,737
+sizerule=3
+types=1
+wmclass=scrcpy scrcpy
+wmclasscomplete=true
+wmclassmatch=1
+
 [General]
-count=3
-rules=1,2,3
+count=4
+rules=8fdcb6fc-b06a-4636-9c15-632627e6c085,1,2,3
 
 [a5cb6d5e-e69d-45cb-879e-91a4f2f4cf04]
 Description=Configurações de aplicativo para cities.exe
