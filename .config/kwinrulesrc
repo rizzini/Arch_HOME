@@ -10,22 +10,19 @@ wmclass=simcity.exe
 wmclassmatch=1
 
 [1]
-Description=Configurações de aplicativo para cities.exe
+Description=Configurações de aplicativo para scrcpy
 blockcompositing=true
-blockcompositingrule=2
 clientmachine=localhost
 noborder=true
 noborderrule=2
 position=342,0
-positionrule=2
-size=1024,737
-sizerule=2
+size=452,737
+sizerule=3
 title=Cities: Skylines
-titlematch=1
 types=1
-wmclass=Cities.x64
+wmclass=scrcpy scrcpy
 wmclasscomplete=true
-wmclassmatch=2
+wmclassmatch=1
 
 [149c0874-055e-4ba5-aca0-c998f2b85cf0]
 Description=Configurações de janela para UNO
@@ -51,19 +48,22 @@ wmclasscomplete=true
 wmclassmatch=2
 
 [2]
-Description=Configurações de aplicativo para diablo iv.exe
+Description=Configurações de aplicativo para cities.exe
 blockcompositing=true
 blockcompositingrule=2
 clientmachine=localhost
 noborder=true
 noborderrule=2
 position=342,0
+positionrule=2
 size=1024,737
-title=Diablo IV
+sizerule=2
+title=Cities: Skylines
+titlematch=1
 types=1
-wmclass=steam_proton steam_proton
+wmclass=Cities.x64
 wmclasscomplete=true
-wmclassmatch=1
+wmclassmatch=2
 
 [2e4b2a94-621c-4158-b1ec-b928f2ecc57c]
 Description=Configurações de aplicativo para cities.exe
@@ -88,15 +88,16 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [3]
-Description=Configurações de janela para UNO
+Description=Configurações de aplicativo para diablo iv.exe
 blockcompositing=true
 blockcompositingrule=2
 clientmachine=localhost
+noborder=true
 noborderrule=2
 size=930,620
-sizerule=2
-title=UNO
-wmclass=steam_app_470220 steam_app_470220
+title=Diablo IV
+types=1
+wmclass=steam_proton steam_proton
 wmclasscomplete=true
 wmclassmatch=1
 
@@ -106,7 +107,7 @@ blockcompositing=true
 blockcompositingrule=2
 clientmachine=localhost
 noborderrule=2
-size=830,520
+size=930,620
 sizerule=2
 title=UNO
 wmclass=steam_app_470220 steam_app_470220
@@ -162,7 +163,7 @@ wmclassmatch=1
 
 [General]
 count=4
-rules=8fdcb6fc-b06a-4636-9c15-632627e6c085,1,2,3
+rules=1,2,3,4
 
 [a5cb6d5e-e69d-45cb-879e-91a4f2f4cf04]
 Description=Configurações de aplicativo para cities.exe
