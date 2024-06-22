@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "adhemarks@gmail.com",
+                "Name": "Ademir"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Execute commands with one click",
+        "Icon": "start-here-kde",
+        "Id": "adhe.runcommand",
+        "License": "GPL-3.0-or-later",
+        "Name": "Run command",
+        "Name[x-test]": "xxRun commandxx",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
