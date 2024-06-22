@@ -28,25 +28,26 @@ _k_friendly_name=Serviço de atalhos personalizados
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 
 [kmix]
-_k_friendly_name=Volume do áudio
-decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Diminuir volume do microfone
-decrease_volume=Num+-\tVolume Down,Volume Down,Diminuir volume
-decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminuir volume em 1%
-increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Aumentar volume do microfone
-increase_volume=Num++\tVolume Up,Volume Up,Aumentar volume
-increase_volume_small=Shift+Volume Up,Shift+Volume Up,Aumentar volume em 1%
-mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Silenciar microfone
+_k_friendly_name=Audio Volume
+decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
+decrease_volume=Num+-\tVolume Down,Volume Down,Decrease Volume
+decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Decrease Volume by 1%
+increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
+increase_volume=Num++\tVolume Up,Volume Up,Increase Volume
+increase_volume_small=Shift+Volume Up,Shift+Volume Up,Increase Volume by 1%
+mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Sem áudio
 
 [ksmserver]
-Halt Without Confirmation=none,,Encerramento sem confirmação
+Halt Without Confirmation=none,,Desligar sem confirmação
 Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Bloquear sessão
-Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Terminar sessão
-Log Out Without Confirmation=none,,Terminar sessão sem confirmação
+Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Mostrar tela para encerrar sessão
+Log Out Without Confirmation=none,,Encerrar sessão sem confirmação
+LogOut=,,Encerrar sessão
 Reboot=none,,Reiniciar
 Reboot Without Confirmation=none,,Reiniciar sem confirmação
-Shut Down=none,,Encerrar
-_k_friendly_name=Gestão de sessões
+Shut Down=none,,Desligar
+_k_friendly_name=Gerenciamento de sessões
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Ativar janela que demanda atenção
@@ -71,7 +72,6 @@ MoveZoomUp=none,none,Mover a área ampliada para cima
 Overview=none,Meta+W,Toggle Overview
 Setup Window Shortcut=none,,Configurar atalhos para a janela
 Show Desktop=Meta+D,Meta+D,Espiar área de trabalho
-ShowDesktopGrid=Meta+F8,Meta+F8,Mostrar a grade de áreas de trabalho
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspender composição
 Switch One Desktop Down=none,Meta+Ctrl+Down,Mudar para a área de trabalho abaixo
 Switch One Desktop Up=none,Meta+Ctrl+Up,Mudar para a área de trabalho acima
@@ -117,7 +117,7 @@ Switch to Screen Above=none,,Mudar para o Ecrã Acima
 Switch to Screen Below=none,,Mudar para o Ecrã Abaixo
 Switch to Screen to the Left=none,,Mudar para o Ecrã à Esquerda
 Switch to Screen to the Right=none,,Mudar para o Ecrã à Direita
-Toggle Night Color=none,none,Toggle Night Light
+Toggle Night Color=none,none,Suspend/Resume Night Light
 Toggle Window Raise/Lower=none,,Alternar entre elevar/diminuir janela
 Walk Through Windows=Alt+Tab,Alt+Tab,Passear pelas janelas
 Walk Through Windows (Reverse)=Alt+Shift+Backtab,Alt+Shift+Tab,Passear pelas janelas (sentido inverso)
@@ -206,15 +206,15 @@ view_zoom_in=Meta++\tMeta+=,Meta++\tMeta+=,Ampliar
 view_zoom_out=Meta+-,Meta+-,Reduzir
 
 [mediacontrol]
-_k_friendly_name=Controlador de multimédia
-mediavolumedown=none,,Diminuição do volume da mídia
-mediavolumeup=none,,Aumentar o volume da mídia
-nextmedia=Media Next,Media Next,Reprodução multimédia seguinte
-pausemedia=Media Pause,Media Pause,Pausar a reprodução de multimédia
-playmedia=none,,Reproduzir reprodução multimédia
-playpausemedia=none,Media Play,Reproduzir/Pausa na reprodução de multimédia
-previousmedia=Media Previous,Media Previous,Reprodução multimédia anterior
-stopmedia=Media Stop,Media Stop,Parar a reprodução multimédia
+_k_friendly_name=Media Controller
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
+nextmedia=Media Next,Media Next,Media playback next
+pausemedia=Media Pause,Media Pause,Pause media playback
+playmedia=none,,Play media playback
+playpausemedia=none,Media Play,Play/Pause media playback
+previousmedia=Media Previous,Media Previous,Media playback previous
+stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Reduzir a iluminação do teclado
@@ -234,6 +234,7 @@ powerProfile=Battery\tMeta+B,Battery\tMeta+B,Trocar perfil de energia
 
 [plasmashell]
 _k_friendly_name=plasmashell
+activate application launcher=Meta\t,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=Meta+1,Meta+1,Ativar entrada 1 do gerenciador de tarefas
 activate task manager entry 10=none,Meta+0,Ativar entrada 10 do gerenciador de tarefas
 activate task manager entry 2=Meta+2,Meta+2,Ativar entrada 2 do gerenciador de tarefas
@@ -260,19 +261,19 @@ activate widget 52=none,none,Ativar o widget Lançador de aplicativos
 activate widget 54=none,none,Ativar o widget Lançador de aplicativos
 activate widget 75=none,none,Ativar o widget Lançador de aplicativos
 activate widget 77=none,none,Ativar o widget Lançador de aplicativos
-clear-history=none,,Limpar histórico da área de transferência
-clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Menu pop-up de ação automática
+clear-history=none,,Limpar o Histórico da Área de Transferência
+clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Menu de Contexto das Acções Automáticas
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Mover o foco do teclado entre os painéis
-cycleNextAction=none,,Próximo item do histórico
-cyclePrevAction=none,,Item anterior do histórico
+cycleNextAction=none,,Item do Histórico Seguinte
+cyclePrevAction=none,,Item do Histórico Anterior
 edit_clipboard=none,none,Editar o Conteúdo…
 manage activities=Meta+Q,Meta+Q,Mostrar seletor de atividade
 next activity=Meta+A,none,Percorrer as atividades
 previous activity=Meta+Shift+A,none,Percorrer as atividades (inverso)
-repeat_action=none,Meta+Ctrl+R,Invocar ação manualmente sobre a área de transferência atual
+repeat_action=none,Meta+Ctrl+R,Invocar Manualmente a Acção na Área de Transferência Actual
 show dashboard=Ctrl+F12,Ctrl+F12,Mostrar a Área de Trabalho
-show-barcode=none,,Mostrar código de barras...
-show-on-mouse-pos=Alt+S,Meta+V,Abrir o Klipper na posição do mouse
+show-barcode=none,,Mostrar o Código de Barras…
+show-on-mouse-pos=Alt+S,Meta+V,Show Clipboard Items at Mouse Position
 stop current activity=none,Meta+S,Parar a atividade atual
 switch to next activity=none,,Trocar para a próxima atividade
 switch to previous activity=none,,Trocar para a atividade anterior
@@ -288,7 +289,7 @@ _launch=none
 _launch=none
 
 [services][org.kde.spectacle.desktop]
-CurrentMonitorScreenShot=Print
+RectangularRegionScreenShot=Meta+Shift+Print\tPrint
 _launch=Meta+Shift+S
 
 [services][waydroid.sh.desktop]
@@ -297,20 +298,11 @@ _launch=Meta+W
 [services][{22af2176-f96b-48b3-81e2-53c5986f4746}.desktop]
 _launch=Ctrl+Alt+T
 
-[services][{53975b2f-dc06-4947-8277-5c16cdb39c5f}.desktop]
-_launch=Ctrl+Volume Down
-
-[services][{6f6ce914-5c94-4113-bf9e-d388e8d92566}.desktop]
-_launch=Ctrl+Shift+Volume Up
-
 [services][{71df043f-2578-4c5d-af79-97878ebfeb7c}.desktop]
 _launch=Ctrl+Alt+Esc
 
 [services][{ae667fb9-8874-4a0f-9766-56518ed3e678}.desktop]
 _launch=Meta+S
-
-[services][{bdd817c1-8b94-4c4d-8abf-bd744ebbe289}.desktop]
-_launch=Ctrl+Volume Up
 
 [services][{d3f9fc7f-622a-49a4-a52b-c5f2446a13a7}.desktop]
 _launch=Ctrl+Alt+E
@@ -321,17 +313,8 @@ _launch=Shift+ScrollLock
 [services][{df95a5f2-5bdd-4ac2-84ac-ff554f80a727}.desktop]
 _launch=Ctrl+Y
 
-[services][{e71f4f76-6417-4b4a-a545-e28f04c50b38}.desktop]
-_launch=Ctrl+Launch (1)
-
-[services][{f13f543e-e529-4f34-a748-1bb2ebef19a8}.desktop]
-_launch=Media Play
-
 [services][{fad4f2bb-5d65-4bf3-b4ff-7f4c5b19dd53}.desktop]
 _launch=Ctrl+K
-
-[services][{fce3e738-1ca6-44b3-b2f0-c52c2da04b3c}.desktop]
-_launch=Ctrl+Shift+Volume Down
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Mapear para tela inteira

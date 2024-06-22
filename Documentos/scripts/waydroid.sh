@@ -7,5 +7,16 @@ if [ "$(systemctl is-active waydroid-container.service)" == 'active' ] || lsns |
 else
     sleep 1;
     sudo systemctl restart waydroid-container.service;
-    waydroid show-full-ui
+    waydroid session start &> /dev/null & disown
+    while ! ping -w 5 -c 1 192.168.240.112; do
+        sleep 1
+    done
+    killall adb
+    adb disconnect
+
+    while    ! adb connect 192.168.240.112; do
+        sleep 1
+    done
+    scrcpy & disown
+
 fi
