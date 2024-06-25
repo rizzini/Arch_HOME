@@ -3,7 +3,9 @@
 url=$(wl-paste)
 # echo "$(tput setaf 82)URL: "$url"$(tput sgr0)"
 # regex='^https?://[^/]+'
- yt-dlp -f "bestvsideo[height<=?720]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/%(title).200B.%(ext)s"  &> /dev/null & disown
+ if ! yt-dlp -f "bestvsideo[height<=?720]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/%(title).200B.%(ext)s"  &> /dev/null; then
+     /usr/bin/notify-send 'URL nao suportado' -t 2000;
+ fi
 # if [[ $url =~ $regex ]];then
 #     if ! /usr/bin/yt-dlp "$url"; then
 #         if [[ "$url" == *"reddit.com/r/"* ]];then
