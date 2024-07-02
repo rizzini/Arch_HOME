@@ -234,7 +234,7 @@ powerProfile=Battery\tMeta+B,Battery\tMeta+B,Trocar perfil de energia
 
 [plasmashell]
 _k_friendly_name=plasmashell
-activate application launcher=Meta,Meta\tAlt+F1,Activate Application Launcher
+activate application launcher=Meta,Meta\tAlt+F1,Ativar o lançador de aplicativos
 activate task manager entry 1=Meta+1,Meta+1,Ativar entrada 1 do gerenciador de tarefas
 activate task manager entry 10=none,Meta+0,Ativar entrada 10 do gerenciador de tarefas
 activate task manager entry 2=Meta+2,Meta+2,Ativar entrada 2 do gerenciador de tarefas
@@ -278,6 +278,9 @@ stop current activity=none,Meta+S,Parar a atividade atual
 switch to next activity=none,,Trocar para a próxima atividade
 switch to previous activity=none,,Trocar para a atividade anterior
 toggle do not disturb=Launch (1),,Alternar o "Não perturbe"
+
+[services][download_videos_terminal.sh-3.desktop]
+_launch=Alt+A
 
 [services][io.crow_translate.CrowTranslate.desktop]
 TranslateSelectedText=none

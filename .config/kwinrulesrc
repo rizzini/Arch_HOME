@@ -162,8 +162,8 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=4
-rules=1,2,3,4
+count=5
+rules=1,2,3,4,c4879c12-21e8-46a8-895a-25a25bdb36db
 
 [a5cb6d5e-e69d-45cb-879e-91a4f2f4cf04]
 Description=Configurações de aplicativo para cities.exe
@@ -172,6 +172,15 @@ skiptaskbar=true
 skiptaskbarrule=2
 title=Cities: Skylines
 wmclass=cities.exe
+wmclasscomplete=true
+wmclassmatch=1
+
+[c4879c12-21e8-46a8-895a-25a25bdb36db]
+Description=Configurações para steam_app_1041320 steam_app_1041320
+size=900,700
+sizerule=2
+types=1
+wmclass=steam_app_1041320 steam_app_1041320
 wmclasscomplete=true
 wmclassmatch=1
 
