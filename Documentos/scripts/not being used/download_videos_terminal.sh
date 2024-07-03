@@ -6,7 +6,7 @@ url=$(wl-paste)
  if ! yt-dlp -f "bestvsideo[height<=?720]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/%(title).200B.%(ext)s"  &> /dev/null; then
      /usr/bin/notify-send 'URL nao suportado' -t 2000;
  else
-     /usr/bin/notify-send 'ok' -t 2000;
+     /usr/bin/notify-send 'ok' -t 5000;
  fi
 # if [[ $url =~ $regex ]];then
 #     if ! /usr/bin/yt-dlp "$url"; then
