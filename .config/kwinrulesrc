@@ -9,21 +9,6 @@ noborderrule=2
 wmclass=simcity.exe
 wmclassmatch=1
 
-[1]
-Description=Configurações de aplicativo para scrcpy
-blockcompositing=true
-clientmachine=localhost
-noborder=true
-noborderrule=2
-position=342,0
-size=452,737
-sizerule=3
-title=Cities: Skylines
-types=1
-wmclass=scrcpy scrcpy
-wmclasscomplete=true
-wmclassmatch=1
-
 [149c0874-055e-4ba5-aca0-c998f2b85cf0]
 Description=Configurações de janela para UNO
 ignoregeometry=true
@@ -163,7 +148,7 @@ wmclassmatch=1
 
 [General]
 count=5
-rules=1,2,3,4,c4879c12-21e8-46a8-895a-25a25bdb36db
+rules=2,3,4,c4879c12-21e8-46a8-895a-25a25bdb36db,e285f4a4-0d52-4839-8406-a8a7ebb16006
 
 [a5cb6d5e-e69d-45cb-879e-91a4f2f4cf04]
 Description=Configurações de aplicativo para cities.exe
@@ -209,6 +194,16 @@ ignoregeometryrule=2
 title=AnyDesk
 wmclass=anydesk anydesk
 wmclasscomplete=true
+wmclassmatch=1
+
+[e285f4a4-0d52-4839-8406-a8a7ebb16006]
+Description=Configurações para scrcpy
+noborder=true
+noborderrule=2
+size=906,736
+sizerule=3
+types=1
+wmclass=scrcpy
 wmclassmatch=1
 
 [eb2d3784-27b8-4552-a3e6-68819e02754c]

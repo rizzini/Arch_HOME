@@ -43,7 +43,8 @@ while :; do
         DATA='| A | Sem atividade de disco | | |';
     fi
     if [ "$DATA" != "$DATA_last" ];then
-        qdbus org.kde.plasma.doityourselfbar /id_951 org.kde.plasma.doityourselfbar.pass "${DATA[@]}";
+#         qdbus org.kde.plasma.doityourselfbar /id_951 org.kde.plasma.doityourselfbar.pass "${DATA[@]}";
+        echo  "'${disk}' ---> R: '${read[$disk]}'MB/s W: '${write[$disk]}'MB/s"
         DATA_last="$DATA";
     fi
     sleep 1;
