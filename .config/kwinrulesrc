@@ -134,20 +134,6 @@ types=1
 wmclass=Alacritty
 wmclassmatch=1
 
-[7cf43a33-d69a-4fd7-9c69-84df536871b8]
-Description=Configurações de janela para WayDroid x86_64 Device
-noborder=true
-noborderrule=2
-position=564,0
-positionrule=3
-size=1356,1048
-sizerule=3
-title=WayDroid x86_64 Device
-types=1
-wmclass=scrcpy scrcpy
-wmclasscomplete=true
-wmclassmatch=1
-
 [8fdcb6fc-b06a-4636-9c15-632627e6c085]
 Description=Configurações de aplicativo para scrcpy
 clientmachine=localhost
@@ -162,7 +148,7 @@ wmclassmatch=1
 
 [General]
 count=5
-rules=2,3,4,c4879c12-21e8-46a8-895a-25a25bdb36db,7cf43a33-d69a-4fd7-9c69-84df536871b8
+rules=2,3,4,c4879c12-21e8-46a8-895a-25a25bdb36db,e285f4a4-0d52-4839-8406-a8a7ebb16006
 
 [a5cb6d5e-e69d-45cb-879e-91a4f2f4cf04]
 Description=Configurações de aplicativo para cities.exe
@@ -208,6 +194,18 @@ ignoregeometryrule=2
 title=AnyDesk
 wmclass=anydesk anydesk
 wmclasscomplete=true
+wmclassmatch=1
+
+[e285f4a4-0d52-4839-8406-a8a7ebb16006]
+Description=Configurações para scrcpy
+noborder=true
+noborderrule=2
+position=560,0
+positionrule=3
+size=1360,1048
+sizerule=3
+types=1
+wmclass=scrcpy
 wmclassmatch=1
 
 [eb2d3784-27b8-4552-a3e6-68819e02754c]
