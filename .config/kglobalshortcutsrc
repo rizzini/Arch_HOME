@@ -28,14 +28,14 @@ _k_friendly_name=Serviço de atalhos personalizados
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 
 [kmix]
-_k_friendly_name=Audio Volume
-decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
-decrease_volume=Num+-\tVolume Down,Volume Down,Decrease Volume
-decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Decrease Volume by 1%
-increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
-increase_volume=Volume Up\tNum++,Volume Up,Increase Volume
-increase_volume_small=Shift+Volume Up,Shift+Volume Up,Increase Volume by 1%
-mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
+_k_friendly_name=Volume do áudio
+decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Diminuir volume do microfone
+decrease_volume=Num+-\tVolume Down,Volume Down,Diminuir volume
+decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminui o volume em 1%
+increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Aumentar volume do microfone
+increase_volume=Volume Up\tNum++,Volume Up,Aumentar volume
+increase_volume_small=Shift+Volume Up,Shift+Volume Up,Aumenta o volume em 1%
+mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Microfone sem som
 mute=Volume Mute,Volume Mute,Sem áudio
 
 [ksmserver]
@@ -51,15 +51,15 @@ _k_friendly_name=Gerenciamento de sessões
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Ativar janela que demanda atenção
-Cycle Overview=none,none,Cycle through Overview and Grid View
-Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
+Cycle Overview=none,none,Alternar entre visão geral e visualização em grade
+Cycle Overview Opposite=none,none,Alternar entre visualização em grade e visão geral
 Decrease Opacity=none,,Diminuir a opacidade da janela ativa em 5%
-Edit Tiles=Meta+T,Meta+T,Comutar o Editor de Padrões
+Edit Tiles=Meta+T,Meta+T,Alternar Editor de Blocos
 Expose=Ctrl+F9,Ctrl+F9,Alternar as janelas presentes (área de trabalho atual)
 ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Alternar janelas atuais (todas as áreas de trabalho)
 ExposeClass=Ctrl+F7,Ctrl+F7,Alternar as janelas presentes (classe de janelas)
-ExposeClassCurrentDesktop=none,none,Comutar as Janelas Presentes (Classe da janela no ecrã actual)
-Grid View=Meta+G,Meta+G,Alternar para visualização em grade
+ExposeClassCurrentDesktop=none,none,Alternar Apresentar Janelas (Classe de janela na área de trabalho atual)
+Grid View=Meta+G,Meta+G,Alternar para Visualização em Grade
 Increase Opacity=none,,Aumentar a opacidade da janela ativa em 5%
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Matar janela
 Move Tablet to Next Output=none,none,Mover o tablet para a próxima saída
