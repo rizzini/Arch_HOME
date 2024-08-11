@@ -103,6 +103,7 @@ ColorScheme=Ant-Dark
 ColorSchemeHash=9576ef87a0de1931c50aeb1831060260aa545ee6
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
+UseSystemBell=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
 

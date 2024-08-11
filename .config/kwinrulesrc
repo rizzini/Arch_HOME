@@ -146,9 +146,21 @@ wmclass=scrcpy scrcpy
 wmclasscomplete=true
 wmclassmatch=1
 
+[9df8abbe-38e8-4051-87ba-5e02b9e9e989]
+Description=Configurações de aplicativo para bejeweled3-nosig+vmem+vcard.exe
+clientmachine=localhost
+position=416,0
+positionrule=2
+size=864,688
+sizerule=2
+types=1
+wmclass=bejeweled3-nosig+vmem+vcard.exe bejeweled3-nosig+vmem+vcard.exe
+wmclasscomplete=true
+wmclassmatch=1
+
 [General]
-count=5
-rules=2,3,4,c4879c12-21e8-46a8-895a-25a25bdb36db,e285f4a4-0d52-4839-8406-a8a7ebb16006
+count=6
+rules=9df8abbe-38e8-4051-87ba-5e02b9e9e989,2,3,4,c4879c12-21e8-46a8-895a-25a25bdb36db,e285f4a4-0d52-4839-8406-a8a7ebb16006
 
 [a5cb6d5e-e69d-45cb-879e-91a4f2f4cf04]
 Description=Configurações de aplicativo para cities.exe
