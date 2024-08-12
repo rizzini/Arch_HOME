@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/lucas/Documentos/scripts/easy.effects_in_background.sh
+Icon=application-x-shellscript
+Name=easy.effects_in_background.sh
+Type=Application
+X-KDE-AutostartScript=true
