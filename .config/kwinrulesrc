@@ -39,12 +39,12 @@ blockcompositingrule=2
 clientmachine=localhost
 noborder=true
 noborderrule=2
-position=342,0
+position=520,0
 positionrule=2
-size=1024,737
+size=1400,1050
 sizerule=2
 title=Cities: Skylines
-titlematch=1
+titlematch=2
 types=1
 wmclass=Cities.x64
 wmclasscomplete=true
@@ -69,20 +69,6 @@ size=1000,700
 sizerule=2
 types=1
 wmclass=steam_app_470220 steam_app_470220
-wmclasscomplete=true
-wmclassmatch=1
-
-[3]
-Description=Configurações de aplicativo para diablo iv.exe
-blockcompositing=true
-blockcompositingrule=2
-clientmachine=localhost
-noborder=true
-noborderrule=2
-size=930,620
-title=Diablo IV
-types=1
-wmclass=steam_proton steam_proton
 wmclasscomplete=true
 wmclassmatch=1
 
@@ -146,21 +132,9 @@ wmclass=scrcpy scrcpy
 wmclasscomplete=true
 wmclassmatch=1
 
-[9df8abbe-38e8-4051-87ba-5e02b9e9e989]
-Description=Configurações de aplicativo para bejeweled3-nosig+vmem+vcard.exe
-clientmachine=localhost
-position=416,0
-positionrule=2
-size=864,688
-sizerule=2
-types=1
-wmclass=bejeweled3-nosig+vmem+vcard.exe bejeweled3-nosig+vmem+vcard.exe
-wmclasscomplete=true
-wmclassmatch=1
-
 [General]
-count=6
-rules=9df8abbe-38e8-4051-87ba-5e02b9e9e989,2,3,4,c4879c12-21e8-46a8-895a-25a25bdb36db,e285f4a4-0d52-4839-8406-a8a7ebb16006
+count=4
+rules=2,4,c4879c12-21e8-46a8-895a-25a25bdb36db,e285f4a4-0d52-4839-8406-a8a7ebb16006
 
 [a5cb6d5e-e69d-45cb-879e-91a4f2f4cf04]
 Description=Configurações de aplicativo para cities.exe
@@ -212,9 +186,9 @@ wmclassmatch=1
 Description=Configurações para scrcpy
 noborder=true
 noborderrule=2
-position=587,0
+position=564,0
 positionrule=3
-size=949,832
+size=1356,1048
 sizerule=3
 types=1
 wmclass=scrcpy
