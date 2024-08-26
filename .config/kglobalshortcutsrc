@@ -30,10 +30,10 @@ _k_friendly_name=Serviço de atalhos personalizados
 [kmix]
 _k_friendly_name=Volume do áudio
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Diminuir volume do microfone
-decrease_volume=Volume Down\tNum+-,Volume Down,Diminuir volume
+decrease_volume=Num+-\tVolume Down,Volume Down,Diminuir volume
 decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminui o volume em 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Aumentar volume do microfone
-increase_volume=Volume Up\tNum++,Volume Up,Aumentar volume
+increase_volume=Num++\tVolume Up,Volume Up,Aumentar volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Aumenta o volume em 1%
 mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Microfone sem som
 mute=Volume Mute,Volume Mute,Sem áudio
