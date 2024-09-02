@@ -49,7 +49,6 @@ while :; do
             /usr/lib/qt6/bin/qdbus org.kde.plasma.doityourselfbar /id_951 org.kde.plasma.doityourselfbar.pass "${DATA[@]}";
         fi
         DATA_last="$DATA";
-
     fi
     sleep 1;
 done

@@ -5,7 +5,7 @@ if [ "$(systemctl is-active waydroid-container.service)" == 'active' ] || lsns |
     sudo killall -9 lxc-start;
     sudo killall -9 scrcpy;
 else
-    sudo systemctl restart waydroid-container.service;
+    sudo systemctl start waydroid-container.service;
     waydroid session start &> /dev/null & disown
     while ! ping -w 5 -c 1 192.168.240.112; do
         sleep 1
