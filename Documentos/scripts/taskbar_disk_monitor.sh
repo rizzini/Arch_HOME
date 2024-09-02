@@ -1,5 +1,5 @@
 #!/bin/bash
-renice -n 19 -p $(pgrep  'taskbar_disk')
+renice -n 19 -p $(pgrep  'taskbar_disk') &> /dev/null
 export LANG=C LC_ALL=C;
 declare -A data1_read data1_write read write threshold show counter counter_no_data;
 while :; do
@@ -43,9 +43,13 @@ while :; do
         DATA='| A | Sem atividade de disco | | |';
     fi
     if [ "$DATA" != "$DATA_last" ];then
-#         qdbus org.kde.plasma.doityourselfbar /id_951 org.kde.plasma.doityourselfbar.pass "${DATA[@]}";
-        echo  "'${disk}' ---> R: '${read[$disk]}'MB/s W: '${write[$disk]}'MB/s"
+        if [ "$1" == 'terminal' ]; then
+            printf "\r'${disk}' ---> R: ${read[$disk]}MB/s _ W: ${write[$disk]}MB/s";
+        else
+            /usr/lib/qt6/bin/qdbus org.kde.plasma.doityourselfbar /id_951 org.kde.plasma.doityourselfbar.pass "${DATA[@]}";
+        fi
         DATA_last="$DATA";
+
     fi
     sleep 1;
 done
