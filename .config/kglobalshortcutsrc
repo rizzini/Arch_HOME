@@ -4,7 +4,7 @@ switch-to-activity-e5989023-c658-49e5-9853-684881d4d784=none,none,Alternar para 
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Português (Brasil)=none,none,Mudar para o layout de teclado para Português (Brasil)
-Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
+Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Mudar para o layout de teclado usado por último
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Mudar para o próximo layout de teclado
 _k_friendly_name=Seletor de layouts de teclado
 
@@ -30,10 +30,10 @@ _k_friendly_name=Serviço de atalhos personalizados
 [kmix]
 _k_friendly_name=Volume do áudio
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Diminuir volume do microfone
-decrease_volume=Volume Down,Volume Down,Diminuir volume
+decrease_volume=Volume Down\tNum+-,Volume Down,Diminuir volume
 decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminui o volume em 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Aumentar volume do microfone
-increase_volume=Volume Up,Volume Up,Aumentar volume
+increase_volume=Volume Up\tNum++,Volume Up,Aumentar volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Aumenta o volume em 1%
 mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Microfone sem som
 mute=Volume Mute,Volume Mute,Sem áudio
@@ -281,7 +281,7 @@ switch to previous activity=none,,Trocar para a atividade anterior
 toggle do not disturb=Launch (1),,Alternar o "Não perturbe"
 
 [services][download_videos_terminal.sh-4.desktop]
-_launch=Alt+A
+_launch=ScrollLock
 
 [services][io.crow_translate.CrowTranslate.desktop]
 TranslateSelectedText=none

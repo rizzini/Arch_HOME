@@ -1,5 +1,5 @@
 [Auto Allow]
-kdewallet=Google Chrome,kwalletmanager,Chromium
+kdewallet=Google Chrome,kwalletmanager,Chromium,kded6
 
 [Auto Deny]
 kdewallet=
