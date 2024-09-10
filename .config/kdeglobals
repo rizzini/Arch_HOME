@@ -147,6 +147,7 @@ MaximumRemoteSize=0
 AddBookmark=
 DeleteWordBack=Ctrl+Backspace; Alt+Backspace
 OpenContextMenu=Shift+F10
+Replace=
 
 [WM]
 activeBackground=47,52,63

@@ -30,10 +30,10 @@ _k_friendly_name=Serviço de atalhos personalizados
 [kmix]
 _k_friendly_name=Volume do áudio
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Diminuir volume do microfone
-decrease_volume=Volume Down\tNum+-,Volume Down,Diminuir volume
+decrease_volume=Volume Down,Volume Down,Diminuir volume
 decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminui o volume em 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Aumentar volume do microfone
-increase_volume=Volume Up\tNum++,Volume Up,Aumentar volume
+increase_volume=Volume Up,Volume Up,Aumentar volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Aumenta o volume em 1%
 mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Microfone sem som
 mute=Volume Mute,Volume Mute,Sem áudio
@@ -280,11 +280,17 @@ switch to next activity=none,,Trocar para a próxima atividade
 switch to previous activity=none,,Trocar para a atividade anterior
 toggle do not disturb=Launch (1),,Alternar o "Não perturbe"
 
+[services][dbus-send.desktop]
+_launch=Pause
+
 [services][download_videos_terminal.sh-4.desktop]
 _launch=ScrollLock
 
 [services][io.crow_translate.CrowTranslate.desktop]
 TranslateSelectedText=none
+
+[services][org.kde.CrowTranslate.desktop]
+TranslateSelectedText=
 
 [services][org.kde.kcalc.desktop]
 _launch=none
@@ -293,7 +299,6 @@ _launch=none
 _launch=none
 
 [services][org.kde.spectacle.desktop]
-RectangularRegionScreenShot=Meta+Shift+Print\tPrint
 _launch=Meta+Shift+S
 
 [services][waydroid.sh.desktop]
@@ -304,6 +309,9 @@ _launch=Ctrl+Alt+T
 
 [services][{71df043f-2578-4c5d-af79-97878ebfeb7c}.desktop]
 _launch=Ctrl+Alt+Esc
+
+[services][{74f6823a-28f0-4525-a917-c84e7ad418b1}.desktop]
+_launch=Print
 
 [services][{ae667fb9-8874-4a0f-9766-56518ed3e678}.desktop]
 _launch=Meta+S

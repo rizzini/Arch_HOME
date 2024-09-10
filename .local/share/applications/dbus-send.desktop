@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=dbus-send --type=method_call --dest=org.kde.CrowTranslate /org/kde/CrowTranslate/MainWindow org.kde.CrowTranslate.MainWindow.translateSelection
+Name=dbus-send --type=method_call --dest=org.kde.CrowTranslate /org/kde/CrowTranslate/MainWindow org.kde.CrowTranslate.MainWindow.translateSelection
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true
