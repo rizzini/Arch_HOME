@@ -3,7 +3,7 @@ if [ "$(systemctl is-active waydroid-container.service)" == 'active' ] || lsns |
     sudo systemctl stop waydroid-container.service;
     sudo pkill --cgroup=/lxc.payload.waydroid2;
     sudo killall -9 lxc-start;
-    sudo killall -9 scrcpy;
+    killall -9 scrcpy;
 else
     sudo systemctl start waydroid-container.service;
     waydroid session start &> /dev/null & disown
@@ -12,7 +12,6 @@ else
     done
     killall adb
     adb disconnect
-
     while    ! adb connect 192.168.240.112; do
         sleep 1
     done

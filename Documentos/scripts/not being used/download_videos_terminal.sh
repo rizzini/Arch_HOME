@@ -1,9 +1,10 @@
 #!/bin/bash
 # xdotool key ctrl+c
-url=$(wl-paste)
+url=$(xclip -o)
 # echo "$(tput setaf 82)URL: "$url"$(tput sgr0)"
 # regex='^https?://[^/]+'
- if ! yt-dlp -f "bestvsideo[height<=?720]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/%(title).200B.%(ext)s"  &> /dev/null; then
+## if ! yt-dlp -f "bestvsideo[height<=?1080]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/%(title).200B.%(ext)s"  &> /dev/null; then
+ if ! yt-dlp "$url" -o "/mnt/hdd/Videos/%(title).200B.%(ext)s(ext)s"  &> /dev/null; then
      /usr/bin/notify-send 'URL nao suportado' -t 2000;
  else
      /usr/bin/notify-send 'ok' -t 5000;

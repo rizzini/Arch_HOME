@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Borderlands 2
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/49520
+Icon=steam_icon_49520
+Terminal=false
+Type=Application
+Categories=Game;
