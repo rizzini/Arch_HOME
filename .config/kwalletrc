@@ -5,7 +5,7 @@ kdewallet=Google Chrome,kwalletmanager,Chromium,kded6,xdg-desktop-portal
 kdewallet=
 
 [Wallet]
-Close When Idle=true
+Close When Idle=false
 Close on Screensaver=true
 Default Wallet=kdewallet
 Enabled=true
