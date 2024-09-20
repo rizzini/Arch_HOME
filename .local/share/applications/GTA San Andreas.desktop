@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=env 'WINEPREFIX=/mnt/hdd/GTA San Andreas/wine_prefix/' MANGOHUD=1 /usr/bin/gamemoderun mangohud wine gta_sa.exe
+Icon=/mnt/hdd/GTA San Andreas/gta_sa.ico
+Name=GTA San Andreas
+NoDisplay=false
+Path=/mnt/hdd/GTA San Andreas
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

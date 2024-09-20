@@ -1,6 +1,6 @@
 [Desktop Entry]
-Exec='/home/lucas/Documentos/scripts/not being used/download_videos_terminal.sh'
-Name='/home/lucas/Documentos/scripts/not being used/download_videos_terminal.sh'
+Exec=/home/lucas/Documentos/scripts/download_videos_terminal.sh
+Name=/home/lucas/Documentos/scripts/download_videos_terminal.sh
 NoDisplay=true
 StartupNotify=false
 Type=Application

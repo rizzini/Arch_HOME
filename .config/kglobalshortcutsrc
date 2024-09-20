@@ -230,7 +230,7 @@ PowerOff=Power Off,Power Off,Desligar
 Sleep=Sleep,Sleep,Suspender
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Alternar a iluminação do teclado
 Turn Off Screen=none,none,Desligar a tela
-_k_friendly_name=Gerenciamento de energia
+_k_friendly_name=Sistema de gerenciamento de energia do KDE
 powerProfile=Battery\tMeta+B,Battery\tMeta+B,Trocar perfil de energia
 
 [plasmashell]
