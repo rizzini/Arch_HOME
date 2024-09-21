@@ -11,7 +11,8 @@ else
     export XDG_SESSION_TYPE="wayland";
     export DISPLAY=':1';
     sleep 1;
-    alacritty -e bash -c '/usr/bin/waydroid show-full-ui';
+    alacritty -e bash -c '/usr/bin/waydroid start session' &
+    scrcpy
     sudo systemctl stop waydroid-container.service;
     sudo pkill --cgroup=/lxc.payload.waydroid2;
     sudo killall -9 lxc-start;

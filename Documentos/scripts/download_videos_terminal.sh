@@ -1,10 +1,7 @@
 #!/bin/bash
 gui="$(loginctl show-session $(awk '/tty/ {print $1}' <(loginctl)) -p Type | awk -F= '{print $2}')";
-if [[ "$gui" == *"xh11"* ]]; then
     url=$(xclip -o);
-else
-    url=$(wl-paste);
-fi
+
 if ! yt-dlp -f "bestvsideo[height<=?1080]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/%(title).200B.%(ext)s(ext)s"  &> /dev/null; then
     /usr/bin/notify-send 'URL nao suportado' -t 2000;
 else
