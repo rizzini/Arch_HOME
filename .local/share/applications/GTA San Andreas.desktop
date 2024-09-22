@@ -1,7 +1,12 @@
 [Desktop Entry]
+Comment[pt_BR]=
 Comment=
-Exec=env 'WINEPREFIX=/mnt/hdd/GTA San Andreas/wine_prefix/' MANGOHUD=1 /usr/bin/gamemoderun mangohud wine gta_sa.exe
+Exec=env 'WINEPREFIX=/mnt/hdd/GTA San Andreas/wine_prefix/' /usr/bin/gamemoderun wine gta_sa.exe
+GenericName[pt_BR]=
+GenericName=
 Icon=/mnt/hdd/GTA San Andreas/gta_sa.ico
+MimeType=
+Name[pt_BR]=GTA San Andreas
 Name=GTA San Andreas
 NoDisplay=false
 Path=/mnt/hdd/GTA San Andreas
