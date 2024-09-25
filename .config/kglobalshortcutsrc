@@ -298,6 +298,9 @@ _launch=none
 [services][org.kde.spectacle.desktop]
 _launch=Meta+Shift+S
 
+[services][pcmanfm-qt.desktop]
+_launch=Meta+E
+
 [services][waydroid.sh.desktop]
 _launch=Meta+W
 
