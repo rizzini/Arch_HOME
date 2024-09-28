@@ -44,6 +44,7 @@ while :; do
     fi
     if [ "$DATA" != "$DATA_last" ];then
         if [ "$1" == 'terminal' ]; then
+        clear
             printf "\r'${disk}' ---> R: ${read[$disk]}MB/s _ W: ${write[$disk]}MB/s";
         else
             /usr/lib/qt6/bin/qdbus org.kde.plasma.doityourselfbar /id_951 org.kde.plasma.doityourselfbar.pass "${DATA[@]}";

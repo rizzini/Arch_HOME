@@ -133,8 +133,8 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=5
-rules=2,4,c4879c12-21e8-46a8-895a-25a25bdb36db,e285f4a4-0d52-4839-8406-a8a7ebb16006,dadc875d-0f01-4f75-a133-4b4789bca49b
+count=4
+rules=2,4,c4879c12-21e8-46a8-895a-25a25bdb36db,e285f4a4-0d52-4839-8406-a8a7ebb16006
 
 [a5cb6d5e-e69d-45cb-879e-91a4f2f4cf04]
 Description=Configurações de aplicativo para cities.exe
@@ -181,22 +181,6 @@ title=AnyDesk
 wmclass=anydesk anydesk
 wmclasscomplete=true
 wmclassmatch=1
-
-[dadc875d-0f01-4f75-a133-4b4789bca49b]
-Description=Configurações para explorer.exe explorer.exe
-blockcompositing=true
-blockcompositingrule=2
-ignoregeometry=true
-ignoregeometryrule=2
-noborder=true
-noborderrule=2
-position=320,0
-positionrule=2
-size=1600,1048
-sizerule=2
-wmclass=explorer.exe explorer.exe
-wmclasscomplete=true
-wmclassmatch=2
 
 [e285f4a4-0d52-4839-8406-a8a7ebb16006]
 Description=Configurações para scrcpy

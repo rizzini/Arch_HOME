@@ -78,7 +78,7 @@ DialogWidth=720
 
 [Containments][171][Applets][174][Configuration][General]
 iconSpacing=0
-launchers=applications:google-chrome.desktop,applications:pcmanfm-qt.desktop,applications:GTA San Andreas.desktop
+launchers=applications:google-chrome.desktop,applications:org.kde.dolphin.desktop,applications:GTA San Andreas.desktop
 wheelEnabled=false
 
 [Containments][171][Applets][175]
@@ -109,7 +109,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][171][Applets][194][Configuration]
 PreloadWeight=100
-popupHeight=375
+popupHeight=455
 popupWidth=300
 
 [Containments][171][Applets][194][Configuration][ConfigDialog]
@@ -428,7 +428,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][177][Applets][255][Configuration]
-PreloadWeight=98
+PreloadWeight=100
 
 [Containments][177][ConfigDialog]
 DialogHeight=540
@@ -438,7 +438,7 @@ DialogWidth=720
 PreloadWeight=0
 
 [Containments][177][General]
-extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.brightness
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.plasma.brightness,org.kde.kdeconnect
 hiddenItems=Indicador do KDE Connect,AnyDesk
 iconSpacing=1
 knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.kdeconnect
@@ -560,4 +560,4 @@ scrollY=16
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/aneis.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/1,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/amuleto.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-06.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/mgid:arc:imageassetref:shared.southpark.us.en:871078f4-35f8-4ffd-9b26-156124e12e7d,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-09-02_18-40.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/4096x2160-72822-rio-de-janeiro-brazil-4k-ultra-hd-wallpaper__cityscapes.jpg,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_08-27.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-07.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/111.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-08.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_07-57.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_08-26.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/NFSU2,0,e5989023-c658-49e5-9853-684881d4d784
+screenMapping=desktop:/1,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/NFSU2,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/111.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_08-26.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_07-57.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/aneis.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-08.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-09-02_18-40.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-07.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/4096x2160-72822-rio-de-janeiro-brazil-4k-ultra-hd-wallpaper__cityscapes.jpg,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_08-27.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-06.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/amuleto.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/mgid:arc:imageassetref:shared.southpark.us.en:871078f4-35f8-4ffd-9b26-156124e12e7d,0,e5989023-c658-49e5-9853-684881d4d784
