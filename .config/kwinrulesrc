@@ -133,8 +133,8 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=4
-rules=2,4,c4879c12-21e8-46a8-895a-25a25bdb36db,e285f4a4-0d52-4839-8406-a8a7ebb16006
+count=5
+rules=2,4,c4879c12-21e8-46a8-895a-25a25bdb36db,e285f4a4-0d52-4839-8406-a8a7ebb16006,c86358e8-4e94-4670-8b4a-4b59662bf498
 
 [a5cb6d5e-e69d-45cb-879e-91a4f2f4cf04]
 Description=Configurações de aplicativo para cities.exe
@@ -160,6 +160,15 @@ Description=Configurações para explorer.exe explorer.exe
 blockcompositing=true
 blockcompositingrule=2
 wmclass=explorer.exe explorer.exe
+wmclasscomplete=true
+wmclassmatch=1
+
+[c86358e8-4e94-4670-8b4a-4b59662bf498]
+Description=Configurações para blasphemous 2.exe blasphemous 2.exe
+size=1360,1050
+sizerule=2
+types=1
+wmclass=blasphemous 2.exe blasphemous 2.exe
 wmclasscomplete=true
 wmclassmatch=1
 

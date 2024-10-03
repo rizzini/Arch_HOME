@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/bin/bash -c 'xrandr --output DP-2 --off'
+Name=/bin/bash -c 'xrandr --output DP-2 --off'
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

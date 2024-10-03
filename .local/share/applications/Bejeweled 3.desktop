@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=env 'WINEPREFIX=/mnt/hdd/Bejeweled 3/prefixo_wine/' wine Bejeweled3-nosig+vmem+vcard.exe
+GenericName=Bejeweled 3
+Icon=/mnt/hdd/Bejeweled 3/pngwing.com.png
+Name=Bejeweled 3
+NoDisplay=false
+Path=/mnt/hdd/Bejeweled 3
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

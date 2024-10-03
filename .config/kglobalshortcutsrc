@@ -280,6 +280,12 @@ switch to next activity=none,,Trocar para a próxima atividade
 switch to previous activity=none,,Trocar para a atividade anterior
 toggle do not disturb=Launch (1),,Alternar o "Não perturbe"
 
+[services][bash-2.desktop]
+_launch=F12
+
+[services][bash-3.desktop]
+_launch=F11
+
 [services][download_videos_terminal.sh-4.desktop]
 _launch=ScrollLock
 
@@ -301,8 +307,14 @@ _launch=Meta+Shift+S
 [services][pcmanfm-qt.desktop]
 _launch=Meta+E
 
+[services][qdbus.desktop]
+_launch=Num+,
+
 [services][waydroid.sh.desktop]
 _launch=Meta+W
+
+[services][xrandr.desktop]
+_launch=F10
 
 [services][{22af2176-f96b-48b3-81e2-53c5986f4746}.desktop]
 _launch=Ctrl+Alt+T

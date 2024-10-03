@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/usr/lib/qt6/bin/qdbus  org.kde.kglobalaccel /component/org_kde_powerdevil invokeShortcut "Turn Off Screen"
+Name=/usr/lib/qt6/bin/qdbus  org.kde.kglobalaccel /component/org_kde_powerdevil invokeShortcut "Turn Off Screen"
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true
