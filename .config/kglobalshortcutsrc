@@ -281,10 +281,10 @@ switch to previous activity=none,,Trocar para a atividade anterior
 toggle do not disturb=Launch (1),,Alternar o "Não perturbe"
 
 [services][bash-2.desktop]
-_launch=F12
+_launch=Ctrl+Num++
 
 [services][bash-3.desktop]
-_launch=F11
+_launch=Ctrl+Num+-
 
 [services][download_videos_terminal.sh-4.desktop]
 _launch=ScrollLock

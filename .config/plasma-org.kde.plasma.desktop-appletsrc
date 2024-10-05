@@ -170,7 +170,7 @@ plugin=org.kde.plasma.systemmonitor.net
 
 [Containments][171][Applets][224][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=70
+PreloadWeight=65
 popupHeight=74
 popupWidth=162
 
@@ -200,6 +200,32 @@ plugin=org.kde.plasma.pager
 DialogHeight=540
 DialogWidth=720
 
+[Containments][171][Applets][246]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][171][Applets][246][Configuration][Appearance]
+boldText=false
+command=bash -c  '/home/lucas/Documentos/scripts/change_brightness.sh 'aumentar
+textLabel=aumentar brilho
+
+[Containments][171][Applets][246][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][171][Applets][250]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][171][Applets][250][Configuration][Appearance]
+boldText=false
+command=bash -c  '/home/lucas/Documentos/scripts/change_brightness.sh diminuir'
+textLabel=diminuir brilho
+
+[Containments][171][Applets][250][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][171][Applets][253]
 immutability=1
 plugin=adhe.runcommand
@@ -226,6 +252,18 @@ textLabel=brilho baixo
 DialogHeight=540
 DialogWidth=720
 
+[Containments][171][Applets][256]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][171][Applets][256][Configuration][Appearance]
+command=\sxrandr --output DP-2 --off
+textLabel=desligar monitor
+
+[Containments][171][Applets][256][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][171][ConfigDialog]
 DialogHeight=84
 DialogWidth=1366
@@ -234,7 +272,7 @@ DialogWidth=1366
 PreloadWeight=0
 
 [Containments][171][General]
-AppletOrder=194;225;174;254;253;224;223;175;176;189;219
+AppletOrder=194;225;174;256;254;253;250;246;224;223;175;176;189;219
 
 [Containments][177]
 activityId=
@@ -509,4 +547,4 @@ scrollY=16
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/amuleto.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_08-27.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_08-26.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/111.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/mgid:arc:imageassetref:shared.southpark.us.en:871078f4-35f8-4ffd-9b26-156124e12e7d,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-09-02_18-40.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/1,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-06.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/aneis.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-07.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/NFSU2,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/4096x2160-72822-rio-de-janeiro-brazil-4k-ultra-hd-wallpaper__cityscapes.jpg,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_07-57.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-08.png,0,e5989023-c658-49e5-9853-684881d4d784
+screenMapping=desktop:/2023-11-23_08-27.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2024-09-25_02-43.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-07.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-06.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/1,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/mgid:arc:imageassetref:shared.southpark.us.en:871078f4-35f8-4ffd-9b26-156124e12e7d,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/aneis.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_08-26.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-23_07-57.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-11-01_16-08.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/4096x2160-72822-rio-de-janeiro-brazil-4k-ultra-hd-wallpaper__cityscapes.jpg,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/amuleto.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/2023-09-02_18-40.png,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/152134841.desktop,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/NFSU2,0,e5989023-c658-49e5-9853-684881d4d784,desktop:/111.png,0,e5989023-c658-49e5-9853-684881d4d784
