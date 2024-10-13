@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=env MANGOHUD=1 gamemoderun mangohud legendary launch f9d6f0530ea140909f8e8a997a7532d7
+Icon=/home/lucas/Games/BioshockInfiniteCompleteEdition/2KLauncher/launcherpatcher.ico
+Name=BioShock Infinite
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -41,7 +41,7 @@ mute=Volume Mute,Volume Mute,Sem áudio
 [ksmserver]
 Halt Without Confirmation=none,,Desligar sem confirmação
 Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Bloquear sessão
-Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Mostrar tela para encerrar sessão
+Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Show Logout Screen
 Log Out Without Confirmation=none,,Encerrar sessão sem confirmação
 LogOut=none,,Encerrar sessão
 Reboot=none,,Reiniciar
@@ -102,9 +102,9 @@ Switch to Desktop 6=none,,Mudar para a área de trabalho 6
 Switch to Desktop 7=none,,Mudar para a área de trabalho 7
 Switch to Desktop 8=none,,Mudar para a área de trabalho 8
 Switch to Desktop 9=none,,Mudar para a área de trabalho 9
-Switch to Next Desktop=Meta+',,Mudar para a área de trabalho seguinte
+Switch to Next Desktop=Meta+1,,Mudar para a área de trabalho seguinte
 Switch to Next Screen=none,,Mudar para a próxima tela
-Switch to Previous Desktop=none,,Mudar para a área de trabalho anterior
+Switch to Previous Desktop=Meta+',,Mudar para a área de trabalho anterior
 Switch to Previous Screen=none,,Mudar para a tela anterior
 Switch to Screen 0=none,,Mudar para a tela 0
 Switch to Screen 1=none,,Mudar para a tela 1
@@ -121,13 +121,13 @@ Switch to Screen to the Right=none,,Mudar para a tela à direita
 Toggle Night Color=none,none,Suspender/Retomar cor noturna
 Toggle Window Raise/Lower=none,,Alternar entre elevar/diminuir janela
 Walk Through Windows=Alt+Tab,Alt+Tab,Passear pelas janelas
-Walk Through Windows (Reverse)=Alt+Shift+Backtab,Alt+Shift+Tab,Passear pelas janelas (sentido inverso)
-Walk Through Windows Alternative=none,,Passear pelas janelas alternativo
-Walk Through Windows Alternative (Reverse)=none,,Passear pelas janelas alternativo (reverso)
+Walk Through Windows (Reverse)=Alt+Shift+Tab,Alt+Shift+Tab,Passear pelas janelas (sentido inverso)
+Walk Through Windows Alternative=,,Passear pelas janelas alternativo
+Walk Through Windows Alternative (Reverse)=,,Passear pelas janelas alternativo (reverso)
 Walk Through Windows of Current Application=Alt+`,Alt+`,Passear pelas janelas do aplicativo atual
 Walk Through Windows of Current Application (Reverse)=Alt+~,Alt+~,Passear pelas janelas do aplicativo atual (reverso)
-Walk Through Windows of Current Application Alternative=none,,Passear pelas janelas do aplicativo atual alternativo
-Walk Through Windows of Current Application Alternative (Reverse)=none,,Passear pelas janelas do aplicativo atual alternativo (reverso)
+Walk Through Windows of Current Application Alternative=,,Passear pelas janelas do aplicativo atual alternativo
+Walk Through Windows of Current Application Alternative (Reverse)=,,Passear pelas janelas do aplicativo atual alternativo (reverso)
 Window Above Other Windows=none,,Manter acima das outras
 Window Below Other Windows=none,,Manter abaixo das outras
 Window Close=Alt+F4,Alt+F4,Fechar janela
@@ -207,15 +207,15 @@ view_zoom_in=Meta++\tMeta+=,Meta++\tMeta+=,Ampliar
 view_zoom_out=Meta+-,Meta+-,Reduzir
 
 [mediacontrol]
-_k_friendly_name=Controlador de mídia
-mediavolumedown=none,,Diminuir o volume da mídia
-mediavolumeup=none,,Aumentar o volume da mídia
-nextmedia=Media Next,Media Next,Reproduzir a próxima mídia
-pausemedia=Media Pause,Media Pause,Pausar mídia
-playmedia=none,,Reproduzir mídia
-playpausemedia=none,Media Play,Reproduzir/Pausar a mídia
-previousmedia=Media Previous,Media Previous,Reproduzir a mídia anterior
-stopmedia=Media Stop,Media Stop,Parar a reprodução da mídia
+_k_friendly_name=Media Controller
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
+nextmedia=Media Next,Media Next,Media playback next
+pausemedia=Media Pause,Media Pause,Pause media playback
+playmedia=none,,Play media playback
+playpausemedia=none,Media Play,Play/Pause media playback
+previousmedia=Media Previous,Media Previous,Media playback previous
+stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Reduzir a iluminação do teclado
@@ -230,13 +230,13 @@ PowerOff=Power Off,Power Off,Desligar
 Sleep=Sleep,Sleep,Suspender
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Alternar a iluminação do teclado
 Turn Off Screen=none,none,Desligar a tela
-_k_friendly_name=Sistema de gerenciamento de energia do KDE
+_k_friendly_name=Gerenciamento de energia
 powerProfile=Battery\tMeta+B,Battery\tMeta+B,Trocar perfil de energia
 
 [plasmashell]
 _k_friendly_name=plasmashell
 activate application launcher=Meta,Meta\tAlt+F1,Ativar o lançador de aplicativos
-activate task manager entry 1=Meta+1,Meta+1,Ativar entrada 1 do gerenciador de tarefas
+activate task manager entry 1=none,Meta+1,Ativar entrada 1 do gerenciador de tarefas
 activate task manager entry 10=none,Meta+0,Ativar entrada 10 do gerenciador de tarefas
 activate task manager entry 2=Meta+2,Meta+2,Ativar entrada 2 do gerenciador de tarefas
 activate task manager entry 3=Meta+3,Meta+3,Ativar entrada 3 do gerenciador de tarefas
@@ -307,11 +307,11 @@ _launch=Meta+Shift+S
 [services][pcmanfm-qt.desktop]
 _launch=Meta+E
 
-[services][qdbus.desktop]
-_launch=Num+,
-
 [services][waydroid.sh.desktop]
 _launch=Meta+W
+
+[services][xrandr-3.desktop]
+_launch=F9
 
 [services][xrandr.desktop]
 _launch=F10

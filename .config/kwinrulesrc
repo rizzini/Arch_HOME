@@ -77,8 +77,7 @@ Description=Configurações de janela para UNO
 blockcompositing=true
 blockcompositingrule=2
 clientmachine=localhost
-noborderrule=2
-size=1200,700
+size=1000,600
 sizerule=2
 title=UNO
 wmclass=steam_app_470220 steam_app_470220
@@ -148,6 +147,8 @@ wmclassmatch=1
 
 [c4879c12-21e8-46a8-895a-25a25bdb36db]
 Description=Configurações para steam_app_1041320 steam_app_1041320
+noborder=true
+noborderrule=2
 size=900,700
 sizerule=2
 types=1

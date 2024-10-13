@@ -14,5 +14,5 @@ alias grep='/bin/grep --color=auto';
 alias syadm="/usr/bin/sudo /usr/bin/yadm -Y /etc/yadm";
 alias packagelist='expac --timefmt="%Y-%m-%d %T" "%l\t%n" | sort'
 bind \b backward-kill-path-component
-
+alias intel='sudo intel_gpu_top'
 
