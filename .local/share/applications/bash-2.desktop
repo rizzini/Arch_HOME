@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=bash -c  '/home/lucas/Documentos/scripts/change_brightness.sh 'aumentar
+Name=bash -c  '/home/lucas/Documentos/scripts/change_brightness.sh 'aumentar
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

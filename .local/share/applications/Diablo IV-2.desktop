@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[pt_BR]=
+Comment=
+Exec=env WINE_SIMULATE_WRITECOPY=1 WINEFSYNC=1 DXVK_LOG_LEVEL=none VKD3D_SHADER_DEBUG=none VKD3D_DEBUG=none WINEDEBUG=-all WINEPREFIX=/mnt/archlinux/Games/Proton/ /mnt/archlinux/Games/Proton/files/bin/wine '/mnt/archlinux/Games/Proton/drive_c/Program Files (x86)/Battle.net/Battle.net Launcher.exe'
+GenericName[pt_BR]=
+GenericName=
+Icon=/mnt/archlinux/Games/Proton/icon.png
+MimeType=
+Name[pt_BR]=Diablo IV
+Name=Diablo IV
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

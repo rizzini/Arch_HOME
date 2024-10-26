@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Lara Croft and the Temple of Osiris
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/289690
+Icon=steam_icon_289690
+Terminal=false
+Type=Application
+Categories=Game;

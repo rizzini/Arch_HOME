@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Game
+Comment[pt_BR]=
+Comment=
+Exec=env LUTRIS_SKIP_INIT=1 lutris lutris:rungameid/7
+GenericName[pt_BR]=
+GenericName=
+Icon=lutris_the-last-of-us-part-i
+MimeType=
+Name[pt_BR]=The Last of Us Part I
+Name=The Last of Us Part I
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

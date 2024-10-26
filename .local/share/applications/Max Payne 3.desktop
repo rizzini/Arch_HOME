@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Max Payne 3
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/204100
+Icon=steam_icon_204100
+Terminal=false
+Type=Application
+Categories=Game;

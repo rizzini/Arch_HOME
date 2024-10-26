@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[pt_BR]=
+Comment=
+Exec=env 'WINEPREFIX=/mnt/gentoo/Games/Need for Speed Most Wanted Black Edition/' MANGOHUD_CONFIG=fps_only gamemoderun mangohud --dlsym wine speed.exe
+GenericName[pt_BR]=
+GenericName=
+Icon=/mnt/gentoo/Games/Need for Speed Most Wanted Black Edition/NFSMW_icon.ico
+MimeType=
+Name[pt_BR]=Need for Speed: Most Wanted\n
+Name=Need for Speed: Most Wanted\n
+NoDisplay=false
+Path=/mnt/gentoo/Games/Need for Speed Most Wanted Black Edition
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

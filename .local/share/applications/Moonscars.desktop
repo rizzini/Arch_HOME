@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=env WINEPREFIX=/mnt/dados/Games/Moonscars/prefix MANGOHUD_CONFIG=fps_only gamemoderun mangohud --dlsym /opt/wine-tkg-staging-fsync-git-opt/bin/wine Moonscars.exe
+Icon=0A7F_goggame-2106173825.0
+Name=Moonscars
+NoDisplay=false
+Path=/mnt/dados/Games/Moonscars
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

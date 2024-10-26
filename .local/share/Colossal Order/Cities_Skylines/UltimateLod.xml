@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TrueLodTogglerConfiguration>
+  <TreeLodDistance>750</TreeLodDistance>
+  <PropLodDistance>1000</PropLodDistance>
+  <DecalPropFadeDistance>1000</DecalPropFadeDistance>
+  <BuildingLodDistance>1000</BuildingLodDistance>
+  <NetworkLodDistance>1000</NetworkLodDistance>
+  <VehicleLodDistance>400</VehicleLodDistance>
+  <VehicleRenderDistance>2000</VehicleRenderDistance>
+  <ShadowDistance>10000</ShadowDistance>
+  <VanillaModeOnStartup>true</VanillaModeOnStartup>
+  <FreeCameraButtonDisplay>true</FreeCameraButtonDisplay>
+</TrueLodTogglerConfiguration>

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=env WINEPREFIX=/mnt/hdd/Inside/prefixo_wine wine INSIDE.exe
+Icon=/mnt/hdd/Inside/pngwing.com.png
+Name=Inside
+NoDisplay=false
+Path=/mnt/hdd/Inside
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

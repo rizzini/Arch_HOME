@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[pt_BR]=
+Comment=
+Exec=anydesk 285875151
+GenericName[pt_BR]=AnyDesk
+GenericName=AnyDesk
+Icon=anydesk
+MimeType=
+Name[pt_BR]=269 753 187-2
+Name=269 753 187-2
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+TryExec=anydesk
+Type=Application
+X-GNOME-FullName=AnyDesk
+X-KDE-SubstituteUID=false
+X-KDE-Username=

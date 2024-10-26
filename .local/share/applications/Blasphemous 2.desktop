@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=env 'WINEPREFIX=/mnt/hdd/Blasphemous 2/prefixo_wine' MANGOHUD=1 mangohud wine 'Blasphemous 2.exe'
+Icon=/mnt/hdd/Blasphemous 2/goggame-1747340100.ico
+Name=Blasphemous 2
+NoDisplay=false
+Path=/mnt/hdd/Blasphemous 2
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,10 @@
+.local/share/icons/*/*
+.local/share/applications/wine/
+.local/share/applications/wine*
+.local/share/applications/anbox/
+.local/share/applications/waydroid*
+.local/share/applications/Death*
+.local/share/applications/Trocar para*
+.config/mpv/watch_later/*
+Documentos/scripts/check_btrfs_health.sh.db
+Documentos/scripts/set_up_simultaneous_audio_output_pipewire.sh.db

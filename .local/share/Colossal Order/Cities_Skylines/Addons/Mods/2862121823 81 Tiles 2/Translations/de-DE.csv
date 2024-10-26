@@ -1,0 +1,28 @@
+﻿"LANGUAGE","Deutsch","Language name (in native language)."
+"MOD_DESCRIPTION","Schaltet alle 81 Spielbereiche frei.","Mod description displayed in content manager."
+"UNLOCK","Bereich entsperren"
+"IGNORE_UNLOCK","Freischaltungsfortschritt für Kacheln ignorieren","Option in options panel - activates option to ignore city milestone progress restrictions on the number of game area tiles."
+"IGNORE_UNLOCK_TIP","Wenn diese Option aktiviert ist, kann man immer neue Spielbereichskacheln erwerben und dabei alle Meilenstein-Fortschrittsbeschränkungen ignorieren.","Tooltip in options panel."
+"CROSS_THE_LINE","Bauen außerhalb der erworbenen Kacheln erlauben","Option in options panel - permits building outside of owned area tiles."
+"CROSS_THE_LINE_TIP","Wenn diese Option aktiviert ist, kannst du außerhalb von bereits erworbenen Kacheln bauen.","Tooltip in options panel."
+"UNLOCK_25","Die 25 inneren Spielbereiche freischalten","Button in options panel - unlocks 25-tile area"
+"UNLOCK_ALL","Alle Bereiche freischalten","Button in options panel - unlocks all game areas"
+"NET_OPTIONS","Übertragungsnetzwerke","Option header in options panel."
+"NO_POWERLINES","Stromübertragung ohne Stromleitungen aktivieren","Option in options panel - activates 'no powerlines' functionality."
+"NO_POWERLINES_TIP","Wenn diese Option aktiviert ist, müssen Gebäude nicht mehr mit Stromleitungen verbunden werden (Strom muss aber dennoch bereitgestellt werden).","Tooltip in options panel."
+"ELECTRIC_ROADS","Stromübertragung entlang der Straßen aktivieren","Option in options panel - activates 'electric roads' functionality."
+"ELECTRIC_ROADS_TIP","Wenn dies aktiviert ist, werden Straßen Elektrizität leiten, als wären sie Stromleitungen.","Tooltip in options panel."
+"NO_PIPES","Wasser-, Abwasser- und Heizwärmeübertragung ohne Rohrleitungen aktivieren","Option in options panel - activates 'no no pipes' functionality."
+"NO_PIPES_TIP","Wenn dies aktiviert ist, müssen Gebäude nicht mehr mit Wasser- oder Heizrohren verbunden werden (Wasser-, Abwasser- und Heizanlagen müssen aber dennoch gebaut werden).","Tooltip in options panel."
+"EXCEPT_ORIGINAL","Ignoriere ursprüngliche Wassergebäude","Option in options panel - enables/disables water buildings placed by the map creator."
+"EXCEPT_ORIGINAL_TIP","Wenn diese Option ausgewählt ist, werden Wasserbauten auf der ursprünglichen Karte (die im Karteneditor platziert) von der Funktionalität 'no pipes' ignoriert.
+
+Diese Option sollte aktiviert werden, wenn die Karte Wassergebäude enthält, die nur für dekorative Zwecke verwendet werden (z.B. Die Bringer of Fire's Yangtze und die Revelstoke Karten) um gigantischer Wasseranstiege und/oder Wasserverschmutzung zu verhindern.","Tooltip in options panel."
+"RESCUE_OPTIONS","Notfallrettungsoptionen - MIT VORSICHT BENUTZEN","Option header in options panel."
+"IGNORE_EXPANDED","Ignoriere erweiterte 81 Tiles 2 Daten beim nächsten Laden eines Spielstandes."
+"IGNORE_EXPANDED_TIP","Benutze diese Option als Notfall-Fallback-Option, wenn Probleme beim Laden eines Spielstands bestehen, die von früheren 81 Tiles-Mods gespeichert wurden (insbesondere bei Problemen mit verschwindenden Distrikten oder Gebieten).
+WARNUNG: Mit dieser Option werden alle Bezirke außerhalb des zentralen Bereichs mit 25 Kacheln nicht erstellt.
+Diese Option wird automatisch deaktiviert, nachdem die nächste Stadt geladen wurde.","Tooltip in options panel."
+"LOAD_DISABLED","Die Spiel laden Schaltfläche wurde von 81 Tiles Mod deaktiviert, um die Speicherdatei vor Beschädigung zu schützen. Benutze die Schaltfläche Spiel beenden und starte das Spiel komplett neu, bevor du einen Spielstand lädst oder eine neue Stadt startest.","Tooltip on 'load game' button when in-game."
+"MAIN_MENU_DISABLED","Die Zum Hauptmenu zurückkehren Schaltfläche wurde von 81 Tiles Mod deaktiviert, um die Speicherdatei vor Beschädigung zu schützen. Benutze die Schaltfläche Spiel beenden und starte das Spiel komplett neu, bevor du einen Spielstand lädst oder eine neue Stadt startest.","Tooltip on 'exit to main menu' button when in-game."
+"EDITOR_DISABLED","Der Editor-Button wurde deaktiviert, da der 81 Tiles Mod aktiv ist. Um die Editoren zu verwenden, musst du den 81 Tiles Mod deaktivieren und das Spiel neu starten.","Tooltip on disabled editor button in main menu."

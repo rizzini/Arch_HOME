@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=/opt/genymobile/genymotion/player --vm-name 'Custom Phone'
+Icon=android-file-transfer
+Name=Android
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,7 @@
+
+[Desktop Entry]
+Type=Application
+Name=Control
+Icon=lutris_control
+Exec=env LUTRIS_SKIP_INIT=1 lutris lutris:rungameid/11
+Categories=Game

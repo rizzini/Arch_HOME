@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=env MANGOHUD=1 'WINEPREFIX=/mnt/hdd/Need for Speed Underground 2/wine_prefixo/' mangohud --dlsym wine SPEED2.EXE
+Icon=/mnt/hdd/Need for Speed Underground 2/NFSU_icon.ico
+Name=Need for Speed Underground 2
+NoDisplay=false
+Path=/mnt/hdd/Need for Speed Underground 2
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

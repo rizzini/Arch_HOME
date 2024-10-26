@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=AudioVideo;Audio;Video;Utility;
+Comment[pt_BR]=Video Duplicate Finder is a cross-platform software to find duplicated video (and image) files on hard disk based on similiarity
+Comment=Video Duplicate Finder is a cross-platform software to find duplicated video (and image) files on hard disk based on similiarity
+Exec=/usr/bin/videoduplicatefinder
+GenericName[pt_BR]=Video Duplicate Finder
+GenericName=Video Duplicate Finder
+Icon=kylin-video
+MimeType=
+Name[pt_BR]=Video Duplicate Finder
+Name=Video Duplicate Finder
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

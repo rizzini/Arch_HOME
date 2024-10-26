@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=AudioVideo;
+Comment[pt_BR]=Viewer for video capture
+Comment=Viewer for video capture
+Exec=qvidcap
+GenericName[pt_BR]=
+GenericName=
+Icon=camera-app
+Keywords=video;grabber;V4L;
+MimeType=
+Name[pt_BR]=Qt V4L2 video capture utility
+Name=Qt V4L2 video capture utility
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

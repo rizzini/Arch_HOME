@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[pt_BR]=
+Comment=
+Exec=steam --silent steam://rungameid/13238775191422631936 -silent
+GenericName[pt_BR]=
+GenericName=
+Icon=/mnt/ssd_128GB/Diablo IV/ico.png
+MimeType=
+Name[pt_BR]=Diablo IV
+Name=Diablo IV
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[pt_BR]=Play this game on Steam
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/9891322455954292736 -silent
+GenericName[pt_BR]=Cyberpunk 2077
+GenericName=Cyberpunk 2077
+Icon=F818_Cyberpunk2077.0
+MimeType=
+Name[pt_BR]=Cyberpunk 2077
+Name=Cyberpunk 2077
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

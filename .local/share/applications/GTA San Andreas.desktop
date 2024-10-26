@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[pt_BR]=
+Comment=
+Exec=env 'WINEPREFIX=/mnt/hdd/GTA San Andreas/wine_prefix/' /usr/bin/gamemoderun wine gta_sa.exe
+GenericName[pt_BR]=
+GenericName=
+Icon=/mnt/hdd/GTA San Andreas/gta_sa.ico
+MimeType=
+Name[pt_BR]=GTA San Andreas
+Name=GTA San Andreas
+NoDisplay=false
+Path=/mnt/hdd/GTA San Andreas
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

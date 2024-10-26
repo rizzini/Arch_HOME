@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Sonic & All-Stars Racing Transformed Collection
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/212480
+Icon=steam_icon_212480
+Terminal=false
+Type=Application
+Categories=Game;
