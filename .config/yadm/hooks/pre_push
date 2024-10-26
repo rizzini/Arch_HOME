@@ -1,0 +1,18 @@
+IFS=$(echo -en "\n\b");
+# if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
+    for i in $(yadm  stun \
+     .Documentos/Scripts/* --porcelain); do
+        if [ -n "$(echo "$i" | grep '??')" ];then
+            yadm  add "/$(echo "$i" | cut -d '"' -f2 | tr -d '??' | perl -pe 's/^\s+//')";
+        fi
+    done
+    if [ -n "$(yadm  status --porcelain)" ];then
+        yadm  encrypt 2> /dev/null
+        yadm  status --porcelain;
+        echo -e "\nPressione enter para continuar";
+        read;
+        yadm  commit -a -m "backup";
+    fi
+# else
+#     echo -e "Você não está no subvolume ROOT. push não realizado";
+# fi
