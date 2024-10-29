@@ -23,8 +23,8 @@ case $1 in
         ;;
 ''|*[0-9]*)
         if [ "$1" -le 100 ] && [ "$1" -ge 0 ]; then
-                ddcutil setvcp 0x10 "$1";
+            ddcutil setvcp 0x10 "$1";
             ddcutil setvcp 0x12 "$1";
-        fis
+        fi
         ;;
 esac

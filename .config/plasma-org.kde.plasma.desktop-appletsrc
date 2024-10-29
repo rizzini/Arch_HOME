@@ -38,7 +38,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][20][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 popupHeight=453
 popupWidth=560
 
@@ -73,7 +73,7 @@ plugin=org.kde.plasma.systemmonitor
 
 [Containments][2][Applets][27][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=55
+PreloadWeight=65
 popupHeight=96
 popupWidth=245
 
@@ -120,9 +120,36 @@ textLabel=aumentar brilho
 DialogHeight=540
 DialogWidth=720
 
+[Containments][2][Applets][30]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][30][Configuration][Appearance]
+command=Documentos/scripts/change_brightness.sh 85
+textLabel=brilho padrão
+
+[Containments][2][Applets][30][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][31]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][31][Configuration][Appearance]
+command=\smpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/motion' &\n disown ;
+
+[Containments][2][Applets][31][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
+
+[Containments][2][Applets][4][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][5]
 immutability=1
@@ -134,6 +161,7 @@ DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
 launchers=preferred://filemanager,preferred://browser
+showOnlyCurrentScreen=true
 
 [Containments][2][Applets][6]
 immutability=1
@@ -144,11 +172,11 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;28;29;27;6;7;20;21
+AppletOrder=25;4;5;31;30;28;29;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -217,14 +245,17 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][8][Applets][24]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=60
+PreloadWeight=90
+
+[Containments][8][Applets][24][Configuration][General]
+currentDetailsTab=details
 
 [Containments][8][Applets][9]
 immutability=1

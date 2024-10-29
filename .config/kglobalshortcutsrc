@@ -256,6 +256,9 @@ toggle do not disturb=none,,Alternar o "Não perturbe"
 [services][Alacritty.desktop]
 New=Ctrl+Alt+T
 
+[services][geany.desktop]
+_launch=Ctrl+K
+
 [services][net.local.change_brightness.sh-2.desktop]
 _launch=Ctrl+Num++
 
@@ -283,11 +286,11 @@ _launch=F9
 [services][org.kde.CrowTranslate.desktop]
 TranslateSelectedText=none
 
-[services][org.kde.kate.desktop]
-_launch=Ctrl+K
-
 [services][org.kde.konsole.desktop]
 _launch=none
+
+[services][thunar.desktop]
+open-home=Meta+E
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Mapear para tela inteira
