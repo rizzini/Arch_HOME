@@ -38,7 +38,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][20][Configuration]
-PreloadWeight=75
+PreloadWeight=90
 popupHeight=453
 popupWidth=560
 
@@ -125,7 +125,7 @@ immutability=1
 plugin=adhe.runcommand
 
 [Containments][2][Applets][30][Configuration][Appearance]
-command=Documentos/scripts/change_brightness.sh 85
+command=/home/lucas/Documentos/scripts/change_brightness.sh 85
 textLabel=brilho padrão
 
 [Containments][2][Applets][30][Configuration][ConfigDialog]
@@ -137,7 +137,8 @@ immutability=1
 plugin=adhe.runcommand
 
 [Containments][2][Applets][31][Configuration][Appearance]
-command=\smpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/motion' &\n disown ;
+command=xrandr --output DP-2 --off
+textLabel=desligar
 
 [Containments][2][Applets][31][Configuration][ConfigDialog]
 DialogHeight=540
@@ -252,7 +253,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=90
+PreloadWeight=95
 
 [Containments][8][Applets][24][Configuration][General]
 currentDetailsTab=details
@@ -272,4 +273,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.brightness,org.kde.plasma.networkma
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/novinha-linda-muito-gostoso-caiu-na-net-com-videos-fazendo-striptease-354058.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/novinha-linda-muito-gostoso-caiu-na-net-com-videos-fazendo-striptease-3550157.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
