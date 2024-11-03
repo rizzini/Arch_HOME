@@ -19,9 +19,11 @@ wallpaperplugin=org.kde.image
 DialogHeight=540
 DialogWidth=720
 
+[Containments][1][Wallpaper][org.kde.color][General]
+Color=0,0,0
+
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/lucas/Imagens/Wallpaper/wallhaven-ym66q7.png
-PreviewImage=/home/lucas/Imagens/Wallpaper/wallhaven-ym66q7.png
+Image=/home/lucas/Imagens/Wallpaper/wallpaper1.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -38,7 +40,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][20][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 popupHeight=453
 popupWidth=560
 
@@ -73,7 +75,7 @@ plugin=org.kde.plasma.systemmonitor
 
 [Containments][2][Applets][27][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=65
+PreloadWeight=70
 popupHeight=96
 popupWidth=245
 
@@ -113,6 +115,7 @@ immutability=1
 plugin=adhe.runcommand
 
 [Containments][2][Applets][29][Configuration][Appearance]
+boldText=false
 command=/home/lucas/Documentos/scripts/change_brightness.sh aumentar
 textLabel=aumentar brilho
 
@@ -137,10 +140,35 @@ immutability=1
 plugin=adhe.runcommand
 
 [Containments][2][Applets][31][Configuration][Appearance]
+boldText=false
 command=xrandr --output DP-2 --off
 textLabel=desligar
 
 [Containments][2][Applets][31][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][32]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][32][Configuration][Appearance]
+command=mpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/stream'
+textLabel=stream
+
+[Containments][2][Applets][32][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][33]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][33][Configuration][Appearance]
+command=mpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/motion'
+textLabel=motion
+
+[Containments][2][Applets][33][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
@@ -177,7 +205,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;31;30;28;29;27;6;7;20;21
+AppletOrder=25;4;5;33;32;31;30;28;29;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -229,6 +257,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -253,7 +282,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][8][Applets][24][Configuration][General]
 currentDetailsTab=details
@@ -273,4 +302,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.brightness,org.kde.plasma.networkma
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/novinha-linda-muito-gostoso-caiu-na-net-com-videos-fazendo-striptease-354058.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/novinha-linda-muito-gostoso-caiu-na-net-com-videos-fazendo-striptease-3550157.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=
