@@ -2,7 +2,7 @@
 current=$(ddcutil getvcp color | awk '/\<'"0x10"'\>/{print $9}' | tr -d ',');
 case $1 in
 'aumentar')
-        i=$((current + 10))
+        i=$((current + 5))
         if [ "$i" -le 100  ]; then
             ddcutil setvcp 0x10 "$i";
             ddcutil setvcp 0x12 "$i";
