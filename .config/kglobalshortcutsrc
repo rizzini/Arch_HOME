@@ -4,8 +4,8 @@ switch-to-activity-1bc82cda-67fa-444b-9c8a-902bdeb9b006=none,none,Alternar para 
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Português (Brasil)=none,none,Mudar para o layout de teclado para Português (Brasil)
-Switch to Last-Used Keyboard Layout=Meta+Alt+L,none,Mudar para o layout de teclado usado por último
-Switch to Next Keyboard Layout=Meta+Alt+K,none,Mudar para o próximo layout de teclado
+Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Mudar para o layout de teclado usado por último
+Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Mudar para o próximo layout de teclado
 _k_friendly_name=Seletor de layouts de teclado
 
 [kaccess]
@@ -53,6 +53,7 @@ ExposeClassCurrentDesktop=none,none,Alternar Apresentar Janelas (Classe de janel
 Grid View=Meta+G,Meta+G,Alternar para Visualização em Grade
 Increase Opacity=none,,Aumentar a opacidade da janela ativa em 5%
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Matar janela
+Move Tablet to Next Output=none,none,Mover o tablet para a próxima saída
 MoveMouseToCenter=Meta+F6,Meta+F6,Mover mouse para o centro
 MoveMouseToFocus=Meta+F5,Meta+F5,Mover mouse para o foco
 MoveZoomDown=none,none,Mover a área ampliada para baixo

@@ -23,7 +23,8 @@ DialogWidth=720
 Color=0,0,0
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/lucas/Imagens/Wallpaper/wallpaper1.jpg
+Image=/home/lucas/Imagens/Wallpaper/nebula.jpg
+PreviewImage=/home/lucas/Imagens/Wallpaper/nebula.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -75,7 +76,7 @@ plugin=org.kde.plasma.systemmonitor
 
 [Containments][2][Applets][27][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=70
+PreloadWeight=90
 popupHeight=96
 popupWidth=245
 
@@ -172,6 +173,29 @@ textLabel=motion
 DialogHeight=540
 DialogWidth=720
 
+[Containments][2][Applets][34]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][34][Configuration][Appearance]
+command=/home/lucas/Documentos/scripts/change_brightness.sh 30
+textLabel=brilho baixo
+
+[Containments][2][Applets][34][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][35]
+immutability=1
+plugin=org.kde.panel.transparency.toggle
+
+[Containments][2][Applets][35][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][35][Configuration][General]
+hideInEditModeEnabled=true
+
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -189,7 +213,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,preferred://browser
+launchers=preferred://filemanager,applications:google-chrome.desktop
 showOnlyCurrentScreen=true
 
 [Containments][2][Applets][6]
@@ -205,7 +229,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;33;32;31;30;28;29;27;6;7;20;21
+AppletOrder=25;4;5;35;33;32;31;34;30;28;29;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -275,7 +299,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=100
+PreloadWeight=97
 
 [Containments][8][Applets][24]
 immutability=1
@@ -302,4 +326,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.brightness,org.kde.plasma.networkma
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/Novo Projeto (1).png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/2024-11-01_05-51_2.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Novo Projeto.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/lucasrizzini1q2w3e4rAZ@@,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/2024-11-01_05-51_1.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Old Firefox Data,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
