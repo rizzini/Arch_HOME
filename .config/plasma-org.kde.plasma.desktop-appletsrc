@@ -213,7 +213,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,applications:google-chrome.desktop
+launchers=preferred://filemanager,applications:firefox.desktop
 showOnlyCurrentScreen=true
 
 [Containments][2][Applets][6]
@@ -229,7 +229,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;35;33;32;31;34;30;28;29;27;6;7;20;21
+AppletOrder=35;25;4;5;33;32;31;34;30;28;29;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -281,7 +281,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -326,4 +325,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.brightness,org.kde.plasma.networkma
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/2024-11-01_05-51_1.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Old Firefox Data,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/2024-11-01_05-51_2.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/lucasrizzini1q2w3e4rAZ@@,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Novo Projeto (1).png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Novo Projeto.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/2024-11-11_12-18.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/2024-11-11_12-18_2.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/2024-11-11_12-18_1.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/2024-11-11_12-18_3.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
