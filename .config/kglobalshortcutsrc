@@ -263,6 +263,12 @@ _launch=Ctrl+K
 [services][net.local.change_brightness.sh-2.desktop]
 _launch=Ctrl+Num++
 
+[services][net.local.change_brightness.sh-3.desktop]
+_launch=Alt+Num++
+
+[services][net.local.change_brightness.sh-4.desktop]
+_launch=Alt+Num+-
+
 [services][net.local.change_brightness.sh.desktop]
 _launch=Ctrl+Num+-
 

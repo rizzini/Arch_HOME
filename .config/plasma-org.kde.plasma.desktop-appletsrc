@@ -23,8 +23,8 @@ DialogWidth=720
 Color=0,0,0
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/lucas/Imagens/Wallpaper/nebula.jpg
-PreviewImage=/home/lucas/Imagens/Wallpaper/nebula.jpg
+Image=/home/lucas/Imagens/Wallpaper/wallhaven-ym66q7.png
+PreviewImage=/home/lucas/Imagens/Wallpaper/wallhaven-ym66q7.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -76,7 +76,7 @@ plugin=org.kde.plasma.systemmonitor
 
 [Containments][2][Applets][27][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=90
+PreloadWeight=95
 popupHeight=96
 popupWidth=245
 
@@ -238,8 +238,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=435
-popupWidth=436
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][10]
@@ -281,6 +281,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -325,4 +326,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.brightness,org.kde.plasma.networkma
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/2024-11-11_12-18.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/2024-11-11_12-18_2.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/2024-11-11_12-18_1.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/2024-11-11_12-18_3.png,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/12,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
