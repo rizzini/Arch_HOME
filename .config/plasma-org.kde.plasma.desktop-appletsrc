@@ -58,7 +58,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=100
-popupHeight=413
+popupHeight=453
 popupWidth=300
 
 [Containments][2][Applets][25][Configuration][ConfigDialog]
@@ -76,7 +76,7 @@ plugin=org.kde.plasma.systemmonitor
 
 [Containments][2][Applets][27][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=95
+PreloadWeight=100
 popupHeight=96
 popupWidth=245
 
@@ -238,8 +238,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=432
-popupWidth=432
+popupHeight=435
+popupWidth=436
 wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][10]
@@ -281,7 +281,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -326,4 +325,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.brightness,org.kde.plasma.networkma
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/12,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=

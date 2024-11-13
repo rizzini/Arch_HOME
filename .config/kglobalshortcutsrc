@@ -269,6 +269,9 @@ _launch=Alt+Num++
 [services][net.local.change_brightness.sh-4.desktop]
 _launch=Alt+Num+-
 
+[services][net.local.change_brightness.sh-6.desktop]
+_launch=Num+.
+
 [services][net.local.change_brightness.sh.desktop]
 _launch=Ctrl+Num+-
 
@@ -292,6 +295,9 @@ _launch=F9
 
 [services][org.kde.CrowTranslate.desktop]
 TranslateSelectedText=none
+
+[services][org.kde.dolphin.desktop]
+_launch=none
 
 [services][org.kde.konsole.desktop]
 _launch=none

@@ -21,6 +21,11 @@ case $1 in
             ddcutil setvcp 0x12 "0";
         fi
         ;;
+'escolher')
+		i=$(yad --title="Choose a value"  --scale --value=50)
+            ddcutil setvcp 0x10 "$i";
+            ddcutil setvcp 0x12 "$i";
+		;;
 ''|*[0-9]*)
         if [ "$1" -le 100 ] && [ "$1" -ge 0 ]; then
             ddcutil setvcp 0x10 "$1";
