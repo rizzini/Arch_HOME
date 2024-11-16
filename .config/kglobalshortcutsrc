@@ -284,6 +284,12 @@ _launch=Ctrl+Alt+E
 [services][net.local.flameshot.desktop]
 _launch=Print
 
+[services][net.local.xdotool-2.desktop]
+_launch=Num+5
+
+[services][net.local.xdotool.desktop]
+_launch=Num+2
+
 [services][net.local.xkill.desktop]
 _launch=Ctrl+Alt+Esc
 
