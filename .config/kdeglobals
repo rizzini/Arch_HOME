@@ -145,7 +145,7 @@ TerminalService=Alacritty.desktop
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
 SingleClick=true
-widgetStyle=kvantum-dark
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false

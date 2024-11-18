@@ -12,32 +12,32 @@ case $1 in
 'aumentar')
         i=$((current + 5))
         if [ "$i" -le 100  ]; then
+            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
             ddcutil setvcp 0x10 "$i";
             ddcutil setvcp 0x12 "$i";
-            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
         else
+            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
             ddcutil setvcp 0x10 "100";
             ddcutil setvcp 0x12 "100";
-            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
         fi
         ;;
 'diminuir')
         i=$((current - 10))
         if [ "$i" -ge 0  ]; then
+            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
             ddcutil setvcp 0x10 "$i";
             ddcutil setvcp 0x12 "$i";
-            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
         else
+            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
             ddcutil setvcp 0x10 "0";
             ddcutil setvcp 0x12 "0";
-            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
         fi
         ;;
 'escolher')
 		if i=$(zenity --scale --value="$current"); then
+            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
 			ddcutil setvcp 0x10 "$i";
 			ddcutil setvcp 0x12 "$i";
-			echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
         fi
             
 		;;

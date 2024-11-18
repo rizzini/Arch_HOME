@@ -63,10 +63,10 @@ disabled = false
 
 # Prompt: optional param 1
 [time]
-format = " 🕙 $time($style)\n"
+format = "$time($style)\n"
 time_format = "%T"
 style = "bright-white"
-disabled = true
+disabled = false
 
 # Prompt: param 2 └─
 [character]

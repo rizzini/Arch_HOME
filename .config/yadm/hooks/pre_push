@@ -1,10 +1,10 @@
 IFS=$(echo -en "\n\b");
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/@)"* ]];then
-#     for i in $(yadm  stun Documentos/Scripts/* --porcelain); do
-#         if [ -n "$(echo "$i" | grep '??')" ];then
-#             yadm  add "/$(echo "$i" | cut -d '"' -f2 | tr -d '??' | perl -pe 's/^\s+//')";
-#         fi
-#     done
+    for i in $(yadm  stun .Documentos/Scripts/* --porcelain); do
+        if [ -n "$(echo "$i" | grep '??')" ];then
+            yadm  add "/$(echo "$i" | cut -d '"' -f2 | tr -d '??' | perl -pe 's/^\s+//')";
+        fi
+    done
     if [ -n "$(yadm  status --porcelain)" ];then
         yadm  encrypt 2> /dev/null
         yadm  status --porcelain;

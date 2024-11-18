@@ -58,8 +58,8 @@ plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=100
-popupHeight=413
-popupWidth=561
+popupHeight=453
+popupWidth=1115
 
 [Containments][2][Applets][25][Configuration][ConfigDialog]
 DialogHeight=540
@@ -119,6 +119,18 @@ plugin=org.kde.plasma.panelspacer
 expanding=false
 length=10
 
+[Containments][2][Applets][38]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][38][Configuration][Appearance]
+command=mpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/stream'
+textLabel=stream
+
+[Containments][2][Applets][38][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -152,7 +164,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;36;37;27;6;7;20;21
+AppletOrder=25;4;5;38;36;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -161,8 +173,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=438
-popupWidth=440
+popupHeight=435
+popupWidth=436
 wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][10]
@@ -204,7 +216,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
