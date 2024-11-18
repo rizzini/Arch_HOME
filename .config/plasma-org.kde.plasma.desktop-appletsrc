@@ -59,7 +59,7 @@ plugin=org.kde.plasma.kicker
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=100
 popupHeight=413
-popupWidth=998
+popupWidth=561
 
 [Containments][2][Applets][25][Configuration][ConfigDialog]
 DialogHeight=540
@@ -98,16 +98,26 @@ network/enp1s0/upload=Up
 [Containments][2][Applets][27][Configuration][Sensors]
 highPrioritySensorIds=["network/enp1s0/download","network/enp1s0/upload"]
 
-[Containments][2][Applets][35]
+[Containments][2][Applets][36]
 immutability=1
-plugin=org.kde.panel.transparency.toggle
+plugin=com.github.zren.commandoutput
 
-[Containments][2][Applets][35][Configuration][ConfigDialog]
+[Containments][2][Applets][36][Configuration][ConfigDialog]
 DialogHeight=540
-DialogWidth=720
+DialogWidth=800
 
-[Containments][2][Applets][35][Configuration][General]
-hideInEditModeEnabled=true
+[Containments][2][Applets][36][Configuration][General]
+command=a="$(cat /sys/block/zram0/mm_stat | awk '{print $1}')"; printf 'Zram: '; echo $a | numfmt --to=iec
+fontSize=10
+interval=5000
+
+[Containments][2][Applets][37]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][37][Configuration][General]
+expanding=false
+length=10
 
 [Containments][2][Applets][4]
 immutability=1
@@ -142,7 +152,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=35;25;4;5;27;6;7;20;21
+AppletOrder=25;4;5;36;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
