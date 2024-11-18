@@ -31,14 +31,14 @@ mute=Volume Mute,Volume Mute,Sem áudio
 
 [ksmserver]
 Halt Without Confirmation=none,,Desligar sem confirmação
-Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Bloquear sessão
+Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Lock Session
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Show Logout Screen
 Log Out Without Confirmation=none,,Encerrar sessão sem confirmação
 LogOut=none,,Encerrar sessão
 Reboot=Shift+ScrollLock,,Reiniciar
 Reboot Without Confirmation=none,,Reiniciar sem confirmação
 Shut Down=none,,Desligar
-_k_friendly_name=Gerenciamento de sessões
+_k_friendly_name=Session Management
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Ativar janela que demanda atenção
@@ -284,12 +284,6 @@ _launch=Ctrl+Alt+E
 [services][net.local.flameshot.desktop]
 _launch=Print
 
-[services][net.local.xdotool-2.desktop]
-_launch=Num+5
-
-[services][net.local.xdotool.desktop]
-_launch=Num+2
-
 [services][net.local.xkill.desktop]
 _launch=Ctrl+Alt+Esc
 
@@ -304,6 +298,9 @@ TranslateSelectedText=none
 
 [services][org.kde.dolphin.desktop]
 _launch=none
+
+[services][org.kde.kate.desktop]
+_launch=Ctrl+K
 
 [services][org.kde.konsole.desktop]
 _launch=none

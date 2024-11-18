@@ -1,4 +1,5 @@
 #!/bin/bash
+export LC_ALL=C
 if pgrep zenity; then
     exit;
 fi
@@ -13,9 +14,11 @@ case $1 in
         if [ "$i" -le 100  ]; then
             ddcutil setvcp 0x10 "$i";
             ddcutil setvcp 0x12 "$i";
+            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
         else
             ddcutil setvcp 0x10 "100";
             ddcutil setvcp 0x12 "100";
+            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
         fi
         ;;
 'diminuir')
@@ -23,13 +26,15 @@ case $1 in
         if [ "$i" -ge 0  ]; then
             ddcutil setvcp 0x10 "$i";
             ddcutil setvcp 0x12 "$i";
+            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
         else
             ddcutil setvcp 0x10 "0";
             ddcutil setvcp 0x12 "0";
+            echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db
         fi
         ;;
 'escolher')
-		if i=$(LC_ALL=C zenity --scale --value="$current" --step=3); then
+		if i=$(zenity --scale --value="$current"); then
 			ddcutil setvcp 0x10 "$i";
 			ddcutil setvcp 0x12 "$i";
 			echo "$i" | tee /home/lucas/Documentos/scripts/change_brightness.db

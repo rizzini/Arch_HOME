@@ -59,7 +59,7 @@ plugin=org.kde.plasma.kicker
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=100
 popupHeight=413
-popupWidth=300
+popupWidth=998
 
 [Containments][2][Applets][25][Configuration][ConfigDialog]
 DialogHeight=540
@@ -97,81 +97,6 @@ network/enp1s0/upload=Up
 
 [Containments][2][Applets][27][Configuration][Sensors]
 highPrioritySensorIds=["network/enp1s0/download","network/enp1s0/upload"]
-
-[Containments][2][Applets][28]
-immutability=1
-plugin=adhe.runcommand
-
-[Containments][2][Applets][28][Configuration][Appearance]
-boldText=false
-command=/home/lucas/Documentos/scripts/change_brightness.sh diminuir
-textLabel=diminuir brilo
-
-[Containments][2][Applets][28][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][29]
-immutability=1
-plugin=adhe.runcommand
-
-[Containments][2][Applets][29][Configuration][Appearance]
-boldText=false
-command=/home/lucas/Documentos/scripts/change_brightness.sh aumentar
-textLabel=aumentar brilho
-
-[Containments][2][Applets][29][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][31]
-immutability=1
-plugin=adhe.runcommand
-
-[Containments][2][Applets][31][Configuration][Appearance]
-boldText=false
-command=xrandr --output DP-2 --off
-textLabel=desligar
-
-[Containments][2][Applets][31][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][32]
-immutability=1
-plugin=adhe.runcommand
-
-[Containments][2][Applets][32][Configuration][Appearance]
-command=mpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/stream'
-textLabel=stream
-
-[Containments][2][Applets][32][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][33]
-immutability=1
-plugin=adhe.runcommand
-
-[Containments][2][Applets][33][Configuration][Appearance]
-command=mpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/motion'
-textLabel=motion
-
-[Containments][2][Applets][33][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][34]
-immutability=1
-plugin=adhe.runcommand
-
-[Containments][2][Applets][34][Configuration][Appearance]
-command=/home/lucas/Documentos/scripts/change_brightness.sh escolher
-textLabel=brilho escolher
-
-[Containments][2][Applets][34][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][2][Applets][35]
 immutability=1
@@ -217,7 +142,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=35;25;4;5;33;32;31;34;28;29;27;6;7;20;21
+AppletOrder=35;25;4;5;27;6;7;20;21
 
 [Containments][8]
 activityId=

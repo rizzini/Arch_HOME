@@ -1,26 +1,22 @@
-[004a6e46-8cf2-4564-86db-fb98192ff111]
-Description=Configurações para steamwebhelper steam
-blockcompositing=true
-blockcompositingrule=2
-types=1
-wmclass=steamwebhelper steam
+[7ab0fe47-8a77-4f57-bcae-9e5aba6d26bf]
+Description=Configurações para Cities.x64 Cities.x64
+noborder=true
+noborderrule=2
+position=520,0
+positionrule=2
+size=1400,1050
+sizerule=2
+wmclass=Cities.x64 Cities.x64
 wmclasscomplete=true
 wmclassmatch=1
 
-[0b211ea4-e86d-4363-955e-77465dfe7e2f]
-Description=Configurações para explorer.exe explorer.exe
-blockcompositing=true
-blockcompositingrule=2
-noborder=true
-noborderrule=2
-position=240,0
-positionrule=2
-size=1680,1048
-sizerule=2
-types=1
-wmclass=explorer.exe explorer.exe
+[9116203d-6c35-4419-bfec-23aed4b1f5f6]
+Description=Configurações para zenity
+above=true
+aboverule=2
+wmclass=zenity
 wmclasscomplete=true
-wmclassmatch=1
+wmclassmatch=2
 
 [968adf4b-97a4-4c4f-a11b-d4ee737c630c]
 Description=Configurações de janela para UNO
@@ -35,4 +31,4 @@ wmclassmatch=1
 
 [General]
 count=3
-rules=968adf4b-97a4-4c4f-a11b-d4ee737c630c,004a6e46-8cf2-4564-86db-fb98192ff111,0b211ea4-e86d-4363-955e-77465dfe7e2f
+rules=968adf4b-97a4-4c4f-a11b-d4ee737c630c,9116203d-6c35-4419-bfec-23aed4b1f5f6,7ab0fe47-8a77-4f57-bcae-9e5aba6d26bf
