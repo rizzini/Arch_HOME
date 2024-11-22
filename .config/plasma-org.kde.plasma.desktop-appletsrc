@@ -58,8 +58,8 @@ plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=100
-popupHeight=453
-popupWidth=1115
+popupHeight=493
+popupWidth=300
 
 [Containments][2][Applets][25][Configuration][ConfigDialog]
 DialogHeight=540
@@ -124,8 +124,8 @@ immutability=1
 plugin=adhe.runcommand
 
 [Containments][2][Applets][38][Configuration][Appearance]
-command=mpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/stream'
-textLabel=stream
+command=/home/lucas/Documentos/scripts/change_brightness.sh escolher
+textLabel=escolher
 
 [Containments][2][Applets][38][Configuration][ConfigDialog]
 DialogHeight=540
@@ -136,6 +136,18 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][2][Applets][4][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][40]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][40][Configuration][Appearance]
+command=\smpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/stream'
+textLabel=stream
+
+[Containments][2][Applets][40][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
@@ -164,7 +176,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;38;36;37;27;6;7;20;21
+AppletOrder=25;4;5;40;38;36;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -216,6 +228,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -256,4 +269,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/videosnudes,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/steam.desktop,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Pinball FX3 Williams Pinball Volume 6.lnk,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/pornolandia,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/sotemnovinhas,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Pinball FX3 Williams Pinball Volume 6.desktop,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/pinball-0.3.20230219,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/all,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/sonovinhasbr,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/cookies.txt,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
