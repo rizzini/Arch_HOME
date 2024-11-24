@@ -133,8 +133,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=826,585
-History Items[$e]=file:///mnt/hdd/.photoshop/drive_c/Program Files/Adobe/Adobe Photoshop CS6,file:///mnt/hdd/Nova pasta (1),file:///mnt/hdd/Nova pasta,file:///mnt/hdd/Videos/xxx,file:///mnt/hdd/Downloads_HDD,file:///mnt/hdd/Videos
+DirSelectDialog Size=828,584
+History Items[$e]=file:///mnt/hdd/Downloads_HDD,file:///mnt/hdd/Videos/xxx,file:///mnt/hdd/.photoshop/drive_c/Program Files/Adobe/Adobe Photoshop CS6,file:///mnt/hdd/Nova pasta (1),file:///mnt/hdd/Nova pasta,file:///mnt/hdd/Videos
 
 [General]
 BrowserApplication=google-chrome.desktop

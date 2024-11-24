@@ -23,8 +23,8 @@ DialogWidth=720
 Color=0,0,0
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/lucas/Imagens/Wallpaper/wallhaven-ym66q7.png
-PreviewImage=/home/lucas/Imagens/Wallpaper/wallhaven-ym66q7.png
+Image=/home/lucas/Imagens/Wallpaper/potw1940a.jpg
+PreviewImage=/home/lucas/Imagens/Wallpaper/potw1940a.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -98,19 +98,6 @@ network/enp1s0/upload=Up
 [Containments][2][Applets][27][Configuration][Sensors]
 highPrioritySensorIds=["network/enp1s0/download","network/enp1s0/upload"]
 
-[Containments][2][Applets][36]
-immutability=1
-plugin=com.github.zren.commandoutput
-
-[Containments][2][Applets][36][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=800
-
-[Containments][2][Applets][36][Configuration][General]
-command=a="$(cat /sys/block/zram0/mm_stat | awk '{print $1}')"; printf 'Zram: '; echo $a | numfmt --to=iec
-fontSize=10
-interval=5000
-
 [Containments][2][Applets][37]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -125,7 +112,7 @@ plugin=adhe.runcommand
 
 [Containments][2][Applets][38][Configuration][Appearance]
 command=/home/lucas/Documentos/scripts/change_brightness.sh escolher
-textLabel=escolher
+textLabel=Mudar brilho
 
 [Containments][2][Applets][38][Configuration][ConfigDialog]
 DialogHeight=540
@@ -139,15 +126,15 @@ plugin=org.kde.plasma.pager
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][40]
+[Containments][2][Applets][41]
 immutability=1
 plugin=adhe.runcommand
 
-[Containments][2][Applets][40][Configuration][Appearance]
-command=\smpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/stream'
-textLabel=stream
+[Containments][2][Applets][41][Configuration][Appearance]
+command=xrandr --output DP-2 --off
+textLabel=Desligar monitor
 
-[Containments][2][Applets][40][Configuration][ConfigDialog]
+[Containments][2][Applets][41][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
@@ -176,7 +163,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;40;38;36;37;27;6;7;20;21
+AppletOrder=25;4;5;41;38;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -254,6 +241,10 @@ PreloadWeight=100
 [Containments][8][Applets][24][Configuration][General]
 currentDetailsTab=details
 
+[Containments][8][Applets][42]
+immutability=1
+plugin=org.kde.kdeconnect
+
 [Containments][8][Applets][9]
 immutability=1
 plugin=org.kde.plasma.cameraindicator
@@ -269,4 +260,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/videosnudes,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/steam.desktop,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Pinball FX3 Williams Pinball Volume 6.lnk,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/pornolandia,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/sotemnovinhas,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Pinball FX3 Williams Pinball Volume 6.desktop,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/pinball-0.3.20230219,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/all,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/sonovinhasbr,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/cookies.txt,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/Banjo-Kazooie (U) [!].z64,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006

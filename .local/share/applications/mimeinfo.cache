@@ -1,10 +1,14 @@
 [MIME Cache]
-application/vnd.ms-htmlhelp=wine-extension-chm.desktop;
-application/winhlp=wine-extension-hlp.desktop;
 application/x-wine-extension-ini=kate.desktop;
-application/x-wine-extension-msp=wine-extension-msp.desktop;
 audio/mpeg=userapp-kdenllive-NU2GU1.desktop;
 inode/directory=org.kde.kate.desktop;
 text/plain=org.kde.kate.desktop;
-text/vbscript=wine-extension-vbs.desktop;
+x-scheme-handler/Blizzard.URI.Battlenet=wine-protocol-Blizzard.URI.Battlenet.desktop;
+x-scheme-handler/Blizzard.URI.Blizzard=wine-protocol-Blizzard.URI.Blizzard.desktop;
+x-scheme-handler/Blizzard.URI.Heroes=wine-protocol-Blizzard.URI.Heroes.desktop;
+x-scheme-handler/Blizzard.URI.SC2=wine-protocol-Blizzard.URI.SC2.desktop;
+x-scheme-handler/battlenet=wine-protocol-battlenet.desktop;
+x-scheme-handler/blizzard=wine-protocol-blizzard.desktop;
 x-scheme-handler/discord-455712169795780630=discord-455712169795780630.desktop;
+x-scheme-handler/heroes=wine-protocol-heroes.desktop;
+x-scheme-handler/starcraft=wine-protocol-starcraft.desktop;
