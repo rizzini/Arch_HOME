@@ -7,7 +7,7 @@ if [ ! -f '/home/lucas/Documentos/scripts/change_brightness.db' ]; then
 	current=$(ddcutil getvcp color | awk '/\<'"0x10"'\>/{print $9}' | tr -d ',');
 else
 	current="$(cat /home/lucas/Documentos/scripts/change_brightness.db)"
-fi 
+fi
 case $1 in
 'aumentar')
         i=$((current + 5))
@@ -39,7 +39,7 @@ case $1 in
 			ddcutil setvcp 0x10 "$i";
 			ddcutil setvcp 0x12 "$i";
         fi
-            
+
 		;;
 ''|*[0-9]*)
         if [ "$1" -le 100 ] && [ "$1" -ge 0 ]; then

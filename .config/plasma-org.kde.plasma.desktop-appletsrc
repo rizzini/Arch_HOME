@@ -187,6 +187,9 @@ PreloadWeight=100
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][8][Applets][11][Configuration]
+PreloadWeight=55
+
 [Containments][8][Applets][12][Configuration]
 PreloadWeight=42
 
@@ -260,4 +263,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Banjo-Kazooie (U) [!].z64,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/1,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Banjo-Kazooie (U) [!].z64,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
