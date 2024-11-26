@@ -276,7 +276,7 @@ _launch=Num+.
 _launch=Ctrl+Num+-
 
 [services][net.local.download_videos_terminal.sh.desktop]
-_launch=ScrollLock
+_launch=F1
 
 [services][net.local.easy.effects_in_background.sh.desktop]
 _launch=Ctrl+Alt+E

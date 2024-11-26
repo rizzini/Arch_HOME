@@ -5,8 +5,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
+ItemGeometries-1920x1080=Applet-42:1344,48,560,336,0;
+ItemGeometriesHorizontal=Applet-42:1344,48,560,336,0;
 activityId=1bc82cda-67fa-444b-9c8a-902bdeb9b006
 formfactor=0
 immutability=1
@@ -14,6 +14,10 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][1][Applets][42]
+immutability=1
+plugin=org.kde.plasma.analogclock
 
 [Containments][1][ConfigDialog]
 DialogHeight=540
@@ -218,7 +222,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -263,4 +266,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/1,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Banjo-Kazooie (U) [!].z64,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/Banjo-Kazooie (U) [!].z64,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/1,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
