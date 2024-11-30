@@ -60,7 +60,7 @@ MoveZoomDown=none,none,Mover a área ampliada para baixo
 MoveZoomLeft=none,none,Mover a área ampliada para a esquerda
 MoveZoomRight=none,none,Mover a área ampliada para a direita
 MoveZoomUp=none,none,Mover a área ampliada para cima
-Overview=Meta+W,Meta+W,Alternar para visão geral
+Overview=none,Meta+W,Alternar para visão geral
 Setup Window Shortcut=none,,Configurar atalhos para a janela
 Show Desktop=Meta+D,Meta+D,Espiar área de trabalho
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspender composição
@@ -283,6 +283,9 @@ _launch=Ctrl+Alt+E
 
 [services][net.local.flameshot.desktop]
 _launch=Print
+
+[services][net.local.if.desktop]
+_launch=Meta+W
 
 [services][net.local.xkill.desktop]
 _launch=Ctrl+Alt+Esc

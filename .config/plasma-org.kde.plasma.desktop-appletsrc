@@ -19,6 +19,13 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.analogclock
 
+[Containments][1][Applets][42][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][1][Applets][42][Configuration][General]
+showSecondHand=true
+
 [Containments][1][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -135,12 +142,70 @@ immutability=1
 plugin=adhe.runcommand
 
 [Containments][2][Applets][41][Configuration][Appearance]
+boldText=false
 command=xrandr --output DP-2 --off
 textLabel=Desligar monitor
 
 [Containments][2][Applets][41][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][2][Applets][43]
+immutability=1
+plugin=com.github.zren.commandoutput
+
+[Containments][2][Applets][43][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=800
+
+[Containments][2][Applets][43][Configuration][General]
+bold=true
+command=echo "Temp: ""$(/usr/bin/cat /sys/devices/platform/coretemp.0/hwmon/hwmon?/temp1_input | cut -c 1-2)"
+fontSize=20
+textColor=#ff4343
+underline=true
+
+[Containments][2][Applets][44]
+immutability=1
+plugin=com.github.zren.commandoutput
+
+[Containments][2][Applets][44][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=800
+
+[Containments][2][Applets][44][Configuration][General]
+bold=true
+command=echo "RPM: ""$(/usr/bin/cat /sys/class/hwmon/hwmon1/fan2_input)"
+fontSize=11
+textColor=#ff4343
+underline=true
+
+[Containments][2][Applets][45]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][45][Configuration][Appearance]
+command=\smpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/stream'
+textLabel=stream
+
+[Containments][2][Applets][45][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][46]
+immutability=1
+plugin=com.github.zren.commandoutput
+
+[Containments][2][Applets][46][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=800
+
+[Containments][2][Applets][46][Configuration][General]
+bold=true
+command=a="$(cat /sys/block/zram0/mm_stat | awk '{print $1}')"; printf 'ZRAM: '; echo $a | numfmt --to=iec
+fontSize=16
+interval=5000
+textColor=#ffffff
 
 [Containments][2][Applets][5]
 immutability=1
@@ -167,7 +232,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;41;38;37;27;6;7;20;21
+AppletOrder=25;4;5;45;41;38;44;43;46;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -192,7 +257,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][11][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][8][Applets][12][Configuration]
 PreloadWeight=42
@@ -222,6 +287,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -266,4 +332,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Banjo-Kazooie (U) [!].z64,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/1,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/final,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/6,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/5,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/7,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/10,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/images.jpg,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/9,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/8,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
