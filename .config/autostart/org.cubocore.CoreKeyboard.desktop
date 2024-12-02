@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Qt;Utility;Accessibility;X-CSuite;
+Comment=A virtual keyboard for X11 for C Suite.
+Exec=corekeyboard -platform xcb
+Icon=org.cubocore.CoreKeyboard
+Name=CoreKeyboard
+StartupNotify=true
+Terminal=false
+TryExec=/usr/bin/corekeyboard
+Type=Application

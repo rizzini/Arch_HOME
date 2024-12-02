@@ -296,6 +296,9 @@ _launch=F10
 [services][net.local.xrandr.desktop]
 _launch=F9
 
+[services][nnn.desktop]
+_launch=Alt+E
+
 [services][org.kde.CrowTranslate.desktop]
 TranslateSelectedText=none
 

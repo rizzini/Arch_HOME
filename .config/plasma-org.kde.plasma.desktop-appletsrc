@@ -19,6 +19,11 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.analogclock
 
+[Containments][1][Applets][42][Configuration]
+PreloadWeight=60
+popupHeight=400
+popupWidth=560
+
 [Containments][1][Applets][42][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -29,6 +34,10 @@ showSecondHand=true
 [Containments][1][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][1][General]
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/cookies.txt"\\,"0"\\,"2"\\,"desktop:/final"\\,"0"\\,"3"\\,"desktop:/xaa"\\,"0"\\,"0"\\,"desktop:/xab"\\,"0"\\,"4"\\,"desktop:/Loira sentando gostoso no consolo.mp4"\\,"0"\\,"1"]}
+sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.color][General]
 Color=0,0,0
@@ -69,7 +78,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=100
-popupHeight=493
+popupHeight=453
 popupWidth=300
 
 [Containments][2][Applets][25][Configuration][ConfigDialog]
@@ -144,6 +153,8 @@ plugin=adhe.runcommand
 [Containments][2][Applets][41][Configuration][Appearance]
 boldText=false
 command=xrandr --output DP-2 --off
+fixedFont=true
+fontSize=20
 textLabel=Desligar monitor
 
 [Containments][2][Applets][41][Configuration][ConfigDialog]
@@ -159,11 +170,8 @@ DialogHeight=540
 DialogWidth=800
 
 [Containments][2][Applets][43][Configuration][General]
-bold=true
-command=echo "Temp: ""$(/usr/bin/cat /sys/devices/platform/coretemp.0/hwmon/hwmon?/temp1_input | cut -c 1-2)"
-fontSize=20
-textColor=#ff4343
-underline=true
+command=ps aux | grep '/usr/bin/yt-dlp' | grep -v grep | wc -l
+fontSize=19
 
 [Containments][2][Applets][44]
 immutability=1
@@ -174,38 +182,7 @@ DialogHeight=540
 DialogWidth=800
 
 [Containments][2][Applets][44][Configuration][General]
-bold=true
-command=echo "RPM: ""$(/usr/bin/cat /sys/class/hwmon/hwmon1/fan2_input)"
-fontSize=11
-textColor=#ff4343
-underline=true
-
-[Containments][2][Applets][45]
-immutability=1
-plugin=adhe.runcommand
-
-[Containments][2][Applets][45][Configuration][Appearance]
-command=\smpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/stream'
-textLabel=stream
-
-[Containments][2][Applets][45][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][46]
-immutability=1
-plugin=com.github.zren.commandoutput
-
-[Containments][2][Applets][46][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=800
-
-[Containments][2][Applets][46][Configuration][General]
-bold=true
 command=a="$(cat /sys/block/zram0/mm_stat | awk '{print $1}')"; printf 'ZRAM: '; echo $a | numfmt --to=iec
-fontSize=16
-interval=5000
-textColor=#ffffff
 
 [Containments][2][Applets][5]
 immutability=1
@@ -232,7 +209,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;45;41;38;44;43;46;37;27;6;7;20;21
+AppletOrder=25;4;5;43;41;38;44;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -257,7 +234,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][11][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][8][Applets][12][Configuration]
 PreloadWeight=42
@@ -287,7 +264,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -308,7 +284,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][8][Applets][24][Configuration][General]
 currentDetailsTab=details
@@ -332,4 +308,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/final,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/6,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/5,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/7,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/10,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/images.jpg,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/9,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/8,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/xab,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/xaa,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/cookies.txt,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/final,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Loira sentando gostoso no consolo.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
