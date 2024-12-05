@@ -1,14 +1,12 @@
 #!/bin/bash
 regex='(https?)://[-[:alnum:]\+&@#/%?=~_|!:,.;]*[-[:alnum:]\+&@#/%=~_|]'
 baixar() {
-            yt-dlp -N 10 -f "bestvsideo[height<=?1080]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/xxx/new/%(title).200B.%(ext)s(ext)s" &> /dev/null
+            yt-dlp -N 10 --no-part -f "bestvsideo[height<=?1080]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/xxx/new/%(title).200B.%(ext)s(ext)s" &> /dev/null
             if [ $? -eq 1 ]; then
                 /usr/bin/notify-send 'URL nao suportado' -t 2000 &
                 echo "$url" | tee -a /home/lucas/error.txt
-                firefox "$url" &
+                /usr/bin/xdg-open "$url" &> /dev/null & disown
             fi
-
-
 }
 while :; do
     existe='0'

@@ -36,7 +36,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4"\\,"0"\\,"9"]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4"\\,"0"\\,"9"\\,"desktop:/final"\\,"0"\\,"1"\\,"desktop:/programmerswife"\\,"0"\\,"7"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.color][General]
@@ -79,7 +79,7 @@ plugin=org.kde.plasma.kicker
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=100
 popupHeight=453
-popupWidth=300
+popupWidth=813
 
 [Containments][2][Applets][25][Configuration][ConfigDialog]
 DialogHeight=540
@@ -276,7 +276,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -297,7 +296,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][8][Applets][24][Configuration][General]
 currentDetailsTab=details
@@ -321,4 +320,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/final,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
