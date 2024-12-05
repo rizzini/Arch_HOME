@@ -172,6 +172,7 @@ EnableRemoteFolderThumbnail=false
 MaximumRemoteSize=0
 
 [Shortcuts]
+End=
 Help=
 OpenMainMenu=
 

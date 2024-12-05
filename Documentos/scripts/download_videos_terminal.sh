@@ -1,15 +1,27 @@
 #!/bin/bash
-gui="$(loginctl show-session $(awk '/tty/ {print $1}' <(loginctl)) -p Type | awk -F= '{print $2}')";
+regex='(https?)://[-[:alnum:]\+&@#/%?=~_|!:,.;]*[-[:alnum:]\+&@#/%=~_|]'
+baixar() {
+            yt-dlp -N 10 -f "bestvsideo[height<=?1080]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/xxx/new/%(title).200B.%(ext)s(ext)s" &> /dev/null
+            if [ $? -eq 1 ]; then
+                /usr/bin/notify-send 'URL nao suportado' -t 2000 &
+                echo "$url" | tee -a /home/lucas/error.txt
+                firefox "$url" &
+            fi
 
-if [[ "$(loginctl show-session $(loginctl | grep "$USER" | awk '{print $1}') -p Type)" == *"wayland"* ]]; then
-    url=$(wl-paste | egrep -o 'https?://[^ ]+');
-else
-    url=$(xclip -o | egrep -o 'https?://[^ ]+');
-fi
 
-if ! yt-dlp -N 10 -f "bestvsideo[height<=?1080]+bestaudio/best" "$url" -o "/mnt/hdd/Videos/xxx/new/%(title).200B.%(ext)s(ext)s"  &> /dev/null; then
-    /usr/bin/notify-send 'URL nao suportado' -t 2000;
-    echo "$url" | tee -a /home/lucas/error.txt
-else
-    echo "$url" | tee -a /home/lucas/.xxx_ok.txt
-fi
+}
+while :; do
+    existe='0'
+    url="$(xsel -b)"
+    if [[ "$url"  =~ $regex ]]; then
+        if ! grep -q "$url" "/home/lucas/Documentos/scripts/download_videos_terminal.db"; then
+            echo "$url" | tee -a /home/lucas/Documentos/scripts/download_videos_terminal.db &> /dev/null
+            echo 'baixando.. '
+            play /usr/share/sounds/uget/notification.wav  &> /dev/null &
+            baixar &
+        fi
+    fi
+    sleep 0.5
+done
+
+

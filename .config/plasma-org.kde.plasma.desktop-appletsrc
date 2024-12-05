@@ -20,7 +20,7 @@ immutability=1
 plugin=org.kde.plasma.analogclock
 
 [Containments][1][Applets][42][Configuration]
-PreloadWeight=60
+PreloadWeight=80
 popupHeight=400
 popupWidth=560
 
@@ -36,7 +36,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/cookies.txt"\\,"0"\\,"2"\\,"desktop:/final"\\,"0"\\,"3"\\,"desktop:/xaa"\\,"0"\\,"0"\\,"desktop:/xab"\\,"0"\\,"4"\\,"desktop:/Loira sentando gostoso no consolo.mp4"\\,"0"\\,"1"]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4"\\,"0"\\,"9"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.color][General]
@@ -184,6 +184,18 @@ DialogWidth=800
 [Containments][2][Applets][44][Configuration][General]
 command=a="$(cat /sys/block/zram0/mm_stat | awk '{print $1}')"; printf 'ZRAM: '; echo $a | numfmt --to=iec
 
+[Containments][2][Applets][45]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][45][Configuration][Appearance]
+command=mpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/stream'
+textLabel=webcam
+
+[Containments][2][Applets][45][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -209,7 +221,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;43;41;38;44;37;27;6;7;20;21
+AppletOrder=25;4;5;45;43;41;38;44;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -264,6 +276,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -284,7 +297,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=92
+PreloadWeight=97
 
 [Containments][8][Applets][24][Configuration][General]
 currentDetailsTab=details
@@ -308,4 +321,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/xab,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/xaa,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/cookies.txt,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/final,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Loira sentando gostoso no consolo.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
