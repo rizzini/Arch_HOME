@@ -1,9 +1,6 @@
 {
     "output": {
-        "blocklist": [
-            "Diablo IV",
-            "SimCity"
-        ],
+        "blocklist": [],
         "compressor#0": {
             "attack": 130.0,
             "boost-amount": 6.0,

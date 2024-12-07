@@ -36,7 +36,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4"\\,"0"\\,"9"\\,"desktop:/final"\\,"0"\\,"1"\\,"desktop:/programmerswife"\\,"0"\\,"7"]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/Media"\\,"0"\\,"13"\\,"desktop:/err"\\,"0"\\,"10"\\,"desktop:/flavia3.JPG"\\,"0"\\,"11"\\,"desktop:/flavia2.JPG"\\,"0"\\,"1"\\,"desktop:/xac"\\,"0"\\,"3"\\,"desktop:/flavia4.JPG"\\,"0"\\,"12"\\,"desktop:/xab"\\,"0"\\,"2"\\,"desktop:/xae"\\,"0"\\,"5"\\,"desktop:/programmerswife"\\,"0"\\,"7"\\,"desktop:/xaf"\\,"0"\\,"6"\\,"desktop:/xad"\\,"0"\\,"4"\\,"desktop:/x"\\,"0"\\,"0"\\,"desktop:/xah"\\,"0"\\,"9"\\,"desktop:/xag"\\,"0"\\,"8"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.color][General]
@@ -79,7 +79,7 @@ plugin=org.kde.plasma.kicker
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=100
 popupHeight=453
-popupWidth=813
+popupWidth=300
 
 [Containments][2][Applets][25][Configuration][ConfigDialog]
 DialogHeight=540
@@ -161,18 +161,6 @@ textLabel=Desligar monitor
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][43]
-immutability=1
-plugin=com.github.zren.commandoutput
-
-[Containments][2][Applets][43][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=800
-
-[Containments][2][Applets][43][Configuration][General]
-command=ps aux | grep '/usr/bin/yt-dlp' | grep -v grep | wc -l
-fontSize=19
-
 [Containments][2][Applets][44]
 immutability=1
 plugin=com.github.zren.commandoutput
@@ -183,18 +171,6 @@ DialogWidth=800
 
 [Containments][2][Applets][44][Configuration][General]
 command=a="$(cat /sys/block/zram0/mm_stat | awk '{print $1}')"; printf 'ZRAM: '; echo $a | numfmt --to=iec
-
-[Containments][2][Applets][45]
-immutability=1
-plugin=adhe.runcommand
-
-[Containments][2][Applets][45][Configuration][Appearance]
-command=mpv --no-config --no-terminal --no-resume-playback 'http://localhost:9081/stream'
-textLabel=webcam
-
-[Containments][2][Applets][45][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][2][Applets][5]
 immutability=1
@@ -221,7 +197,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;45;43;41;38;44;37;27;6;7;20;21
+AppletOrder=25;4;5;41;38;44;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -246,7 +222,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][11][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][8][Applets][12][Configuration]
 PreloadWeight=42
@@ -276,6 +252,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -320,4 +297,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/final,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/xaf,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/xae,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/err,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/flavia4.JPG,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/xac,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Media,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/flavia2.JPG,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/xah,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/x,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/xag,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/xad,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/xab,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/flavia3.JPG,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006

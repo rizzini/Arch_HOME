@@ -260,6 +260,9 @@ New=Ctrl+Alt+T
 [services][geany.desktop]
 _launch=Ctrl+K
 
+[services][net.local.1.sh.desktop]
+_launch=F1
+
 [services][net.local.change_brightness.sh-2.desktop]
 _launch=Ctrl+Num++
 
@@ -275,9 +278,6 @@ _launch=Num+.
 [services][net.local.change_brightness.sh.desktop]
 _launch=Ctrl+Num+-
 
-[services][net.local.download_videos_terminal.sh.desktop]
-_launch=F1
-
 [services][net.local.easy.effects_in_background.sh.desktop]
 _launch=Ctrl+Alt+E
 
@@ -286,6 +286,9 @@ _launch=Print
 
 [services][net.local.if.desktop]
 _launch=Meta+W
+
+[services][net.local.xdotool.desktop]
+_launch=Alt+1
 
 [services][net.local.xkill.desktop]
 _launch=Ctrl+Alt+Esc
