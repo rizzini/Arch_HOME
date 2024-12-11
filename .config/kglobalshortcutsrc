@@ -243,7 +243,7 @@ cycle-panels=Meta+Alt+P,Meta+Alt+P,Mover o foco do teclado entre os painéis
 cycleNextAction=none,,Item do Histórico Seguinte
 cyclePrevAction=none,,Item do Histórico Anterior
 manage activities=Meta+Q,Meta+Q,Mostrar seletor de atividade
-next activity=Meta+A,none,Percorrer as atividades
+next activity=none,none,Percorrer as atividades
 previous activity=Meta+Shift+A,none,Percorrer as atividades (inverso)
 repeat_action=Meta+Ctrl+R,Meta+Ctrl+R,Invocar Manualmente a Acção na Área de Transferência Actual
 show dashboard=Ctrl+F12,Ctrl+F12,Mostrar a Área de Trabalho
@@ -260,8 +260,8 @@ New=Ctrl+Alt+T
 [services][geany.desktop]
 _launch=Ctrl+K
 
-[services][net.local.1.sh.desktop]
-_launch=F1
+[services][net.local.bash.desktop]
+_launch=Shift+Print
 
 [services][net.local.change_brightness.sh-2.desktop]
 _launch=Ctrl+Num++

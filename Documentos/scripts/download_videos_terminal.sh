@@ -1,9 +1,16 @@
 #!/bin/bash
+export LC_ALL=C
 counter=0
-regex='(https?)://[-[:alnum:]\+&@#/%?=~_|!:,.;]*[-[:alnum:]\+&@#/%=~_|]'
+regex='(https|http?)://[-[:alnum:]\+&@#/%?=~_|!:,.;]*[-[:alnum:]\+&@#/%=~_|]'
 baixar() {
             cd /mnt/hdd/Videos/xxx/new/
-            yt-dlp -P "temp:tmp" -N 10 -f "bestvsideo[height<=?1080]+bestaudio/best" "$url" &> /dev/null
+            if [[ "$url" == *"spankbang"* ]]; then
+                /usr/bin/notify-send 'URL nao suportado' -t 2000 &
+                echo "$url" | tee -a /home/lucas/error.txt &> /dev/null
+                /usr/bin/xdg-open "$url" &> /dev/null & disown
+                exit
+            fi
+            yt-dlp -P "temp:tmp" -f "bestvsideo[height<=?1080]+bestaudio/best" "$url" &> /dev/null
             if [ $? -eq 1 ]; then
                 /usr/bin/notify-send 'URL nao suportado' -t 2000 &
                 echo "$url" | tee -a /home/lucas/error.txt &> /dev/null
@@ -17,8 +24,7 @@ while :; do
     if [[ "$url"  =~ $regex && $(wc -l <<< "$url") -eq 1 ]]; then
         if ! grep -q "$url" "/home/lucas/Documentos/scripts/download_videos_terminal.db"; then
             echo "$url" | tee -a /home/lucas/Documentos/scripts/download_videos_terminal.db &> /dev/null
-#             echo 'baixando.. '
-            play /usr/share/sounds/uget/notification.wav  &> /dev/null &
+            play -q /usr/share/sounds/uget/notification.wav &
             baixar &
         fi
     fi

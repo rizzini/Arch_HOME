@@ -24,23 +24,16 @@ blockcompositing=true
 blockcompositingrule=2
 ignoregeometry=true
 ignoregeometryrule=2
-size=1360,800
+size=1360,768
 sizerule=2
 strictgeometry=true
 strictgeometryrule=2
 title=UNO
+titlematch=2
 wmclass=steam_app_470220 steam_app_470220
 wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=4
-rules=968adf4b-97a4-4c4f-a11b-d4ee737c630c,9116203d-6c35-4419-bfec-23aed4b1f5f6,7ab0fe47-8a77-4f57-bcae-9e5aba6d26bf,fa5b7139-9482-4256-bc27-f3541f91893a
-
-[fa5b7139-9482-4256-bc27-f3541f91893a]
-Description=Configurações para Skype
-skiptaskbar=true
-skiptaskbarrule=2
-types=1
-wmclass=Skype
-wmclassmatch=1
+count=3
+rules=968adf4b-97a4-4c4f-a11b-d4ee737c630c,9116203d-6c35-4419-bfec-23aed4b1f5f6,7ab0fe47-8a77-4f57-bcae-9e5aba6d26bf
