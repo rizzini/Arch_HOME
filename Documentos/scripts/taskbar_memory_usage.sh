@@ -1,5 +1,5 @@
 #!/bin/bash
-renice -n 19 -p $(pgrep  'taskbar_mem')
+renice -n 19 -p $(pgrep  'taskbar_mem') &> /dev/null
 size () {
     local -a units
     local -i scale
@@ -29,7 +29,7 @@ size () {
     fi
     echo "${whole}${decimal}${units[$unit]}"
 }
-while :;do
+# while :;do
     mapfile -t mem_stats < <(grep -e "MemTotal" -e "MemAvailable" -e 'SwapTotal' -e 'SwapFree' /proc/meminfo | awk '{print $2}')
     mem_used=$((mem_stats[0] - mem_stats[1] - 256000))
     swap_used_disk=$(awk '/\<'"sda5"'\>/{print $4}' /proc/swaps)
@@ -44,10 +44,11 @@ while :;do
         DATA='| A | RAM: <b>'$(size $mem_used)'</b> \| File swap: <b>'$(size "$swap_used_disk")'</b> \| ZRAM: <b>'$(size "$swap_used_zram_total")'</b> | | |'
     fi
     if [ "$DATA" != "$DATA_last" ];then
-        qdbus org.kde.plasma.doityourselfbar /id_953 org.kde.plasma.doityourselfbar.pass "$DATA"
+#         qdbus org.kde.plasma.doityourselfbar /id_953 org.kde.plasma.doityourselfbar.pass "$DATA"
+        echo "Mem: "$(size $mem_used)""
         DATA_last="$DATA"
     fi
-        sleep 3
-done
+#         sleep 3
+# done
 
 

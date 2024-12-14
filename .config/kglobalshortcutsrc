@@ -12,6 +12,15 @@ _k_friendly_name=Seletor de layouts de teclado
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Ativar e desativar o leitor de tela
 _k_friendly_name=Acessibilidade
 
+[kalarm]
+_k_friendly_name=KAlarm
+newAudio=none,none,Novo alarme de áudio
+newCommand=none,none,Novo alarme de comando
+newDisplay=none,none,Novo alarme visual
+newEmail=none,none,Novo alarme por e-mail
+spread=none,none,Espalhar janelas
+stopAudio=none,none,Parar a reprodução
+
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,Desativar o touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Ativar o touchpad
@@ -128,7 +137,7 @@ Window Lower=none,,Diminuir Janela
 Window Maximize=Meta+PgUp,Meta+PgUp,Maximizar janela
 Window Maximize Horizontal=none,,Maximizar janela horizontalmente
 Window Maximize Vertical=none,,Maximizar janela verticalmente
-Window Minimize=Meta+PgDown,Meta+PgDown,Minimizar janela
+Window Minimize=none,Meta+PgDown,Minimizar janela
 Window Move=none,,Mover janela
 Window Move Center=none,,Mover janela para o centro
 Window No Border=none,,Alternar barra de título da janela e moldura
@@ -286,6 +295,9 @@ _launch=Print
 
 [services][net.local.if.desktop]
 _launch=Meta+W
+
+[services][net.local.text_to_speech.sh.desktop]
+_launch=Num+/
 
 [services][net.local.xdotool.desktop]
 _launch=Alt+1

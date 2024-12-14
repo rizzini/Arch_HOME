@@ -36,7 +36,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/WhatsApp Image 2024-12-09 at 15.47.43.jpeg"\\,"0"\\,"5"\\,"desktop:/flavia4.JPG"\\,"0"\\,"0"\\,"desktop:/lucas.jpg"\\,"0"\\,"4"\\,"desktop:/flavia3.JPG"\\,"0"\\,"6"\\,"desktop:/header.jpg"\\,"0"\\,"7"\\,"desktop:/steam.desktop"\\,"0"\\,"3"\\,"desktop:/2024-12-07_20-00.png"\\,"0"\\,"1"\\,"desktop:/images.jpg"\\,"0"\\,"8"\\,"desktop:/2024-12-07_20-00_1.png"\\,"0"\\,"2"]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/waydroid-image-gapps"\\,"0"\\,"1"\\,"desktop:/terri"\\,"0"\\,"0"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.color][General]
@@ -78,7 +78,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=100
-popupHeight=453
+popupHeight=493
 popupWidth=300
 
 [Containments][2][Applets][25][Configuration][ConfigDialog]
@@ -161,18 +161,6 @@ textLabel=Desligar monitor
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][43]
-immutability=1
-plugin=com.github.zren.commandoutput
-
-[Containments][2][Applets][43][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=800
-
-[Containments][2][Applets][43][Configuration][General]
-command=ps aux | grep '/usr/bin/yt-dlp' | grep -v grep | wc -l
-fontSize=19
-
 [Containments][2][Applets][44]
 immutability=1
 plugin=com.github.zren.commandoutput
@@ -195,28 +183,29 @@ DialogWidth=800
 [Containments][2][Applets][45][Configuration][General]
 command=/home/lucas/Documentos/scripts/taskbar_memory_usage.sh
 
-[Containments][2][Applets][46]
+[Containments][2][Applets][47]
 immutability=1
-plugin=org.kde.plasma.systemmonitor.memory
+plugin=com.github.zren.commandoutput
 
-[Containments][2][Applets][46][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
+[Containments][2][Applets][47][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=800
 
-[Containments][2][Applets][46][Configuration][Appearance]
-chartFace=org.kde.ksysguard.textonly
-title=Uso da memória
+[Containments][2][Applets][47][Configuration][General]
+command=/bin/bash -c '/home/lucas/Documentos/scripts/taskbar_memory_usage.sh'
+interval=3000
 
-[Containments][2][Applets][46][Configuration][ConfigDialog]
+[Containments][2][Applets][48]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][48][Configuration][Appearance]
+command=mpv --mute=yes /home/lucas/Videos/xxx/new/*
+textLabel=new
+
+[Containments][2][Applets][48][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
-
-[Containments][2][Applets][46][Configuration][SensorColors]
-memory/physical/used=61,174,233
-
-[Containments][2][Applets][46][Configuration][Sensors]
-highPrioritySensorIds=["memory/physical/used"]
-lowPrioritySensorIds=["memory/physical/total"]
-totalSensors=["memory/physical/usedPercent"]
 
 [Containments][2][Applets][5]
 immutability=1
@@ -243,7 +232,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;46;45;43;41;38;44;37;27;6;7;20;21
+AppletOrder=25;4;5;48;45;41;38;44;47;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -268,7 +257,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][11][Configuration]
-PreloadWeight=70
+PreloadWeight=85
 
 [Containments][8][Applets][12][Configuration]
 PreloadWeight=42
@@ -298,7 +287,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -337,10 +325,10 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][8][General]
-extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager
-shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.notifications
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator,org.kde.kdeconnect
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
+shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.notifications,KAlarm
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/final,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/waydroid-image-gapps,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/terri,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
