@@ -297,7 +297,7 @@ _launch=Print
 _launch=Meta+W
 
 [services][net.local.text_to_speech.sh.desktop]
-_launch=Num+/
+_launch=F1
 
 [services][net.local.xdotool.desktop]
 _launch=Alt+1

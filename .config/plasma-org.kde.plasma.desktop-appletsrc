@@ -36,7 +36,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/waydroid-image-gapps"\\,"0"\\,"1"\\,"desktop:/terri"\\,"0"\\,"0"]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/2"\\,"0"\\,"3"\\,"desktop:/fomaç"\\,"0"\\,"0"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.color][General]
@@ -172,17 +172,6 @@ DialogWidth=800
 [Containments][2][Applets][44][Configuration][General]
 command=a="$(cat /sys/block/zram0/mm_stat | awk '{print $1}')"; printf 'ZRAM: '; echo $a | numfmt --to=iec
 
-[Containments][2][Applets][45]
-immutability=1
-plugin=com.github.zren.commandoutput
-
-[Containments][2][Applets][45][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=800
-
-[Containments][2][Applets][45][Configuration][General]
-command=/home/lucas/Documentos/scripts/taskbar_memory_usage.sh
-
 [Containments][2][Applets][47]
 immutability=1
 plugin=com.github.zren.commandoutput
@@ -200,8 +189,8 @@ immutability=1
 plugin=adhe.runcommand
 
 [Containments][2][Applets][48][Configuration][Appearance]
-command=mpv --mute=yes /home/lucas/Videos/xxx/new/*
-textLabel=new
+command=/home/lucas/2.sh
+textLabel=xxx
 
 [Containments][2][Applets][48][Configuration][ConfigDialog]
 DialogHeight=540
@@ -216,8 +205,22 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,applications:firefox.desktop
+launchers=preferred://filemanager,applications:firefox.desktop,applications:com.mikeasoft.pied.desktop
 showOnlyCurrentScreen=true
+
+[Containments][2][Applets][50]
+immutability=1
+plugin=adhe.runcommand
+
+[Containments][2][Applets][50][Configuration][Appearance]
+command=xdotool key F1
+fixedFont=true
+fontSize=17
+textLabel=TTS
+
+[Containments][2][Applets][50][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][6]
 immutability=1
@@ -232,7 +235,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;48;45;41;38;44;47;37;27;6;7;20;21
+AppletOrder=25;4;5;50;48;41;38;47;44;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -241,8 +244,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=435
-popupWidth=436
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][10]
@@ -287,6 +290,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][8][Applets][17][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -325,10 +329,10 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][8][General]
-extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator,org.kde.kdeconnect
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager
 shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.notifications,KAlarm
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/waydroid-image-gapps,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/terri,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006

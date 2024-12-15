@@ -1,9 +1,4 @@
 #!/bin/bash
-if [[ "$(loginctl show-session $(loginctl | grep "$USER" | awk '{print $1}') -p Type)" == *"wayland"* ]]; then
-    wayland_=1
-else
-    wayland_=0
-fi
 xclip -sel clip < /dev/null;
 export LC_ALL=C;
 counter=0;
