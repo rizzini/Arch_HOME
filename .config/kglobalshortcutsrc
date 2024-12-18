@@ -269,6 +269,9 @@ New=Ctrl+Alt+T
 [services][geany.desktop]
 _launch=Ctrl+K
 
+[services][net.local.2.sh.desktop]
+_launch=Num+,
+
 [services][net.local.bash.desktop]
 _launch=Shift+Print
 

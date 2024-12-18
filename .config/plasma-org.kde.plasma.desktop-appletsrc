@@ -36,7 +36,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/2"\\,"0"\\,"3"\\,"desktop:/fomaç"\\,"0"\\,"0"]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/Nova pasta"\\,"0"\\,"0"\\,"desktop:/firefox"\\,"0"\\,"1"\\,"desktop:/cookies.txt"\\,"0"\\,"2"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.color][General]
@@ -97,8 +97,8 @@ plugin=org.kde.plasma.systemmonitor
 [Containments][2][Applets][27][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=100
-popupHeight=96
-popupWidth=245
+popupHeight=99
+popupWidth=249
 
 [Containments][2][Applets][27][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
@@ -182,19 +182,7 @@ DialogWidth=800
 
 [Containments][2][Applets][47][Configuration][General]
 command=/bin/bash -c '/home/lucas/Documentos/scripts/taskbar_memory_usage.sh'
-interval=3000
-
-[Containments][2][Applets][48]
-immutability=1
-plugin=adhe.runcommand
-
-[Containments][2][Applets][48][Configuration][Appearance]
-command=/home/lucas/2.sh
-textLabel=xxx
-
-[Containments][2][Applets][48][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+interval=2000
 
 [Containments][2][Applets][5]
 immutability=1
@@ -205,20 +193,29 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,applications:firefox.desktop,applications:com.mikeasoft.pied.desktop
+launchers=preferred://filemanager,applications:firefox.desktop
 showOnlyCurrentScreen=true
 
-[Containments][2][Applets][50]
+[Containments][2][Applets][51]
+immutability=1
+plugin=com.github.zren.commandoutput
+
+[Containments][2][Applets][51][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=800
+
+[Containments][2][Applets][51][Configuration][General]
+command=ps aux | grep '/usr/bin/yt-dlp' | grep -v grep | wc -l
+
+[Containments][2][Applets][52]
 immutability=1
 plugin=adhe.runcommand
 
-[Containments][2][Applets][50][Configuration][Appearance]
-command=xdotool key F1
-fixedFont=true
-fontSize=17
-textLabel=TTS
+[Containments][2][Applets][52][Configuration][Appearance]
+command=/home/lucas/2.sh
+textLabel=xxx
 
-[Containments][2][Applets][50][Configuration][ConfigDialog]
+[Containments][2][Applets][52][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
@@ -235,7 +232,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;50;48;41;38;47;44;37;27;6;7;20;21
+AppletOrder=25;4;5;52;51;41;38;47;44;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -244,8 +241,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=432
-popupWidth=432
+popupHeight=435
+popupWidth=436
 wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][10]
@@ -335,4 +332,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/firefox,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/cookies.txt,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Nova pasta,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006

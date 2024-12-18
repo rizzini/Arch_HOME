@@ -144,6 +144,7 @@ TerminalService=Alacritty.desktop
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=false
 SingleClick=true
 widgetStyle=Breeze
 
