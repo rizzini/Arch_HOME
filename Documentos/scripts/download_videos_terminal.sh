@@ -11,12 +11,13 @@ baixar() {
                 /usr/bin/xdg-open "$url" &> /dev/null & disown;
                 exit;
             fi
+            play -q /usr/share/sounds/uget/notification.wav &
             yt-dlp -P "temp:tmp" -f "bestvsideo[height<=?1080]+bestaudio/best" "$url" &> /dev/null;
             if [ $? -eq 1 ]; then
                 /usr/bin/notify-send 'URL nao suportado' -t 2000 &
                 echo "$url" | tee -a /home/lucas/error.txt &> /dev/null;
                 if wmctrl -l | grep 'Google Chrome'; then
-                    google-chrome-stable "$url" &> /dev/null & disown;
+                    google-chrome-stable --new-window "$url" &> /dev/null & disown;
                 else
                     /usr/bin/xdg-open "$url" &> /dev/null & disown;
                 fi
@@ -39,7 +40,6 @@ while :; do
                 fi
             else
                 echo "$url" | tee -a /home/lucas/Documentos/scripts/download_videos_terminal.db &> /dev/null;
-                play -q /usr/share/sounds/uget/notification.wav &
                 baixar &
             fi
         fi

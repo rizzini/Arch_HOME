@@ -1,8 +1,12 @@
 {
 	"file_history":
 	[
-		"/home/lucas/.config/starship.toml",
 		"/home/lucas/Documentos/scripts/download_videos_terminal.sh",
+		"/home/lucas/1.sh",
+		"/home/lucas/Área de trabalho/4",
+		"/home/lucas/Área de trabalho/1",
+		"/home/lucas/.config/mpv/mpv.conf",
+		"/home/lucas/.config/starship.toml",
 		"/home/lucas/.config/fish/functions/k.fish",
 		"/home/lucas/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 		"/home/lucas/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
@@ -22,12 +26,12 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 696.0,
+		"new_window_height": 741.0,
 		"new_window_maximized": false,
 		"new_window_position":
 		[
-			804.0,
-			188.0
+			377.0,
+			202.0
 		],
 		"new_window_settings":
 		{
@@ -68,8 +72,12 @@
 			},
 			"file_history":
 			[
-				"/home/lucas/.config/starship.toml",
 				"/home/lucas/Documentos/scripts/download_videos_terminal.sh",
+				"/home/lucas/1.sh",
+				"/home/lucas/Área de trabalho/4",
+				"/home/lucas/Área de trabalho/1",
+				"/home/lucas/.config/mpv/mpv.conf",
+				"/home/lucas/.config/starship.toml",
 				"/home/lucas/.config/fish/functions/k.fish",
 				"/home/lucas/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 				"/home/lucas/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
@@ -80,7 +88,7 @@
 			],
 			"find":
 			{
-				"height": 38.0
+				"height": 42.0
 			},
 			"find_in_files":
 			{
@@ -94,6 +102,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"play",
+					"do",
 					"time",
 					"new",
 					"open"
@@ -115,7 +125,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -129,7 +139,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 48.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -169,7 +179,7 @@
 			{
 			}
 		},
-		"new_window_width": 759.0
+		"new_window_width": 1109.0
 	},
 	"windows":
 	[
@@ -212,8 +222,12 @@
 			},
 			"file_history":
 			[
-				"/home/lucas/.config/starship.toml",
 				"/home/lucas/Documentos/scripts/download_videos_terminal.sh",
+				"/home/lucas/1.sh",
+				"/home/lucas/Área de trabalho/4",
+				"/home/lucas/Área de trabalho/1",
+				"/home/lucas/.config/mpv/mpv.conf",
+				"/home/lucas/.config/starship.toml",
 				"/home/lucas/.config/fish/functions/k.fish",
 				"/home/lucas/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 				"/home/lucas/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
@@ -224,7 +238,7 @@
 			],
 			"find":
 			{
-				"height": 38.0
+				"height": 42.0
 			},
 			"find_in_files":
 			{
@@ -238,6 +252,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"play",
+					"do",
 					"time",
 					"new",
 					"open"
@@ -259,7 +275,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -271,10 +287,10 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,803,133,1562,829,1920,1080,0",
+			"position": "0,0,0,0,0,376,147,1485,888,1920,1080,0",
 			"replace":
 			{
-				"height": 48.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":

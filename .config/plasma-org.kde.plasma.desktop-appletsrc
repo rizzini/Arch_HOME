@@ -36,7 +36,7 @@ DialogHeight=540
 DialogWidth=717
 
 [Containments][1][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/final"\\,"0"\\,"2"\\,"desktop:/dinal"\\,"0"\\,"1"\\,"desktop:/x"\\,"0"\\,"0"]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/3"\\,"0"\\,"2"\\,"desktop:/2"\\,"0"\\,"1"\\,"desktop:/1"\\,"0"\\,"0"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.color][General]
@@ -304,7 +304,6 @@ DialogWidth=720
 [Containments][8][General]
 extraItems=org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager
-pin=true
 shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.notifications,KAlarm
 
 [ScreenMapping]

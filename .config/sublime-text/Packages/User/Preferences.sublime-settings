@@ -1,5 +1,5 @@
 {
-	"font_size": 9,
+	"font_size": 11,
 	"color_scheme": "Monokai.sublime-color-scheme",
-	"hot_exit": false, "remember_open_files": false 
+	"hot_exit": false, "remember_open_files": false, 
 }
