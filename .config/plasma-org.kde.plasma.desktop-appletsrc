@@ -36,7 +36,7 @@ DialogHeight=540
 DialogWidth=717
 
 [Containments][1][General]
-positions={"1920x1080":["1"\\,"17"\\,"desktop:/3"\\,"0"\\,"2"\\,"desktop:/1"\\,"0"\\,"0"\\,"desktop:/2"\\,"0"\\,"1"]}
+positions={"1920x1080":["1"\\,"17"\\,"desktop:/final"\\,"0"\\,"2"\\,"desktop:/dinal"\\,"0"\\,"1"\\,"desktop:/x"\\,"0"\\,"0"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.color][General]
@@ -182,7 +182,6 @@ DialogWidth=800
 
 [Containments][2][Applets][47][Configuration][General]
 command=/bin/bash -c '/home/lucas/Documentos/scripts/taskbar_memory_usage.sh'
-interval=2000
 
 [Containments][2][Applets][5]
 immutability=1
@@ -195,18 +194,6 @@ DialogWidth=720
 [Containments][2][Applets][5][Configuration][General]
 launchers=preferred://filemanager,applications:firefox.desktop
 showOnlyCurrentScreen=true
-
-[Containments][2][Applets][52]
-immutability=1
-plugin=adhe.runcommand
-
-[Containments][2][Applets][52][Configuration][Appearance]
-command=/home/lucas/2.sh
-textLabel=xxx
-
-[Containments][2][Applets][52][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][2][Applets][6]
 immutability=1
@@ -221,7 +208,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=25;4;5;52;41;38;47;44;37;27;6;7;20;21
+AppletOrder=25;4;5;41;38;47;44;37;27;6;7;20;21
 
 [Containments][8]
 activityId=
@@ -322,4 +309,4 @@ shownItems=CoreKeyboard,steam,org.kde.plasma.networkmanagement,org.kde.plasma.vo
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006
+screenMapping=desktop:/programmerswife,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006,desktop:/Novinha Tirando A Roupa Para Mais Video Visite Www - Lt biguz ne.mp4,0,1bc82cda-67fa-444b-9c8a-902bdeb9b006

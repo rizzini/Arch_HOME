@@ -1,8 +1,8 @@
 #!/bin/bash
-export LC_ALL=C
-if pgrep zenity; then
+if [ -f '/tmp/openxxx' ]; then
     exit;
 fi
+touch /tmp/openxxx
 if [ ! -f '/home/lucas/Documentos/scripts/change_brightness.db' ]; then
 	current=$(ddcutil getvcp color | awk '/\<'"0x10"'\>/{print $9}' | tr -d ',');
 else
@@ -48,3 +48,4 @@ case $1 in
         fi
         ;;
 esac
+rm /tmp/openxxx

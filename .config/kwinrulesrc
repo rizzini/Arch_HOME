@@ -24,7 +24,7 @@ blockcompositing=true
 blockcompositingrule=2
 ignoregeometry=true
 ignoregeometryrule=2
-size=1360,850
+size=1360,768
 sizerule=2
 strictgeometry=true
 strictgeometryrule=2
@@ -35,5 +35,14 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=3
-rules=968adf4b-97a4-4c4f-a11b-d4ee737c630c,9116203d-6c35-4419-bfec-23aed4b1f5f6,7ab0fe47-8a77-4f57-bcae-9e5aba6d26bf
+count=4
+rules=968adf4b-97a4-4c4f-a11b-d4ee737c630c,9116203d-6c35-4419-bfec-23aed4b1f5f6,7ab0fe47-8a77-4f57-bcae-9e5aba6d26bf,e3402be0-e59f-46cc-83f0-fca98b75053b
+
+[e3402be0-e59f-46cc-83f0-fca98b75053b]
+Description=Configurações para Navigator firefox
+ignoregeometryrule=2
+position=757,0
+positionrule=3
+wmclass=Navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
