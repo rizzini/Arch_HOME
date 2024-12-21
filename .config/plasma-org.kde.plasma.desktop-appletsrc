@@ -78,7 +78,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][25][Configuration]
 PreloadWeight=100
-popupHeight=493
+popupHeight=533
 popupWidth=300
 
 [Containments][2][Applets][25][Configuration][ConfigDialog]
